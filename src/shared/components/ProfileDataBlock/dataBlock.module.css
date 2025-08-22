@@ -1,0 +1,89 @@
+.profilePage__container {
+  width: 90%;
+  max-width: 700px;
+  background-color: white;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  border-radius: 10px;
+  position: relative;
+  z-index: 0;
+  margin-top: 60px;
+}
+
+/* Header */
+.profilePage__header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.profilePage__heading {
+  font-size: 1.5rem;
+  color: #1f1f1fb2;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+.profilePage__editButton {
+  background-color: #f0effa;
+  color: #1f1f1fcc;
+  border: none;
+  padding: 10px 20px 10px 20px;
+  width: auto;
+  margin-bottom: 20px;
+  height: 30px;
+  font-size: 14px;
+  font-weight: 500;
+  border-radius: 50px;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.profilePage__infoSection {
+  margin-top: 20px;
+}
+
+.profilePage__infoRow {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.profilePage__infoItem {
+  width: 48%;
+}
+
+.profilePage__itemHeading {
+  font-size: 14px;
+  font-weight: 500;
+  color: #1f1f1fb2;
+  margin-bottom: 3px;
+}
+
+.profilePage__itemText {
+  font-size: 18px;
+  width: 200%;
+  max-width: 1000px;
+  max-height: 46px;
+  font-weight: 500;
+  color: #222222e5;
+
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  text-overflow: ellipsis;
+}
+
+@media (max-width: 600px) {
+  .profilePage__infoRow {
+    flex-direction: column;
+  }
+
+  .profilePage__infoItem {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+}

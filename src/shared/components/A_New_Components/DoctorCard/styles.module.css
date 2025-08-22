@@ -1,0 +1,283 @@
+.cardWrapper {
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  width: calc(25% - 21.3333px); /* Four cards in a row by default */
+  min-height: 300px; /* Fixed minimum height */
+  transition: transform 0.2s ease; /* Smooth scaling on hover */
+}
+
+.cardWrapper:hover {
+  transform: scale(1.02);
+}
+
+.cardImageWrapper {
+  position: relative;
+  width: 100%;
+  height: 180px;
+  background: linear-gradient(135deg, #e3f2fd, #90caf9);
+  border-radius: 8px;
+  /* filter: blur(2px); */
+  z-index: 1;
+}
+
+.cardImage {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 4px solid #fff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  z-index: 2;
+  filter: none;
+}
+.rentacarCard {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.cardImageWrapper1 {
+  width: 100%;
+  height: 200px;
+  overflow: hidden;
+  border-radius: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.cardImage1 {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.cardBody {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  cursor: pointer;
+}
+
+.specialityPlaceholder {
+  font-size: 14px;
+  color: #ccc;
+}
+
+.cardDetails {
+  display: flex;
+  gap: 16px;
+  min-height: 40px; /* To maintain height consistency */
+}
+
+.cardName {
+  font-size: 18px;
+  font-weight: 600;
+  color: #0e54a3;
+}
+.cardName1 {
+  font-size: 14px;
+  font-weight: 500;
+  margin-left: 10px;
+  color: rgba(117, 125, 138, 1);
+}
+
+.cardSpecialities {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4px;
+}
+
+.specialityTag {
+  font-size: 14px;
+  color: #555;
+  background-color: #f0f0f0;
+  padding: 4px 8px;
+  border-radius: 4px;
+}
+
+.cardExperience {
+  font-size: 14px;
+  color: #888;
+}
+
+.vectorIcon {
+  width: 24px;
+  height: 24px;
+}
+
+.viewMore {
+  font-size: 14px;
+  color: #0e54a3;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.cardViewMore {
+  text-decoration: none;
+  color: #0e54a3;
+  font-weight: 500;
+}
+
+.cardArrowIcon {
+  font-size: 16px;
+  color: #0e54a3;
+}
+
+@media (max-width: 2560px) {
+  .cardWrapper {
+    width: calc(25% - 18px);
+  }
+}
+@media (max-width: 1440px) {
+  .cardWrapper {
+    width: calc(33% - 12px); /* 2 cards in a row */
+  }
+}
+
+@media (max-width: 1024px) {
+  .cardWrapper {
+    width: calc(50% - 12px); /* 2 cards in a row */
+  }
+}
+
+@media (max-width: 768px) {
+  .cardWrapper {
+    width: calc(50% - 12px); /* 2 cards in a row */
+  }
+}
+
+@media (max-width: 480px) {
+  .cardWrapper {
+    width: calc(100% - 0px); /* 1 card per row */
+  }
+}
+
+.timeIcon {
+  margin: 0 10px 0px 0px;
+  align-items: center;
+  display: flex;
+  text-align: center;
+  font-size: 16px;
+}
+
+.cardFooter {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 8px;
+}
+
+.cardRating {
+  font-size: 1.5rem;
+  color: #fcaf23; /* Golden color for the star */
+  text-shadow: 0px 2px 4px rgba(0, 0, 0, 0.3); /* Subtle shadow for depth */
+  line-height: 1; /* Aligns the star vertically with text */
+}
+.ratingContainer {
+  display: flex;
+  align-items: center;
+  gap: 8px; /* Gap between stars */
+  width: 112px; /* Specified width */
+  height: 16px; /* Specified height */
+  opacity: 1; /* Ensures the stars are visible */
+}
+
+.cardArrow {
+  width: 12px;
+  height: 12px;
+  background-color: #0e54a3;
+  color: white;
+  border-radius: 50%;
+  padding: 10px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: larger;
+}
+
+.cardRatingValue {
+  font-size: 14px;
+  color: #333;
+  margin-left: 4px;
+}
+
+.cardViewMore {
+  font-size: 14px;
+  color: #0e54a3;
+  text-decoration: none;
+  margin-right: 8px;
+}
+/* Cards.module.css */
+
+.showMoreContainer {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.showMoreButton {
+  display: flex; /* Use flexbox to align text and icon */
+  align-items: center; /* Center items vertically */
+  justify-content: center; /* Center items horizontally */
+  padding: 10px 20px;
+  background-color: #0e54a3; /* Button background color */
+  color: white;
+  border: none;
+  border-radius: 24px;
+  cursor: pointer;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Optional shadow for better visibility */
+  font-size: 16px;
+}
+
+.showMoreButton .icon {
+  margin-left: 10px;
+  font-size: 20px;
+  color: #0e54a3;
+  background-color: #fff;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.tab {
+  padding: 10px 20px;
+  cursor: pointer;
+  border: none;
+  background-color: #f0f0f0;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+.searchInput {
+  width: 100%;
+  height: 100%;
+  /* padding-left: 40px; */
+  border: none;
+  border-radius: 48px;
+}
+.cardViewMore {
+  margin-right: 8px;
+}
+.viewMore {
+  display: flex;
+  align-items: center;
+  font-size: 12px;
+}
+.tabContent {
+  padding: 20px;
+  background-color: #ffffff;
+  border-radius: 4px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}

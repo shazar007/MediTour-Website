@@ -1,0 +1,113 @@
+.Heading {
+  font-size: 24px;
+  font-weight: 600;
+  color: #131313;
+}
+
+.subheading {
+  font-weight: 700;
+  margin-top: 4px;
+  color: #7d7d7d;
+}
+.subTitle {
+  color: #7d7d7d;
+
+  font-weight: 400;
+  margin-top: 4px;
+}
+.title {
+  font-weight: 600;
+  color: #7d7d7d;
+  margin-top: 15px;
+}
+.checkbox-group {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.checkbox-group label {
+  /* display: block; */
+  /* margin: 5px 0; */
+}
+.radioMark {
+  width: 13.5px;
+  height: 13.5px;
+  position: relative;
+  color: #0e54a3 !important;
+  background-color: transparent !important;
+  transition: background-color 0.2s;
+}
+.textSelected {
+  font-size: 14px;
+  font-weight: 400;
+  color: #131313;
+}
+.checkedbox {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  padding: 24px;
+}
+.cancellation-window {
+  display: flex;
+  gap: 10px;
+}
+
+.cancellation-window button {
+  padding: 8px 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  background: #ddd;
+}
+
+.cancellation-window button.active {
+  background: #0056b3;
+  color: white;
+}
+
+.important-note {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.agreement {
+  margin-top: 20px;
+  font-size: 14px;
+  color: #666;
+}
+
+.agreement a {
+  color: #0056b3;
+  text-decoration: none;
+}
+.selector-container {
+  display: flex;
+  background-color: #f4f4f4;
+  border-radius: 25px;
+  overflow: hidden;
+  margin-top: 16px;
+  width: 30%;
+}
+
+.selector-button {
+  flex: 1;
+  padding: 10px;
+  border: none;
+  background: none;
+  font-size: 16px;
+  font-weight: 600;
+  color: black;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.selector-button.selected {
+  background-color: #0a53be;
+  color: white;
+}
+.error-text {
+  color: red;
+  font-size: 12px;
+  font-weight: 400;
+}

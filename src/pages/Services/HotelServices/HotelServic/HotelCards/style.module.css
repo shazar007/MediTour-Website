@@ -1,0 +1,273 @@
+.cardContainer {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin-top: 36px;
+}
+.cardbody {
+  box-shadow: 4px 2px 12px 0px #00000040;
+  border-radius: 16px;
+  background: #ffffff;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  border: none;
+  height: 208px;
+  overflow: hidden !important;
+  width: 100%;
+}
+.firstcol {
+  display: flex;
+  gap: 14px;
+  flex-wrap: wrap;
+  width: 40%;
+}
+.secoundcol {
+  display: flex;
+  height: 100%;
+  width: 55%;
+}
+.imgcontainer {
+  width: 192px !important;
+  height: 208px;
+}
+.img {
+  width: 100%;
+  height: 100%;
+  /* object-fit: contain; */
+}
+.hotelName {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 14px;
+  letter-spacing: -0.25px;
+  color: #131313;
+}
+.onPannel {
+  background-color: #eaf4ff;
+  min-width: 65px;
+  min-height: 14px;
+  height: auto;
+  width: fit-content;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #0e54a3;
+  font-weight: 600;
+  font-size: 8px;
+  border-radius: 24px;
+}
+.citynamee {
+  color: #13a89e;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 14px;
+  letter-spacing: -0.25px;
+}
+.item {
+  color: #7d7d7d;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  letter-spacing: -0.25px;
+}
+.title {
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 14px;
+  letter-spacing: -0.25px;
+  color: #131313;
+}
+.smalltext {
+  color: #7d7d7d;
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 14px;
+  letter-spacing: -0.25px;
+}
+.bottomsperator {
+  border-right: 2px solid #7d7d7d;
+  margin: 0 5px;
+}
+.secoundContent {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+  padding: 16px;
+}
+.secoundContentheader {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+}
+.secoundContentbottom {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+
+  /* justify-content: flex-end; */
+}
+
+.firstcontent {
+  width: 223px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 16px;
+}
+.firstcontenthead {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.firstcontentbottom {
+  display: flex;
+  align-items: flex-end;
+}
+.cardsperator {
+  border-right: 2px solid #7d7d7d;
+  margin: 0 30px;
+  height: 100%;
+}
+.featureContainer {
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  margin-top: 10px;
+  gap: 8px;
+  width: 80%;
+}
+.featureCard,
+.inactivefeatureCard {
+  border: 0.87px solid #0e54a3;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #0e54a3;
+  font-size: 14px;
+  font-family: "Poppins";
+  font-weight: 600;
+  width: 120px;
+  height: 34px;
+  border-radius: 24px;
+}
+.inactivefeatureCard {
+  border: 0.87px solid #cccccc;
+  color: #cccccc;
+}
+.cardbuttoncontainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end !important;
+}
+.carddeialbutton {
+  background: white;
+  color: #0e54a3;
+  border: 0.87px solid #0e54a3;
+  font-weight: 600;
+  font-size: 14px;
+  cursor: pointer;
+  width: 140px;
+  height: 30px;
+  border-radius: 25px;
+  line-height: 12.22px;
+  letter-spacing: -0.22px;
+  margin-bottom: 7px;
+}
+
+.cardhelplbutton {
+  background: #0e54a3;
+  color: #fff;
+  border: none;
+  font-weight: 600;
+  font-size: 14px;
+  cursor: pointer;
+  width: 140px;
+  height: 30px;
+  border-radius: 25px;
+  line-height: 12.22px;
+  letter-spacing: -0.22px;
+}
+
+@media (max-width: 1400px) {
+  .firstcol {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    width: 43%;
+  }
+  .secoundcol {
+    display: flex;
+    height: 100%;
+    width: 58%;
+  }
+  .imgcontainer {
+    width: 150px !important;
+  }
+  /* .firstcontent {
+    width: 160px;
+  } */
+  .cardsperator {
+    margin: 0 !important;
+  }
+  .featureContainer {
+    width: 90%;
+  }
+}
+@media (max-width: 1100) and (min-width: 801px) {
+  .imgcontainer {
+    width: 136px;
+  }
+  .firstcol {
+    gap: 0px;
+    width: 45px;
+  }
+  .firstcontent {
+    width: 165px;
+  }
+  .cardsperator {
+    margin: 0 !important;
+  }
+  .featureCard {
+    width: 110px;
+    font-size: 12px;
+  }
+  .carddeialbutton {
+    font-size: 12px;
+    width: 125px;
+  }
+}
+
+@media (max-width: 800px) {
+  .cardbody {
+    height: auto;
+  }
+
+  .firstcol {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    width: 100%;
+  }
+  .secoundcol {
+    display: flex;
+    height: 100%;
+    width: 100%;
+  }
+  .imgcontainer {
+    width: 40% !important;
+  }
+  .firstcontent {
+    width: 55% !important;
+  }
+  .cardsperator {
+    margin: 0 !important;
+  }
+  .featureContainer {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+}

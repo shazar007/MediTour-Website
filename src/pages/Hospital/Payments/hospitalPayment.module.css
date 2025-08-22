@@ -1,0 +1,23 @@
+.outer {
+  height: 91vh;
+}
+.tabless {
+  height: 350px;
+  overflow: hidden;
+  margin-bottom: 40px;
+}
+.flxbtween {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.my32 {
+  margin: 32px 0;
+}
+.outerContainer {
+  padding: 16px;
+  border-radius: 4px;
+  background-color: white;
+  height: 78vh;
+}

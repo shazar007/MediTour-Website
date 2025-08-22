@@ -1,0 +1,40 @@
+.navIMG {
+  background-image: url("https://firebasestorage.googleapis.com/v0/b/meditourglobal-ea15d.appspot.com/o/assets%2FOur-Services%404x.jpg?alt=media&token=9be64732-6e29-441e-ae44-e7b49484c32b");
+  height: 350px;
+  width: 100%;
+  background-position: center;
+  background-size: cover;
+}
+.mianheading {
+  text-align: center;
+  margin-top: 40px;
+  color: white;
+}
+
+.mianheading22 {
+  text-align: center;
+  margin-top: 40px;
+  color: #ff7631;
+}
+.title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+}
+.container {
+  padding: 70px 160px 70px 160px;
+}
+.flexBetween {
+  margin-top: 60px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 24px;
+}
+
+.searchIcon {
+  position: absolute;
+  left: 10px; /* Adjust as needed */
+  color: rgba(14, 84, 163, 1); /* Icon color */
+}

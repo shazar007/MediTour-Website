@@ -1,0 +1,257 @@
+.dropdownIcon {
+  cursor: pointer;
+}
+.dropdownWrapper {
+  align-items: center;
+  display: flex;
+  position: relative;
+  /* justify-content: center; */
+}
+.dropdownContainer {
+  position: absolute;
+  top: 100%;
+  z-index: 10;
+  background: white;
+  padding: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+  width: auto; /* Adjust width as per requirement */
+}
+.dropdownContainerApp {
+  position: absolute;
+  top: 100%;
+  z-index: 10;
+  background: white;
+  padding: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+  width: 110px; /* Adjust width as per requirement */
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: center;
+  position: sticky !important;
+  top: 0px !important;
+  z-index: 1 !important;
+}
+.title {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 14px;
+  color: #7d7d7d;
+}
+.refresh {
+  font-size: 22px;
+  margin-left: 32px;
+  cursor: pointer;
+  color: #393a44;
+}
+.hosptalname {
+  color: #7d7d7d;
+
+  font-size: 24px;
+  font-weight: 700;
+  /* line-height: 14px; */
+  margin: 6px 0;
+}
+.headerright {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+.notification {
+  width: 48px;
+  height: 48px;
+
+  border-radius: 50%;
+  background-color: #ff9500;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.bell {
+  width: 25.6px;
+  height: 25.6px;
+  cursor: pointer;
+}
+.Avatar {
+  height: 48px;
+  width: 48px;
+  display: flex;
+  cursor: pointer;
+}
+/* ................................................................... */
+.cardcontainer {
+  margin-top: 12px;
+  display: flex;
+  justify-content: flex-start;
+  gap: 16px;
+  margin: 0 auto;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.card {
+  flex: 0 1 calc(20% - 12.8px);
+  height: 160px;
+  width: 204px;
+  background-color: #ffffff;
+  box-shadow: 4px 4px 12px 0px #00000040;
+  border-radius: 16px;
+  padding: 18px;
+  box-sizing: border-box;
+  position: relative;
+
+  transition: 0.3s ease-in-out;
+  /* cursor: pointer; */
+}
+/* .card:hover {
+  box-shadow: 8px 8px 24px 0px #0000005c, -8px -8px 24px 0px #0000005c;
+  transform: scale(1.05);
+
+  cursor: pointer;
+} */
+.tablecontainer {
+  flex: 1 calc(100% - 16px);
+  background-color: #ffffff;
+  overflow: auto;
+  box-shadow: 4px 4px 12px 0px #00000040;
+  border-radius: 16px;
+  padding: 18px;
+  box-sizing: border-box;
+  margin-top: 24px;
+  position: relative;
+  height: 45vh;
+  transition: 0.3s ease-in-out;
+  cursor: pointer;
+}
+.tablecontainer::-webkit-scrollbar {
+  display: none;
+}
+.table-scroll-container {
+  flex: 1;
+  overflow-y: auto;
+  overflow-x: hidden;
+  margin-top: 8px;
+}
+
+@media (max-width: 1441px) {
+  .card {
+    /* flex: 1 1 calc(20% - 16px); */
+  }
+}
+
+@media (max-width: 1024px) {
+  .card {
+    /* flex: 1 1 calc(25% - 16px) !important; */
+    /* max-width: 204px !important; */
+  }
+  .cardcontainer {
+    justify-content: center;
+  }
+
+  .tableparent {
+    display: flex;
+    flex-direction: column;
+    height: calc(60vh - 100px);
+  }
+}
+
+@media (min-width: 501px) and (max-width: 800px) {
+  .card {
+    padding: 10px;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+  .cardcontainer {
+    justify-content: center;
+  }
+
+  .carddata {
+    display: flex;
+    flex-direction: column !important;
+  }
+  .detail {
+    font-size: 12px !important;
+  }
+}
+
+@media (max-width: 499px) {
+  .card {
+    flex: 0 0 35%;
+    padding: 12px;
+    box-sizing: border-box;
+    scroll-snap-align: start;
+    box-shadow: none !important;
+    margin: 2px;
+  }
+
+  .cardcontainer {
+    display: flex;
+    flex-grow: 1;
+    justify-content: flex-start;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    scrollbar-width: none;
+    min-width: 100%;
+    scroll-snap-type: x mandatory;
+  }
+  .cardcontainer > * {
+    min-width: 0;
+  }
+  .cardcontainer::-webkit-scrollbar {
+    display: none;
+  }
+  .carddata {
+    display: flex;
+    flex-direction: column !important;
+  }
+  .detail {
+    font-size: 12px !important;
+  }
+  .tablecontainer {
+    height: 53vh;
+  }
+}
+
+/* Ensure proper centering when there are fewer items in a row */
+.cardcontainer:empty {
+  justify-content: center;
+}
+
+.carddata {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.cardImage {
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+}
+
+.cardtextdata {
+  display: flex;
+  flex-direction: column;
+}
+
+.cardtitle {
+  font-size: 12px;
+  font-weight: 400;
+  color: #454545;
+  white-space: wrap;
+}
+
+.cardCount {
+  font-size: 20px;
+  font-weight: 400;
+  color: #000000;
+}
+.detail {
+  position: absolute;
+  bottom: 18px;
+  right: 18px;
+}

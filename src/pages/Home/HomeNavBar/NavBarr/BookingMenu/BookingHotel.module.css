@@ -1,0 +1,252 @@
+.mainContainer {
+  padding: 60px 160px 80px 160px;
+  background: #fdfdfd;
+}
+@media (max-width: 1400px) {
+  .mainContainer {
+    padding: 60px 60px 80px 60px;
+    background: #fdfdfd;
+  }
+}
+
+.bookingCard {
+  display: flex;
+  overflow: hidden;
+  width: 100%;
+  max-width: 1120px;
+  height: 200px;
+  background-color: #fff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+  border-radius: 18px;
+  flex-direction: row;
+  align-items: center;
+  margin: 16px auto;
+  gap: 10px;
+  transition: all 0.3s ease; /* Smooth transition for hover effects */
+}
+
+.bookingImage {
+  width: 257px;
+  height: 200px;
+  object-fit: cover;
+}
+
+.bookingInfo {
+  display: flex;
+  flex-grow: 1;
+  padding: 10px;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 10px;
+}
+
+.bookingDetails {
+  flex-grow: 1;
+
+
+}
+
+.hotelName {
+  font-size: 26px;
+  font-weight: 600;
+  margin-bottom: 16px;
+  color: #0e54a3;
+}
+.headingcontainer {
+  background-color: #fdcb2e;
+  border-radius: 16px;
+  box-shadow: 0px 4px 4px 0px #0000000f;
+  padding: 10px 15px;
+  width: 42vw;
+  margin: 0 auto;
+  border: 2px solid black;
+}
+.detailcontainer {
+  background-color: #ffffff;
+  border-radius: 16px;
+  box-shadow: 0px 4px 4px 0px #0000000f;
+  padding: 10px 15px;
+  width: 42vw;
+  margin: 0 auto;
+  border: 2px solid black;
+}
+
+.cardContainer {
+  box-shadow: 4px 2px 12px 0px #00000040;
+  background-color: #ffffff;
+  border-radius: 16px;
+  padding: 16px;
+  width: 100%;
+  /* display: flex;
+    flex-wrap: wrap !important; */
+}
+.cardHeader {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-bottom: 10px;
+  width: 100%;
+}
+.Cardbody {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.Carbody1,
+.Carbody2 {
+  width: 45%;
+}
+@media (max-width: 600px) {
+  .Carbody1,
+  .Carbody2 {
+    width: 90%;
+  }
+}
+.maincontainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 10px;
+}
+.title {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 14px;
+  letter-spacing: -0.25px;
+  color: #131313;
+}
+.detail {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  letter-spacing: -0.25px;
+  color: #7d7d7d;
+}
+.logoimg {
+  width: 42px;
+  height: 42px;
+  border-radius: 50%;
+}
+.imgcontainer {
+  /* width: 100%;
+  height: 100%; */
+  border: 29x solid;
+  overflow: hidden;
+  box-shadow: 4px #00000014;
+  margin: 0 5px;
+}
+.name {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 14px;
+  letter-spacing: -0.25px;
+  color: #131313;
+}
+.detaildata {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 14px;
+  letter-spacing: -0.25px;
+  color: #131313;
+}
+
+.bookingActions {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  text-align: right;
+  padding: 0 10px;
+}
+
+.hotelRoom {
+  font-size: 16px;
+  font-weight: 400;
+  margin-bottom: 4px;
+  color: #0e54a3;
+}
+
+.viewDetailsButton {
+  padding: 10px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #0056b3;
+  color: white;
+  border: none;
+  border-radius: 20px;
+  font-weight: bold;
+  gap: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  margin-top: 10px; /* Adjusted for better spacing */
+}
+
+.hotelStatus {
+  font-size: 12px;
+  font-weight: 500;
+  margin-top: 10px; /* Adjusted for better spacing */
+}
+
+.fullPayment {
+  color: #34c759;
+}
+
+.pendingPayment {
+  color: #ea0234;
+}
+
+.viewDetailsButton:hover {
+  background-color: #004494;
+}
+
+.bookingDate {
+  font-size: 14px;
+  color: #666;
+}
+
+.downloadButtonLogo {
+  width: 20px;
+  height: 20px;
+  margin-left: 10px;
+}
+.bookingImageconatiner {
+  width: 257px;
+  height: 200px;
+  object-fit: cover;
+}
+@media (max-width: 992px) {
+  .bookingCard {
+    flex-direction: column; /* Stack cards vertically on smaller screens */
+    height: auto; /* Allow height to adjust based on content */
+  }
+  .bookingImage {
+    width: 100%; /* Make the image full width */
+    height: auto; /* Maintain aspect ratio */
+  }
+  .bookingInfo {
+    padding: 10px; /* Maintain padding */
+  }
+}
+
+@media (max-width: 576px) {
+  .bookingCard {
+    padding: 10px;
+  }
+  .hotelName {
+    font-size: 18px;
+  }
+
+  .bookingImage {
+    width: 100%;
+    height: 50%;
+  }
+
+  .hotelRoom,
+  .bookingDate {
+    font-size: 12px;
+  }
+  .viewDetailsButton {
+    padding: 8px 16px;
+  }
+}

@@ -1,0 +1,364 @@
+.outerContainer {
+  padding: 24px;
+  border-radius: 16px;
+  background-color: white;
+  box-shadow: 4px 4px 12px 0px #00000040;
+  margin-top: 24px;
+  margin-bottom: 24px;
+}
+.colorBlack {
+  color: #131313;
+}
+
+.selection > select {
+  font-weight: bold;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  padding-top: 25px;
+}
+.medical > li {
+  margin: 0 100px;
+}
+.doctorss > nav {
+  height: 72px;
+  display: flex;
+  justify-content: center;
+  background-color: white;
+  height: 50px;
+  position: sticky;
+  z-index: 1;
+  top: 15%;
+}
+
+.start {
+  display: flex;
+  justify-content: start;
+}
+.end {
+  display: flex;
+  justify-content: end;
+}
+.close {
+  outline: none;
+  font-size: 16px;
+  background-color: transparent;
+  color: #131313;
+  border: none;
+  cursor: pointer;
+}
+
+.dropdown {
+  background-color: #f5f5f5 !important;
+  border-radius: 8px !important;
+  width: 612px !important;
+  color: #00276d !important;
+  font-size: 16px !important;
+  font-weight: 600 !important;
+}
+.borderbttom {
+  border-bottom: 1px solid #6f6f72;
+  width: 190px;
+  margin-right: 32px;
+}
+
+.deletebtn {
+  height: 35px;
+  width: 35px;
+  background-color: white;
+  color: #a2a3a4;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+
+  margin-left: -8px;
+}
+
+.clinic {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 32px;
+  font-size: 16px;
+  font-weight: 600;
+  color: #00276d;
+}
+.Inhouse {
+  display: fl ex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 32px;
+  font-size: 16px;
+  font-weight: 600;
+  color: #00276d;
+}
+
+.mr16 {
+  margin-right: 16px;
+}
+.ml16 {
+  margin-left: 16px;
+}
+.cursor {
+  cursor: pointer;
+}
+/* Catgeroy */
+.cardIconContainer {
+  width: 64px;
+  height: 64px;
+  border-radius: 32px;
+  background-color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.cardIcon {
+  width: 24px;
+  height: 24px;
+  color: #00276d;
+}
+.cardWrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  margin-bottom: 24px;
+}
+.cardContainer {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 24px;
+  border-radius: 16px;
+  height: auto;
+  background-color: white;
+  cursor: pointer;
+  box-shadow: 4px 4px 12px 0px #00000040;
+}
+.textContainer {
+  margin-top: 24px;
+}
+
+.cardSubHeading {
+  color: gray;
+}
+
+@media (max-width: 768px) {
+  .cardContainer {
+    flex: 1 1 100%;
+  }
+}
+.HospitalCard {
+  color: white;
+  width: 34%;
+  box-sizing: border-box;
+  padding: 20px;
+  border-radius: 16px;
+  height: 265px;
+  margin-top: 24px;
+  background-size: cover;
+  margin-right: 24px;
+  cursor: pointer;
+}
+.ConsultancyCard {
+  color: white;
+  width: 34%;
+  box-sizing: border-box;
+  padding: 20px;
+  border-radius: 16px;
+  height: 265px;
+  margin-top: 24px;
+  margin-right: 24px;
+  background-image: url("../../../assets/images/VideoConsultancyBack.png");
+  background-size: cover;
+  cursor: pointer;
+}
+.mt16 {
+  margin-top: 16px;
+}
+.texts {
+  margin-top: 206px;
+}
+
+.flx {
+  display: flex;
+  flex-direction: row;
+}
+.end {
+  display: flex;
+  justify-content: end;
+}
+.start {
+  text-align: start;
+}
+
+.btnx {
+  background-color: #00276d;
+  color: white;
+  border: 1px solid #00276d;
+  border-radius: 8px;
+  width: 210px;
+  height: 44px;
+  margin-top: 32px;
+  /* margin-left: 95px; */
+}
+.flx {
+  display: flex;
+  flex-direction: row;
+}
+.actual {
+  border-bottom: 1px solid #6f6f72;
+  width: 190px;
+  margin-left: 64px;
+  /* margin-right: 32px; */
+}
+.back {
+  color: #00276d;
+  margin-right: 16px;
+  height: 24px;
+  width: 24px;
+  cursor: pointer;
+}
+.hospitalAvailabes {
+  color: white;
+  width: 34%;
+  box-sizing: border-box;
+  padding: 20px;
+  border-radius: 16px;
+  background-color: #00276d;
+  height: 140px;
+  margin-top: 24px;
+  margin-right: 24px;
+}
+.hospitalLogo {
+  height: 60px;
+  width: 60px;
+}
+.error {
+  color: #fb2047;
+  font-style: normal;
+  font-weight: 400;
+  width: 100%;
+}
+.flexxx {
+  display: flex;
+  flex-direction: column;
+}
+
+.btnwidth {
+  width: 120px;
+  margin-top: 24px;
+}
+.emptyOuter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 450px;
+}
+
+.addbtn {
+  height: 42px;
+  width: 124px;
+  border: 2px solid #0e54a3;
+  color: white;
+  background-color: #0e54a3;
+  border-radius: 24px;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.heading {
+  margin-left: 16px;
+  font-weight: bold;
+  color: #131313;
+  font-size: 18px;
+}
+.cardHeader {
+  padding-bottom: 12px;
+  border-bottom: 0.5px solid #7d7d7d;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.cardHeading {
+  color: #131313;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 14px;
+  letter-spacing: -0.25px;
+}
+.price {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 14px;
+  color: #131313;
+  letter-spacing: -0.25px;
+}
+.Timing {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 14px;
+  color: #131313;
+  letter-spacing: -0.25px;
+}
+.timingCardWrapper {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.title {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 14px;
+  margin-bottom: 16px;
+  margin-top: 24px;
+  color: #131313;
+  letter-spacing: -0.25px;
+}
+.timingCard {
+  border-radius: 24px;
+  height: 34px;
+  border: 0.5px solid #0e54a3;
+  width: 120px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.timingCard > p {
+  color: #0e54a3;
+  font-weight: 600;
+  font-size: 14px;
+  letter-spacing: -0.22px;
+  text-align: center;
+}
+.Icon {
+  color: #0e54a3;
+  font-size: 14px;
+  cursor: pointer;
+}
+.RefreshIcon {
+  height: 24px;
+  width: 24px;
+  color: #0e54a3;
+}
+.outerRefresh {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 32px;
+  width: 32px;
+  border-radius: 50%;
+  border-radius: 12px;
+  background-color: #f6fafe33;
+  cursor: pointer;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.col6 {
+  width: calc(50% - 12px);
+}

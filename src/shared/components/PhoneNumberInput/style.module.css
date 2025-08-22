@@ -1,0 +1,23 @@
+.container {
+  height: 40px;
+  padding: 0px 0px 0px 10px;
+  border: none;
+  border-bottom: 1px solid #6f6f72;
+  background-color: transparent;
+}
+@media (min-width: 320px) and (max-width: 480px) {
+  /* .container { */
+  /* margin-top: 40px;
+    margin-left: 19px; */
+  /* } */
+}
+
+@media (min-width: 481px) and (max-width: 768px) {
+  /* .container { */
+  /* margin-top: 40px;
+    margin-left: 100px; */
+  /* } */
+}
+
+@media (min-width: 769px) and (max-width: 2800px) {
+}

@@ -1,0 +1,121 @@
+.card {
+  width: 284px;
+  margin-right: 24px;
+  border-radius: 16px;
+  background-color: #f5f5f5;
+  padding: 20px;
+  margin-top: 50px;
+}
+.topicons {
+  height: 80px;
+  width: 80px;
+  border-radius: 50%;
+  background-color: #00276d;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  bottom: 80px;
+  margin: 0 auto;
+  cursor: pointer;
+}
+.RefreshIcon {
+  height: 24px;
+  width: 24px;
+  color: #13a89e;
+  margin-left: 12px;
+  margin-top: 4px;
+  cursor: pointer;
+}
+.heart {
+  height: 100%;
+  width: 100%;
+  border-radius: 50%;
+}
+.my40 {
+  margin: 40px 0 40px 0;
+}
+.end {
+  display: flex;
+  justify-content: end;
+}
+.edit {
+  height: 24px;
+  width: 24px;
+  cursor: pointer;
+}
+.delete {
+  margin-right: 3px;
+  height: 28px;
+  width: 24px;
+  cursor: pointer;
+  color: red;
+}
+.center {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.flexwrap {
+  display: flex;
+  flex-wrap: wrap;
+}
+.close {
+  height: 24px;
+  width: 24px;
+  margin-left: auto;
+  color: #00276d;
+  cursor: pointer;
+}
+.outerContainer {
+  padding: 16px;
+  border-radius: 4px;
+  background-color: white;
+  min-height: 78vh;
+  max-height: auto;
+}
+.mb24 {
+  display: flex;
+  flex-direction: row;
+}
+.flex {
+  display: flex;
+}
+/* .paginationStyle {
+  margin-left: 810px;
+} */
+@media (max-width: 1920px) {
+  .paginationStyle {
+    margin-left: 800px;
+  }
+}
+@media (max-width: 1440px) {
+  .paginationStyle {
+    margin-left: 600px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .paginationStyle {
+    margin-left: 400px;
+  }
+}
+
+@media (max-width: 768px) {
+  .paginationStyle {
+    margin-left: 200px;
+  }
+}
+
+@media (max-width: 480px) {
+  .paginationStyle {
+    margin-left: 50px;
+  }
+}
+
+@media (max-width: 320px) {
+  .paginationStyle {
+    margin-left: 20px;
+  }
+}

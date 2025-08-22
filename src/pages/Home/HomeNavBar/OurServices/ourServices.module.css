@@ -1,0 +1,195 @@
+.outer {
+  padding: 32px 160px 0px 160px;
+}
+.pending {
+  width: 100%;
+  height: 85vh;
+}
+.flexBetween {
+  margin-top: 60px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 24px;
+}
+.container {
+  padding: 70px 160px 70px 160px;
+}
+.ServicesCards {
+  width: 23%;
+  border-radius: 16px;
+  height: 260px;
+  cursor: pointer;
+  box-sizing: border-box;
+  padding: 30px;
+  color: white;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+.empty {
+  width: 23.7%;
+  height: 260px;
+  padding: 30px;
+  box-sizing: border-box;
+}
+.lab {
+  background-image: url("../../../../assets/images/LabSevice.png");
+  background-position: center;
+  background-size: cover;
+}
+.Hospital {
+  background-image: url("../../../../assets/images/hospitalSevice.png");
+  background-position: center;
+  background-size: cover;
+}
+.phrmacy {
+  background-image: url("../../../../assets/images/PharmacySevice.png");
+  background-position: center;
+  background-size: cover;
+}
+.Doctor {
+  background-image: url("../../../../assets/images/cccccc.png");
+  background-position: center;
+  background-size: cover;
+}
+.Doctor {
+  background-image: url("../../../../assets/images/cccccc.png");
+  background-position: center;
+  background-size: cover;
+}
+.Physiotherapist {
+  background-image: url("../../../../assets/images/PhysiotherapistSevices.png");
+  background-position: center;
+  background-size: cover;
+}
+.Nutritionist {
+  background-image: url("../../../../assets/images/NutritionistSevices.png");
+  background-position: center;
+  background-size: cover;
+}
+.Paramedic {
+  background-image: url("../../../../assets/images/Paramedic\ staffSevices.png");
+  background-position: center;
+  background-size: cover;
+}
+.Psychologist {
+  background-image: url("../../../../assets/images/PsychologistSevices.png");
+  background-position: center;
+  background-size: cover;
+}
+.travel {
+  background-image: url("../../../../assets/images/travelSevices.png");
+  background-position: center;
+  background-size: cover;
+}
+.hotel {
+  background-image: url("../../../../assets/images/hotelSevices.png");
+  background-position: center;
+  background-size: cover;
+}
+.Amblance {
+  background-image: url("../../../../assets/images/AmblaneSevices.png");
+  background-position: center;
+  background-size: cover;
+}
+.RentAcar {
+  background-position: center;
+  background-size: cover;
+}
+.Donation {
+  background-image: url("../../../../assets/images/DonationSevices.png");
+  background-position: center;
+  background-size: cover;
+}
+.Insurance {
+  background-image: url("../../../../assets/images/InsuranceSevices.png");
+  background-position: center;
+  background-size: cover;
+}
+.imgs {
+  border-radius: 16px;
+  width: 100%;
+  height: 260px;
+}
+.textwhite {
+  color: white;
+}
+@media (min-width: 320px) and (max-width: 480px) {
+  .outer {
+    padding: 40px 24px 24px 20px;
+  }
+  .container {
+    padding: 20px !important;
+  }
+  .empty {
+    width: 0%;
+    height: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+  }
+  .ServicesCards {
+    width: 100%;
+    border-radius: 16px;
+    height: 260px;
+    cursor: pointer;
+    box-sizing: border-box;
+  }
+}
+
+@media (min-width: 481px) and (max-width: 768px) {
+  .empty {
+    width: 0%;
+    height: 0px;
+    padding: 30px;
+    box-sizing: border-box;
+  }
+  .container {
+    padding: 30px 60px 30px 60px !important;
+  }
+  .outer {
+    padding: 50px 60px 0px 60px;
+  }
+  .ServicesCards {
+    width: 48%;
+    border-radius: 16px;
+    height: 260px;
+    cursor: pointer;
+    box-sizing: border-box;
+  }
+}
+@media (min-width: 769px) and (max-width: 1040px) {
+  .container {
+    padding: 50px 80px 50px 80px !important;
+  }
+  .ServicesCards {
+    width: 31%;
+    border-radius: 16px;
+    height: 260px;
+    cursor: pointer;
+    box-sizing: border-box;
+    box-shadow: 0px 4px 4px 0px #00000029;
+  }
+}
+@media (min-width: 1041px) and (max-width: 1440px) {
+  .container {
+    padding: 50px 100px 50px 100px !important;
+  }
+}
+.mianheading {
+  text-align: center;
+  margin-top: 40px;
+  color: white;
+}
+.mianheading22 {
+  text-align: center;
+  margin-top: 40px;
+  color: #ff7631;
+}
+.title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+}

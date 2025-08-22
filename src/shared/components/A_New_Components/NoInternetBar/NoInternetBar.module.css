@@ -1,0 +1,29 @@
+.container {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: red;
+  color: white;
+  font-weight: bold;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 10000;
+}
+
+.container span {
+  flex-grow: 1;
+  text-align: center;
+}
+
+.closeBtn {
+  background: none;
+  right: 100px;
+  border: none;
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+  cursor: pointer;
+  padding: 5px 10px;
+}

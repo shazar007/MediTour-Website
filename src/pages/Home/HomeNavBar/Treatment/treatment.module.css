@@ -1,0 +1,143 @@
+.mainheadingblack {
+  font-weight: 400;
+  font-size: 36px;
+  /* line-height: 100%; */
+  letter-spacing: 0%;
+  text-align: center;
+  text-transform: uppercase;
+  color: "#131313";
+}
+
+.mainheadingorange {
+  font-weight: 600;
+  color: #ff7631;
+}
+
+/* ........................ */
+
+.container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 120px 0 160px 0;
+}
+@media screen and (max-width: 1210px) {
+  .container {
+    width: 80%;
+    max-width: 100%;
+    /* margin: 0px auto 56px auto; */
+    padding: 80px 0;
+  }
+}
+.dropdown {
+  background-color: transparent !important;
+  /* color: #0e54a3 !important; */
+  color: "red";
+  box-shadow: none !important;
+  border-radius: 0px !important;
+  border-bottom: 0.5px solid #7b7b7b;
+}
+
+.mt32 {
+  margin-bottom: 8px;
+}
+
+.mt8 {
+  margin-top: 4px;
+}
+
+.refund > ul {
+  list-style-type: decimal;
+  padding: 20px 20px;
+}
+
+.refund > ul > li {
+  margin-bottom: 10px;
+}
+
+.accordionicon {
+  transition: transform 10s ease;
+}
+
+.icon {
+  transition: transform 1s;
+  color: #303a42;
+}
+
+.colorChanged {
+  color: #131313 !important;
+}
+
+.rotate {
+  transform: rotate(45deg);
+}
+
+.text {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 0%;
+  color: #131313;
+}
+.categoryname {
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 20px;
+  letter-spacing: 0%;
+  color: #131313;
+}
+.subCategory {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  color: #131313;
+  list-style-type: none;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+  position: relative;
+  padding-left: 20px; /* space for the line */
+}
+
+.subCategory::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  height: 3px;
+  width: 16px;
+  background-color: #131313;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.subCategory:hover::before {
+  opacity: 1;
+}
+.subCategory:hover {
+  transform: translateX(5px); /* Slight shift to right */
+}
+
+.gridWrapper {
+  display: flex;
+  justify-content: space-between;
+  gap: 40px;
+  flex-wrap: wrap;
+}
+
+.column {
+  width: 36%;
+  display: flex;
+  flex-direction: column;
+  /* gap: 24px; */
+}
+.cardWrapper {
+  /* flex: 1 1 calc(40% - 10%); */
+  min-width: 0;
+}
+
+@media (max-width: 768px) {
+  .column {
+    flex: 1 1 100%;
+  }
+}

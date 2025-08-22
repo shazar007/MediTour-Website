@@ -1,0 +1,342 @@
+.formcontainer {
+  box-shadow: 0px 24.35px 75.27px 0px #00000025,
+    0px 45.54px 140.79px 0px #0000001e, 0px 109px 337px 0px #00000015;
+  padding: 32px;
+  border-radius: 8px;
+  width: 64.25%;
+  /* height: 76.44%; */
+  max-height: auto;
+  justify-content: center;
+  /* align-items: center; */
+  display: flex;
+  flex-direction: column;
+  height: auto;
+  /* height: fit-content; */
+  background-color: #fff;
+  z-index: 10;
+}
+.logoconatiner {
+  width: 120px;
+  /* background-color: red; */
+  /* height: auto; */
+  overflow: hidden;
+  margin: 0 auto;
+  margin-bottom: 26px;
+}
+.divider {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  margin: 16px 0;
+  color: #999;
+  font-size: 14px;
+  font-weight: bold;
+}
+.googlerow {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  width: 100%;
+  height: 48px;
+  border: 1px solid #0056b3;
+  border-radius: 12px;
+  gap: 16px;
+  background-color: #fff;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  /* box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); */
+}
+
+.googlerow:hover {
+  background-color: #f8f8f8;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transform: translateY(-2px);
+}
+
+.continueGoogle {
+  font-weight: 500;
+  font-size: 16px;
+  color: #5f6368;
+}
+.divider::before,
+.divider::after {
+  content: "";
+  flex: 1;
+  border-bottom: 1px solid #ccc;
+  margin: 0 10px;
+}
+.logo {
+  /* width: 20%;
+  height: 20%;
+  object-fit: contain;
+  margin-bottom: 24px; */
+
+  width: 20%;
+  height: 20%;
+  object-fit: contain;
+  margin: 0 auto;
+  margin-bottom: 24px;
+}
+.continueGogle {
+  font-size: 16px;
+  font-weight: 400;
+}
+.colorBlue {
+  color: #00276d;
+}
+
+.colorOrange {
+  color: #ff7631;
+}
+.welcomback {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 36px;
+  text-align: left;
+  text-decoration-skip-ink: none;
+  margin-bottom: 24px;
+  text-align: center;
+}
+
+.inputGroupSocial {
+  display: flex;
+  flex-direction: column;
+  width: 405px;
+}
+
+.inputWrapper {
+  position: relative;
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+input {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 14px;
+}
+
+input::placeholder {
+  color: #999;
+}
+
+.showIcon {
+  position: absolute;
+  right: 40px;
+  cursor: pointer;
+  font-size: 1.2rem;
+  color: #6f6f6f;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.inputGroupBasic {
+  flex: 1;
+  min-width: 400px;
+  margin-right: 32px;
+}
+.RembermeContainer {
+  flex-direction: column;
+  align-items: flex-start;
+  margin-bottom: 36px;
+  /* gap: 10px; */
+  cursor: default;
+}
+
+.agreementText {
+  font-size: 12px;
+  color: #0056b3;
+  max-width: 100%;
+}
+
+.radioContainer {
+  display: flex;
+  align-items: center;
+}
+
+.radioInput {
+  display: none;
+}
+
+.radioMark {
+  height: 20px;
+  width: 20px;
+
+  color: #0056b3 !important;
+}
+
+.radioInput:checked + .radioMark {
+  background-color: #0056b3;
+}
+
+.radioInput:checked + .radioMark::after {
+  content: "";
+  width: 5px;
+  height: 8px;
+  border: solid white;
+  border-width: 0 2px 2px 0;
+  position: absolute;
+  transform: rotate(45deg);
+}
+
+.Remberme {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.buttonContainer {
+  margin-bottom: 8px;
+  margin-top: 20px;
+}
+
+.forgot {
+  color: #0056b3;
+  font-size: 12px;
+  font-weight: 500;
+}
+
+.newTo {
+  font-weight: 400;
+  font-size: 14px;
+  color: #5f6368;
+  /*      */
+}
+
+.register {
+  font-weight: 700;
+  font-size: 14px;
+  color: #ff7631;
+  /*      */
+}
+
+/* .............................Media Queries............................... */
+@media (max-width: 2560px) {
+  .formcontainer {
+    width: 40%;
+    /* height: 70%; */
+  }
+  .logoconatiner {
+    width: 120px;
+    height: 140px;
+    margin-bottom: 16px;
+  }
+
+  .buttonContainer {
+    /* margin-bottom: 50px; */
+    margin-top: 15px;
+  }
+}
+@media (max-width: 1440px) {
+  .formcontainer {
+    width: 40%;
+    margin: auto;
+    /* height: 80%; */
+  }
+  .logoconatiner {
+    width: 200px;
+    height: 220px;
+    margin-bottom: 16px;
+  }
+
+  .buttonContainer {
+    /* margin-bottom: 50px; */
+    margin-top: 15px;
+  }
+}
+
+@media (max-width: 1366px) {
+  .formcontainer {
+    width: 45%;
+    /* height: 70%; */
+  }
+  .logoconatiner {
+    width: 200px;
+    height: 220px;
+    margin-bottom: 16px;
+  }
+
+  .buttonContainer {
+    /* margin-bottom: 80px; */
+    margin-top: 15px;
+  }
+}
+@media (max-width: 1024px) {
+  .formcontainer {
+    margin-top: auto;
+    width: 45%;
+    /* height: 85%; */
+  }
+  .logoconatiner {
+    width: 80px;
+    height: 100px;
+    margin-bottom: 10px;
+  }
+
+  .buttonContainer {
+    /* margin-bottom: 20px; */
+    margin-top: 10px;
+  }
+  .welcomback {
+    margin-bottom: 20px;
+  }
+}
+@media (max-width: 768px) {
+  .formcontainer {
+    width: 55%;
+    /* height: 83%; */
+    margin-top: auto;
+  }
+  .continueGogle {
+    font-size: 12px;
+  }
+  .logoconatiner {
+    width: 80px;
+    height: 80px;
+    margin-bottom: 10px;
+  }
+
+  .buttonContainer {
+    /* margin-bottom: 20px; */
+    margin-top: 15px;
+  }
+  .welcomback {
+    margin-bottom: 20px;
+  }
+}
+
+@media (max-width: 480px) {
+  .formcontainer {
+    margin: auto;
+    width: 80%;
+    padding: 20px;
+    border-radius: 4px;
+    /* height: 85%; */
+  }
+
+  .logoconatiner {
+    width: 80px;
+    height: 80px;
+    margin-bottom: 10px;
+  }
+
+  .buttonContainer {
+    /* margin-bottom: 20px; */
+    margin-top: 15px;
+  }
+  .welcomback {
+    margin-bottom: 20px;
+  }
+}
+
+@media (max-width: 380px) {
+  .formcontainer {
+    margin-top: 100px;
+    width: 80%;
+    border-radius: 4px;
+    /* height: 85%; */
+  }
+}

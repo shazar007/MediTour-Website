@@ -1,0 +1,192 @@
+.card {
+  width: 70%;
+  background-color: #ffffff;
+  border-radius: 16px;
+  margin: 15px auto 20px auto;
+  padding: 16px;
+  box-shadow: 4px 2px 12px 0px #00000040;
+  transition: box-shadow 0.3s ease;
+  margin-bottom: 30px;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  border-bottom: 2px solid #e0e0e0;
+  padding-bottom: 10px;
+}
+
+.logo {
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  object-fit: contain;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.text {
+  font-size: 18px;
+  font-weight: 600;
+  color: #131313;
+}
+
+.textBold {
+  font-size: 16px;
+  font-weight: 700;
+  color: #00276d;
+}
+
+.route {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 15px 0;
+}
+
+.planeIcon {
+  display: flex;
+  align-items: center;
+  font-size: 24px;
+  color: #006838;
+}
+
+.dash {
+  border-style: dashed;
+  border-bottom: 1px solid #00276d;
+  width: 100px;
+  margin: 0 8px;
+}
+
+.timeText {
+  font-size: 12px;
+  color: #666666;
+}
+
+.details {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 15px 0;
+}
+
+.airlineLogo {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.eTicketText {
+  color: rgba(0, 104, 56, 1);
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+
+.button {
+  color: #fff;
+  border: 1px solid #0e54a3;
+  /* padding: 10px 50px; */
+  width: 180px;
+  height: 40px;
+  /* margin: 0 10px; */
+  background-color: #0e54a3;
+  border-radius: 40px;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.heading {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 14px;
+  letter-spacing: -0.25px;
+  color: #131313;
+}
+
+.detail {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  letter-spacing: -0.25px;
+  color: #7d7d7d;
+}
+.Price {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 14px;
+  letter-spacing: -0.25px;
+  color: #131313;
+}
+.CardContainer {
+  display: flex;
+  width: 100%;
+  border-bottom: 1.5px dashed #7d7d7d;
+  padding: 10px;
+}
+.flexWrapper {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.cardList {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  flex: 1;
+  overflow: visible;
+}
+
+.CardContainer {
+  display: flex;
+  gap: 16px;
+  border-bottom: 1.5px dashed #7d7d7d;
+  padding: 12px;
+}
+.bidCol {
+  flex: 1 1 33%;
+}
+.buttonWrapper {
+  align-self: flex-start;
+  margin-top: 3.5%;
+  border-right: 1.5px dashed #7d7d7d;
+  align-items: stretch !important;
+  height: fit-content;
+}
+.bidCol3 {
+  display: flex;
+  align-self: flex-end;
+  flex-direction: column;
+}
+@media (max-width: 768px) {
+  .flexWrapper {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .CardContainer {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .buttonWrapper {
+    align-self: center;
+    margin-top: 20px;
+  }
+  .cardList {
+    width: 100%;
+  }
+  .bidCol3 {
+    align-self: flex-start;
+  }
+  .card {
+    width: 100%;
+  }
+}

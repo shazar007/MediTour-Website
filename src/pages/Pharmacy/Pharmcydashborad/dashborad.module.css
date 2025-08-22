@@ -1,0 +1,185 @@
+select {
+  border: none;
+}
+.graph {
+  background-color: white;
+  border-radius: 16px;
+  padding: 24px;
+  margin-top: 24px;
+  box-shadow: 4px 4px 12px 0px #00000040;
+}
+.graph2 {
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 1px 2px 0px;
+  background-color: white;
+  border-radius: 15px;
+  padding: 30px;
+  height: 300px;
+  box-sizing: border-box;
+  box-shadow: 4px 4px 12px 0px #00000040;
+}
+
+.mt24 {
+  margin-top: 24px;
+}
+.Maincards {
+  padding: 20px;
+  background-color: white;
+  border-radius: 16px;
+  color: #131313;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  width: 210px;
+  box-sizing: border-box;
+  height: 150px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.arrow {
+  height: 27px;
+}
+
+.col12 {
+  width: 100%;
+}
+
+.pr10 {
+  padding: 20px 0 20px 0;
+}
+
+.m20 {
+  margin: 0 20px;
+}
+.flxp {
+  display: flex;
+  flex-direction: row;
+  gap: 24px;
+}
+.icon {
+  height: 36px;
+  width: 36px;
+}
+.mesg {
+  height: 36px;
+  width: 35px;
+  margin-top: 10px;
+}
+.pt10 {
+  padding: 12px;
+}
+.pt16 {
+  padding: 16px 0 0 0;
+}
+.ml30 {
+  margin-left: 30px;
+}
+.end {
+  display: flex;
+  justify-content: end;
+}
+.p11 {
+  padding: 5px 0 5px 10px;
+}
+.flx {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.m0 {
+  margin: 0%;
+}
+
+.mp {
+  margin: 10px 50px 0 0;
+}
+.m15 {
+  margin: 27px;
+}
+.mt16 {
+  margin-top: 16px;
+}
+
+.mt20 {
+  margin-top: 20px;
+}
+.pt30 {
+  padding-top: 30px;
+}
+
+.py20 {
+  padding: 20px 33px;
+}
+.py10 {
+  padding: 0 10px 0 0;
+}
+.my50 {
+  margin: 30px 0;
+}
+.mr20 {
+  margin-right: 40px;
+}
+.ml20 {
+  margin-left: 4 20px;
+}
+.between {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+}
+.center {
+  display: flex;
+  justify-content: center;
+}
+.pt6 {
+  padding-top: 6px;
+}
+.seletions {
+  font-size: 20px;
+  font-weight: 600;
+  color: #020e35;
+  outline: none !important;
+}
+.seletions::after {
+  outline: none !important;
+  border: none;
+}
+
+.colorOrange {
+  color: red;
+}
+.colorGreen {
+  color: #007201;
+}
+
+.flxx16 {
+  display: flex;
+  gap: 16px;
+  align-items: start;
+}
+
+.Card_Detail {
+  color: #734a00;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 100%;
+  letter-spacing: -0.25px;
+}
+.Arrow {
+  color: #734a00;
+  font-size: 14px;
+}
+.Card_Label {
+  color: #454545;
+  margin-top: 6px;
+  font-weight: 400;
+  font-size: 12px;
+  letter-spacing: -0.25%;
+}
+.Card_Values {
+  color: #131313;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 100%;
+  letter-spacing: 0px;
+}

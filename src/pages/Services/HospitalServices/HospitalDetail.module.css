@@ -1,0 +1,89 @@
+.Number {
+  font-size: 16px;
+  font-weight: 600;
+  color: #0e54a3;
+}
+
+.card {
+  background-color: white;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  border: none;
+  border-radius: 8px;
+  padding: 10px;
+  flex: 1;
+  min-width: 150px;
+  max-width: 200px;
+}
+.reviewcard {
+  background-color: #ffffff;
+  box-shadow: 0px 5px 8px 0px #0000000a;
+  border-radius: 8px;
+  padding: 20px;
+  flex: 0 1 calc(33.333% - 20px); /* Calculate width for three cards with equal spacing */
+  box-sizing: border-box;
+}
+.reviewlcardHeader,
+.reviewcardBody {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 5px;
+}
+
+.cardHeader svg,
+.cardBody svg {
+  margin-right: 5px;
+  color: #0e54a3; /* Blue color for icons */
+}
+
+.cardHeader span,
+.cardBody span {
+  color: #0e54a3;
+}
+.ratingBox {
+  width: 30px;
+  height: 29px;
+  text-align: center;
+  margin: 0 10px;
+  padding: 4px;
+  gap: 10px;
+  border-radius: 6px;
+  background-color: #0e54a3;
+  color: #ffffff;
+}
+.reviews {
+  color: #0e54a3;
+}
+
+.cardContainer {
+  display: flex;
+  justify-content: flex-start;
+  gap: 20px;
+  padding: 20px;
+  background: #ffffff;
+  box-shadow: 0px 5px 8px 0px #0000000a;
+  flex-wrap: wrap;
+}
+.departmentCardsContainer {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 43px;
+}
+.departmentCardWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.departmentCards {
+  width: 160px;
+  height: 80px;
+  cursor: pointer;
+  position: relative;
+  background: #f2f1f1;
+  border-radius: 8px;
+  border: 0.5px solid transparent;
+  opacity: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

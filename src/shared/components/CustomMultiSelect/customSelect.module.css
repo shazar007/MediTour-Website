@@ -1,0 +1,58 @@
+.customSelect > select {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.5);
+  height: 32px;
+  width: 100%;
+  font-style: italic;
+  outline: none;
+  font-size: 15px;
+  cursor: pointer;
+  background-color: transparent !important;
+  color: #020e35 !important;
+}
+.customSelect > select > option {
+  background-color: transparent !important;
+  border-radius: 20px;
+  border: 12px solid black !important;
+  color: #020e35 !important;
+  cursor: pointer;
+}
+.selectStyle {
+  height: 32px;
+  width: 100%;
+  font-style: italic;
+  outline: none;
+  font-size: 14px !important;
+  cursor: pointer;
+  background-color: transparent !important;
+  color: #00276d !important;
+  margin-top: 13px !important;
+}
+.PlaceHolder {
+  font-style: italic;
+  font-size: 14px;
+  font-weight: 300;
+  padding-bottom: 4px;
+  text-align: start;
+}
+
+.selectStyle::-webkit-scrollbar {
+  display: none;
+}
+
+/* Track */
+.selectStyle::-webkit-scrollbar-track {
+  display: none;
+}
+
+/* Handle */
+.selectStyle::-webkit-scrollbar-thumb {
+  display: none;
+}
+
+/* Handle on hover */
+.MuiPopover-paper-MuiMenu-paper::-webkit-scrollbar-thumb:hover {
+  display: none;
+}
+.colorBlue {
+  color: #00276d !important;
+}

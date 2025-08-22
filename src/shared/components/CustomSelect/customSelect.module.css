@@ -1,0 +1,60 @@
+.customSelect > select {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.5);
+  height: 48px;
+  width: 100%;
+  outline: none;
+  font-size: 14px;
+  cursor: pointer;
+  background-color: transparent !important;
+  color: #7d7d7d !important;
+  box-sizing: border-box;
+  font-family: inherit !important;
+}
+.customSelect > select > option {
+  background-color: transparent !important;
+  border-radius: 20px;
+  color: #7d7d7d !important;
+  box-sizing: border-box;
+  cursor: pointer;
+}
+
+.selectStyle {
+  height: 48px;
+  width: 100%;
+  box-sizing: border-box;
+  outline: none;
+  font-size: 14px !important;
+  cursor: pointer;
+  background-color: transparent !important;
+  color: #7d7d7d !important;
+}
+.PlaceHolder {
+  font-size: 14px;
+  font-weight: 300;
+  box-sizing: border-box;
+  padding-bottom: 4px;
+  text-align: start;
+}
+
+.selectStyle::-webkit-scrollbar {
+  display: none;
+}
+
+/* Track */
+.selectStyle::-webkit-scrollbar-track {
+  display: none;
+}
+
+/* Handle */
+.selectStyle::-webkit-scrollbar-thumb {
+  display: none;
+}
+
+/* Handle on hover */
+.MuiPopover-paper-MuiMenu-paper::-webkit-scrollbar-thumb:hover {
+  display: none;
+}
+.customIconClass {
+  width: 50px;
+  height: 30px;
+}

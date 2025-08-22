@@ -1,0 +1,48 @@
+.capsule_container {
+  display: flex;
+  width: 250px;
+  height: 50px;
+  background-color: #e0e0e0;
+  border-radius: 25px;
+  position: relative;
+  overflow: hidden;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.capsule_button {
+  flex: 1;
+  text-align: center;
+  line-height: 50px;
+  font-size: 16px;
+  color: #fff;
+  cursor: pointer;
+  z-index: 1;
+  position: relative;
+}
+
+.capsule_active {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 50%;
+  height: 100%;
+  background-color: #0e54a3;
+  border-radius: 25px;
+
+  z-index: 0;
+}
+@media (max-width: 480px) {
+  .capsule_container {
+    width: 150px;
+    height: 40px;
+  }
+
+  .capsule_button {
+    line-height: 40px;
+    font-size: 12px;
+  }
+
+  .capsule_active {
+    width: 50%;
+  }
+}

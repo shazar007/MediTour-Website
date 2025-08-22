@@ -1,0 +1,86 @@
+.colorBlue {
+  color: #00276d;
+}
+.my32 {
+  margin: 32px 0 32px 0;
+}
+.end {
+  margin-left: auto;
+}
+.btnn {
+  padding: 10px 15px;
+  border-radius: 8px;
+  margin-left: auto;
+  font-weight: 500;
+  color: #00276d;
+  border: 3px solid #00276d;
+}
+.end {
+  margin-left: auto;
+}
+.mt32 {
+  margin-top: 32px;
+}
+.colorBlue {
+  color: #00276d;
+}
+.mt16 {
+  margin-top: 16px;
+}
+.PaymentSS {
+  height: 226px;
+  width: 196px;
+  border-radius: 4px;
+  margin-top: 32px;
+}
+.borderRight {
+  border-right: 2px solid #00276d;
+  width: 200px;
+  text-align: center;
+}
+.textcenter {
+  width: 200px;
+  text-align: center;
+}
+.flx {
+  display: flex;
+  flex-direction: row;
+  align-items: start;
+}
+.outer {
+  height: 91vh;
+}
+.tabless {
+  height: 450px;
+  overflow: hidden;
+  margin-bottom: 40px;
+}
+.flxbtween {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.my32 {
+  margin: 32px 0;
+}
+
+.RefreshIcon {
+  height: 24px;
+  width: 24px;
+  color: #746ca2;
+}
+.outerRefresh {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 32px;
+  width: 32px;
+  border-radius: 50%;
+  margin-left: 16px;
+  background-color: transparent;
+  cursor: pointer;
+}
+.outerRefresh:hover {
+  background-color: #a2a0ac;
+}

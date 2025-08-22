@@ -1,0 +1,135 @@
+.imge3 {
+  height: 24px;
+  width: 24px;
+  cursor: pointer;
+  color: black;
+}
+.imageTable {
+  height: 24px;
+  width: 24px;
+}
+
+.border {
+  height: 48px;
+  border: 0.5px solid #ccc;
+  border-radius: 4px;
+  width: 100%;
+  padding: 0 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.end {
+  display: flex;
+  justify-content: end;
+  margin-left: auto;
+}
+.flx {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 100%;
+}
+.text {
+  color: #7d7d7d;
+
+  font-size: 14px;
+  font-weight: 300;
+  width: 90%;
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  display: "flex";
+  align-items: end;
+  margin: "0 30px  0 10px";
+}
+
+.wrapper {
+  padding: 10px;
+  border-radius: 8px;
+  max-width: 200px;
+  margin: 0 auto;
+}
+
+.disabled {
+  cursor: not-allowed;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.placeholderWrapper {
+  width: 80%;
+  overflow: hidden;
+}
+
+.placeholderText {
+  font-size: 11px;
+
+  color: #7d7d7d;
+  text-align: start;
+  max-height: 19px;
+  overflow: hidden;
+}
+
+.buttonWrapper {
+  width: 20%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.buttonImage {
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+}
+
+.imagePreview {
+  max-width: 100px;
+  max-height: 100px;
+  margin-right: 10px;
+  border-radius: 4px;
+}
+.underline {
+  width: 100%;
+}
+.wrapperProfile {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.imageContainerProfile {
+  width: 150px;
+  height: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f0f0f0;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.imagePreviewProfile {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.placeholderTextProfile {
+  font-size: 14px;
+  color: #888;
+}
+
+.underlineProfile {
+  width: 100%;
+  height: 1px;
+  background-color: #ccc;
+  margin-top: 8px;
+}

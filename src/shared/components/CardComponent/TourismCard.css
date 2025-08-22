@@ -1,0 +1,183 @@
+.tourism-card {
+  display: flex;
+  margin: 0px 191px;
+}
+
+.content {
+  flex: 1;
+  padding: 20px;
+  background: #f0f4f7;
+}
+
+.heading {
+  font-size: 24px;
+  font-weight: 600;
+  color: #000000;
+  line-height: 33.28px;
+  /* text-align: left; */
+  letter-spacing: 0%;
+}
+
+.underline {
+  width: 130px;
+  border: 2px solid #ff7631;
+  margin: 10px 0;
+}
+
+.subtitle {
+  font-size: 16px;
+  font-weight: 600;
+  color: #000000;
+  line-height: 24px;
+  text-align: left;
+  letter-spacing: 0%;
+  margin-top: 40px;
+}
+
+.description {
+  font-size: 14px;
+  font-weight: 400;
+  color: #000000;
+  line-height: 20px;
+  text-align: justify;
+  letter-spacing: 0%;
+  margin-top: 10px;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 40px;
+}
+
+.logo {
+  width: 78px;
+  height: 32px;
+  object-fit: cover;
+}
+.media > img,
+video {
+  height: 100% !important;
+}
+
+.book-now {
+  background: #ff6600;
+  color: white;
+  padding: 10px 25px;
+  border: none;
+  border-radius: 16px;
+  cursor: pointer;
+}
+
+.media {
+  position: relative;
+  flex: 1;
+  background-color: #000000;
+}
+
+.image,
+.video {
+  width: 100%;
+}
+
+.play-button {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: #ff6600;
+  color: white;
+  border: none;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  font-size: 18px;
+  cursor: pointer;
+}
+@media (max-width: 1024px) {
+  .media {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+@media (max-width: 1200px) {
+  .tourism-card {
+    margin: 0px 100px;
+  }
+}
+
+@media (max-width: 992px) {
+  .tourism-card {
+    margin: 0px 50px;
+  }
+}
+@media (max-width: 768px) {
+  .tourism-card {
+    text-align: center;
+    margin: 24px;
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+  .book-now {
+    margin-top: 10px;
+  }
+}
+@media (min-width: 1440px) {
+  .media {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
+@media (min-width: 1920px) {
+  .description {
+    font-size: 16px;
+    margin-top: 20px;
+    font-weight: 400;
+  }
+  .subtitle {
+    font-size: 20px;
+    margin-top: 45px;
+  }
+  .heading {
+    font-size: 30px;
+  }
+}
+@media (min-width: 2560px) {
+  .description {
+    font-size: 20px;
+    margin-top: 40px;
+    font-weight: 400;
+  }
+  .subtitle {
+    font-size: 25px;
+    margin-top: 60px;
+  }
+  .heading {
+    font-size: 35px;
+  }
+  .logo {
+    width: 100px;
+    height: 42px;
+    object-fit: cover;
+  }
+  .book-now {
+    background: #ff6600;
+    color: white;
+    padding: 14px 30px;
+    border: none;
+    border-radius: 16px;
+    cursor: pointer;
+    font-size: 18px;
+  }
+  .footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 100px;
+  }
+}

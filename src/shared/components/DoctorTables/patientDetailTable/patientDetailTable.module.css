@@ -1,0 +1,202 @@
+.tableData {
+  overflow: auto;
+  height: 290px;
+}
+.tableData::-webkit-scrollbar {
+  display: none;
+}
+.tableData::-webkit-scrollbar-track {
+  display: none;
+}
+
+.tableData::-webkit-scrollbar-thumb {
+  display: none;
+}
+
+.tableData::-webkit-scrollbar-thumb:hover {
+  display: none;
+}
+.tableRow {
+  width: 100%;
+}
+.tableRow:hover {
+  background-color: white !important;
+}
+.wapper > tr {
+  color: #000000 !important;
+  border: 1px solid #d8e1ec;
+  font-size: 14px;
+  font-weight: 500;
+  background-color: white !important;
+}
+.wapper > tr:hover {
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 0px 0px,
+    rgba(136, 134, 134, 0.23) 4px 3px 10px;
+  transform: scale(1);
+  color: #000000 !important;
+  background-color: white !important;
+}
+.w20 {
+  width: 16.66% !important;
+  text-align: center;
+}
+.headerclass {
+  width: 16.66% !important;
+  text-align: center;
+  padding: 15px;
+}
+.headerOuter {
+  display: flex;
+  align-items: center;
+  /* background-color: white; */
+  /* color: black; */
+  background-color: #a2a3a4;
+  color: white;
+  border-radius: 4px 4px 0 0;
+  font-size: 16px;
+  font-weight: 600;
+  position: sticky !important;
+  top: 0px;
+}
+.Physiotherists {
+  display: flex;
+  align-items: center;
+  /* background-color: white; */
+  /* color: black; */
+  background-color: #a2968e;
+  color: white;
+  border-radius: 4px 4px 0 0;
+  font-size: 16px;
+  font-weight: 600;
+  position: sticky !important;
+  top: 0px;
+}
+.Nutrists {
+  display: flex;
+  align-items: center;
+  /* background-color: white; */
+  /* color: black; */
+  background-color: #bcc3a0;
+  color: white;
+  border-radius: 4px 4px 0 0;
+  font-size: 16px;
+  font-weight: 600;
+  position: sticky !important;
+  top: 0px;
+}
+.ParaMedic {
+  display: flex;
+  align-items: center;
+  /* background-color: white; */
+  /* color: black; */
+  background-color: #50b4c3;
+  color: white;
+  border-radius: 4px 4px 0 0;
+  font-size: 16px;
+  font-weight: 600;
+  position: sticky !important;
+  top: 0px;
+}
+.Psychologists {
+  display: flex;
+  align-items: center;
+  /* background-color: white; */
+  /* color: black; */
+  background-color: #de987c;
+  color: white;
+  border-radius: 4px 4px 0 0;
+  font-size: 16px;
+  font-weight: 600;
+  position: sticky !important;
+  top: 0px;
+}
+.outerContainer {
+  padding: 16px;
+  border-radius: 4px;
+  background-color: white;
+  height: 78vh;
+}
+.view {
+  color: #00276d;
+  cursor: pointer;
+}
+.blue {
+  color: blue;
+}
+.view:hover {
+  text-decoration: underline;
+  text-align: center;
+}
+.close {
+  color: #7d7d7d;
+  height: 20px;
+  width: 20px;
+  cursor: pointer;
+}
+.mt16 {
+  margin-top: 16px;
+}
+.mt8 {
+  margin-top: 8px;
+}
+.mt24 {
+  margin-top: 24px;
+}
+.Cursor {
+  cursor: pointer;
+}
+
+.ViewModal {
+  width: 500px;
+  color: #00276d;
+  height: 300px;
+}
+.Viewdetails {
+  overflow: auto;
+}
+.Viewdetails::-webkit-scrollbar {
+  display: none;
+}
+.p24 {
+  padding: 24px 0;
+}
+/* Track */
+.Viewdetails::-webkit-scrollbar-track {
+  display: none;
+}
+
+/* Handle */
+.Viewdetails::-webkit-scrollbar-thumb {
+  display: none;
+}
+
+/* Handle on hover */
+.Viewdetails::-webkit-scrollbar-thumb:hover {
+  display: none;
+}
+.prescriptionmodel {
+  width: 500px;
+  color: #00276d;
+  height: 300px;
+}
+.prescriptionmodel {
+  overflow: auto;
+}
+.prescriptionmodel::-webkit-scrollbar {
+  display: none;
+}
+
+/* Track */
+.prescriptionmodel::-webkit-scrollbar-track {
+  display: none;
+}
+
+/* Handle */
+.prescriptionmodel::-webkit-scrollbar-thumb {
+  display: none;
+}
+
+/* Handle on hover */
+.prescriptionmodel::-webkit-scrollbar-thumb:hover {
+  display: none;
+}

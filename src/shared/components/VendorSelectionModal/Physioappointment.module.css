@@ -1,0 +1,535 @@
+.card {
+  width: 26%;
+  box-sizing: border-box;
+  border-radius: 16px;
+  background-color: #f5f5f5;
+  padding: 20px 30px;
+  margin-top: 74px;
+  margin-right: 32px;
+  text-align: center;
+  color: #00276d;
+}
+.flxStart {
+  display: flex;
+  flex-direction: row;
+  align-items: start;
+  justify-content: start;
+}
+.outerContainer {
+  padding: 16px;
+  border-radius: 4px;
+  background-color: white;
+  min-height: 78vh;
+  max-height: auto;
+}
+.mt32 {
+  margin-top: 32px;
+}
+.mt16 {
+  margin-top: 16px;
+}
+.mt24 {
+  margin-top: 24px;
+}
+.check {
+  width: 27px;
+  height: 27px;
+  margin-right: 35px;
+  color: #0b7328;
+}
+.cross {
+  width: 35px;
+  height: 35px;
+  margin-right: 35px;
+  color: #fb2047;
+}
+
+.Viewmore {
+  display: flex;
+  margin: 56px auto;
+  width: 210px;
+}
+.flxwrap {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.mt8 {
+  margin-top: 8px;
+}
+.selection {
+  color: #00276d;
+  border: none;
+  outline: none;
+  font-weight: 600;
+  font-size: 16px;
+  margin-bottom: 32px;
+}
+.empty3 {
+  width: 256px;
+  height: 250px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.textcenter {
+  text-align: center;
+}
+.emptyOuter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 450px;
+}
+.flx {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.appCards {
+  margin-top: 12px;
+  border-radius: 11px;
+  border: 1px solid #13a89e;
+  height: 40px;
+  width: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 16px;
+  color: #13a89e;
+  cursor: pointer;
+}
+.flxalignStart {
+  display: flex;
+  align-items: start;
+}
+.appCards:hover {
+  margin-top: 12px;
+  border-radius: 11px;
+  border: 1px solid #13a89e;
+  background-color: #13a89e;
+  height: 40px;
+  width: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 16px;
+  color: white;
+  cursor: pointer;
+}
+.iccons {
+  height: 24px;
+  width: 24px;
+}
+
+.back {
+  height: 24px;
+  width: 24px;
+  margin-right: 24px;
+  color: #00276d;
+}
+.docInfoCard {
+  border-radius: 16px;
+  background-color: #f5f5f5;
+  width: 100%;
+  box-sizing: border-box;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  color: #00276d;
+}
+.colorGray {
+  color: rgba(8, 12, 47, 0.65);
+}
+.mr8 {
+  margin-right: 8px;
+}
+.mr16 {
+  margin-right: 16px;
+}
+.mr32 {
+  margin-right: 32px;
+}
+.my8 {
+  margin: 8px 0;
+}
+.ml16 {
+  margin-left: 16px;
+}
+.dropdownApp {
+  margin-top: 16px !important;
+  border-radius: 16px !important;
+  background-color: #e2f0f8 !important;
+}
+.dropdownApp2 {
+  margin-top: 16px;
+  border-radius: 16px !important;
+  background-color: #a5dbfa !important;
+}
+.border {
+  border-top: 2px solid #00276d;
+}
+.PrescriptionColor {
+  background-image: linear-gradient(#a5dbfa, white);
+}
+.share {
+  color: white;
+  background-color: #0b7328;
+  font-size: 16px;
+  font-weight: 600;
+  border-radius: 8px;
+  width: 160px;
+  border: 2px solid #0b7328;
+  padding: 10px 0;
+}
+.shareIcon {
+  height: 24px;
+  width: 24px;
+  margin-right: 16px;
+  color: white;
+}
+.flxBtn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.Stethoscopeicons {
+  height: 32px;
+  width: 32px;
+  margin-right: 16px;
+  color: #00276d;
+}
+.flxBetween {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.notePad {
+  height: 250px;
+  margin-left: 16px;
+  background-color: #f6e372;
+  margin-bottom: 24px;
+}
+.notePadd > textarea:focus {
+  outline: none !important;
+}
+.notePadHeader {
+  background-image: linear-gradient(#f6e372, #fced8b);
+  height: 50px;
+  color: #00276d;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.DoseText {
+  width: 100%;
+  border-radius: 8px;
+  border: 1px solid #00276d;
+  background-color: transparent;
+  height: 73px;
+  box-sizing: border-box;
+  font-size: 14px;
+  padding: 7px;
+}
+.DoseText:focus {
+  outline: none !important;
+}
+.iconBlue {
+  color: #00276d;
+  margin: 0 8px 0 24px;
+}
+.iconOrange {
+  color: #ff7631;
+  margin: 0 8px 0 340px;
+}
+.tableData {
+  overflow: auto;
+  height: 62vh;
+}
+.tableData::-webkit-scrollbar {
+  display: none;
+}
+.tableData::-webkit-scrollbar-track {
+  display: none;
+}
+
+.tableData::-webkit-scrollbar-thumb {
+  display: none;
+}
+
+.tableData::-webkit-scrollbar-thumb:hover {
+  display: none;
+}
+.tableRow {
+  width: 100%;
+}
+.tableRow:hover {
+  box-shadow: rgba(0, 0, 0, 0.16) 2px 2px 4px, rgba(0, 0, 0, 0.23) 2px 2px 4px;
+  color: #000000 !important;
+  background-color: white !important;
+}
+.wapper > tr {
+  color: #000000 !important;
+  border: 1px solid #d8e1ec;
+  font-size: 14px;
+  font-weight: 500;
+  background-color: white !important;
+  cursor: pointer;
+}
+.wapper > tr:hover {
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 0px 0px,
+    rgba(136, 134, 134, 0.23) 4px 3px 10px;
+
+  transform: scale(1);
+  color: #000000 !important;
+  background-color: white !important;
+  cursor: pointer;
+}
+.w20 {
+  width: 16.66% !important;
+  text-align: center;
+}
+
+.headerclass {
+  width: 16.66% !important;
+  text-align: center;
+  padding: 15px;
+}
+.headerclassStart {
+  width: 16.66% !important;
+  text-align: start;
+  padding: 15px;
+}
+.headerOuter {
+  display: flex;
+  align-items: center;
+  /* background-color: white; */
+  /* color: black; */
+  background-color: #13a89e;
+  color: white;
+  border-radius: 4px 4px 0 0;
+  font-size: 16px;
+  font-weight: 600;
+  position: sticky !important;
+  top: 0px;
+}
+.outerContainer {
+  padding: 16px;
+  border-radius: 4px;
+  background-color: white;
+  height: 78vh;
+}
+.aavaatr {
+  height: 40px;
+  width: 40px;
+  margin-right: 8px;
+}
+.iconss {
+  height: 20px;
+  width: 20px;
+  color: #13a89e;
+  margin-right: 8px;
+  margin-left: 16px;
+}
+.iconBox {
+  border-radius: 11px;
+  border: 1px solid #13a89e;
+  height: 30px;
+  width: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 16px;
+  color: #13a89e;
+}
+.iconBox:hover {
+  border-radius: 11px;
+  background-color: #13a89e;
+  height: 30px;
+  width: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 16px;
+  color: white;
+}
+.Icccons {
+  height: 16px;
+  width: 16px;
+}
+.flxCenter {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.flxStart {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+}
+.Refresh {
+  height: 20px;
+  width: 20px;
+  color: #a2a3a4;
+  margin-left: 8px;
+  cursor: pointer;
+}
+.cursor {
+  cursor: pointer;
+}
+.DoctorSearch {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+.DoctorSearch > input {
+  border: none;
+  background-color: transparent;
+  outline: none;
+  font-size: 16px;
+  font-weight: 500px;
+  color: #00276d;
+}
+.DoctorSearch > input :focus {
+  border: none;
+}
+.DoctorSearch > input::placeholder {
+  color: #a2a3a4;
+}
+.DoctorSearch {
+  border-bottom: 2px solid #00276d;
+}
+.doctorcard {
+  padding: 8px;
+  border-bottom: 1px solid #e0e9f4;
+}
+.avatar {
+  height: 48px;
+  width: 48px;
+  margin-right: 24px;
+}
+.Checkbox {
+  border-radius: 25%;
+  color: green;
+}
+.end {
+  margin-left: auto;
+}
+.mt16 {
+  margin-top: 16px;
+}
+.hospitalNameCard {
+  padding: 5px;
+  background-color: green;
+  color: white;
+  border-radius: 8px;
+  display: flex;
+  margin-right: 16px;
+}
+.flxWrap {
+  width: 300px;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 24px;
+}
+.close {
+  color: #00276d;
+  height: 24px;
+  width: 24px;
+  cursor: pointer;
+}
+.closeouter {
+  height: 15px;
+  width: 15px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  color: #00276d;
+  position: relative;
+  bottom: 15px;
+  box-shadow: 1px 1px 2px 1px gray;
+  left: 8px;
+}
+.back {
+  cursor: pointer;
+}
+.closeIcon {
+  margin-left: auto;
+}
+.closefinal {
+  cursor: pointer;
+  color: #00276d;
+  font-size: 24px;
+  margin-bottom: 16px;
+}
+.cancel {
+  width: 100%;
+  background-color: green;
+  color: white;
+  border: none;
+}
+.iconxx {
+  height: 24px;
+  width: 24px;
+  color: #13a89e;
+  margin-right: 8px;
+}
+.flxIcons {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+.code {
+  display: flex;
+}
+.Refer {
+  cursor: pointer;
+}
+.Refer:hover {
+  text-decoration: underline;
+}
+.done {
+  color: green;
+  height: 82px;
+  width: 82px;
+  display: flex;
+  margin: 0 auto 16px auto;
+}
+.loader {
+  height: 400px;
+  overflow: auto;
+}
+.loader::-webkit-scrollbar {
+  display: none;
+}
+
+/* Track */
+.loader::-webkit-scrollbar-track {
+  display: none;
+}
+
+/* Handle */
+.loader::-webkit-scrollbar-thumb {
+  display: none;
+}
+
+/* Handle on hover */
+.loader::-webkit-scrollbar-thumb:hover {
+  display: none;
+}
+.referImg {
+  height: 32px;
+  width: 32px;
+}
+.textcenter {
+  text-align: center;
+}
+
+.refer {
+  cursor: pointer;
+}

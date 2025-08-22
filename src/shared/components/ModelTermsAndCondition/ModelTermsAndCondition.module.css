@@ -1,0 +1,190 @@
+.termsContainer {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
+}
+
+.logoContainer {
+  text-align: left;
+  margin-bottom: 20px;
+}
+
+.logo {
+  width: 150px;
+}
+
+.heading {
+  color: #0e54a3;
+  font-size: 28px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.companyName {
+  color: #0e54a3;
+  font-size: 22px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+.paragraph {
+  color: #666666;
+  line-height: 1.7;
+  margin-bottom: 15px;
+}
+
+.subheading {
+  color: #0e54a3;
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.list {
+  color: #ff8c00;
+  margin-left: 20px;
+  margin-bottom: 15px;
+  padding-left: 15px;
+}
+
+.list li {
+  margin: 8px 10px;
+  line-height: 1.5;
+  color: #0e54a3;
+     text-align:justify;
+    text-align-last: left;
+     white-space: pre-line;
+
+}
+
+.checkboxLabel {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+
+/* Hide the default checkbox */
+.checkbox {
+  display: none;
+}
+
+.customCheckbox {
+  width: 20px;
+  height: 20px;
+  border: 2px solid #ff8c00;
+  border-radius: 4px;
+  margin-right: 10px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background-color 0.2s ease;
+}
+
+/* Custom checkmark */
+.customCheckbox::after {
+  content: "";
+  width: 10px;
+  height: 10px;
+  border: solid white;
+  border-width: 0 2px 2px 0;
+  transform: rotate(45deg);
+  opacity: 0;
+  transition: opacity 0.2s ease;
+  position: absolute;
+}
+
+.checkbox:checked + .customCheckbox {
+  background-color: #ff8c00;
+}
+
+.checkbox:checked + .customCheckbox::after {
+  opacity: 1;
+}
+
+.footer {
+  font-weight: bold;
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+
+.contactInfo {
+  color: #666666;
+  margin-top: 10px;
+}
+
+.highlight {
+  color: #ff8c00;
+  font-weight: bold;
+}
+.modalOverlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+}
+
+.modalContent {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  width: 100%;
+  max-width: 900px;
+  max-height: 92vh;
+  overflow-y: auto;
+  position: relative;
+  scrollbar-width: none;
+}
+.modalContent::-webkit-scrollbar {
+  display: none;
+}
+.closeButton {
+  position: absolute;
+  top: 5%;
+  right: 5%;
+  background: none;
+  border: none;
+
+  font-size: 24px;
+  cursor: pointer;
+}
+.closeButtonContainer {
+  display: flex;
+  justify-content: center;
+  /* Center the button horizontally */
+  margin-top: 20px;
+  /* Space between content and button */
+}
+
+.closeButtonClose {
+  padding: 10px 20px;
+  /* Add some padding for the button */
+  background-color: #ff8c00;
+  /* Orange background for consistency */
+  color: #ffffff;
+  /* White text for contrast */
+  border: none;
+  /* Remove default border */
+  border-radius: 5px;
+  /* Rounded corners for a modern look */
+  cursor: pointer;
+  /* Pointer cursor on hover */
+  transition: background-color 0.2s ease;
+  /* Smooth background transition */
+}
+
+.closeButtonClose:hover {
+  background-color: #e07b00;
+  /* Darker shade on hover */
+}

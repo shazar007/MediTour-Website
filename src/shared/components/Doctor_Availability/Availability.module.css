@@ -1,0 +1,519 @@
+.outerContainer {
+  padding: 16px;
+  border-radius: 4px;
+  background-color: white;
+  min-height: 78vh;
+  max-height: auto;
+}
+.Carda {
+  width: 328px;
+  height: 128px;
+  background-color: #e3f5ff;
+  border-radius: 16px;
+  padding: 0 32px;
+  box-shadow: 0 5px 5px 0 gray;
+}
+.Cardb {
+  width: 328px;
+  height: 128px;
+  background-color: #e5ecf6;
+  border-radius: 16px;
+  margin: 0 25px;
+  padding: 0 32px;
+  box-shadow: 0 5px 5px 0 gray;
+}
+.chart {
+  height: 89px;
+  width: 89px;
+  margin-top: 20px;
+}
+.selection > select {
+  font-weight: bold;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  padding-top: 25px;
+}
+.medical > li {
+  margin: 0 100px;
+}
+.doctorss > nav {
+  height: 72px;
+  display: flex;
+  justify-content: center;
+  background-color: white;
+  height: 50px;
+  position: sticky;
+  z-index: 1;
+  top: 15%;
+}
+
+.navvvlink {
+  margin: 0 15px;
+  font-size: 14px;
+  font-weight: 600;
+  color: #d9d9d9 !important;
+  font-size: 16px;
+  font-weight: 600;
+}
+.selected {
+  border-bottom: 2px solid #020e35;
+  color: #020e35 !important;
+}
+.empty {
+  width: 256px;
+  height: 250px;
+  display: flex;
+  margin: auto;
+}
+
+.start {
+  display: flex;
+  justify-content: start;
+}
+.end {
+  display: flex;
+  justify-content: end;
+}
+.close {
+  outline: none;
+  font-size: 20px;
+  background-color: transparent;
+  color: #00276d;
+  border: none;
+  cursor: pointer;
+}
+.datebox {
+  height: 45px;
+  border-radius: 8px;
+  width: 532px;
+  padding: 2px 40px;
+  background-color: #00276d;
+  margin-top: 8px;
+  color: white;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.closee {
+  height: 24px;
+  width: 24px;
+  color: #fb2047;
+}
+.mrauto {
+  margin-left: auto;
+}
+.dropdown {
+  background-color: #f5f5f5 !important;
+  border-radius: 8px !important;
+  width: 612px !important;
+  color: #00276d !important;
+  font-size: 16px !important;
+  box-sizing: border-box;
+  font-weight: 600 !important;
+  margin: 8px;
+}
+.borderbttom {
+  border-bottom: 1px solid #6f6f72;
+  width: 190px;
+}
+.editbox {
+  height: 35px;
+  background-color: white;
+  color: #13a89e;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 10px;
+  cursor: pointer;
+}
+.deletebtn {
+  height: 35px;
+  width: 35px;
+  background-color: white;
+  color: #13a89e;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+
+  margin-left: 8px;
+}
+.editbtn {
+  color: #00276d;
+  border-radius: 8px;
+  padding: 5px 10px;
+  display: flex;
+  flex-direction: row;
+}
+.ml20 {
+  padding-left: 25px;
+}
+.pr20 {
+  padding-right: 25px;
+}
+.cancel {
+  padding: 5px 15px;
+  margin-top: 56px;
+  margin-right: 32px;
+  background-color: #f0f2f6;
+  color: #f93a5d;
+  font-size: 14px;
+  font-weight: 600;
+  border-radius: 8px;
+  border: 1px solid #f0f2f6;
+}
+.save {
+  padding: 5px 15px;
+  margin-top: 56px;
+  margin-right: 32px;
+  background-color: #f0f2f6;
+  color: #0b7328;
+  font-size: 14px;
+  font-weight: 600;
+  border-radius: 8px;
+  border: 1px solid #f0f2f6;
+}
+.logo {
+  height: 16px;
+  width: 16px;
+  margin-top: 5px;
+  margin-right: 8px;
+}
+.Faedit {
+  margin-right: 8px;
+}
+.mainSelection {
+  display: flex;
+  justify-content: center;
+}
+.Selections {
+  width: 150px;
+  color: #00276d;
+  font-size: 16px;
+  font-weight: 600;
+  outline: none !important;
+  border-bottom: 2px solid #00276d;
+}
+.Selections ::after {
+  outline: none !important;
+  border: none !important;
+}
+
+.clinic {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 32px;
+  font-size: 16px;
+  font-weight: 600;
+  color: #00276d;
+}
+.Inhouse {
+  display: fl ex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 32px;
+  font-size: 16px;
+  font-weight: 600;
+  color: #00276d;
+}
+
+.mr16 {
+  margin-right: 16px;
+}
+.ml16 {
+  margin-left: 16px;
+}
+.cursor {
+  cursor: pointer;
+}
+.gap32 {
+  display: flex;
+  align-items: center;
+  gap: 32px;
+}
+/* Catgeroy */
+.clinicCard {
+  width: 34%;
+  box-sizing: border-box;
+  padding: 20px;
+  border-radius: 16px;
+  height: 265px;
+  color: white;
+  box-sizing: border-box;
+  background-size: cover;
+  cursor: pointer;
+}
+.InhouseCard {
+  width: 34%;
+  color: white;
+  box-sizing: border-box;
+  padding: 20px;
+  border-radius: 16px;
+  box-sizing: border-box;
+  height: 265px;
+  background-size: cover;
+  cursor: pointer;
+}
+.borderbttom {
+  border-bottom: 1px solid #6f6f72;
+  width: 100%;
+}
+.HospitalCard {
+  color: white;
+  width: 34%;
+  box-sizing: border-box;
+  padding: 20px;
+  border-radius: 16px;
+  height: 265px;
+  background-size: cover;
+  cursor: pointer;
+}
+.ConsultancyCard {
+  color: white;
+  width: 34%;
+  box-sizing: border-box;
+  padding: 20px;
+  border-radius: 16px;
+  height: 265px;
+  background-image: url("../../../../assets/images/VideoConsultancyBack.png");
+  background-size: cover;
+  cursor: pointer;
+}
+.mt16 {
+  margin-top: 16px;
+}
+.texts {
+  margin-top: 206px;
+}
+.flxWrap {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+  margin-top: 24px;
+}
+
+.end {
+  display: flex;
+  justify-content: end;
+}
+.start {
+  text-align: start;
+}
+
+.btnx {
+  background-color: #00276d;
+  color: white;
+  border: 1px solid #00276d;
+  border-radius: 8px;
+  width: 210px;
+  height: 44px;
+  margin-top: 32px;
+  /* margin-left: 95px; */
+}
+.flx {
+  display: flex;
+  flex-direction: row;
+}
+.actual {
+  border-bottom: 1px solid #6f6f72;
+  width: 190px;
+  margin-right: 32px;
+}
+.back {
+  color: #00276d;
+  margin-right: 16px;
+  height: 24px;
+  width: 24px;
+  cursor: pointer;
+}
+.hospitalAvailabes {
+  color: white;
+  width: 34%;
+  box-sizing: border-box;
+  padding: 20px;
+  border-radius: 16px;
+  background-color: #00276d;
+  height: 140px;
+  margin-top: 24px;
+  margin-right: 24px;
+}
+.hospitalLogo {
+  height: 60px;
+  width: 60px;
+}
+.error {
+  color: #fb2047;
+  font-style: normal;
+  font-weight: 400;
+  width: 35%;
+}
+.flexxx {
+  display: flex;
+  flex-direction: column;
+}
+.RefreshIcon {
+  height: 24px;
+  width: 24px;
+  color: #13a89e;
+}
+.outerRefresh {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 32px;
+  width: 32px;
+  border-radius: 50%;
+  margin-left: 16px;
+  background-color: transparent;
+  cursor: pointer;
+}
+.outerRefresh:hover {
+  background-color: #c9d8e2;
+}
+.btnwidth {
+  width: 120px;
+  margin-top: 24px;
+}
+.emptyOuter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 450px;
+}
+.addbtn {
+  height: 24px;
+  width: 24px;
+  color: #13a89e;
+  margin-left: 16px;
+  cursor: pointer;
+}
+.back {
+  color: #00276d;
+  margin-right: 16px;
+  height: 24px;
+  width: 24px;
+  cursor: pointer;
+}
+.mr87 {
+  margin-right: 87px;
+}
+.fs24 {
+  font-size: 24px;
+}
+.modelWidth {
+  width: 510px;
+}
+.modelflx {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+.InputWidt {
+  width: 100%;
+}
+@media (min-width: 320px) and (max-width: 480px) {
+  .modelflx {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 16px;
+  }
+  .fs24 {
+    font-size: 20px;
+  }
+  .gap32 {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 16px;
+  }
+  .flx {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  .dropdown {
+    background-color: #f5f5f5 !important;
+    border-radius: 8px !important;
+    width: auto !important;
+    color: #00276d !important;
+    font-size: 16px !important;
+    font-weight: 600 !important;
+    box-sizing: border-box;
+  }
+  .mr87 {
+    margin-right: 20px;
+  }
+  .clinicCard {
+    width: 100%;
+  }
+  .InhouseCard {
+    width: 100%;
+  }
+  .HospitalCard {
+    width: 100%;
+  }
+  .ConsultancyCard {
+    width: 100%;
+  }
+}
+
+@media (min-width: 481px) and (max-width: 768px) {
+  .dropdown {
+    background-color: #f5f5f5 !important;
+    border-radius: 8px !important;
+    width: auto !important;
+    color: #00276d !important;
+    font-size: 16px !important;
+    font-weight: 600 !important;
+    box-sizing: border-box;
+  }
+  .mr87 {
+    margin-right: 30px;
+  }
+  .clinicCard {
+    width: 48%;
+  }
+
+  .InhouseCard {
+    width: 48%;
+  }
+  .HospitalCard {
+    width: 48%;
+  }
+  .ConsultancyCard {
+    width: 48%;
+  }
+}
+@media (min-width: 769px) and (max-width: 1040px) {
+  .mr87 {
+    margin-right: 87px;
+  }
+  .clinicCard {
+    width: 48%;
+  }
+
+  .InhouseCard {
+    width: 48%;
+  }
+  .HospitalCard {
+    width: 48%;
+  }
+  .ConsultancyCard {
+    width: 48%;
+  }
+}
+@media (min-width: 1041px) and (max-width: 1440px) {
+  .mr87 {
+    margin-right: 87px;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 2800px) {
+}

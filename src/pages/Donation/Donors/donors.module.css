@@ -1,0 +1,139 @@
+.flx {
+  display: flex;
+  flex-direction: row;
+}
+.alignItemsCenter {
+  align-items: center;
+}
+
+.flxp {
+  display: flex;
+  flex-direction: row;
+}
+
+.card {
+  width: 400px;
+  border-radius: 16px;
+  background-color: #f5fcff;
+  padding: 20px;
+  margin-left: 16px;
+}
+.alignItemsCenter {
+  align-items: center;
+}
+.card2 {
+  margin-top: 24px;
+  width: 400px;
+  border-radius: 16px;
+  background-color: #f5fcff;
+  padding: 20px;
+  margin-left: 16px;
+}
+.check {
+  background-color: #0b7328;
+  height: 32px;
+  width: 32px;
+  border-radius: 8px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.edit {
+  background-color: #ff7631;
+  height: 32px;
+  width: 32px;
+  border-radius: 8px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 8px;
+}
+.file {
+  height: 24px;
+  width: 24px;
+  margin-right: 24px;
+}
+.download {
+  height: 24px;
+  width: 24px;
+  margin-left: auto;
+}
+.user {
+  width: 300px;
+  border-right: 2px dashed #00276d;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.textcenter {
+  text-align: center;
+}
+.middel {
+  text-align: center;
+  border-right: 2px dashed #00276d;
+  width: 50%;
+}
+.sendbtn {
+  background-color: transparent;
+  border-radius: 8px;
+  border: 2px solid #00276d;
+  color: #00276d;
+  padding: 10px 15px;
+  font-size: 16px;
+  font-weight: 600;
+  margin: 24px auto 0 auto;
+}
+
+.outer {
+  height: 91vh;
+}
+
+.my32 {
+  margin: 32px 0;
+}
+
+.btnWidth {
+  width: 210px;
+  margin-top: 56px;
+}
+
+.DeleIons {
+  margin: 0 12px;
+  height: 25px;
+  width: 25px;
+  color: #00276d;
+  padding: 10px;
+}
+.DeleIons:hover {
+  background-color: #f9a035;
+  border-radius: 8px;
+}
+
+.end {
+  margin-left: auto;
+}
+.profile {
+  height: 100px;
+  width: 100px;
+  color: #00276d;
+}
+.avatar {
+  height: 120px;
+  width: 120px;
+  margin-top: 32px;
+}
+.mt32 {
+  margin-top: 32px;
+}
+.mt8 {
+  margin-top: 8px;
+}
+
+.back {
+  height: 24px;
+  width: 24px;
+  margin-right: 24px;
+  color: #00276d;
+}

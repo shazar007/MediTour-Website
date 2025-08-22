@@ -1,0 +1,15 @@
+.icon {
+  height: 24px;
+  width: 24px;
+  cursor: pointer;
+}
+.filename {
+  font-weight: 400;
+  font-size: 14px;
+  margin: 0%;
+}
+.downloaderContainer {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}

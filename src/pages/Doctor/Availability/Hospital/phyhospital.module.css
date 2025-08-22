@@ -1,0 +1,287 @@
+.outerContainer {
+  padding: 24px;
+  border-radius: 16px;
+  background-color: white;
+  box-shadow: 4px 4px 12px 0px #00000040;
+  margin-bottom: 24px;
+}
+
+.delete {
+  color: #ff3b30 !important;
+  cursor: pointer;
+}
+
+.chart {
+  height: 89px;
+  width: 89px;
+  margin-top: 20px;
+}
+.selection > select {
+  font-weight: bold;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  padding-top: 25px;
+}
+.medical > li {
+  margin: 0 100px;
+}
+.doctorss > nav {
+  height: 72px;
+  display: flex;
+  justify-content: center;
+  background-color: white;
+  height: 50px;
+  position: sticky;
+  z-index: 1;
+  top: 15%;
+}
+
+.start {
+  display: flex;
+  justify-content: start;
+}
+.end {
+  display: flex;
+  justify-content: end;
+}
+.close {
+  outline: none;
+  font-size: 20px;
+  background-color: transparent;
+  color: #00276d;
+  border: none;
+  cursor: pointer;
+}
+.datebox {
+  height: 45px;
+  border-radius: 8px;
+  width: 532px;
+  padding: 2px 40px;
+  background-color: #00276d;
+  margin-top: 8px;
+  color: white;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.dropdown {
+  background-color: #f5f5f5 !important;
+  border-radius: 8px !important;
+  width: 612px !important;
+  color: #131313 !important;
+  font-size: 16px !important;
+  font-weight: 600 !important;
+}
+.borderbttom {
+  border-bottom: 1px solid #6f6f72;
+  width: 190px;
+  margin-right: 32px;
+}
+
+.deletebtn {
+  height: 35px;
+  width: 35px;
+  background-color: white;
+  color: #ff3b30;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+
+  margin-left: 8px;
+}
+
+.clinic {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 32px;
+  font-size: 16px;
+  font-weight: 600;
+  color: #00276d;
+}
+.Inhouse {
+  display: fl ex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 32px;
+  font-size: 16px;
+  font-weight: 600;
+  color: #00276d;
+}
+
+.mr16 {
+  margin-right: 16px;
+}
+.ml16 {
+  margin-left: 16px;
+}
+.cursor {
+  cursor: pointer;
+}
+/* Catgeroy */
+.clinicCard {
+  width: 34%;
+  box-sizing: border-box;
+  padding: 20px;
+  border-radius: 16px;
+  height: 265px;
+  margin-top: 24px;
+  color: white;
+  margin-right: 24px;
+  background-size: cover;
+  cursor: pointer;
+}
+.InhouseCard {
+  width: 34%;
+  color: white;
+  box-sizing: border-box;
+  padding: 20px;
+  border-radius: 16px;
+  height: 265px;
+  margin-top: 24px;
+  margin-right: 24px;
+  background-size: cover;
+  cursor: pointer;
+}
+.HospitalCard {
+  color: white;
+  width: 34%;
+  box-sizing: border-box;
+  padding: 20px;
+  border-radius: 16px;
+  height: 265px;
+  margin-top: 24px;
+  background-size: cover;
+  margin-right: 24px;
+  cursor: pointer;
+}
+.ConsultancyCard {
+  color: white;
+  width: 34%;
+  box-sizing: border-box;
+  padding: 20px;
+  border-radius: 16px;
+  height: 265px;
+  margin-top: 24px;
+  margin-right: 24px;
+  background-image: url("../../../../assets/images/VideoConsultancyBack.png");
+  background-size: cover;
+  cursor: pointer;
+}
+.mt16 {
+  margin-top: 16px;
+}
+.texts {
+  margin-top: 206px;
+}
+.flxWrap {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  margin-top: 10px;
+}
+.flx {
+  display: flex;
+  flex-direction: row;
+}
+.end {
+  display: flex;
+  justify-content: end;
+}
+.start {
+  text-align: start;
+}
+
+.btnx {
+  background-color: #00276d;
+  color: white;
+  border: 1px solid #00276d;
+  border-radius: 8px;
+  width: 210px;
+  height: 44px;
+  margin-top: 32px;
+  /* margin-left: 95px; */
+}
+.flx {
+  display: flex;
+  flex-direction: row;
+}
+.actual {
+  border-bottom: 1px solid #6f6f72;
+  width: 190px;
+  margin-right: 32px;
+}
+.back {
+  color: #00276d;
+  margin-right: 16px;
+  height: 24px;
+  width: 24px;
+  cursor: pointer;
+}
+.hospitalAvailabes {
+  color: white;
+  width: 34%;
+  box-sizing: border-box;
+  padding: 20px;
+  border-radius: 16px;
+  background-color: #00276d;
+  height: 140px;
+  margin-top: 24px;
+  margin-right: 24px;
+}
+.hospitalLogo {
+  height: 60px;
+  width: 60px;
+}
+.error {
+  color: #fb2047;
+  font-style: normal;
+  font-weight: 400;
+  width: 35%;
+}
+.flexxx {
+  display: flex;
+  flex-direction: column;
+}
+.Refresh {
+  height: 24px;
+  width: 24px;
+  color: #13a89e;
+  margin-left: 16px;
+  cursor: pointer;
+}
+.btnwidth {
+  width: 120px;
+  margin-top: 24px;
+}
+.emptyOuter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 450px;
+}
+.addbtn {
+  height: 24px;
+  width: 24px;
+  color: #13a89e;
+  margin-left: 16px;
+  cursor: pointer;
+}
+.outerRefresh {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 32px;
+  width: 32px;
+  border-radius: 50%;
+  border-radius: 12px;
+  background-color: #f6fafe33;
+  cursor: pointer;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}

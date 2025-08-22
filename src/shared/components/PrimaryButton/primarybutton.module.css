@@ -1,0 +1,177 @@
+.container {
+  width: 100% !important;
+  height: 48px;
+  align-items: center;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  cursor: pointer;
+  border-radius: 12px;
+  display: flex;
+  justify-content: center;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.container:hover {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transform: translateY(-2px);
+}
+
+.BlueOutine {
+  border: 1px solid #00276d;
+  background-color: white !important;
+  color: #00276d !important;
+  width: 204px;
+  font-size: 16px;
+  font-weight: 600;
+  border-radius: 8px;
+  cursor: pointer;
+}
+.BlueOutine:hover {
+  border: 1px solid #00276d;
+  background-color: #00276d !important;
+  color: white !important;
+  cursor: pointer;
+  border-radius: 8px;
+}
+
+.MedicalService {
+  border: 1px solid #ff7631;
+  background-color: #ff7631 !important;
+  color: white !important;
+  cursor: pointer;
+  border-radius: 8px;
+}
+.GreenOutine {
+  border: 1px solid #0b7328;
+  background-color: white !important;
+  color: #0b7328 !important;
+  width: 204px;
+  font-size: 8px;
+  font-weight: 600;
+  cursor: pointer;
+  border-radius: 8px;
+}
+.SkyBlueOutine {
+  border: 1px solid #099bed;
+  background-color: #099bed !important;
+  color: white !important;
+  width: 204px;
+  font-size: 8px;
+  font-weight: 600;
+  cursor: pointer;
+  border-radius: 8px;
+}
+.GreenOutine:hover {
+  border: 1px solid #0b7328;
+  background-color: #0b7328 !important;
+  color: white !important;
+  cursor: pointer;
+  border-radius: 8px;
+}
+.btnBlue {
+  background-color: #00276d;
+  cursor: pointer;
+  border: 1px solid #00276d;
+}
+.Linear {
+  background-image: linear-gradient(to bottom right, #eaad40, #ff7631);
+  border: none !important;
+  cursor: pointer;
+  color: white !important;
+  border-radius: 8px;
+}
+.Ambulance {
+  border: 1px solid #ff4545;
+  background-color: #ff4545 !important;
+  cursor: pointer;
+  color: white !important;
+  border-radius: 8px;
+}
+.Red {
+  border: 1px solid red;
+  background-color: red !important;
+  cursor: pointer;
+  color: white !important;
+  border-radius: 8px;
+}
+.physiotherapist {
+  border: 1px solid #ff7631;
+  background-color: #ff7631 !important;
+  color: white !important;
+  cursor: pointer;
+  border-radius: 8px;
+}
+.admin {
+  border: 1px solid #0d47a1;
+  background-color: #0d47a1 !important;
+  cursor: pointer;
+  color: white !important;
+  border-radius: 8px;
+  height: 48px;
+  font-size: 16px;
+}
+.Nutritionist {
+  border: 1px solid #bcc3a0;
+  background-color: #bcc3a0 !important;
+  color: white !important;
+  cursor: pointer;
+  border-radius: 8px;
+}
+.ParamedicStaff {
+  border: 1px solid #50b4c3;
+  background-color: #50b4c3 !important;
+  color: white !important;
+  border-radius: 8px;
+}
+
+.Psychologists {
+  border: 1px solid #de987c;
+  background-color: #de987c !important;
+  color: white !important;
+  cursor: pointer;
+  border-radius: 8px;
+}
+
+.Travel {
+  border: 1px solid #33cccc;
+  background-color: #33cccc !important;
+  color: white !important;
+  cursor: pointer;
+  border-radius: 8px;
+}
+
+.Donation {
+  border: 1px solid #e25d5d;
+  background-color: #e25d5d !important;
+  color: white !important;
+  cursor: pointer;
+  border-radius: 8px;
+}
+
+.Insurance {
+  border: 1px solid #746ca2;
+  background-color: #746ca2 !important;
+  color: white !important;
+  cursor: pointer;
+  border-radius: 8px;
+}
+.InsuranceNext {
+  border: 1px solid #746ca2;
+  background-color: #746ca2 !important;
+  color: white !important;
+  cursor: pointer;
+  border-radius: 8px;
+}
+.New_blue {
+  height: 42px;
+  width: 100%;
+  border: 2px solid #0e54a3;
+  color: white;
+  background-color: #0e54a3;
+  border-radius: 24px;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 600;
+}

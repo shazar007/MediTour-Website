@@ -1,0 +1,315 @@
+.containerFlight {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  border-radius: 8px;
+  width: 100%;
+  max-width: 900px;
+  margin: 20px auto;
+  min-height: 900px;
+}
+.editButton {
+  width: 18px;
+  height: 18px;
+  object-fit: contain;
+  cursor: pointer;
+  /* filter: invert(34%) sepia(22%) saturate(3496%) hue-rotate(202deg)
+    brightness(98%) contrast(102%); */
+}
+.heading {
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: #00276d;
+  text-align: center;
+}
+
+.inputContainer {
+  display: flex;
+  justify-content: space-between;
+  /* width: 100%; */
+  margin-left: 50px;
+}
+
+.inputGroup {
+  display: flex;
+  flex-direction: column;
+  margin-right: 15px;
+  flex: 1;
+}
+
+.label {
+  margin-bottom: 5px;
+  font-weight: bold;
+  color: #00276d;
+}
+
+.input {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+  transition: border-color 0.3s, color 0.3s;
+}
+
+.input:hover {
+  border-color: #00276d;
+  color: #00276d;
+}
+
+.fileInput {
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding: 10px;
+  transition: border-color 0.3s, color 0.3s;
+}
+
+.fileInput:hover {
+  border-color: #00276d;
+}
+
+.amenitiesContainer {
+  /* display: flex; */
+  margin-left: 50px;
+  margin-bottom: 20px;
+  max-width: 380px;
+}
+
+.leftGroup,
+.rightGroup {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+}
+
+.radioGroup {
+  display: flex;
+  align-items: center;
+  margin-bottom: 5px;
+}
+
+.radioInput {
+  appearance: none;
+  border: 2px solid #00276d;
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  cursor: pointer;
+  margin-right: 10px;
+  position: relative;
+}
+
+.radioInput:checked {
+  background-color: orange;
+  border: none;
+}
+
+.radioInput:checked::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 7px;
+  height: 7px;
+  background: white;
+  border-radius: 50%;
+}
+
+.orangeLabel {
+  color: orange;
+}
+
+.blueLabel {
+  color: #00276d;
+  font-size: 15px;
+}
+
+.radioInput:checked + label {
+  color: orange;
+}
+
+.amenitiesHeading {
+  color: #00276d;
+  margin-top: 20px;
+  margin-left: 50px;
+  margin-bottom: 10px;
+}
+.addButton {
+  background-color: #00276d;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+.buttonContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.addb {
+  display: flex;
+  margin-top: 30px;
+  align-self: flex-end;
+}
+.deleteIcon {
+  width: 18px;
+  height: 18px;
+  object-fit: contain;
+  cursor: pointer;
+}
+.saveButton {
+  background-color: #00276d;
+  color: white;
+  border: none;
+  border-radius: 20px;
+  width: 30%;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-size: 16px;
+  margin-bottom: 30px;
+}
+
+.saveButton:hover {
+  background-color: #001f4d;
+}
+.flightSummary {
+  background-color: #f0f0f0;
+  padding: 8px;
+  border-radius: 8px;
+  margin-top: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.detailsContainer {
+  /* background-color: #f0f0f0;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); */
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.flightHeading {
+  font-size: 16px;
+  color: #00276d;
+  font-weight: bold;
+}
+.flightHeadingReturn {
+  font-size: 24px;
+  margin-top: 10px;
+  color: #00276d;
+  font-weight: bold;
+}
+
+.detailsButton {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 20px;
+}
+.detailsButtonReturn {
+  background: none;
+  border: none;
+  margin-top: 10px;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+.detailItem {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 8px;
+  font-size: 16px;
+}
+
+.detailHeading {
+  font-weight: bold;
+  color: #00276d;
+}
+
+.detailData {
+  color: #00276d;
+  text-align: right;
+  min-width: 100px;
+}
+
+.amenityItem {
+  margin-right: 4px;
+}
+.imageContainer {
+  display: flex;
+  justify-content: center;
+  margin: 20px 0;
+}
+
+.companyImage {
+  max-width: 200px;
+  height: auto;
+}
+
+.returnButton {
+  background-color: #00276d;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.returnButton:hover {
+  background-color: #00276d;
+}
+.additionalButtonsContainer {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.directButton,
+.stayButton {
+  margin-right: 10px;
+  padding: 8px 12px;
+  background-color: #00276d;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.directButton:hover,
+.stayButton:hover {
+  background-color: #003366;
+}
+
+/* Direct.module.css */
+.cancellationInputContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.cancellationInput {
+  width: 50%;
+  padding: 10px;
+  margin-bottom: 10px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.addBidButton {
+  background-color: green;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  width: 25%;
+  border-radius: 20px;
+  cursor: pointer;
+  margin-top: 10px;
+}

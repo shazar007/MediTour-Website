@@ -1,0 +1,48 @@
+.container {
+  display: flex;
+  overflow: hidden;
+  width: 100%;
+  position: relative;
+}
+
+.logosSlide {
+  display: flex;
+  gap: 20px;
+  padding-left: 10px;
+  animation-play-state: running;
+  flex-shrink: 0; /* Prevent shrinking */
+}
+
+.container:hover .logosSlide {
+  animation-play-state: paused;
+}
+
+.ltrAnimation {
+  animation: scrollLtr 32s linear infinite;
+}
+
+.rtlAnimation {
+  animation: scrollRtl 32s linear infinite;
+  padding-left: 0;
+  padding-right: 10px; /* Mirror padding for RTL */
+}
+
+.logoImage {
+  height: 60px;
+  width: auto;
+  margin: 0 48px;
+  object-fit: contain;
+  flex-shrink: 0; /* Prevent image shrinking */
+}
+
+/* LTR Animation: Move left-to-right */
+@keyframes scrollLtr {
+  0% { transform: translateX(0); }
+  100% { transform: translateX(-50%); }
+}
+
+/* RTL Animation: Move right-to-left */
+@keyframes scrollRtl {
+  0% { transform: translateX(0); }
+  100% { transform: translateX(50%); }
+}

@@ -1,0 +1,149 @@
+.formoutercontainer {
+  display: flex;
+  justify-content: center;
+  padding: 80px 0;
+}
+
+.formcontainer {
+  box-shadow: 1px 1px 12px 2px #0000001f;
+  color: #ffffff;
+  height: auto;
+  padding: 48px;
+  margin-top: 40px;
+  border-radius: 24px;
+  box-sizing: border-box;
+  width: 1120px;
+  min-width: fit-content;
+}
+
+.textarea {
+  width: 100%;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  outline: none;
+  transition: border-color 0.3s ease;
+  background-color: #fff !important;
+  resize: none;
+  padding: 8px;
+  font-size: 14px;
+}
+
+.textarea:focus {
+  border: 2px solid transparent;
+  background-image: linear-gradient(#fff, #fff),
+    linear-gradient(to right, #ff7631, #2575fc);
+  background-origin: border-box;
+  background-clip: padding-box, border-box;
+}
+
+.gettext,
+.orangetext {
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  text-align: center;
+  color: #131313;
+}
+.orangetext {
+  color: #ff7631;
+  font-weight: 600;
+}
+.subtext {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: 0%;
+  color: #131313;
+  margin: auto;
+}
+.subtextcontainer {
+  margin: 16px auto !important;
+  width: 100%;
+  text-align: center;
+}
+.inputarea {
+  margin-top: 48px;
+  margin-bottom: 32px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+.inputfieldz {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 48px;
+  width: 100%;
+}
+.inputfield1 {
+  width: calc(50% - 24px);
+}
+
+.inputfield2 {
+  width: 100%;
+}
+.error {
+  font-size: 12px;
+  margin-top: 4px;
+  color: #ff4d4f;
+  white-space: normal;
+  word-wrap: break-word;
+}
+
+.submitButton {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 14px;
+  font-weight: 600;
+  border: none !important;
+  color: #ffffff;
+  background-color: #0e54a3;
+  border-radius: 24px;
+  padding: 15px 90px;
+  margin-top: 24px;
+  cursor: pointer;
+  height: 45px;
+}
+
+@media (max-width: 1200px) {
+  .formcontainer {
+    width: 90%;
+  }
+}
+
+@media (max-width: 800px) {
+  .inputfield1,
+  .inputfield2 {
+    width: 100%;
+  }
+  .inputfieldz {
+    gap: 10px;
+  }
+
+  .formcontainer {
+    width: 90%;
+  }
+}
+
+@media (max-width: 600px) {
+  .inputfield1,
+  .inputfield2 {
+    width: 100%;
+  }
+  .inputfieldz {
+    gap: 10px;
+  }
+
+  .formcontainer {
+    width: 90%;
+    margin: 24px;
+  }
+  .formcontainer {
+    padding: 24px;
+  }
+}

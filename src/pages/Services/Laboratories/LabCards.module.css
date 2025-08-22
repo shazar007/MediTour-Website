@@ -1,0 +1,459 @@
+/* Container for tabs */
+
+.main {
+}
+
+.Number {
+  font-size: 14px;
+  font-weight: 600;
+  color: #0e54a3;
+}
+
+.loadMoreButton {
+  background-color: #007bff;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.loadMoreButton:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+.flxendfilter {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  gap: 18px;
+  width: 100%;
+}
+
+.tabContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  margin-bottom: 20px;
+}
+
+.tabContainer_2 {
+  display: flex;
+  justify-content: flex-start;
+  margin-bottom: 20px;
+  overflow-x: auto;
+  white-space: nowrap;
+  scrollbar-width: thin;
+  scrollbar-color: #2b6cb0 transparent;
+}
+
+.timeText {
+  font-size: 1rem;
+  font-weight: bold;
+  color: #333;
+}
+
+.tabContainer_2::-webkit-scrollbar {
+  height: 4px;
+}
+
+.tabContainer_2::-webkit-scrollbar-track {
+  margin: 4px 0;
+  background-color: transparent;
+}
+
+.tabContainer_2::-webkit-scrollbar-thumb {
+  background-color: #2b6cb0;
+  border-radius: 10px;
+  width: 10px;
+  min-width: 10px;
+}
+
+.tab {
+  padding: 0.5rem 1rem;
+  border-radius: 8px;
+  cursor: pointer;
+  color: #2b6cb0;
+  font-size: 16px;
+  font-weight: 500;
+  margin: 5px;
+  border: none;
+  background-color: #f0f0f0;
+  transition: all 0.1s ease;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.tab:hover {
+  background-color: #f1f1f1;
+  /* Change on hover */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+  /* Slightly larger shadow on hover */
+}
+
+.activeTab {
+  background-color: #2b6cb0 !important;
+  color: white;
+}
+
+.filterWrapper {
+  box-shadow: 4px 4px 12px 0px #00000040;
+  border: 1px solid #f1f1f1;
+  display: flex;
+  align-items: center;
+  height: 40px;
+  display: flex;
+  gap: 20px;
+  justify-content: space-between;
+  padding: 0 20px;
+  border-radius: 20px;
+}
+
+.flexend {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  gap: 50px;
+}
+
+.searchIcon {
+  font-size: 32px;
+  color: #7d7d7d;
+}
+
+/* new cards style  */
+.cardContainer {
+  width: 100%;
+  /* max-width: 1200px; */
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+}
+
+.cardWrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.cardboady {
+  display: flex !important;
+  flex-wrap: wrap !important;
+  align-items: center;
+  width: 100%;
+  border-radius: 16px;
+  overflow: hidden;
+  gap: 12px 0;
+  box-shadow: 4px 2px 12px 0px #00000040;
+  margin: 0;
+  height: 224px;
+}
+
+.cardImageContainer {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  box-shadow: 4px 0px 8px 3px #00000026;
+  width: 223px;
+  height: 100%;
+  /* Make it match the card height */
+  /* border-top-left-radius: 16px;
+  border-bottom-left-radius: 16px;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0; */
+  overflow: hidden;
+}
+
+.cardImage {
+  width: 100%;
+  height: 100%;
+  object-fit: fill;
+  /* border-top-left-radius: 16px;
+  border-bottom-left-radius: 16px;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0; */
+}
+
+.cardname {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 14px !important;
+  /* letter-spacing: -0.25px; */
+  color: var(--Black, #131313);
+}
+
+.description {
+  font-size: 14px !important;
+  font-weight: 600;
+  line-height: 14px;
+  letter-spacing: -0.25px;
+  color: var(--Black, #131313);
+}
+
+.phc {
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 14px;
+  letter-spacing: -0.25px;
+  color: var(--Color-Green, #13a89e);
+}
+
+.bottomtext {
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 14px;
+  letter-spacing: -0.25px;
+  color: var(--Black, #131313);
+}
+
+.cardIcon {
+  width: 16px;
+  height: 16px;
+}
+
+.cardicontext {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 18px;
+  letter-spacing: -0.25px;
+  color: #7d7d7d;
+}
+
+.datadetailsrow {
+  display: flex;
+  gap: 0 8px;
+  align-items: center !important;
+  margin-top: 4px;
+}
+
+.datadetails {
+  /* margin-top: 16px; */
+  display: flex;
+  flex-direction: column;
+  align-self: flex-start;
+  /* gap: 10px; */
+}
+
+.detailbottom {
+  display: flex;
+  /* justify-content: flex-end !important; */
+  align-self: flex-end !important;
+  width: 100%;
+}
+
+.bottomsperator {
+  border-right: 2px solid #7d7d7d;
+  margin: 0 5px;
+}
+
+.carddatacolumn {
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  padding: 16px 0;
+  width: 223px;
+  justify-content: space-between;
+}
+
+/* ........................... */
+
+.secoundcolumn {
+  background-color: #fff;
+  display: flex;
+  margin-left: 12px;
+  height: 100%;
+  padding: 16px 0;
+  align-items: flex-start;
+  flex: 1 1 0;
+  min-width: 0;
+}
+
+.cardsperator {
+  border-right: 2px solid #7d7d7d;
+  margin: 0 30px;
+  height: 100%;
+}
+
+.secoundcolumncontent {
+  display: flex;
+  /* align-items: flex-start; */
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+  width: 100%;
+  padding: 0 16px;
+}
+
+.cardsfooter {
+  display: flex;
+  justify-content: space-between;
+  /* margin-top: 10%; */
+  align-self: flex-end;
+  align-items: center;
+  width: 100% !important;
+}
+
+.bulletWrapper {
+  display: flex;
+  align-items: flex-start;
+  /* aligns dot with top of text */
+  gap: 25px;
+  /* space between dot and text */
+  margin-top: 3px;
+  width: 75%;
+}
+
+.bulletDot {
+  width: 6px;
+  height: 6px;
+  background-color: #0e54a3;
+  border-radius: 50%;
+  margin-top: 5px;
+  flex-shrink: 0 !important;
+}
+
+.bulletText {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 18px;
+  /* letter-spacing: -0.25px; */
+  /* text-align: justify; */
+  text-align: justify;
+  text-align-last: left;
+  color: #7d7d7d;
+  display: -webkit-box;
+  -webkit-line-clamp: 4;
+  line-clamp: 4;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.cardlocation {
+  display: flex;
+  width: 27.88rem;
+  display: flex;
+  align-self: flex-end;
+  /* justify-content: flex-start; */
+  /* align-items: flex-end; */
+}
+
+.cardbuttoncontainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end !important;
+  gap: 10px;
+}
+
+.carddeialbutton {
+  background: white;
+  color: #0e54a3;
+  border: 0.87px solid #0e54a3;
+  font-family: Poppins;
+  font-weight: 600;
+  font-size: 14px;
+  cursor: pointer;
+  width: 140px;
+  height: 40px;
+  border-radius: 25px;
+  line-height: 12.22px;
+  letter-spacing: -0.22px;
+}
+
+.cardhelplbutton {
+  background: #0e54a3;
+  color: white;
+  border: 2px solid #0e54a3;
+  font-family: Poppins;
+  font-weight: 600;
+  font-size: 14px;
+  width: 140px;
+  cursor: pointer;
+  height: 40px;
+  border-radius: 25px;
+  line-height: 12.22px;
+  letter-spacing: -0.22px;
+}
+
+/* .............media queey.......... */
+
+@media (max-width: 1200px) {
+  .secoundcolumn {
+    margin-left: 3px !important;
+  }
+
+  .carddatacolumn {
+    width: 142px;
+  }
+
+  .bulletText {
+    /* text-align: justify; */
+    text-align: left;
+    color: #7d7d7d;
+  }
+
+  .cardlocation {
+    display: flex;
+    /* width: 10.88rem; */
+    justify-content: flex-start;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .cardboady {
+    display: flex !important;
+    flex-wrap: wrap !important;
+    height: auto !important;
+  }
+
+  .cardImageContainer {
+    width: 40%;
+    height: 200px;
+  }
+
+  .carddatacolumn {
+    width: 55%;
+    height: 200px;
+  }
+
+  .secoundcolumn {
+    width: 100% !important;
+    flex-basis: 100% !important;
+    height: auto !important;
+    margin-left: 3px !important;
+    margin-top: 8px;
+  }
+
+  .cardsperator {
+    display: none !important;
+  }
+
+  .cardlocation {
+    display: flex;
+    width: 26.88rem;
+    justify-content: flex-start;
+  }
+  .cardsfooter {
+    width: 100% !important;
+  }
+  .secoundcolumncontent {
+    padding: 10px;
+    width: 95% !important;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .cardlocation {
+    display: flex;
+    width: 11.88rem;
+    justify-content: flex-start;
+  }
+  .bulletWrapper {
+    width: 100% !important;
+  }
+}

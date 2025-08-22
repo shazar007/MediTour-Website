@@ -1,0 +1,78 @@
+.imge3 {
+  height: 56px;
+  width: 56px;
+  display: flex;
+  /* margin: auto; */
+  cursor: pointer;
+}
+.outerr{
+  /* border: 2px solid red; */
+  padding: 0 10px ;
+}
+.mt8 {
+  margin-top: 8px;
+}
+.uploadedFile {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  padding: 0 8px;
+}
+.ImageView1 {
+  width: 16px;
+  height: 16px;
+  object-fit: contain;
+}
+.uploadButton {
+  border-style: dashed;
+  border-width: 1px;
+  padding: 8px 0;
+  border-radius: 8px;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  margin-top: 16px;
+  background-color: #e3ebed;
+}
+.borderBottom {
+  border-bottom: 2px dashed black;
+  padding-top: 4px;
+}
+.mt32 {
+  margin-top: 32px;
+}
+.mt16 {
+  margin-top: 16px;
+}
+.mt8 {
+  margin-top: 8px;
+}
+.end {
+  margin-left: auto;
+}
+.play {
+  height: 16px;
+  width: 16px;
+  color: #00276d;
+}
+
+.close {
+  margin-left: 16px;
+  height: 20px;
+  width: 20px;
+  color: #00276d;
+}
+.filename {
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+.outter {
+  border: 0.5px dashed #0e54a3;
+  border-radius: 4px;
+  padding: 24px;
+
+  width: 100%;
+}

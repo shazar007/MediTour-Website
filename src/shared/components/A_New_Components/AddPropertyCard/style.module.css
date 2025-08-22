@@ -1,0 +1,142 @@
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  min-height: 55vh;
+  flex-wrap: wrap;
+}
+
+.maincontainer {
+  display: flex;
+  flex-direction: column;
+  padding: 50px;
+  margin: auto;
+  height: auto;
+  background-color: #fff;
+  border-radius: 16px;
+  max-width: 90%;
+}
+
+.brandName {
+  font-size: 36px;
+  font-weight: bold;
+  color: #131313;
+}
+
+.leftSection {
+  flex: 1;
+  text-align: center;
+}
+
+.rightSection {
+  flex: 2;
+  display: flex;
+  flex-direction: column;
+}
+
+.step {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  gap: 24px;
+}
+
+.stepText1 {
+  font-size: 18px;
+  font-weight: 600;
+  color: #131313;
+}
+
+.stepText {
+  width: 22vw;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.stepText2 {
+  font-size: 14px;
+  font-weight: 300;
+  color: #131313;
+}
+
+.stepimage {
+  width: 120px;
+  height: 69px;
+  object-fit: contain;
+}
+
+.getstartedbtn {
+  background-color: #0E54A3;
+  color: white;
+  border: none;
+  font-size: 14px;
+  border-radius: 24px;
+  cursor: pointer;
+  width: 120px;
+  font-weight: 600;
+  margin-top: 16px;
+  height: 48px;
+  align-self: flex-end;
+}
+
+.getstartedbtn:hover {
+  background-color: #0056b3;
+}
+
+/* Responsive Styles */
+@media (max-width: 1024px) {
+  .container {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  .step {
+    flex-direction: column;
+    text-align: center;
+    gap: 16px;
+  }
+  .stepText {
+    width: 100%;
+  }
+  .stepimage {
+    width: 80px;
+    height: auto;
+  }
+}
+
+@media (max-width: 768px) {
+  .maincontainer {
+    padding: 20px;
+    max-width: 95%;
+  }
+  .brandName {
+    font-size: 28px;
+  }
+  .stepText1 {
+    font-size: 16px;
+  }
+  .stepText2 {
+    font-size: 12px;
+  }
+  .getstartedbtn {
+    width: 100%;
+    align-self: center;
+  }
+}
+
+@media (max-width: 480px) {
+  .brandName {
+    font-size: 24px;
+  }
+  .stepText1 {
+    font-size: 14px;
+  }
+  .stepText2 {
+    font-size: 12px;
+  }
+  .stepimage {
+    width: 60px;
+  }
+}

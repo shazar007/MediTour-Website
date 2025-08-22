@@ -1,0 +1,79 @@
+/* Container */
+.image-swiper {
+  position: relative;
+  width: 100%;
+  box-sizing: border-box;
+  direction: ltr;
+}
+
+/* Main Swiper Styling */
+.main-swiper {
+  width: 100%;
+  height: 400px;
+}
+
+.main-images_ {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* Thumbnails Styling */
+.thumbs-swipers_ {
+  margin-top: 10px;
+  overflow-x: auto;
+  display: flex;
+  justify-content: flex-start;
+}
+
+html[dir="rtl"] .thumbs-swipers_ {
+  justify-content: flex-end;
+}
+
+.image-swiper[dir="rtl"] .thumbs-swipers_ .swiper-wrapper {
+  flex-direction: row-reverse !important;
+}
+
+/* Hide scrollbar */
+.thumbs-swipers_ {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+.thumbs-swipers_::-webkit-scrollbar {
+  display: none;
+}
+
+.thumbnail_ {
+  width: 100%;
+  max-width: 100%;
+  height: 96px;
+  object-fit: cover;
+  cursor: pointer;
+  display: block;
+  box-sizing: border-box;
+}
+
+/* Responsive */
+@media (min-width: 1024px) {
+  .main-swiper {
+    height: 355px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .main-swiper {
+    height: 400px;
+  }
+}
+
+@media (max-width: 768px) {
+  .main-swiper {
+    height: 350px;
+  }
+}
+
+@media (max-width: 480px) {
+  .main-swiper {
+    height: 180px;
+  }
+}

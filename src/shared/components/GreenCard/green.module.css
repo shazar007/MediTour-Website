@@ -1,0 +1,377 @@
+.card {
+  width: 100%;
+  height: 248px;
+  background-color: #fff;
+  box-shadow: 4px 2px 12px 0px #00000040;
+  border-radius: 16px;
+  margin-top: 18px;
+  overflow: hidden;
+  display: flex;
+  /* align-items: center; */
+}
+.imageContainer {
+  width: 248px;
+  height: 248px;
+
+  object-fit: cover;
+}
+.cardContent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding: 16px;
+  width: 300px;
+}
+.divcardContent {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.textHeader {
+  /*      */
+  font-size: 14px;
+  font-weight: 600;
+  letter-spacing: -0.25px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: #131313;
+}
+.locationText {
+  /*      */
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 14px;
+  letter-spacing: -0.25px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: #13a89e;
+}
+.rowcontent {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.textrow {
+  /*      */
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 18px;
+  letter-spacing: -0.25px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: #7d7d7d;
+}
+.textRow2 {
+  /*      */
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 18px;
+  letter-spacing: -0.25px;
+  width: 230px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: #7d7d7d;
+}
+.footer {
+  display: flex;
+  flex-direction: column;
+}
+.footerText {
+  /*      */
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 14px;
+  letter-spacing: -0.25px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: #131313;
+}
+.footerSubText {
+  /*      */
+  font-size: 10px;
+  font-weight: 400;
+  line-height: 14px;
+  letter-spacing: -0.25px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: #7d7d7d;
+}
+.rowdisplay {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+.bar {
+  border-left: 1px solid;
+  border-color: #7d7d7d;
+  height: 24px;
+}
+.centerBar {
+  border-left: 1px solid;
+  border-color: #7d7d7d;
+  margin-top: 12px;
+  margin-bottom: 12px;
+}
+.end {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 16px;
+  flex: 1;
+  justify-content: space-between;
+}
+.feactureFont {
+  /*      */
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 14px;
+  letter-spacing: -0.25px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: black;
+}
+.feacture {
+  width: 150px;
+  height: 34px;
+  border-radius: 24px;
+  /* box-shadow: 4px 4px 12px 0px #00000040; */
+  border: 0.87px solid;
+  border-color: #0e54a3;
+  align-items: center;
+  justify-content: center;
+  color: #0e54a3;
+  font-size: 14px;
+  display: flex;
+  font-weight: 600;
+}
+.rowDetail {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  gap: 80px;
+}
+.format {
+  gap: 4px;
+  display: flex;
+  flex-direction: column;
+}
+.detail {
+  width: 98px;
+  height: 34px;
+  border-radius: 24px;
+  background-color: #0e54a3;
+  color: #fff;
+  box-shadow: 4px 4px 12px 0px #00000040;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  align-self: flex-end;
+  cursor: pointer !important;
+}
+.rowWay {
+  gap: 8px;
+  display: flex;
+  flex-direction: column;
+}
+.spaceBetween {
+  display: flex;
+  width: 100% !important;
+}
+.acceptRow {
+  display: flex;
+  align-self: flex-end;
+  gap: 16px;
+}
+.reject {
+  width: 98px;
+  height: 34px;
+  align-items: center;
+  justify-content: center;
+  background-color: #7d7d7d;
+  box-shadow: 4px 4px 12px 0px #00000040;
+  border-radius: 24px;
+  display: flex;
+  color: #fff;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+}
+.accept {
+  width: 98px;
+  height: 34px;
+  align-items: center;
+  justify-content: center;
+  background-color: #0e54a3;
+  box-shadow: 4px 4px 12px 0px #00000040;
+  border-radius: 24px;
+  display: flex;
+  color: #fff;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+}
+@media (max-width: 768px) {
+  .card {
+    flex-direction: column;
+    height: auto;
+  }
+  .imageContainer {
+    height: auto;
+    object-fit: cover;
+    background-color: #fff;
+  }
+  .feacture {
+    width: auto;
+    height: auto;
+    padding: 8px 16px;
+    border-radius: 12px;
+    font-size: 12px;
+    font-weight: 400;
+  }
+  .end {
+    padding: 12px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    flex: 1;
+    justify-content: space-between;
+  }
+  .cardContent {
+    padding: 12px;
+    flex: 1;
+  }
+
+  .spaceBetween {
+    display: flex;
+    width: auto;
+  }
+  .detail {
+    width: 85px;
+    height: 30px;
+    border-radius: 12px;
+    font-size: 14px;
+  }
+}
+@media (max-width: 480px) {
+  .card {
+    flex-direction: column;
+    height: auto;
+  }
+  .imageContainer {
+    height: auto;
+    object-fit: cover;
+  }
+  .textHeader {
+    font-size: 12px;
+  }
+  .locationText {
+    font-size: 10px;
+  }
+  .accept,
+  .reject {
+    width: 80px;
+    height: 30px;
+    font-size: 12px;
+  }
+  .centerBar {
+    border: 1px solid;
+    width: auto;
+    margin-left: 12px;
+    margin-right: 12px;
+  }
+  .spaceBetween {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+  }
+  .end {
+    flex: 1;
+    padding: 12px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+  .feacture {
+    width: auto;
+    height: auto;
+    padding: 8px;
+    border-radius: 12px;
+    font-size: 12px;
+    font-weight: 400;
+  }
+  .rowDetail {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+  }
+  .detail {
+    width: 75px;
+    height: 25px;
+    border-radius: 12px;
+    font-size: 12px;
+  }
+  .cardContent {
+    padding: 14px;
+    width: auto;
+  }
+  .rowdisplay {
+    margin-top: 32px;
+  }
+}
+@media (max-width: 1024px) {
+  .card {
+    flex-direction: column;
+    height: auto;
+  }
+  .imageContainer {
+    /* width: 100%; */
+    height: auto;
+    object-fit: cover;
+  }
+  .cardContent {
+    padding: 16px;
+    flex: 1;
+  }
+  .end {
+    flex: 1;
+    padding: 12px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+  .feacture {
+    width: auto;
+    height: auto;
+    padding: 10px 18px;
+    font-size: 13px;
+    border-radius: 14px;
+  }
+  .detail {
+    width: 90px;
+    height: 32px;
+    border-radius: 14px;
+    font-size: 13px;
+  }
+  .accept,
+  .reject {
+    width: 90px;
+    height: 32px;
+    font-size: 13px;
+  }
+  .spaceBetween {
+    width: auto;
+  }
+  .rowDetail {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  .rowdisplay {
+    margin-top: 24px;
+  }
+}

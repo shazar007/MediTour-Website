@@ -1,0 +1,28 @@
+.col12 {
+  width: 100%;
+}
+.my50 {
+  margin: 30px 0;
+}
+.outerContainer {
+  padding: 16px;
+  margin-top: 24px;
+  border-radius: 16px;
+  box-shadow: 4px 4px 12px 0px #00000040;
+  background-color: white;
+}
+.RefreshIcon {
+  height: 24px;
+  width: 24px;
+  color: #ee7e37;
+}
+.outerRefresh {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 32px;
+  width: 32px;
+  border-radius: 50%;
+  background-color: transparent;
+  cursor: pointer;
+}

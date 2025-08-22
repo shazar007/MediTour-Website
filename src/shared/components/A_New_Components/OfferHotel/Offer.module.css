@@ -1,0 +1,290 @@
+.container {
+  padding: 20px;
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.heading {
+  font-size: 24px;
+  font-weight: 600;
+  margin-bottom: 20px;
+  color: #131313;
+}
+
+.selectProperty {
+  background-color: #f9fafc;
+  border-radius: 18px;
+  padding: 16px;
+}
+.input {
+  /* padding: 10px; */
+  width: 100%;
+  border: 0.5px solid #ddd;
+  border-radius: 8px;
+  background-color: transparent;
+}
+.dropdownWrapper {
+  align-items: center;
+  display: flex;
+  position: relative;
+  justify-content: space-between;
+  gap: 8px;
+  border: 0.5px solid #ddd;
+  border-radius: 8px;
+  padding: 10px;
+  background-color: transparent;
+}
+.dropdownContainer {
+  position: absolute;
+  top: 100%;
+  z-index: 10;
+  background: white;
+  padding: 8px;
+  width: 150px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+  /* width: 1vw; */
+}
+.inputStyle {
+  gap: 14px;
+  display: flex;
+  width: 30vw;
+  flex-direction: column;
+}
+.radioMark {
+  width: 13.5px;
+  height: 13.5px;
+  position: relative;
+  color: #0e54a3 !important;
+  background-color: transparent !important;
+  transition: background-color 0.2s;
+}
+.selectText {
+  font-size: 16px;
+  font-weight: 600;
+  margin-bottom: 16px;
+  color: #131313;
+}
+.selectionbox {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 16px;
+}
+.dropDown {
+  width: 260px;
+  height: 48px;
+  align-items: center;
+  display: flex;
+  border: 0.5px solid #7d7d7d;
+  border-radius: 8px;
+  justify-content: space-between;
+  padding: 0px 8px;
+  position: relative;
+  cursor: pointer;
+}
+.dropDownbox {
+  /* width: 260px; */
+  height: 40px;
+  align-items: center;
+  display: flex;
+  border: 0.5px solid #cccccc;
+  border-radius: 8px;
+  justify-content: space-between;
+  padding: 0px 8px;
+  position: relative;
+  cursor: pointer;
+}
+.gap {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.modalDrop {
+  position: absolute;
+  z-index: 100;
+  background-color: #fff;
+  border-radius: 12px;
+  top: 100%;
+  left: 0;
+  width: 100%;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  border: 1px solid #ddd;
+}
+.photoClass {
+  height: 40px;
+  align-items: center;
+  display: flex;
+  border: 0.5px solid #cccccc;
+  border-radius: 8px;
+  justify-content: space-between;
+  padding: 0px 8px;
+  cursor: pointer;
+}
+.imageStyle {
+  width: 16px;
+  height: 16px;
+  object-fit: contain;
+}
+.textSelected {
+  font-size: 14px;
+  font-weight: 400;
+  color: #131313;
+}
+.bar {
+  border: 0.5px solid;
+  margin-top: 16px;
+}
+.checkedbox {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  padding: 24px;
+}
+.checkedbox6 {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 24px;
+  padding: 24px;
+}
+.checkedbox1 {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  /* padding: 24px; */
+}
+.textSelected2 {
+  font-size: 14px;
+  font-weight: 400;
+  padding: 10px;
+  color: #131313;
+}
+.error {
+  font-size: 12px;
+  color: red;
+  font-weight: 400;
+  margin-top: 4px;
+}
+.textSelected3 {
+  font-size: 14px;
+  font-weight: 400;
+  color: #7d7d7d;
+}
+.redPhoto {
+  color: red;
+  font-size: 12px;
+  font-weight: 400;
+  align-self: flex-end;
+
+  text-align: right;
+}
+.uploadedImages {
+  display: flex;
+  align-items: center;
+  /* justify-content: space-between; */
+  gap: 8px;
+  margin-top: 4px;
+  flex-wrap: wrap;
+}
+.imageContainer {
+  position: relative;
+}
+.deleteIcon {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  cursor: pointer;
+}
+.uploadedImage {
+  width: 98px;
+  height: 98px;
+  object-fit: cover;
+}
+.allowed {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+.infoSection {
+  display: flex;
+  justify-content: space-between;
+  padding: 16px;
+  margin-top: 24px;
+  border-radius: 18px;
+  margin-bottom: 20px;
+  background-color: #f9fafc;
+}
+.secoundColumn {
+  gap: 14px;
+  display: flex;
+  width: 30vw;
+  flex-direction: column;
+}
+.optionItem {
+  display: flex;
+  align-items: center;
+  /* padding: 8px 0; */
+}
+
+.optionItem input {
+  /* margin-right: 10px; */
+}
+.buttonRow {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.backButton {
+  background: #cccccc;
+  color: #ffffff;
+  width: 120px;
+  align-items: center;
+  justify-content: center;
+  border-radius: 24px;
+  height: 40px;
+  border: none;
+  font-weight: 600;
+  box-shadow: 4px 4px 12px 0px #00000040;
+}
+
+.nextButton {
+  background: #0e54a3;
+  color: #ffffff;
+  width: 120px;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  border-radius: 24px;
+  height: 40px;
+  border: none;
+  font-weight: 600;
+  box-shadow: 4px 4px 12px 0px #00000040;
+}
+
+.backIcon {
+  margin-right: 5px;
+}
+.loaderContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.spinner {
+  border: 4px solid rgba(0, 0, 0, 0.1);
+  border-left-color: #000;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  animation: spin 1s linear infinite;
+}
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}

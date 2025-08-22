@@ -1,0 +1,33 @@
+.mianheading {
+  text-align: center;
+  margin-top: 40px;
+  color: white;
+}
+
+.mianheading22 {
+  text-align: center;
+  margin-top: 40px;
+  color: #ff7631;
+}
+.title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+}
+.container {
+  padding: 70px 160px 70px 160px;
+}
+.flexBetween {
+  margin-top: 60px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 24px;
+}
+
+.searchIcon {
+  position: absolute;
+  left: 10px; /* Adjust as needed */
+  color: rgba(14, 84, 163, 1); /* Icon color */
+}

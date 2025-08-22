@@ -1,0 +1,359 @@
+.card {
+  width: calc(100% - 0px);
+  background-color: #fff;
+  box-shadow: 4px 2px 12px 0px #00000040;
+  border-radius: 16px;
+  margin-top: 24px;
+  overflow: hidden;
+  display: flex;
+  padding: 16px;
+  height: fit-content;
+  /* height: 208px; */
+}
+
+.spaceBetween {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  /* width: calc(100% - 30px);  */
+  /* margin-left: 14px; */
+}
+.firstcolumn {
+  display: flex;
+  gap: 0 10px;
+  flex-wrap: wrap;
+  width: 40%;
+}
+.header {
+  display: flex;
+}
+.secoundcolmn {
+  display: flex;
+  /* flex-direction: column; */
+  width: 50%;
+  justify-content: space-between;
+  align-items: stretch;
+}
+.centerBar {
+  align-self: stretch;
+  border: 1px solid #7d7d7d !important;
+}
+.schedule {
+  display: flex;
+  flex-grow: 1;
+  margin-left: 10%;
+  flex-direction: column;
+  /* height: 100%; */
+}
+.schedulelang {
+  display: flex;
+  flex-grow: 1;
+  margin-right: 10%;
+  flex-direction: column;
+  /* height: 100%; */
+}
+.Scheduleday {
+  height: 100%;
+}
+.availability {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+.imageContainer {
+  width: 176px;
+  border-radius: 21px;
+  overflow: hidden;
+  border-radius: 21px;
+  height: 206px;
+}
+.cardimg {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: all 0.3s ease-in-out;
+}
+.cardimg:hover {
+  box-shadow: 0 0 15px rgba(255, 255, 255, 0.5);
+  transform: scale(1.05); /* Thoda bada dikhane ke liye */
+}
+
+.rowDetail {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin-top: 8%;
+  flex-wrap: wrap;
+}
+
+.cardContent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+.divcardContent {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.textHeader {
+  /*      */
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 14px;
+  letter-spacing: -0.25px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: #131313;
+}
+.texteditor {
+  background-color: #eaf4ff;
+  border-radius: 24px;
+  align-items: center;
+  font-size: 8px;
+  font-weight: 600;
+  padding: 4px;
+  justify-content: center;
+  color: #0e54a3;
+}
+.locationText {
+  /*      */
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 14px;
+  letter-spacing: -0.25px;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: #13a89e;
+}
+.rowcontent {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+.textrow {
+  /*      */
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 18px;
+  letter-spacing: -0.25px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: #7d7d7d;
+}
+.textRow2 {
+  /*      */
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 18px;
+  letter-spacing: -0.25px;
+  width: 230px;
+  text-align: start;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: #7d7d7d;
+}
+.footer {
+  display: flex;
+  flex-direction: column;
+}
+.footerText {
+  /*      */
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 14px;
+  letter-spacing: -0.25px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: #131313;
+}
+.footerSubText {
+  font-size: 10px;
+  font-weight: 400;
+  line-height: 18px;
+  letter-spacing: -0.25px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: #7d7d7d;
+}
+.rowdisplay {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-top: 40px;
+}
+.bar {
+  border-left: 1px solid;
+  border-color: #7d7d7d;
+  height: 24px;
+}
+
+.feactureFont {
+  /*      */
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 14px;
+  letter-spacing: -0.25px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: black;
+}
+.feacture {
+  width: 98px;
+  height: 34px;
+  border-radius: 24px;
+  /* box-shadow: 4px 4px 12px 0px #00000040; */
+  border: 0.87px solid;
+  border-color: #0e54a3;
+  align-items: center;
+  justify-content: center;
+  color: #0e54a3;
+  font-size: 12px;
+  display: flex;
+  font-weight: 600;
+}
+
+.format {
+  gap: 4px;
+  display: flex;
+  flex-direction: column;
+}
+.detail {
+  width: 98px;
+  height: 34px;
+  border-radius: 24px;
+  background-color: #0e54a3;
+  color: #fff;
+  box-shadow: 4px 4px 12px 0px #00000040;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  align-self: flex-end;
+  cursor: pointer;
+}
+.rowWay {
+  gap: 8px;
+  display: flex;
+  flex-direction: column;
+}
+.settingbar {
+  display: flex;
+  align-items: center !important;
+  gap: 16px;
+}
+.rowVise {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.acceptRow {
+  display: flex;
+  align-self: flex-end;
+  gap: 16px;
+}
+.reject {
+  width: 98px;
+  height: 34px;
+  align-items: center;
+  justify-content: center;
+  background-color: #7d7d7d;
+  box-shadow: 4px 4px 12px 0px #00000040;
+  border-radius: 24px;
+  display: flex;
+  color: #fff;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+}
+.accept {
+  width: 98px;
+  height: 34px;
+  align-items: center;
+  justify-content: center;
+  background-color: #0e54a3;
+  box-shadow: 4px 4px 12px 0px #00000040;
+  border-radius: 24px;
+  display: flex;
+  color: #fff;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+@media (max-width: 1025px) {
+  .firstcolumn {
+    display: flex;
+    /* flex-direction: row; */
+    width: 100%;
+  }
+  .cardContent {
+    width: 70%;
+  }
+  .secoundcolmn {
+    width: 100%;
+  }
+  .centerBar {
+    display: none;
+  }
+  .schedule {
+    margin: 0px !important;
+  }
+}
+
+@media (max-width: 800px) {
+  .firstcolumn {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+  }
+  .cardContent {
+    width: 50%;
+  }
+  .imageContainer {
+    width: 35%;
+  }
+  .secoundcolmn {
+    width: 100%;
+  }
+  .centerBar {
+    display: none;
+  }
+  .schedule {
+    margin: 0px !important;
+  }
+}
+
+@media (max-width: 500px) {
+  .firstcolumn {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+  }
+  .cardContent {
+    width: 60%;
+  }
+  .imageContainer {
+    width: 35%;
+  }
+  .secoundcolmn {
+    width: 100%;
+  }
+  .centerBar {
+    display: none;
+  }
+  .schedule {
+    margin: 0px !important;
+    width: 100%;
+  }
+}
+
+/*  */

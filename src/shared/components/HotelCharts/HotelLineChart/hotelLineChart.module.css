@@ -1,0 +1,8 @@
+.customtooltip {
+  border-radius: 16px !important;
+  background-color: #00276d !important;
+  padding: 12px;
+  box-shadow: 2px 2px 4px gray;
+  color: white;
+  font-weight: 600;
+}

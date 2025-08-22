@@ -1,0 +1,250 @@
+.maincontainer {
+  box-shadow: 0px 4px 16px 0px #0000000a;
+  background-color: #ffffff;
+  border: 1px solid #dcdcdc;
+  border-radius: 16px;
+  height: fit-content;
+  padding: 10px 15px;
+  margin-top: 32px;
+  /* margin-bottom: 10px; */
+}
+/* TravelerImage.module.css */
+.travelerContainer {
+  margin: 10px 20px;
+  padding: 16px;
+  background-color: #f5f5f5;
+  border-radius: 8px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* elevation equivalent */
+}
+
+.fixedBottom {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #fff;
+  padding: 16px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.text {
+  margin-left: 8px;
+}
+
+.errorText {
+  color: red;
+}
+
+.content {
+  padding: 10px;
+  background-color: #f7f7f7;
+}
+
+.edit {
+  width: 17px;
+  height: 17px;
+  tint-color: #0d47a1; /* This will need a workaround in CSS */
+  object-fit: contain;
+}
+.editicon {
+  font-size: 18px;
+  color: #0d47a1;
+  cursor: pointer;
+}
+.delicon {
+  font-size: 18px;
+  color: #e60d0d;
+  cursor: pointer;
+}
+.openicon {
+  font-size: 18px;
+  color: #0d47a1;
+  cursor: pointer;
+}
+.container {
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+  margin: 8px 24px;
+}
+
+.header {
+  padding: 8px;
+  background-color: #fff;
+  border-color: #fff;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.rowStyle {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 16px;
+}
+
+.del {
+  width: 14px;
+  height: 18px;
+  tint-color: #fd5650; /* Again, this needs a workaround */
+  object-fit: contain;
+}
+
+.TravelerStyle {
+  margin-top: 8px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.accordion {
+  margin: 10px 24px;
+  overflow: hidden;
+  border-radius: 8px;
+  background-color: #fff;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.personTitle {
+  font-size: 16px;
+  color: #00276d;
+  margin-bottom: 10px;
+}
+
+.input {
+  border-width: 1px;
+  border-color: #ccc;
+  border-radius: 8px;
+  padding: 8px;
+  margin-bottom: 10px;
+  font-size: 14px;
+}
+
+.uploadButton {
+  border-style: dashed;
+  border-width: 1px;
+  padding: 16px 0;
+  border-radius: 8px;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  margin-top: 16px;
+}
+
+.uploadedFile {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  padding: 0 8px;
+}
+
+.afterUpload {
+  /* display: flex;
+  flex-direction: row;
+  gap: 16px;
+  border-width: 1px;
+  border-style: dashed;
+  padding: 8px;
+  border-radius: 8px; */
+}
+
+.saveButton {
+  border-radius: 16px;
+  width: 100px;
+  height: 25px;
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+  background-color: #006838;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+.saveButtonText {
+  font-size: 16px;
+  color: #00276d;
+}
+
+.uploadText {
+  font-size: 14px;
+  color: #00276d;
+}
+
+.addButton {
+  border-width: 1px;
+  border-color: #00276d;
+  border-radius: 8px;
+  padding: 10px;
+  text-align: center;
+  margin: 20px 0;
+  width: 200px;
+  display: block;
+  margin: 20px auto;
+}
+
+.addButtonText {
+  font-size: 16px;
+  color: #00276d;
+}
+
+.totalInfoContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.travelerList {
+  margin: 20px 0;
+  padding: 0 20px;
+}
+
+.travelerItem {
+  padding: 10px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+  border-radius: 8px;
+  margin-top: 8px;
+  gap: 9px;
+  display: flex;
+}
+
+.RoW {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 12px;
+}
+
+.RowView {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 12px;
+}
+
+.ImageView {
+  width: 32px;
+  height: 32px;
+  object-fit: contain;
+  border-radius: 32px;
+}
+
+.ImageView1 {
+  width: 16px;
+  height: 16px;
+  object-fit: contain;
+}
+
+.travelerItemText {
+  font-size: 16px;
+  color: #00276d;
+}
+
+.travelerInfoText {
+  font-size: 14px;
+  color: #7d7d7d;
+}

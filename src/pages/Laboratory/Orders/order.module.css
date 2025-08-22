@@ -1,0 +1,240 @@
+.col12 {
+  width: 100%;
+}
+
+.TableOuter {
+  background-color: white;
+  border-radius: 16px;
+  box-shadow: 4px 4px 12px 0px #00000040;
+  padding: 24px;
+}
+
+.flxBetween {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.completeSelect {
+  padding: 10px;
+  border-radius: 8px;
+  color: #006833 !important;
+  border: 2px solid #006833 !important;
+  background-color: white !important;
+  color: white;
+}
+
+.inProcessSelect {
+  padding: 10px;
+  border-radius: 8px;
+  color: #ffb119 !important;
+  border: 2px solid #ffb119 !important;
+  background-color: white !important;
+}
+.sticky {
+  position: sticky !important;
+  top: 10px;
+}
+.mt8 {
+  margin-top: 8px;
+}
+.mt16 {
+  margin-top: 16px;
+}
+.my32 {
+  margin: 32px 0;
+}
+.flx {
+  display: flex;
+  flex-direction: row;
+  align-items: start;
+}
+.ArrowBack {
+  height: 24px;
+  width: 24px;
+  color: #00276d;
+  margin-right: 24px;
+}
+.Abc {
+  display: flex;
+}
+.borderTop {
+  border-top: 2px dotted #00276d;
+}
+.w20 {
+  width: 20%;
+  text-align: center;
+}
+.RefreshIcon {
+  height: 24px;
+  width: 24px;
+  color: #0e54a3;
+}
+.outerRefresh {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 32px;
+  width: 32px;
+  border-radius: 50%;
+  border-radius: 12px;
+  background-color: #f6fafe33;
+  cursor: pointer;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.Icon {
+  height: 24px;
+  width: 24px;
+}
+.heading {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 14px;
+  letter-spacing: -0.25px;
+  color: #131313;
+}
+
+.CustomSelectOrder {
+  cursor: pointer;
+}
+.colorGreen {
+  color: #00b69b;
+}
+
+.line {
+  border: 1px dashed gray;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0px;
+  width: 100px !important;
+}
+
+.selectWrapper {
+  position: relative;
+  display: flex;
+  align-items: center;
+  border: none !important;
+}
+
+.selectWrapper > select {
+  font-size: 14px;
+  font-weight: 400;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, color 0.3s ease;
+  margin: 0%;
+  padding: 10px;
+  width: 150px;
+  padding-right: 10px;
+  cursor: pointer;
+}
+.selectWrapper .selectIcon {
+  font-size: 34px;
+  color: red;
+}
+.icon {
+  position: absolute;
+  right: 10px;
+  pointer-events: none;
+  color: white;
+}
+.upload {
+  color: #ff7631;
+  font-size: 20px;
+  cursor: pointer;
+}
+.uploadtext {
+  color: #ff7631;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+  letter-spacing: -0.25px;
+}
+
+/* model  */
+
+.modalOverlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.4);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 9999;
+}
+
+.modalBox {
+  background-color: #fff;
+  padding: 20px 30px;
+  border-radius: 24px;
+  max-width: 440px;
+  text-align: center;
+  box-shadow: -4px -4px 24px 0px #00000040;
+  box-shadow: 4px 4px 24px 0px #00000040;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
+  flex-direction: column;
+}
+
+.modalButtons {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+  width: 100%;
+}
+
+.modalButtons button {
+  height: 48px;
+  width: 132px;
+  border: 0px;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 12.22px;
+  letter-spacing: -0.22px;
+
+  border-radius: 24px;
+  cursor: pointer;
+  box-shadow: 4px 4px 12px 0px #00000040;
+}
+
+.modalButtons button:first-child {
+  color: white;
+  background-color: #7d7d7d;
+}
+
+.modalButtons button:last-child {
+  background-color: #0e54a3;
+  color: white;
+}
+.sureImg {
+  width: 72px;
+  height: 72px;
+}
+.sureHeading {
+  color: #131313;
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 50px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+.suretext {
+  color: #7d7d7d;
+  font-weight: 500;
+  font-size: 16px;
+  width: 80%;
+  line-height: 24px;
+  text-transform: none;
+  letter-spacing: 0%;
+  text-align: center;
+}

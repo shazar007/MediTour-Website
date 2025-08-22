@@ -1,0 +1,39 @@
+.label {
+  display: block;
+  font-size: 14px;
+  color: #1e3a8a;
+  margin-bottom: 4px;
+}
+
+.input {
+  border: 1px solid #d1d5db;
+  background-color: #d1d5db;
+  border-radius: 8px;
+  padding: 8px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.input:focus {
+  border: 1px solid #d1d5db;
+  outline: none;
+}
+
+.placeholder {
+  border: 1px solid #d1d5db;
+  border-radius: 8px;
+  padding: 8px;
+  color: #1e3a8a;
+
+  background-color: #f3f4f6;
+  width: 100%;
+  box-sizing: border-box;
+}
+.card {
+  margin-bottom: 16px;
+  border-radius: 8px;
+  background-color: #fff;
+
+  box-shadow: 0px 4px 4px 0px #00000014;
+  padding: 16px;
+}

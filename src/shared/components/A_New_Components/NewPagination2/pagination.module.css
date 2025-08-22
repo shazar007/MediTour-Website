@@ -1,0 +1,98 @@
+/* Common styles for both components */
+.flx {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+}
+
+.Paginationicons {
+  margin: 0 8px;
+  border: none !important;
+  width: 40px;
+  height: 40px;
+  cursor: pointer !important;
+  padding: 8px 7.81px 7.52px 10.67px;
+
+  border-radius: 50%;
+  background-color: #f2f2f2;
+  box-shadow: 0px 5.33px 5.33px 0px #0000001f;
+  display: flex;
+  justify-content: center !important;
+  align-items: center !important;
+  align-self: center;
+}
+.forwardback {
+  color: #ff7631;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+.pagination {
+  display: flex;
+  height: 30%;
+  align-items: center !important;
+}
+.Paginationicons[disabled] {
+  cursor: default;
+}
+.gray {
+  color: #929292;
+}
+
+/* Pagination specific styles */
+.pages {
+  padding: 14px;
+  background-color: #fafafa;
+  border: 1px solid #fafafa;
+  border-radius: 5px;
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.2), 0 3px 5px 0 rgba(0, 0, 0, 0.19);
+  margin-right: 20px;
+  color: #00276d;
+  font-size: 14px;
+}
+
+.btnss,
+.btnss2,
+.number,
+.number2 {
+  padding: 15px;
+  border: 2px solid #00276d;
+  border-radius: 10px;
+  background-color: #fafafa;
+  color: #00276d;
+}
+
+.btnss:hover,
+.btnss2:hover {
+  color: white;
+  background-color: #00276d;
+}
+
+.active {
+  background-color: #00276d;
+  color: white;
+}
+
+.number,
+.number2 {
+  border: none;
+  border-top: 2px solid #00276d;
+  border-bottom: 2px solid #00276d;
+  border-left: 2px solid #00276d;
+  padding: 13px 20px 14px 20px;
+  background-color: #edf4fc;
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+  .flx {
+    justify-content: start;
+  }
+}
+
+@media (min-width: 481px) and (max-width: 768px) {
+  /* Add specific styles for medium-sized screens if needed */
+}
+
+@media (min-width: 769px) and (max-width: 1480px) {
+  /* Add specific styles for large-sized screens if needed */
+}

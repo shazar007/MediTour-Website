@@ -1,0 +1,36 @@
+.customSelect {
+  color: #393a44;
+  font-size: 22px;
+  font-weight: 600;
+  background-color: transparent;
+  border-radius: 5px;
+  width: 150px;
+}
+.customSelect:focus {
+  border: none;
+  outline: none;
+}
+.customOption {
+  color: #393a44;
+  font-size: 16px;
+  font-weight: 500;
+}
+.loader {
+  margin-left: 24px;
+}
+.mainOuter {
+  width: 100%;
+  padding: 24px 40px 24px 24px;
+  box-sizing: border-box;
+}
+.Navouter {
+  position: sticky;
+  z-index: 1000;
+  top: 0%;
+}
+.refresh {
+  font-size: 22px;
+  margin-left: 32px;
+  cursor: pointer;
+  color: #393a44;
+}

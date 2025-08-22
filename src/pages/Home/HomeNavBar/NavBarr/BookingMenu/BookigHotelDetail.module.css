@@ -1,0 +1,337 @@
+.bookingHotelDetailContainer {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px;
+  overflow: hidden;
+  gap: 30px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.hotelDetail,
+.paymentDetail {
+  flex: none;
+  padding: 20px;
+  margin: 10px;
+  border-radius: 8px;
+  background-color: white;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.row-payment-styles {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 24px;
+}
+
+.dashed-line {
+  height: 1px;
+  width: 100%;
+  border-bottom: 1px dashed #000;
+  margin: 16px 0;
+}
+
+.payment-title {
+  font-size: 16px;
+  font-weight: 600;
+  color: rgba(234, 2, 52, 1);
+}
+
+.payment-label,
+.payment-amount {
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.dotted-line {
+  border-bottom: 0.5px dashed #000;
+  margin: 16px 0;
+}
+
+.hotelDetail {
+  width: 544px;
+  height: fit-content;
+}
+
+.paymentDetail {
+  width: 352px;
+  border-radius: 18px;
+  height: 271px;
+  align-self: start;
+}
+
+.hotelImageWrapper {
+  position: relative;
+  width: 544px;
+  height: 120px;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.hotelImage {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.planOverlay {
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+  color: white;
+  font-size: 14px;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+
+.hotelDetailName {
+  color: #0e54a3;
+  font-size: 24px;
+  font-weight: 600;
+  margin-top: 16px;
+}
+
+.hotelInfo {
+  margin-top: 10px;
+  height: fit-content;
+}
+
+.bookingDetails {
+  font-size: 16px;
+  color: #444;
+  margin-top: 4px;
+}
+
+.paymentDetail,
+.paymentDetail {
+  font-size: 16px;
+  color: #333;
+}
+
+.paymentButton {
+  background-color: #0056b3;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+  margin-top: 20px;
+  width: 100%;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  transition: background-color 0.3s;
+}
+
+.paymentButton:hover {
+  background-color: #004494;
+}
+.bookingDetailsNameHeading {
+  color: #0e54a3;
+  size: 14px;
+  font-weight: 600;
+  margin-bottom: 4px;
+}
+.bookingDetailsNameHeadingData {
+  color: #909198;
+  font-size: 16px;
+  margin-bottom: 16px;
+  font-weight: 400;
+}
+
+.roomDetailsContainer {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  color: #909198;
+  font-size: 16px;
+  margin-bottom: 16px;
+  font-weight: 400;
+  gap: 10px;
+}
+
+.beds,
+.roomSize {
+  margin: 0;
+}
+.distanceContainer {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.distanceText {
+  margin: 0;
+  font-size: 16px;
+  font-weight: 400;
+  color: #909198;
+}
+
+.distanceIcon {
+  width: 20px;
+  height: 20px;
+  object-fit: contain;
+}
+.horizontalLine {
+  height: 0.5px;
+  background-color: #0e54a3;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.paymentHeader {
+  font-size: 18px;
+  color: #ea0234;
+  font-weight: 600;
+  margin-top: 16px;
+  margin-bottom: 16px;
+}
+
+.paymentButtonContainer {
+  display: flex;
+  justify-content: center;
+}
+
+.paymentButton {
+  background-color: #0056b3;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 22px;
+  width: 140px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background-color 0.3s;
+}
+.downloadButtonLogo {
+  width: 20px;
+  height: 20px;
+  margin-left: 10px;
+}
+
+.paymentButton:hover {
+  background-color: #004494;
+}
+.totalAmount {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 4px;
+  color: #006838;
+  font-weight: 400;
+  width: 100%;
+}
+.labelTotal {
+  flex: 1;
+  text-align: left;
+  margin-right: 10px;
+  color: #006838;
+  font-weight: 500;
+  margin-bottom: 4px;
+}
+
+.label {
+  flex: 1;
+  text-align: left;
+  margin-right: 10px;
+}
+
+.amountValue {
+  flex: 0;
+  text-align: right;
+}
+.amountValue,
+.dateValue {
+  flex: 0;
+  text-align: right;
+}
+
+.pendingAmount,
+.pendingAmountDate {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #ea0234;
+  font-size: 14px;
+  font-weight: 500;
+  margin-bottom: 4px;
+  width: 100%;
+}
+
+/* --------------------Rental-------------------- */
+
+.detailItem {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.labelCustomerName,
+.labelCustomerCnic,
+.labelCustomerPhone,
+.labelCustomerDestination {
+  font-weight: 600;
+  font-size: 14px;
+  color: #0e54a3;
+  margin-bottom: 8px;
+}
+
+.valueCustomerName,
+.valueCustomerCnic,
+.valueCustomerPhone,
+.valueCustomerDestination {
+  margin-left: auto;
+  text-align: right;
+  color: #909198;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.labelRentalPickupLocation,
+.labelRentalDropoffLocation,
+.labelRentalPickupTime {
+  font-weight: 600;
+  font-size: 14px;
+  color: #0e54a3;
+  margin-bottom: 8px;
+}
+
+.valueRentalPickupLocation,
+.valueRentalDropoffLocation,
+.valueRentalPickupTime {
+  margin-left: auto;
+  text-align: right;
+  color: #909198;
+  font-size: 16px;
+  font-weight: 400;
+}
+.imageContainerRental {
+  width: 544px;
+  height: 160px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  border-radius: 8px;
+}
+
+.bookingImageRental {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+.rentalHeading {
+  color: #0d47a1;
+  font-weight: 600;
+  font-size: 18px;
+  margin-bottom: 8px;
+}
+.dashedLineDetail {
+  width: 100%;
+  height: 2px;
+  background: transparent;
+  border-top: 2px dashed #0047ab;
+  margin: 20px 0;
+}

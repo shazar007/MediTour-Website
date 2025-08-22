@@ -1,0 +1,43 @@
+.uploadContainer {
+  /* margin: 10px 0; */
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  transition: border-color 0.3s, color 0.3s;
+}
+
+.uploadImage {
+  width: 18px;
+  height: 18px;
+  object-fit: contain;
+  filter: invert(34%) sepia(22%) saturate(3496%) hue-rotate(202deg)
+    brightness(98%) contrast(102%);
+}
+
+.fileContainer {
+  justify-content: space-between;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  transition: border-color 0.3s, color 0.3s;
+}
+
+.deleteButton {
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.deleteIcon {
+  width: 16px;
+  height: 16px;
+  object-fit: contain;
+  filter: invert(39%) sepia(89%) saturate(3531%) hue-rotate(1deg)
+    brightness(97%) contrast(104%);
+}

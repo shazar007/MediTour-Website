@@ -1,0 +1,88 @@
+.modal {
+  position: fixed; /* Fixing the modal overlay to the viewport */
+  top: 0;
+  left: 0;
+  /* top: "50%",
+      left: "50%",
+      transform: "translate(-50%, -50%)", */
+  right: 0;
+  bottom: 0;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.modalContent {
+  position: relative;
+  background: white;
+  /* width: fit-content; */
+  width: 480px;
+  max-width: 70vw;
+  height: fit-content;
+  max-height: 90vh;
+  padding: 10px;
+  border-radius: 10px;
+  max-height: 80vh;
+  overflow-y: auto;
+  box-shadow: 0px 8px 48px rgba(0, 0, 0, 0.1);
+  scrollbar-width: none; /* For Firefox */
+  -ms-overflow-style: none;
+  padding: 24px 36px;
+}
+
+.innerContent {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  /* padding: 32px ; */
+  box-sizing: border-box;
+}
+
+.noteContainer {
+  background-color: rgba(176, 18, 18, 0.1) !important;
+  border-radius: 24px;
+  /* width: 100%; */
+  max-height: 20%;
+  padding: 14px 24px;
+  display: flex;
+  align-items: start;
+  min-height: 100px;
+}
+.Containertext {
+  color: #b01212;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 18px;
+  letter-spacing: -0.25px;
+  text-align: center;
+  text-underline-position: "from-font";
+  text-decoration-skip-ink: none;
+}
+
+.paybtn {
+  background-color: #0e54a3;
+  color: #ffffff;
+  border-radius: 24px;
+  border: none !important;
+  height: 48px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+.heading,
+.subheading {
+  font-size: 24px;
+  font-weight: 600;
+  /* line-height: 24.8px; */
+  letter-spacing: -0.26428571343421936px;
+  text-underline-position: "from-font";
+  text-decoration-skip-ink: none;
+  color: #7d7d7d !important;
+  text-align: center;
+}
+.subheading {
+  font-size: 12px !important;
+  font-weight: 400;
+}

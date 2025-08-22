@@ -1,0 +1,65 @@
+.container {
+  height: 48px;
+  width: 100% !important;
+  border: 1px solid #ccc;
+  outline: none;
+  border-radius: 4px;
+  padding: 0 10px;
+  font-size: 14px;
+  color: #000;
+  transition: border-color 0.3s ease;
+  background-color: #fff !important;
+}
+.container:focus-within {
+  border: none;
+  background: linear-gradient(to right, #ff7631, #2575fc);
+  padding: 2px;
+}
+.PhoneInputInternationalIconGlobe {
+  display: none !important;
+  opacity: 0;
+}
+.PhoneInputCountryIconImg > g {
+  display: none !important;
+  opacity: 0;
+}
+.phone_input {
+  height: 45px;
+  width: 100%;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding: 0 10px;
+  background: none;
+  font-size: 16px;
+  color: #000;
+  border: none;
+  background-color: #fff !important;
+}
+
+.container::placeholder {
+  color: #999;
+}
+
+.container:focus {
+  outline: none;
+  /* border-color: #000; */
+  border: none;
+  background: linear-gradient(to right, #ff7631, #2575fc);
+  padding: 2px;
+}
+.phone_input:focus {
+  outline: none !important;
+  box-shadow: none !important;
+  border: none !important;
+}
+.container input:focus {
+  outline: none !important;
+  box-shadow: none !important;
+  border: none !important;
+}
+@media (max-width: 768px) {
+  .container {
+    font-size: 9px;
+    width: 94%;
+  }
+}

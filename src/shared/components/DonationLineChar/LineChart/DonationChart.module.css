@@ -1,0 +1,29 @@
+.customTooltip {
+  border-radius: 8px;
+  box-shadow: 2px 2px 4px gray;
+  padding: 15px 0;
+}
+.donaton {
+  font-size: 16px !important;
+  font-weight: 700 !important;
+  color: #00276d !important;
+  margin-right: 24px !important;
+}
+.flx {
+  display: flex;
+  flex-direction: row;
+  padding: 5px 15px;
+}
+.value {
+  font-size: 14px;
+  color: green;
+  font-weight: 600;
+}
+.date {
+  border-bottom: 2px solid #e3e3e3;
+  text-align: center;
+  padding: 5px;
+  color: #c7c7c7;
+  font-size: 16px;
+  font-weight: 600;
+}

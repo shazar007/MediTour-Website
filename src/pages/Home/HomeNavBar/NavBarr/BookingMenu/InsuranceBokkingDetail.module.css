@@ -1,0 +1,38 @@
+.insuranceContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 20px;
+  border-radius: 16px;
+  height: fit-content;
+  background-color: #ffffff;
+  box-shadow: 1px 4px 4px 1px rgba(0, 0, 0, 0.19);
+}
+
+.leftColumnHeading {
+  color: #0e54a3;
+}
+
+.policyDetails {
+  font-size: 16px;
+}
+
+.downloadSection {
+  margin-top: 20px;
+}
+
+li {
+  color: #1e5da3;
+  font-size: 14px;
+  font-weight: 300;
+}
+.text {
+  color: #1e5da3;
+  font-size: 14px;
+  font-weight: 300;
+}
+p,
+ul {
+  margin: 0;
+}

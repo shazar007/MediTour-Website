@@ -1,0 +1,27 @@
+.bgColorGradient {
+  background-image: linear-gradient(to right, #e2e9ec, white);
+  width: 100%;
+  min-height: 100vh;
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+  .bgColorGradient {
+    background-image: linear-gradient(to right, #e2e9ec, white);
+    width: 100%;
+    height: auto;
+  }
+}
+
+@media (min-width: 481px) and (max-width: 768px) {
+  .bgColorGradient {
+    background-image: linear-gradient(to right, #e2e9ec, white);
+    width: 100%;
+    height: auto;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 2800px) {
+  .padd {
+    padding: 10px 100px;
+  }
+}

@@ -1,0 +1,42 @@
+SingleTravel.back {
+  height: 24px;
+  width: 24px;
+  margin-right: 16px;
+  color: #00276d;
+  cursor: pointer;
+}
+.mr56 {
+  margin-right: 56px;
+}
+.travelcards {
+  background-color: white;
+  border-radius: 16px;
+  padding: 24px;
+  width: calc(33% - 16px);
+  height: auto;
+  cursor: pointer;
+  box-sizing: border-box;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  border: 2px solid white;
+}
+.travelcards:hover {
+  border: 2px solid #00276d;
+}
+.textconatiner {
+  height: 160px;
+  overflow: hidden;
+}
+.textarea {
+  margin-top: 16px;
+  height: 100%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.familyTravel {
+  width: 254px;
+  height: 145px;
+}
+.SingleTravel {
+  width: 254px;
+  height: 145px;
+}

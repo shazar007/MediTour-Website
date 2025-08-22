@@ -1,0 +1,587 @@
+/* .card {
+  width: 265px;
+  height: fit-content;
+  border-radius: 8px;DoctorCard
+  margin: 20px;
+  overflow: hidden;
+  background-color: #e4e6e8;
+} */
+.cardContainer {
+  display: flex;
+  flex-wrap: wrap;
+  border-radius: 8px;
+  justify-content: flex-start;
+  gap: 16px;
+}
+.border {
+  border-left: 0.5px solid #7d7d7d;
+}
+
+.card {
+  flex: 0 1 calc(25% - 16px); /* 25% width for each card minus the gap */
+  box-sizing: border-box;
+  width: calc(25% - 16px);
+  border-radius: 8px;
+  /* margin: 20px; */
+  overflow: hidden;
+  background-color: #e4e6e8; /* Ensure the card takes up 25% of the container's width */
+}
+.flxWrap {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.imgContainer {
+  width: 100%;
+  height: 100px;
+  overflow: hidden;
+  position: relative;
+}
+
+.cardImage {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.textcontainer {
+  padding: 10px;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 170px;
+}
+.showMoreContainer {
+  display: flex;
+  justify-content: start;
+  margin: 10px 0 0 0;
+  justify-self: flex-end;
+}
+.truncateText {
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  color: #0e54a3 !important;
+  word-break: break-word;
+  max-width: 100%;
+}
+.truncateText::after {
+  content: "...";
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  background: linear-gradient(to right, transparent, red);
+  padding-left: 5px;
+  color: #0e54a3 !important;
+}
+.showMoreButton {
+  display: flex;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #f2f4f6;
+  color: #0e54a3;
+
+  border: none;
+  border-radius: 24px;
+  cursor: pointer;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  font-size: 16px;
+}
+
+.showMoreButton .icon {
+  margin-left: 10px;
+  font-size: 20px;
+  color: #0e54a3;
+  background-color: #fff;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.circleContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.circle {
+  background-color: #f2f4f6;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 5px;
+}
+
+.priceText {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  padding: 4px 8px;
+  border-radius: 52px;
+  background-color: rgba(255, 255, 255, 0.8);
+  color: #0e54a3;
+  font-size: 16px;
+  font-weight: bold;
+}
+.heartIconContainer {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background-color: rgba(255, 255, 255, 0.8);
+  border-radius: 50%;
+  padding: 5px;
+  width: 20px;
+  height: 20px;
+}
+
+.heartIcon {
+  color: #0e54a3;
+
+  font-size: 20px;
+}
+@media (max-width: 768px) {
+  .card {
+    flex: 0 1 calc(50% - 16px);
+    width: calc(50% - 16px);
+  }
+
+  .imgContainer {
+    height: 80px;
+  }
+
+  .priceText {
+    font-size: 14px;
+  }
+
+  .showMoreButton {
+    padding: 8px 16px;
+    font-size: 14px;
+  }
+
+  .showMoreButton .icon {
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 425px) {
+  .card {
+    flex: 0 1 100%;
+    width: 100%;
+  }
+
+  .imgContainer {
+    height: 60px;
+  }
+
+  .priceText {
+    font-size: 12px;
+  }
+
+  .showMoreButton {
+    padding: 6px 12px;
+    font-size: 12px;
+  }
+
+  .showMoreButton .icon {
+    font-size: 16px;
+  }
+}
+.marginTopContainer {
+  margin-top: 50px;
+}
+
+.DoctorCard {
+  width: 100%;
+  border-radius: 16px;
+  background-color: white;
+  box-shadow: 4px 2px 12px 0px #00000040;
+  /* padding-right: 16px; */
+  height: 210px;
+  box-sizing: border-box;
+  margin-top: 24px;
+  display: flex;
+  flex-direction: row;
+}
+.DoctoriMg {
+  width: 100%;
+  height: 210px;
+  object-fit: cover;
+  border-radius: 16px;
+}
+.DoctoriMgOuter {
+  width: 20%;
+}
+.Carddbody {
+  display: flex;
+  flex-direction: row;
+  align-items: start;
+  gap: 24px;
+  width: 83%;
+  padding: 16px 0;
+}
+.DoctorInfo,
+.RTLDoctorInfo {
+  width: 35%;
+  margin-left: 16px;
+  flex-direction: column;
+  display: flex;
+  height: 100%;
+  justify-content: space-between;
+}
+.RTLDoctorInfo {
+  margin-right: 16px;
+}
+
+.DoctorBottom {
+  margin-top: auto; /* Pushes the last div to the bottom */
+  display: flex;
+  align-items: center; /* Ensures text alignment */
+  gap: 16px;
+}
+
+.DoctorName {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 14px;
+  text-transform: capitalize;
+  letter-spacing: -0.25px;
+  color: #131313;
+}
+.Featured {
+  background-color: #eaf4ff;
+  font-weight: 600;
+  font-size: 8px;
+  padding: 2px 5px;
+  border-radius: 10px;
+  line-height: 14px;
+  color: #0e54a3;
+  letter-spacing: -0.25px;
+}
+.verified {
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 14px;
+  margin-top: 4px;
+  letter-spacing: -0.25px;
+  color: #13a89e;
+}
+.qualification {
+  font-weight: 400;
+  font-size: 14px;
+  margin-top: 8px;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  line-height: 18px;
+  letter-spacing: -0.25px;
+  color: #7d7d7d;
+}
+.FontA {
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 14px;
+  letter-spacing: -0.25px;
+}
+.FontB {
+  font-weight: 400;
+  font-size: 10px;
+  color: #7d7d7d;
+  line-height: 14px;
+  letter-spacing: -0.25px;
+}
+.Schedulecard {
+  background-color: white;
+  border: 1px solid #7d7d7d;
+  color: #7d7d7d;
+  border-radius: 24px;
+  padding: 7px 10px;
+  width: 110px;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 12.22px;
+  text-transform: capitalize;
+  letter-spacing: -0.22px;
+  text-align: center;
+}
+.Schedulecard:hover {
+  color: #0e54a3;
+  border: 1px solid #0e54a3;
+}
+.w80 {
+  width: 80%;
+}
+.BookBtn {
+  background-color: #0e54a3;
+  color: white;
+  height: 48px;
+  font-weight: 600;
+  width: 140px;
+  font-size: 14px;
+  border: 2px solid #0e54a3;
+  padding: 10px 20px;
+  border-radius: 24px;
+  line-height: 12.22px;
+  cursor: pointer;
+  letter-spacing: -0.22px;
+}
+.locationss {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  width: 90%;
+  letter-spacing: -0.25px;
+  color: #7d7d7d;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.ttext {
+  font-weight: 400;
+  margin-top: 16px;
+  font-size: 16px;
+  line-height: 18px;
+  letter-spacing: -0.25px;
+}
+
+.heading {
+  font-weight: 600;
+  font-size: 24px;
+  color: #131313;
+  line-height: 14px;
+  text-transform: capitalize;
+  letter-spacing: -0.25px;
+}
+.TopDoctorList {
+  color: #131313;
+  padding-left: 20px;
+}
+.TopDoctorList > li {
+  margin-bottom: 8px;
+  color: #131313;
+}
+.w_400 {
+  width: 400px;
+}
+.helpLine {
+  background-color: #0e54a3;
+  color: white;
+  font-weight: 600;
+  font-size: 14px;
+  border: 2px solid #0e54a3;
+  padding: 10px 20px;
+  border-radius: 24px;
+  width: 300px;
+  line-height: 12.22px;
+  cursor: pointer;
+  letter-spacing: -0.22px;
+}
+.w75 {
+  width: 75%;
+}
+.NoAvaible {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  padding: 16px;
+  width: 100%;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.flxBetween {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  align-items: center;
+}
+.border {
+  border-left: 1px solid #7d7d7d;
+  height: 100%;
+}
+.Flexx {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.rs {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 14px;
+  letter-spacing: -0.25px;
+  color: #131313;
+}
+.price {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 14px;
+  letter-spacing: -0.25px;
+  color: #131313;
+}
+.featureBtn {
+  border: 0.87px solid #0e54a3 !important;
+  color: #0e54a3;
+  height: 34px;
+  width: 120px;
+  border-radius: 24px;
+  background-color: white;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 12.22px;
+  letter-spacing: -0.22px;
+  text-align: center;
+}
+.featureBtninactive {
+  border: 0.87px solid #cccccc;
+  color: #cccccc;
+  height: 34px;
+  width: 120px;
+  border-radius: 24px;
+  background-color: white;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 12.22px;
+  letter-spacing: -0.22px;
+  text-align: center;
+}
+.infoRow {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+.Iconns {
+  height: 16px;
+  width: 16px;
+}
+.list {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  margin-top: 24px;
+}
+.w100 {
+  display: flex;
+  justify-content: space-between;
+  width: 70%;
+  flex-direction: column;
+  height: 100%;
+  padding: 0 10px;
+}
+.w_400 {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+@media (max-width: 1024px) {
+  .DoctorInfo,
+  .RTLDoctorInfo {
+    width: 40%;
+  }
+  .w100 {
+    width: 60%;
+  }
+  .w_400 {
+    width: auto;
+  }
+}
+@media (max-width: 768px) {
+  .DoctorCard {
+    flex-wrap: wrap;
+    padding-right: 0px;
+    height: auto;
+  }
+  .DoctoriMgOuter {
+    width: 100%;
+  }
+  .DoctoriMg {
+    border-radius: 16px 16px 0 0;
+  }
+  .Carddbody {
+    width: 100%;
+    padding: 20px;
+  }
+  .DoctoriMgOuter {
+    width: 100%;
+  }
+  .DoctoriMg {
+    border-radius: 16px 16px 0 0;
+  }
+  .DoctorInfo,
+  .RTLDoctorInfo {
+    width: 40%;
+  }
+  .w100 {
+    width: 60%;
+  }
+  .flxBetween {
+    flex-direction: column;
+    gap: 16px;
+    margin-top: 16px;
+    width: 100%;
+    justify-content: start;
+  }
+}
+@media (max-width: 480px) {
+  .DoctorCard {
+    height: auto;
+    flex-wrap: wrap;
+    padding-right: 0px;
+  }
+  .Carddbody {
+    flex-direction: column;
+    width: 100%;
+  }
+  .DoctoriMgOuter {
+    width: 100%;
+  }
+  .DoctoriMg {
+    border-radius: 16px 16px 0 0;
+  }
+  .DoctorInfo,
+  .RTLDoctorInfo {
+    width: 100%;
+  }
+  .w100 {
+    flex-direction: column;
+    padding: 20px;
+    box-sizing: border-box;
+    width: 100%;
+  }
+  .list {
+    flex-wrap: wrap;
+    margin: 24px 0;
+  }
+  .flxBetween {
+    flex-direction: column;
+    gap: 16px;
+    width: 100%;
+    justify-content: start;
+  }
+  .BookBtn {
+    width: 80%;
+    margin: 0 auto;
+  }
+  .w_400 {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    justify-content: center;
+    width: 100%;
+  }
+  .mt24 {
+    margin-top: 24px;
+  }
+  .mt40 {
+    margin-top: 40px;
+  }
+}

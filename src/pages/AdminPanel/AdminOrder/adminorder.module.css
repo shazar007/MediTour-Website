@@ -1,0 +1,229 @@
+.mainOuter {
+  width: 100%;
+  padding: 24px 40px 0px 0;
+  box-sizing: border-box;
+  padding: 0.83%;
+}
+.Navouter {
+  position: sticky;
+  z-index: 1000;
+  top: 0%;
+}
+.loader {
+  margin-left: 24px;
+}
+.refresh {
+  font-size: 22px;
+  margin-left: 32px;
+  cursor: pointer;
+  color: #393a44;
+}
+
+.w20T {
+  width: 12.5% !important;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.headerclass {
+  width: 14.2857% !important;
+  text-align: center;
+
+  padding: 15px;
+  font-size: 14px;
+}
+.headerOuter {
+  display: flex;
+  align-items: center;
+  background-color: white;
+  color: #393a44;
+  border-radius: 14px 14px 0 0;
+  position: sticky !important;
+  top: 115px;
+}
+.payment {
+  margin-top: 24px;
+}
+
+.DetailCard {
+  background-color: white;
+  border-radius: 16px;
+  width: 32.2%;
+  color: #393a44;
+  height: 235px;
+  margin-right: 24px;
+}
+.mt24 {
+  margin-top: 24px;
+}
+.headerCard {
+  padding: 10px 32px;
+  color: #393a44;
+  border-bottom: 1px solid #979797;
+}
+.headerBody {
+  padding: 24px 32px;
+  color: #393a44;
+}
+.mt8 {
+  margin-top: 8px;
+}
+
+.AmountCard {
+  background-color: white;
+  border-radius: 16px;
+  width: 32.2%;
+  color: #393a44;
+}
+
+.sendOuter {
+  margin-top: 16px;
+  display: flex;
+  justify-content: end;
+  align-items: end;
+}
+.done {
+  height: 84px;
+  width: 84px;
+  color: green;
+  display: flex;
+  margin: 0px auto 24px auto;
+}
+.colorGray {
+  color: #909198;
+}
+
+.Filter {
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  color: #777; /* Adjust color as needed */
+  z-index: 1;
+  transform: translateY(-50%);
+  right: 60px;
+  cursor: pointer;
+}
+.SearchInput {
+  width: calc(100% - 30px); /* Adjust to make space for the icon */
+  padding-left: 30px; /* Adjust to make space for the icon */
+  box-sizing: border-box;
+  z-index: 0;
+}
+.flxBetween {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.flx {
+  display: flex;
+  flex-direction: row;
+}
+.primarycolor {
+  color: #393a44;
+}
+.mt16 {
+  margin-top: 16px;
+}
+.mt40 {
+  margin-top: 40px;
+}
+.statusComp {
+  color: #393a44;
+  background-color: #00b69b;
+  border-radius: 8px;
+  padding: 8px;
+  width: 95px;
+  display: flex;
+  justify-content: center;
+  margin: auto;
+}
+.statusProcessingText {
+  color: #393a44;
+  background-color: #fdcb2e;
+  border-radius: 8px;
+  padding: 8px;
+  width: 95px;
+  display: flex;
+  margin: auto;
+  justify-content: center;
+  text-align: center;
+}
+.statusPendingText {
+  color: #393a44;
+  background-color: #fd5650;
+  border-radius: 8px;
+  padding: 8px;
+  width: 95px;
+  display: flex;
+  margin: auto;
+  justify-content: center;
+  text-align: center;
+}
+.mt4 {
+  margin-top: 4px;
+}
+.customSelect {
+  color: #393a44;
+  font-size: 22px;
+  font-weight: 600;
+  background-color: transparent;
+  border-radius: 5px;
+  width: 170px;
+  border: none !important;
+}
+.customSelect:focus {
+  border: none;
+  outline: none;
+}
+.customOption {
+  color: #393a44;
+  font-size: 16px;
+  font-weight: 500;
+}
+.labDetailCard {
+  background-color: white;
+  border-radius: 16px;
+  width: 32.2%;
+  color: #393a44;
+  height: 360px;
+  margin-right: 24px;
+}
+.textDetailCard {
+  background-color: white;
+  border-radius: 16px;
+  width: 100%;
+  color: #393a44;
+  height: 171px;
+  margin-bottom: 16px;
+}
+.DetailBody {
+  padding: 24px 32px;
+  color: #393a44;
+  height: 240px;
+  overflow-y: auto;
+}
+.DetailBody::-webkit-scrollbar {
+  display: none;
+}
+
+.DetailBody::-webkit-scrollbar-track {
+  display: none;
+}
+
+.DetailBody::-webkit-scrollbar-thumb {
+  display: none;
+}
+
+.DetailBody::-webkit-scrollbar-thumb:hover {
+  display: none;
+}
+.file {
+  font-size: 16px;
+  margin-right: 16px;
+}
+.Download {
+  height: 24px;
+  width: 24px;
+  color: green;
+  cursor: pointer;
+}

@@ -1,0 +1,451 @@
+/* new */
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  max-width: 1200px;
+  margin: 0px auto 56px auto;
+}
+.DoctorBg {
+  background-color: #13a89e;
+  border-radius: 24px;
+  padding-top: 34px;
+  width: 100%;
+  display: flex;
+  position: relative;
+  justify-content: space-between;
+  height: 220px;
+  cursor: pointer;
+  transition: transform 0.3s ease-in-out;
+}
+.flxx {
+  display: flex;
+  align-items: start;
+  gap: 24px;
+  margin-left: 34px;
+}
+.flxxur {
+  display: flex;
+  align-items: start;
+  gap: 24px;
+  margin-right: 34px;
+}
+.IconOuter {
+  width: 10vw;
+  height: 10vw;
+  max-width: 56px;
+  max-height: 56px;
+  border-radius: 16px;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.title {
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  vertical-align: middle;
+  text-transform: capitalize;
+  color: white;
+}
+.Content {
+  font-weight: 400;
+  font-size: 14px;
+  letter-spacing: 0%;
+  vertical-align: middle;
+  text-transform: capitalize;
+  color: white;
+  margin-top: 4px;
+}
+.Contentur {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  vertical-align: middle;
+  text-transform: capitalize;
+  color: white;
+  margin-top: 16px;
+}
+.doctorImaG {
+  position: absolute !important;
+  bottom: 0px;
+  right: 2%;
+  max-width: 430px;
+  height: auto;
+}
+.doctorImaGur {
+  position: absolute !important;
+  bottom: 0px;
+  left: 2%;
+  max-width: 430px;
+  height: auto;
+}
+.homeImaG {
+  position: absolute !important;
+  bottom: 0%;
+  right: 2%;
+  max-width: 430px;
+  height: auto;
+}
+.homeImaGur {
+  position: absolute !important;
+  bottom: 0%;
+  left: 2%;
+  max-width: 430px;
+  height: auto;
+}
+.icon {
+  height: 60px;
+  width: 60px;
+}
+.flxend {
+  display: flex;
+  align-items: end;
+  justify-content: end;
+}
+.homeBg {
+  width: calc(60% - 8px);
+  background-color: #e5a200;
+  border-radius: 24px;
+  display: flex;
+  justify-content: space-between;
+  height: 260px;
+  position: relative;
+  cursor: pointer;
+  transition: transform 0.3s ease-in-out;
+}
+.pt34 {
+  padding-top: 34px;
+}
+.labImg {
+  width: 129px;
+  position: absolute;
+  bottom: 0px;
+  right: 0%;
+  height: auto;
+  border-radius: 0px 0px 24px 0;
+}
+.labImgur {
+  width: 129px;
+  position: absolute;
+  bottom: 0px;
+  left: 0%;
+  height: auto;
+  border-radius: 0px 0px 0px 24px;
+}
+.PharImg {
+  width: 129px;
+  position: absolute;
+  bottom: 0px;
+  right: 0%;
+  height: auto;
+  border-radius: 0px 0px 24px 0;
+}
+.PharImgur {
+  width: 129px;
+  position: absolute;
+  bottom: 0px;
+  left: 0%;
+  height: auto;
+  border-radius: 0px 0px 0px 24px;
+}
+.titlelab {
+  font-size: 18px;
+  font-weight: 600;
+  color: white;
+}
+.simpleflx {
+  display: flex;
+  gap: 16px;
+}
+.w40 {
+  width: calc(40% - 8px);
+}
+.w60 {
+  width: calc(60% - 8px);
+}
+.labBg {
+  width: calc(50% - 8px);
+  background-color: #ee7e37;
+  border-radius: 24px;
+  padding-top: 24px;
+  padding-left: 24px;
+  display: flex;
+  justify-content: space-between;
+  height: 260px;
+  cursor: pointer;
+  transition: transform 0.3s ease-in-out;
+}
+.labBgur {
+  width: calc(50% - 8px);
+  background-color: #ee7e37;
+  border-radius: 24px;
+  padding-top: 24px;
+  padding-right: 24px;
+  display: flex;
+  justify-content: space-between;
+  height: 260px;
+  transition: transform 0.3s ease-in-out;
+  cursor: pointer;
+}
+.PhramcyBg {
+  width: calc(50% - 8px);
+  background-color: #099bed;
+  border-radius: 24px;
+  display: flex;
+  padding-top: 24px;
+  padding-left: 24px;
+  justify-content: space-between;
+  height: 260px;
+  transition: transform 0.3s ease-in-out;
+  cursor: pointer;
+}
+.PhramcyBgur {
+  width: calc(50% - 8px);
+  background-color: #099bed;
+  border-radius: 24px;
+  display: flex;
+  padding-top: 24px;
+  padding-right: 24px;
+  justify-content: space-between;
+  height: 260px;
+  transition: transform 0.3s ease-in-out;
+  cursor: pointer;
+}
+.travelBg {
+  width: calc(50% - 8px);
+  background-color: #3b58b8;
+  border-radius: 24px;
+  padding-top: 34px;
+  position: relative;
+  height: 240px;
+  transition: transform 0.3s ease-in-out;
+  cursor: pointer;
+}
+.hotelBg {
+  width: calc(50% - 8px);
+  background-color: #00276d;
+  border-radius: 24px;
+  display: flex;
+  padding-top: 34px;
+  justify-content: space-between;
+  height: 240px;
+  position: relative;
+  transition: transform 0.3s ease-in-out;
+  cursor: pointer;
+}
+
+.mt24 {
+  margin-top: 16px;
+}
+.insuranceBg {
+  width: 100%;
+  background-color: #746ca2;
+  border-radius: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 114px;
+  transition: transform 0.3s ease-in-out;
+  cursor: pointer;
+}
+.DonationBg {
+  width: 100%;
+  background-color: #e25d5d;
+  border-radius: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 114px;
+  cursor: pointer;
+  transition: transform 0.3s ease-in-out;
+}
+.w50 {
+  width: calc(50% - 8px);
+}
+.flxcol {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+.HotelImaG {
+  width: 140px;
+  height: auto;
+  position: absolute;
+  right: 0%;
+  bottom: 10px;
+}
+.travelmaG {
+  width: 140px;
+  height: auto;
+  position: absolute;
+  right: 0%;
+  bottom: 10px;
+}
+.HotelImaGur {
+  width: 140px;
+  height: auto;
+  position: absolute;
+  left: 0%;
+  bottom: 10px;
+}
+.travelmaGur {
+  width: 140px;
+  height: auto;
+  position: absolute;
+  left: 0%;
+  bottom: 10px;
+}
+.DonationBg:hover,
+.insuranceBg:hover,
+.PhramcyBgur:hover,
+.PhramcyBg:hover,
+.travelBg:hover,
+.hotelBg:hover,
+.labBgur:hover,
+.labBg:hover,
+.homeBg:hover,
+.DoctorBg:hover {
+  transform: scale(1.02);
+}
+@media (min-width: 320px) and (max-width: 510px) {
+  .title {
+    font-size: 18px !important;
+    font-weight: 600;
+    color: white;
+  }
+  .w50 {
+    width: 100%;
+  }
+  .w40 {
+    width: 100%;
+  }
+  .w60 {
+    width: 100%;
+  }
+  .simpleflx {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+  }
+  .Content {
+    font-size: 14px !important;
+    font-weight: 400;
+    color: white;
+    text-align: start;
+  }
+  .Contentur {
+    font-size: 14px !important;
+    font-weight: 400;
+    color: white;
+    text-align: start;
+  }
+  .DoctorBg {
+    height: 220px;
+  }
+  .icon {
+    height: 34px;
+    width: 34px;
+  }
+  .flxx {
+    margin-left: 20px;
+  }
+  .flxxur {
+    margin-right: 20px;
+  }
+  .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    max-width: 1200px;
+    margin: 0px 20px 40px 20px;
+  }
+  .homeBg {
+    width: 100%;
+  }
+  .doctorImaG {
+    max-width: 280px;
+  }
+  .doctorImaGur {
+    max-width: 280px;
+  }
+  .homeImaG {
+    max-width: 200px;
+  }
+  .homeImaGur {
+    max-width: 200px;
+  }
+  .HotelImaG {
+    width: 125px;
+  }
+  .travelmaG {
+    width: 125px;
+  }
+  .HotelImaGur {
+    width: 125px;
+  }
+  .travelmaGur {
+    width: 125px;
+  }
+  .labImg {
+    width: 110px;
+  }
+  .labImgur {
+    width: 110px;
+  }
+  .PharImg {
+    width: 110px;
+  }
+  .PharImgur {
+    width: 110px;
+  }
+  .travelBg {
+    width: 100%;
+  }
+  .hotelBg {
+    width: 100%;
+  }
+}
+@media (min-width: 511px) and (max-width: 768px) {
+  .homeBg {
+    width: 100%;
+  }
+  .w50 {
+    width: 100%;
+  }
+  .w40 {
+    width: 100%;
+  }
+  .w60 {
+    width: 100%;
+  }
+  .simpleflx {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+  }
+  .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    max-width: 1200px;
+    margin: 0px 20px 40px 20px;
+  }
+  .doctorImaG {
+    max-width: 300px;
+  }
+  .doctorImaGur {
+    max-width: 300px;
+  }
+  .homeImaG {
+    max-width: 300px;
+  }
+  .homeImaGur {
+    max-width: 300px;
+  }
+}
+@media (min-width: 769px) and (max-width: 1024px) {
+}

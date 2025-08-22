@@ -1,0 +1,78 @@
+.parent {
+}
+.main {
+  padding: 1.3rem;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.08);
+  height: fit-content;
+}
+.title {
+  color: black;
+  position: relative;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+.title::after {
+  content: "";
+  display: block;
+  width: 50%;
+  border-bottom: 1px solid black;
+  position: absolute;
+}
+.profileClick {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
+  cursor: pointer;
+}
+.centerButtons {
+  display: flex;
+  justify-content: center;
+  margin-top: 16px;
+}
+.button {
+  width: 101px;
+  height: 36px;
+  margin-right: 10px;
+  padding: 8px 4px;
+  border-radius: 5px;
+  border: 1px solid transparent;
+  opacity: 1;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, border-color 0.3s ease;
+}
+.SaveButton {
+  background-color: #4caf50;
+  color: white;
+  border-color: #4caf50;
+}
+.cancelButton {
+  background-color: transparent;
+  color: red;
+  border-color: red;
+}
+.SaveButton:hover {
+  background-color: #45a049;
+}
+.cancelButton:hover {
+  background-color: rgba(255, 0, 0, 0.1);
+}
+.inputContainer {
+  width: 150%;
+  max-width: 300px;
+}
+.qualificationContainer {
+  width: 500%;
+  max-width: 900px;
+}
+.textareaAboutUs {
+  min-height: 100px;
+  max-height: 300px;
+  resize: vertical;
+  padding: 10px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+}

@@ -1,0 +1,22 @@
+.customDropdown > select {
+  border: none;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.5);
+  background-color: transparent;
+  color: #00276d !important;
+  font: italic !important;
+  font-size: 14px;
+  font-weight: 300;
+  height: 32px;
+  width: 100%;
+  outline: none;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.customDropdown > select:focus {
+  outline: none;
+}
+
+.customDropdown {
+  min-width: 150px;
+}

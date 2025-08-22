@@ -1,0 +1,50 @@
+.navBar {
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  gap: 10px;
+  max-width: 681px;
+  border-top: 0;
+  background: #fff;
+}
+.hospitalBar {
+  display: flex;
+}
+.hospitalButton,
+.navButton {
+  display: flex;
+  align-items: center;
+  padding: 10px 20px;
+  color: #0d47a1;
+  font-weight: bold;
+  font-size: 14px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  margin-right: 10px;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+.hospitalButton:hover,
+.navButton :hover {
+  color: #1565c0;
+}
+.hospitalButton.active,
+.navButton.active {
+  background-color: #0d47a1;
+  color: white;
+  border-radius: 8px;
+}
+
+.underline {
+  position: absolute;
+  height: 2px;
+  background: var(--Primary-Color-One, #0d47a1);
+  bottom: -4px;
+  transition: left 0.3s ease-in-out, width 0.3s ease-in-out;
+}
+
+.showMoreContainer {
+  display: flex;
+  justify-content: end;
+}

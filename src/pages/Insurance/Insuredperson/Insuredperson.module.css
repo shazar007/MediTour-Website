@@ -1,0 +1,107 @@
+.colorBlue {
+  color: #00276d;
+}
+.my32 {
+  margin: 32px 0 32px 0;
+}
+.name {
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 14.8px;
+  letter-spacing: -0.26px;
+}
+.end {
+  margin-left: auto;
+}
+.profile {
+  height: 48px;
+  width: 48px;
+}
+.gap12 {
+  gap: 12px;
+}
+.w15 {
+  width: calc(16% - 0px);
+}
+.w20 {
+  width: calc(25% - 18px);
+}
+.w40 {
+  width: calc(40% - 24px);
+}
+.Icon {
+  width: 20px;
+  height: 20px;
+}
+.tag {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14.8px;
+  letter-spacing: -0.26px;
+
+  color: #7d7d7d;
+}
+.value {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14.8px;
+  letter-spacing: -0.26px;
+  text-transform: capitalize;
+  color: black;
+  margin-top: 8px;
+}
+.wrapper {
+  display: flex;
+  align-items: start;
+  flex-wrap: wrap;
+  gap: 24px;
+}
+.row {
+  display: flex;
+  gap: 24px;
+  align-items: start;
+}
+.Outers {
+  border: 0.5px solid #0e54a3;
+  border-radius: 16px;
+  padding: 16px;
+  margin-top: 24px;
+}
+.flx {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+}
+.mb8 {
+  margin-bottom: 8px;
+}
+.back {
+  margin-right: 24px;
+  height: 24px;
+  width: 24px;
+  color: #00276d;
+}
+.ml16 {
+  margin-left: 16px;
+}
+.ml56 {
+  margin-left: 56px;
+}
+.empty3 {
+  width: 256px;
+  height: 189px;
+  display: flex;
+  margin: auto;
+}
+.outerRefresh {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 32px;
+  width: 32px;
+  border-radius: 50%;
+  border-radius: 12px;
+  background-color: #f6fafe33;
+  cursor: pointer;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}

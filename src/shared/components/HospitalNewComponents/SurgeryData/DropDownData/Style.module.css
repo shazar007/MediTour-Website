@@ -1,0 +1,56 @@
+.dropdown {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 16px;
+  width: 300px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 16px;
+}
+
+.header h3 {
+  font-size: 16px;
+  font-weight: 500;
+  margin: 0;
+}
+
+.actions button {
+  background: none;
+  border: none;
+  font-size: 14px;
+  cursor: pointer;
+  margin-left: 8px;
+}
+
+.list {
+  max-height: 400px;
+  overflow-y: auto;
+}
+
+.item {
+  font-size: 14px;
+  cursor: pointer;
+  padding: 8px 0;
+  display: flex;
+  align-items: center;
+}
+
+.children {
+  margin-left: 16px;
+  padding-left: 8px;
+  border-left: 1px solid #ddd;
+}
+
+.icon {
+  font-size: 18px;
+  margin-right: 8px;
+  display: inline-block;
+  width: 20px;
+  text-align: center;
+}

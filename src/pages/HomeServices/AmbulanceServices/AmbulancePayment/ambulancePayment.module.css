@@ -1,0 +1,20 @@
+.outer {
+  height: 91vh;
+}
+.tabless {
+  height: 450px;
+  overflow: hidden;
+  margin-bottom: 40px;
+}
+.flxbtween {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.outerContainer {
+  padding: 16px;
+  border-radius: 4px;
+  background-color: white;
+  height: 78vh;
+}

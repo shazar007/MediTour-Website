@@ -1,0 +1,20 @@
+.MuiInputBase-input-MuiOutlinedInput-input {
+  display: none !important;
+}
+.a::-webkit-calendar-picker-indicator {
+  height: 18px;
+  width: 18px;
+  background: url("../../../assets/images/clock.png");
+  background-size: cover;
+}
+.amb > input::placeholder {
+  display: none;
+  font-size: 444px;
+}
+.abcd {
+  border: none !important;
+  outline: none !important;
+}
+.MuiDemoContainer-root .MuiTimePicker-icon {
+  color: #00276d !important;
+}

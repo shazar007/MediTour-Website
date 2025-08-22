@@ -1,0 +1,71 @@
+.mainOuter {
+  width: 100%;
+  padding: 24px 40px 24px 24px;
+  box-sizing: border-box;
+}
+
+.Navouter {
+  position: sticky;
+  z-index: 1000;
+  top: 0%;
+}
+
+.BtnWidth {
+  width: 60px;
+}
+
+.flx {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+.leftColumn,
+.rightColumn {
+  flex: 0 1 40%;
+  min-width: 0;
+  padding: 10px;
+  box-sizing: border-box;
+
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s;
+}
+@media (max-width: 768px) {
+  .leftColumn,
+  .rightColumn {
+    flex: 1 1 100%;
+  }
+}
+.textcolor {
+  color: #393a44;
+}
+
+.Inputs {
+  width: 80px;
+  border: none;
+  background-color: transparent;
+  font-size: 14px;
+  font-weight: 400;
+  outline: none;
+}
+
+.Inputs:focus {
+  outline: none;
+}
+
+.inputFlx {
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid black;
+}
+
+.mt18 {
+  margin-top: 18px;
+}
+
+.textwidth {
+  width: 100px;
+}

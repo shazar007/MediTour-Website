@@ -1,0 +1,296 @@
+.containerSignUpLogin {
+  position: relative;
+  height: 100vh;
+  width: calc(100vw - 40px);
+  background-image: url("assets/images/SignUpBackground.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow-x: hidden;
+  padding: 0 20px; /* Added left and right padding */
+}
+.horizontalLine {
+  width: 100%;
+  height: 1px;
+  background-color: #eceeeb;
+  position: absolute;
+  top: 95px;
+}
+
+.logo {
+  position: absolute;
+  top: 20px;
+  right: 30px;
+  width: 70px;
+  height: auto;
+  z-index: 10;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  position: absolute;
+  top: 20px;
+  left: 30px;
+}
+
+.imageButton {
+  width: 70px;
+  height: auto;
+  cursor: pointer;
+  z-index: 10;
+}
+.registerHeader {
+  margin-left: 15px;
+  color: #0e54a3;
+  font-size: 24px;
+  font-weight: 600;
+  z-index: 10;
+}
+.roundButtonContainer {
+  position: absolute;
+  top: 170px;
+  left: 90px;
+  display: flex;
+  flex-direction: column;
+  background-color: #d9d9d970;
+  width: 33px;
+  height: 210px;
+  border-radius: 25px;
+  align-items: center;
+}
+
+.basicInfoStepForm {
+  /* margin-left: 20px; */
+  padding: 16px;
+  background-color: white;
+  backdrop-filter: blur(10px);
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  width: 60%;
+}
+
+.mainHeadingSignUpPage {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 24px;
+  font-weight: 700;
+  text-align: center;
+}
+
+.secondMainHeadingSignUp {
+  color: #ff7631;
+  margin-left: 10px;
+}
+.roundButton {
+  width: 26px;
+  height: 26px;
+  background-color: #fff;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: black;
+  font-size: 14px;
+  font-weight: 500;
+  margin-bottom: 25px;
+  user-select: none;
+}
+
+.roundButton:first-child {
+  margin-top: 15px;
+}
+
+.buttonLabels {
+  position: absolute;
+  top: 180px;
+  left: 140px;
+  display: flex;
+  flex-direction: column;
+}
+
+.label {
+  color: black;
+  margin: 5px 0;
+  margin-bottom: 20px;
+  font-weight: 500;
+  font-size: 16px;
+  font-family: "Poppins" !important;
+}
+.stepContent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-grow: 1;
+  width: 100%;
+  margin-top: 180px;
+  margin-bottom: 80px;
+}
+.activeButton {
+  background-color: #0056b3;
+  color: white;
+  font-family: "Poppins" !important;
+}
+
+.completedButton {
+  background-color: green;
+  color: white;
+}
+@media (max-width: 768px) {
+  .basicInfoStepForm {
+    margin-left: 0;
+  }
+
+  .roundButtonContainer {
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    width: auto;
+    height: 40px;
+    padding: 5px;
+    gap: 10px;
+    margin: 0 10px 0 0;
+    border-radius: 15px;
+  }
+
+  .roundButton {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    padding: 0;
+  }
+
+  .roundButton:first-child {
+    margin-top: 2px;
+  }
+
+  .roundButton:not(:first-child) {
+    /* margin-top: 15px; */
+    display: flex;
+    align-items: center;
+  }
+}
+
+@media (max-width: 768px) {
+  .buttonLabels {
+    top: 140px;
+    left: 80px;
+  }
+  .label {
+    font-size: 9px;
+  }
+  .roundButtonContainer {
+    left: 50px;
+    top: 120px;
+  }
+  .stepContent {
+    margin-bottom: 100px;
+  }
+}
+@media (max-width: 768px) {
+  .buttonLabels {
+    top: 140px;
+    left: 80px;
+    display: none;
+  }
+  .label {
+    font-size: 9px;
+  }
+  .roundButtonContainer {
+    left: 50px;
+    top: 120px;
+  }
+  .stepContent {
+    margin-bottom: 100px;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 1358px) {
+  .roundButtonContainer {
+    flex-direction: row;
+    height: auto;
+    margin-left: 70px;
+    top: 107px;
+    max-width: 400px;
+    width: 34%;
+    min-width: 400px;
+  }
+  .buttonLabels {
+    flex-direction: row;
+    margin-left: 10px;
+    top: 150px;
+    align-items: center;
+  }
+  .roundButton {
+    margin-bottom: 0;
+    margin-right: 50px;
+    margin-left: 20px;
+    width: 29px;
+    height: 29px;
+  }
+
+  .label {
+    margin: 0 17px;
+    font-size: 12px;
+  }
+
+  .roundButton:first-child {
+    margin-top: 1px;
+  }
+}
+@media (max-width: 480px) {
+  .registerHeader {
+    margin-left: 1px;
+    color: #0e54a3;
+    font-size: 15px;
+    font-weight: 600;
+    z-index: 10;
+  }
+
+  .basicInfoStepForm {
+    /* margin-left: 20px; */
+    padding: 16px;
+    background-color: white;
+    backdrop-filter: blur(10px);
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+    width: 80%;
+  }
+}
+@media (max-width: 380px) {
+  .registerHeader {
+    margin: 0 auto;
+    color: #0e54a3;
+    font-size: 14px;
+    font-weight: 600;
+    z-index: 10;
+  }
+  .header {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    top: 20px;
+    left: 5px;
+  }
+  .imageButton {
+    width: 50px;
+    height: auto;
+    cursor: pointer;
+    z-index: 10;
+  }
+  .logo {
+    position: absolute;
+    top: 20px;
+    right: 5px;
+    width: 50px;
+    height: auto;
+    z-index: 10;
+  }
+}

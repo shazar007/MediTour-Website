@@ -1,0 +1,152 @@
+.mainOuter {
+  width: 100%;
+  padding: 24px 40px 24px 24px;
+  box-sizing: border-box;
+}
+.Navouter {
+  position: sticky;
+  z-index: 1000;
+  top: 0%;
+}
+.refresh {
+  font-size: 22px;
+  margin-left: 32px;
+  cursor: pointer;
+  color: #393a44;
+}
+.headerclass {
+  width: 16.66% !important;
+  text-align: center;
+  padding: 15px;
+  font-size: 14px;
+}
+.headerOuter {
+  display: flex;
+  align-items: center;
+  background-color: white;
+  color: #393a44;
+  border-radius: 14px 14px 0 0;
+  position: sticky !important;
+  top: 115px;
+}
+.payment {
+  margin-top: 24px;
+}
+.DetailCard {
+  background-color: white;
+  border-radius: 16px;
+  width: 35%;
+  margin-right: 24px;
+  color: #393a44;
+}
+.mt24 {
+  margin-top: 24px;
+}
+.headerCard {
+  padding: 10px 32px;
+  color: #393a44;
+  border-bottom: 1px solid #979797;
+}
+.headerBody {
+  padding: 24px 32px;
+  color: #393a44;
+}
+.mt8 {
+  margin-top: 8px;
+}
+.Btnwidth {
+  width: 204px;
+}
+.MessageCard {
+  background-color: white;
+  border-radius: 16px;
+  width: 71.8%;
+  margin-top: 24px;
+  color: #393a44;
+}
+.messageBody {
+  padding: 24px 32px;
+  display: flex;
+  justify-content: space-between;
+  color: #393a44;
+}
+.sendOuter {
+  margin-top: 16px;
+  display: flex;
+  justify-content: end;
+  align-items: end;
+}
+.done {
+  height: 84px;
+  width: 84px;
+  color: green;
+  display: flex;
+  margin: 0px auto 24px auto;
+}
+.colorGray {
+  color: #909198;
+}
+.searchcontainer > input {
+  border-radius: 40px;
+  height: 38px;
+  width: 255px;
+  padding: 10px 35px 10px 35px;
+  border: none;
+  font-size: 14px;
+  box-sizing: border-box;
+  border: 1px solid #909198;
+  margin-right: 32px;
+}
+.searchcontainer > input:focus {
+  border: none;
+  outline: none;
+}
+.searchcontainer > input::placeholder {
+  color: #909198;
+}
+.searchcontainer {
+  position: relative;
+  width: 300px;
+}
+.searchicon {
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  left: 10px;
+  color: #909198;
+  z-index: 1;
+}
+.Filter {
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  color: #777;
+  z-index: 1;
+  transform: translateY(-50%);
+  right: 60px;
+  cursor: pointer;
+}
+.SearchInput {
+  width: calc(100% - 30px);
+  padding-left: 30px;
+  box-sizing: border-box;
+  z-index: 0;
+}
+.flxBetween {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.primarycolor {
+  color: #393a44;
+}
+.mt16 {
+  margin-top: 16px;
+}
+.mt40 {
+  margin-top: 40px;
+}
+.loader {
+  margin-left: 24px;
+}

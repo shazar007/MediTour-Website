@@ -1,0 +1,72 @@
+.Card_Wrapper {
+  margin-top: 12px;
+  display: flex;
+  align-items: start;
+  gap: 16px;
+}
+.Dash_Card {
+  width: calc(20% - 12.5px);
+  background-color: white;
+  padding: 18px;
+  border-radius: 16px;
+  box-shadow: 4px 4px 12px 0px #00000040;
+
+  height: 160px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.Card_Icon {
+  height: 36px;
+  width: 36px;
+}
+.flx {
+  display: flex;
+  align-items: start;
+}
+.fleEnd {
+  display: flex;
+  justify-content: end;
+  cursor: pointer;
+  align-items: center;
+  gap: 8px;
+}
+.Card_Detail {
+  color: #734a00;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 100%;
+  letter-spacing: -0.25px;
+}
+.Arrow {
+  color: #734a00;
+  font-size: 14px;
+}
+.Card_Label {
+  color: #454545;
+  margin-top: 6px;
+  font-weight: 400;
+  font-size: 12px;
+  letter-spacing: -0.25%;
+}
+.Card_Values {
+  color: #131313;
+  font-weight: 600;
+  font-size: 20px;
+  letter-spacing: 0px;
+}
+.graph {
+  width: 100%;
+  background-color: white;
+  padding: 24px;
+  margin-top: 24px;
+  border-radius: 16px;
+  box-shadow: 4px 4px 12px 0px #00000040;
+}
+.TableOuter {
+  background-color: white;
+  border-radius: 24px;
+  box-shadow: 4px 4px 12px 0px #00000040;
+
+  padding: 24px;
+}

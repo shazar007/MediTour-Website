@@ -1,0 +1,128 @@
+.socialInfoContainer {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  width: 100%;
+  height: auto;
+  /* box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3); */
+  border-radius: 12px;
+  /* backdrop-filter: blur(50px); */
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  /* max-width: 900px; */
+}
+
+.buttonContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin-top: 20px;
+}
+
+.continueButton {
+  padding: 1% 9%;
+  background-color: #ff7631;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 16px;
+  /* width: 30%; */
+  z-index: 10;
+}
+
+.continueButton:hover {
+  background-color: #ff7631;
+}
+
+.rowSocial {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  justify-content: space-between;
+  margin: 16px 0;
+}
+
+.inputGroupSocial {
+  flex: 1;
+  width: 45%;
+}
+.bankInfo {
+  display: flex;
+  flex-direction: column;
+  /* width: 350px; */
+}
+.inputWrapper {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+input {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 14px;
+  width: 100%;
+}
+
+input::placeholder {
+  color: #999;
+}
+
+.showIcon {
+  position: absolute;
+  right: 40px;
+  cursor: pointer;
+  font-size: 1.2rem;
+  color: #6f6f6f;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@media (max-width: 768px) {
+  .socialInfoContainer {
+    margin-right: 20px;
+    padding: 5px;
+  }
+
+  .rowSocial {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .inputGroupSocial {
+    width: 100%; /* Full width on smaller screens */
+    margin-left: 0;
+  }
+}
+.branchContainer {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.backButton {
+  background-color: #f6f6f6;
+  color: #7d7d7d;
+  font-weight: 300;
+  width: 180px;
+  height: 48px;
+  border-radius: 24px;
+  border: none;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.25);
+  cursor: pointer;
+}
+
+.nextButton {
+  background-color: #0e54a3;
+  color: #fff;
+  font-weight: 300;
+  width: 180px;
+  height: 48px;
+  border-radius: 24px;
+  border: none;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.25);
+  cursor: pointer;
+}

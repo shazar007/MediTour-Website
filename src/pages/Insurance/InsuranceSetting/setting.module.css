@@ -1,0 +1,109 @@
+.dropdown {
+  background-color: #f5f5f5 !important;
+  box-shadow: 2px 2px 4px rgb(152, 153, 153) !important;
+}
+.mt8 {
+  margin-top: 8px;
+}
+.edit {
+  margin-right: 24px;
+  display: flex;
+  justify-content: end;
+  margin-left: auto;
+  height: 24px;
+  width: 24px;
+}
+.flx {
+  display: flex;
+  flex-direction: row;
+  align-items: end;
+  margin-top: 24px;
+}
+.logo {
+  border-radius: 50%;
+  height: 124px;
+  width: 124px;
+}
+.w100 {
+  width: 97.5%;
+}
+.w100 > textarea {
+  border-radius: 8px;
+  height: 258px;
+  font-size: 16px;
+  padding: 15px;
+}
+.check {
+  height: 20px;
+  width: 20px;
+}
+.btnwidth {
+  width: 210px;
+}
+.end {
+  margin-left: auto;
+  text-align: end;
+}
+.phone {
+  background-color: white;
+  border-radius: 16px;
+  color: #0b7328;
+  margin-right: 32px;
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 15%;
+  font-weight: 500;
+}
+.phoneicon {
+  height: 24px;
+  width: 24px;
+  margin-left: 16px;
+  margin-right: 24px;
+}
+.w100 > textarea {
+  font-size: 16px;
+  font-weight: 600;
+  border: 3px solid #00276d !important;
+  color: #00276d;
+}
+.checkbox {
+  height: 40px;
+  width: 40px;
+  margin-right: 24px;
+  color: #00276d !important;
+}
+.flxrow {
+  display: flex;
+  flex-direction: row;
+}
+.mb50 {
+  margin-bottom: 50px;
+}
+.border {
+  border-top: 2px solid #00276d;
+}
+.changePasword {
+  color: #ff7631;
+  margin-left: 32px;
+}
+.changePasword:hover {
+  border-bottom: 2px solid #ff7631;
+  cursor: pointer;
+}
+.close {
+  height: 24px;
+  width: 24px;
+  color: #00276d;
+  margin-left: auto;
+}
+.ModelHeader {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background-color: #edf4fc;
+  color: #00276d;
+  padding: 10px;
+  border-radius: 8px;
+}

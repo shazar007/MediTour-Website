@@ -1,0 +1,179 @@
+.back {
+  height: 24px;
+  width: 24px;
+  margin-right: 16px;
+  color: #00276d;
+}
+.mr56 {
+  margin-right: 56px;
+}
+.myselfcard {
+  background-color: white;
+  border-radius: 16px;
+  padding: 24px;
+  width: calc(33.33% - 16px);
+  height: auto;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  border: 2px solid white;
+  box-sizing: border-box;
+  cursor: pointer;
+}
+.Wrapper {
+  display: flex;
+  gap: 24px;
+}
+.myselfcard:hover {
+  border: 2px solid #00276d;
+}
+.textContainer {
+  height: 150px !important;
+  width: 300px;
+  overflow: hidden !important;
+  position: relative;
+}
+
+.textdata {
+  margin-top: 16px;
+  height: 100%;
+  width: 100%;
+
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 6;
+  -webkit-box-orient: vertical;
+  white-space: normal;
+}
+* .imgcontainer {
+  height: 152px;
+  width: 145px;
+  display: flex;
+  margin: 16px auto 0 auto;
+  background-color: #fff;
+}
+.healtImgss {
+  width: 100%;
+  height: auto;
+  display: flex;
+  object-fit: contain;
+}
+.familyImg {
+  height: 154px;
+  width: 100%;
+  display: flex;
+  margin-top: 16px;
+}
+
+/* model */
+.close {
+  height: 25px;
+  width: 25px;
+  margin-left: auto;
+  cursor: pointer;
+  color: #00276d;
+}
+
+.header {
+  height: 30px;
+  padding: 10px 20px;
+  background-color: #fef9ef;
+  color: #00276d;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  border-radius: 8px;
+  margin-bottom: 32px;
+}
+.m16 {
+  margin-top: 16px;
+}
+.mt24 {
+  margin-top: 24px;
+}
+.modelFeilds {
+  background-color: #f5f5f5 !important;
+  box-shadow: none;
+  padding: 0% !important;
+  margin-bottom: 32px;
+  border-radius: 8px;
+  border: none !important;
+  outline: none !important;
+}
+.checkbox {
+  height: 40px;
+  width: 40px;
+  margin-right: 24px;
+  color: #00276d;
+}
+.empty {
+  width: 256px;
+  height: 189px;
+  display: flex;
+  justify-content: center;
+  margin: auto;
+}
+.btn {
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  width: 230px;
+  margin-top: 32px;
+}
+.algincenter {
+  margin-top: 100px;
+}
+.back {
+  color: #00276d;
+  margin-right: 24px;
+  height: 24px;
+  width: 24px;
+  cursor: pointer;
+}
+.close {
+  height: 25px;
+  width: 25px;
+  margin-left: auto;
+  cursor: pointer;
+  color: #00276d;
+}
+
+.header {
+  height: 30px;
+  padding: 10px 20px;
+  background-color: #fef9ef;
+  color: #00276d;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  border-radius: 8px;
+  margin-bottom: 32px;
+}
+.PlanSelection {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 10px;
+  font-size: 14px;
+  color: #00276d;
+  font-weight: 700;
+  background-color: #f5f5f5;
+  border-radius: 8px;
+}
+.RefreshIcon {
+  height: 24px;
+  width: 24px;
+  color: #746ca2;
+}
+.outerRefresh {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 32px;
+  width: 32px;
+  border-radius: 50%;
+  margin-left: 16px;
+  background-color: transparent;
+  cursor: pointer;
+}
+.outerRefresh:hover {
+  background-color: #a2a0ac;
+}

@@ -1,0 +1,97 @@
+.filterouter {
+  height: 48px;
+  width: 150px;
+  border-radius: 24px;
+  background-color: white;
+  box-shadow: 4px 4px 12px 0px #00000040;
+  color: #7d7d7d;
+  padding: 0px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.imagefilter {
+  height: 16px;
+  width: 16px;
+  cursor: pointer;
+}
+.text {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 14px;
+  color: #7d7d7d;
+  letter-spacing: -0.25px;
+}
+.modalContent {
+  background: white;
+  padding: 32px;
+  border-radius: 24px;
+  width: 1000px;
+  margin: auto;
+  position: absolute;
+  top: 50%;
+  height: auto;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+.modalContent {
+  background: white;
+  padding: 32px;
+  border-radius: 24px;
+  width: 470px;
+  margin: auto;
+  position: absolute;
+  top: 50%;
+  height: auto;
+  border: none !important;
+  outline: none !important;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+.close {
+  font-size: 16px;
+  cursor: pointer;
+}
+.modaltext {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 100%;
+  letter-spacing: 0%;
+}
+.resetbtn {
+  border-radius: 24px;
+  height: 48px;
+  width: 160px;
+  border: 1px solid #0e54a3;
+  color: #0e54a3;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 12.22px;
+  letter-spacing: -0.22px;
+  text-align: center;
+  cursor: pointer;
+}
+.applyBtn {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 12.22px;
+  letter-spacing: -0.22px;
+  text-align: center;
+
+  border-radius: 24px;
+  height: 48px;
+  width: 160px;
+  border: 1px solid #0e54a3;
+  cursor: pointer;
+  background-color: #0e54a3;
+  color: white;
+}
+.lists {
+  padding: 10px;
+  cursor: pointer;
+}
+.lists:hover {
+  background-color: #f6fafe;
+}

@@ -1,0 +1,154 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+.container {
+  position: sticky !important;
+  top: 0% !important;
+  left: 0% !important;
+  width: 220px;
+}
+.menuIcons {
+}
+.sidebar {
+  height: 100vh;
+  background-color: #f5f5f5 !important;
+  color: #00276d !important;
+}
+.link {
+  display: flex;
+  color: black;
+  height: 49px;
+  align-items: center;
+  margin-bottom: 16px;
+  padding-inline: 32px;
+  gap: 16.42px;
+  transition: all 0.5s;
+  color: #00276d !important;
+}
+.center {
+  display: flex;
+}
+.mb {
+  margin-bottom: 35px;
+}
+.user {
+  display: flex;
+  align-items: center;
+  position: absolute;
+  bottom: 15px;
+  height: 49px;
+  align-items: center;
+  padding: 0 0 0 33px;
+  gap: 16.42px;
+}
+.icon {
+  height: 20px;
+  width: 20px;
+  text-align: center;
+}
+.centerlogo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 32px 0;
+}
+.logout {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding-bottom: 20px;
+  margin-bottom: 30px;
+}
+.active {
+  margin-right: 24px;
+  background-color: #dbdbdb;
+  color: black !important;
+
+  border-radius: 0 20px 20px 0px;
+}
+.logo {
+  height: 60px;
+  width: 60px;
+}
+.icons2 {
+  height: 12px;
+  width: 12px;
+  text-align: center;
+}
+.fs10 {
+  font-size: 10px;
+}
+.link2 {
+  display: flex;
+  color: black;
+  height: 35px;
+  padding-inline: 16px;
+  gap: 16.42px;
+  transition: all 0.5s;
+  color: #00276d !important;
+  width: 110px;
+}
+@media (min-width: 320px) and (max-width: 480px) {
+  .link {
+    display: flex;
+    color: #fff;
+    height: 49px;
+    align-items: center;
+    margin-bottom: 16px;
+    padding-inline: 16px;
+    gap: 16.42px;
+    transition: all 0.5s;
+  }
+  .container {
+    position: sticky !important;
+    top: 0% !important;
+    left: 0% !important;
+    width: auto;
+  }
+  .logo {
+    display: none;
+  }
+  .menu {
+    font-size: 20px;
+    color: #00276d;
+    margin-right: 8px;
+    margin-left: 8px;
+  }
+  .conatiner {
+    display: none;
+  }
+}
+
+@media (min-width: 481px) and (max-width: 768px) {
+  .conatiner {
+    display: none;
+  }
+  .container {
+    position: sticky !important;
+    top: 0% !important;
+    left: 0% !important;
+    width: auto;
+  }
+  .logo {
+    display: none;
+  }
+  .menu {
+    font-size: 32px;
+    color: #00276d;
+    margin: 7px 10px 10px 10px;
+  }
+}
+@media (min-width: 769px) and (max-width: 1040px) {
+}
+@media (min-width: 1041px) and (max-width: 1440px) {
+  .menu {
+    display: none;
+  }
+}
+@media (min-width: 769px) and (max-width: 2800px) {
+  .menu {
+    display: none;
+  }
+}

@@ -1,0 +1,128 @@
+.cardContainer {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+  width: 100%;
+  margin-top: 24px;
+}
+
+.card {
+  cursor: pointer;
+  width: calc(33.333% - 16px);
+  border-radius: 16px 16px 0 0;
+  background: white;
+  position: relative;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  box-sizing: border-box;
+}
+@media (max-width: 768px) {
+  .card {
+    width: calc(50% - 16px); /* 2 cards per row */
+  }
+}
+
+@media (max-width: 480px) {
+  .card {
+    width: 100%; /* 1 card per row */
+  }
+}
+
+.cardImg {
+  width: 100%; /* Ensure the image fits within the card */
+  height: 149px;
+  border-radius: 16px 16px 0 0;
+  object-fit: cover; /* Ensure the image covers the container */
+}
+
+.cardInnerBody {
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.cardLogoTextContainer {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.cardLogo {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+}
+
+.cardTitle {
+  font-size: 24px;
+  font-weight: bold;
+  color: #131313 !important;
+}
+.cardTitle2 {
+  font-size: 20px;
+  font-weight: bold;
+  color: #131313 !important;
+}
+.textarea {
+  margin: 5px;
+}
+.cardSubtitle {
+  font-size: 14px;
+  color: #7d7d7d !important;
+}
+
+.cardOverlay {
+  position: relative;
+}
+
+.cardTextOverlay {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 8px;
+  padding: 8px;
+  border-radius: 8px;
+  color: #00276d; /* Text color */
+  width: calc(100% - 20px); /* Adjust width to fit within card */
+}
+
+.cardOverlayText {
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.heartIcon {
+  font-size: 24px;
+  color: #00276d;
+}
+.showMoreContainer {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.showMoreButton {
+  display: flex; /* Use flexbox to align text and icon */
+  align-items: center; /* Center items vertically */
+  justify-content: center; /* Center items horizontally */
+  padding: 10px 20px;
+  background-color: #0e54a3; /* Button background color */
+  color: white;
+  border: none;
+  border-radius: 24px;
+  cursor: pointer;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Optional shadow for better visibility */
+  font-size: 16px;
+}
+
+.showMoreButton .icon {
+  margin-left: 10px;
+  font-size: 20px;
+  color: #0e54a3;
+  background-color: #fff;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

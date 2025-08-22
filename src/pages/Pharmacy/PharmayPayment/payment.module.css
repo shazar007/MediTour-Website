@@ -1,0 +1,42 @@
+.end {
+  display: flex;
+  justify-content: end;
+}
+.col6 {
+  width: 50%;
+}
+.pl20 {
+  padding-left: 22px;
+}
+
+.flxBetween {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.mt32 {
+  margin-top: 32px;
+}
+.my32 {
+  margin: 32px 0;
+}
+.outerContainer {
+  padding: 24px;
+  border-radius: 16px;
+  background-color: white;
+  box-shadow: 4px 4px 12px 0px #00000040;
+  margin-right: 36px;
+}
+
+.end {
+  margin-left: auto;
+}
+.mt32 {
+  margin-top: 32px;
+}
+.colorBlue {
+  color: #00276d;
+}
+.mt16 {
+  margin-top: 16px;
+}

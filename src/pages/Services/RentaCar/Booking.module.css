@@ -1,0 +1,72 @@
+.label {
+  display: block;
+  font-size: 14px;
+  color: #1e3a8a;
+  margin: 8px 0;
+}
+.maincontainer {
+  background-color: #f5f5f5;
+  box-sizing: border-box;
+  /* padding: 128px 160px; */
+  padding: 0px 160px 60px 160px;
+
+ 
+}
+@media (max-width: 1380px) {
+  .maincontainer {
+    padding:  0px 40px 60px 40px !important;
+  }}
+.input {
+  border: 1px solid #d1d5db;
+  border-radius: 8px;
+  padding: 8px;
+  width: 100%;
+  box-sizing: border-box;
+  height: 48px;
+}
+.row-payment-styles {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 24px;
+}
+
+.dashed-line {
+  height: 1px;
+  width: 100%;
+  border-bottom: 1px dashed #000;
+  margin: 16px 0;
+}
+
+.payment-title {
+  font-size: 16px;
+  font-weight: 600;
+  color: rgba(234, 2, 52, 1);
+}
+
+.payment-label,
+.payment-amount {
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.dotted-line {
+  border-bottom: 0.5px dashed #000;
+  margin: 16px 0;
+}
+
+.input:focus {
+  border: 1px solid #d1d5db;
+  outline: none;
+}
+
+.placeholder {
+  border: 1px solid #d1d5db;
+  border-radius: 8px;
+  padding: 8px;
+  color: #1e3a8a;
+
+  background-color: #f3f4f6;
+  width: 100%;
+  box-sizing: border-box;
+}

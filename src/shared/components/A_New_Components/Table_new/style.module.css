@@ -1,0 +1,98 @@
+.tableContainer {
+  overflow: auto;
+  -webkit-overflow-scrolling: touch;
+  scroll-behavior: smooth;
+  max-height: 100%; 
+  flex: 1; 
+}
+
+.tableContainer::-webkit-scrollbar {
+  display: none;
+}
+
+/* Keep your original table styling */
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+/* Modified thead styling for proper stickiness */
+thead {
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  background: white;
+}
+
+/* Keep all your original th styling */
+thead th {
+  border-bottom: 1px solid #ddd;
+  padding: 10px;
+  font-weight: bold;
+  position: sticky;
+  top: 0;
+  color: #7d7d7d;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 14px;
+  letter-spacing: -0.25px;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+}
+
+/* Keep all your original tbody styling */
+tbody td {
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+  color: #454545;
+  font-size: 14px;
+  font-weight: 400;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  white-space: normal;
+  overflow: visible;
+  overflow-wrap: anywhere;
+  word-break: break-word;
+}
+
+/* Keep all your hover effects */
+thead tr:hover {
+  background-color: transparent !important;
+}
+
+tbody tr:hover {
+  background-color: #f1f1f1;
+  color: #000;
+}
+
+/* Keep all your cell styling */
+th,
+td {
+  width: auto;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+}
+
+/* Keep your actions and responsive styles */
+.actions {
+  display: flex;
+  gap: 8px;
+}
+
+@media (max-width: 768px) {
+  table {
+    width: 100%;
+  }
+
+  thead th {
+    font-size: 14px;
+  }
+
+  tbody td {
+    font-size: 13px;
+  }
+}
+
+body.rtl thead th {
+  text-align: right !important;
+}

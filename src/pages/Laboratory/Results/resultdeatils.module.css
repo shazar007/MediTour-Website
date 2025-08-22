@@ -1,0 +1,98 @@
+.col12 {
+  width: 100%;
+}
+.my50 {
+  margin: 30px 0;
+}
+.outerContainer {
+  height: 100vh;
+}
+.tabless {
+  max-height: 450px !important;
+  overflow: hidden !important;
+  margin-bottom: 50px !important;
+}
+.pendingSelect {
+  padding: 10px;
+  border-radius: 8px;
+  color: #7b7878 !important;
+  border: 2px solid #dbdbdb !important;
+  background-color: white !important;
+}
+.flxBetween {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.completeSelect {
+  padding: 10px;
+  border-radius: 8px;
+  color: #006833 !important;
+  border: 2px solid #006833 !important;
+  background-color: white !important;
+  color: white;
+}
+
+.inProcessSelect {
+  padding: 10px;
+  border-radius: 8px;
+  color: #ffb119 !important;
+  border: 2px solid #ffb119 !important;
+  background-color: white !important;
+}
+.sticky {
+  position: sticky !important;
+  top: 10px;
+}
+.mt8 {
+  margin-top: 8px;
+}
+.mt16 {
+  margin-top: 16px;
+}
+.my32 {
+  margin: 32px 0;
+}
+.flx {
+  display: flex;
+  flex-direction: row;
+  align-items: start;
+}
+.ArrowBack {
+  height: 24px;
+  width: 24px;
+  color: #00276d;
+  margin-right: 24px;
+}
+.Abc {
+  display: flex;
+}
+.borderTop {
+  border-top: 2px dotted #00276d;
+}
+.w20 {
+  width: 20%;
+  text-align: center;
+}
+.RefreshIcon {
+  height: 24px;
+  width: 24px;
+  color: #ee7e37;
+}
+.outerRefresh {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 32px;
+  width: 32px;
+  border-radius: 50%;
+  margin-left: 16px;
+  background-color: transparent;
+  cursor: pointer;
+}
+.outerRefresh:hover {
+  background-color: #ffedd6;
+}
+.CustomSelectOrder {
+  cursor: pointer;
+}

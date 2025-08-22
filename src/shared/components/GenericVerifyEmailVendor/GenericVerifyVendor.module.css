@@ -1,0 +1,343 @@
+.formcontainer {
+  box-shadow: 0px 24.35px 75.27px 0px #00000025,
+    0px 45.54px 140.79px 0px #0000001e, 0px 109px 337px 0px #00000015;
+  padding: 20px;
+  border-radius: 8px;
+  width: 64.25%;
+  justify-content: center;
+  /* align-items: center; */
+  display: flex;
+  flex-direction: column;
+  height: auto;
+  background-color: #fff;
+  margin-top: 20px;
+  z-index: 10;
+  min-height: 400px; 
+}
+.logoconatiner {
+  width: 120px;
+  /* background-color: red; */
+  /* height: auto; */
+  overflow: hidden;
+  margin-bottom: 26px;
+}
+.logo {
+  width: 20%;
+  height: 20%;
+  object-fit: contain;
+  margin: 0 auto;
+  margin-bottom: 24px;
+}
+.colorBlue {
+  color: #00276d;
+}
+
+.colorOrange {
+  color: #ff7631;
+}
+.welcomback {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 36px;
+  text-decoration-skip-ink: none;
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+.inputGroupSocial {
+  display: flex;
+  flex-direction: column;
+  width: 405px;
+}
+
+.inputWrapper {
+  position: relative;
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+input {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 14px;
+}
+
+input::placeholder {
+  color: #999;
+}
+
+.datePickerContainer {
+  width: 100%;
+  height: 48px;
+  padding: 0px 10px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  border: 1px solid #ccc;
+  border-radius: 32px;
+  transition: border-color 0.3s ease;
+  background-color: #fff !important;
+  box-shadow: 4px 4px 12px 0px #00000040;
+  justify-content: space-between;
+  /* transition: border-color 0.3s ease; */
+}
+
+.dropdownContainer {
+  top: 100%;
+  background: white;
+  padding: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+  width: auto; /* Adjust width as per requirement */
+  display: none;
+}
+.dropdownContainer.open {
+  display: block;
+}
+.dropdownWrapper {
+  position: relative;
+}
+
+.showIcon {
+  position: absolute;
+  right: 40px;
+  cursor: pointer;
+  font-size: 1.2rem;
+  color: #6f6f6f;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.RembermeContainer {
+  flex-direction: column;
+  align-items: flex-start;
+  margin-bottom: 56px;
+  /* gap: 10px; */
+}
+
+.agreementText {
+  font-size: 12px;
+  color: #000;
+  max-width: 100%;
+}
+
+.radioContainer {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.radioInput {
+  display: none;
+}
+
+.radioMark {
+  width: 15px;
+  height: 15px;
+  border: 2px solid #ff7631;
+  background-color: #fff;
+  position: relative;
+  margin-right: 10px;
+  transition: background-color 0.2s;
+}
+
+.radioInput:checked + .radioMark {
+  background-color: #0056b3;
+}
+
+.radioInput:checked + .radioMark::after {
+  content: "";
+  width: 5px;
+  height: 10px;
+  border: solid white;
+  border-width: 0 2px 2px 0;
+  position: absolute;
+  top: 2px;
+  left: 7px;
+  transform: rotate(45deg);
+}
+.Remberme {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.buttonContainer {
+  margin-bottom: 8px;
+  margin-top: 20px;
+}
+.verifybtn {
+  background-color: #0e54a3;
+  color: #fff;
+  font-weight: 300;
+  /* width: 180px;
+  height: 48px; */
+  max-height: 35px;
+  padding: 1.8% 9.5%;
+  border-radius: 24px;
+  border: none;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.25);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.backbtn {
+  background-color: #f6f6f6;
+  color: #7d7d7d;
+  font-weight: 300;
+  /* width: 180px;
+  height: 48px; */
+  max-height: 35px;
+  padding: 1.8% 9.5%;
+  border-radius: 24px;
+  border: none;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.25);
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.inputGroupBasic {
+  overflow: hidden;
+  /* margin-bottom: 24px; */
+  /* position: relative; */
+  height: 48px;
+  border: 1px solid #ccc;
+  transition: border-color 0.3s ease;
+  align-items: center;
+  border-radius: 8px;
+  background-color: #fff !important;
+  /* box-shadow: 4px 4px 12px 0px #00000040; */
+  justify-content: space-between;
+  display: flex;
+  cursor: pointer;
+  padding: 0px 10px;
+}
+.options {
+  width: 97%;
+  border: 1px solid #ccc;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  z-index: 9999;
+  transition: border-color 0.3s ease;
+  border-radius: 4px;
+  overflow-y: auto;
+  margin-top: -20px;
+  max-height: 150px;
+  position: absolute;
+  background: white;
+  padding: 8px;
+}
+
+
+
+/* .............................Media Queries............................... */
+@media (max-width: 2560px) {
+  .formcontainer {
+    width: 40%;
+  }
+  .logoconatiner {
+    width: 120px;
+    height: 140px;
+    margin-bottom: 16px;
+  }
+
+  .buttonContainer {
+    /* margin-bottom: 50px; */
+    margin-top: 15px;
+  }
+}
+@media (max-width: 1440px) {
+  .formcontainer {
+    width: 40%;
+  }
+  .logoconatiner {
+    width: 200px;
+    height: 220px;
+    margin-bottom: 16px;
+  }
+
+  .buttonContainer {
+    /* margin-bottom: 50px; */
+    margin-top: 15px;
+  }
+}
+
+@media (max-width: 1366px) {
+  .formcontainer {
+    width: 45%;
+  }
+  .logoconatiner {
+    width: 200px;
+    height: 220px;
+    margin-bottom: 16px;
+  }
+
+  .buttonContainer {
+    /* margin-bottom: 80px; */
+    margin-top: 15px;
+  }
+}
+@media (max-width: 1024px) {
+  .formcontainer {
+    width: 45%;
+  }
+  .logoconatiner {
+    width: 80px;
+    height: 100px;
+    margin-bottom: 10px;
+  }
+
+  .buttonContainer {
+    /* margin-bottom: 20px; */
+    margin-top: 15px;
+  }
+  .welcomback {
+    margin-bottom: 20px;
+  }
+}
+@media (max-width: 768px) {
+  .formcontainer {
+    width: 55%;
+  }
+  .logoconatiner {
+    width: 80px;
+    height: 80px;
+    margin-bottom: 10px;
+  }
+
+  .buttonContainer {
+    /* margin-bottom: 20px; */
+    margin-top: 15px;
+  }
+  .welcomback {
+    margin-bottom: 20px;
+  }
+}
+
+@media (max-width: 480px) {
+  .formcontainer {
+    margin-top: 20px;
+    width: 80%;
+    border-radius: 4px;
+  }
+
+  .logoconatiner {
+    width: 80px;
+    height: 80px;
+    margin-bottom: 10px;
+  }
+
+  .buttonContainer {
+    /* margin-bottom: 20px; */
+    margin-top: 10px;
+  }
+  .welcomback {
+    margin-bottom: 20px;
+  }
+}

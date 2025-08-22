@@ -1,0 +1,138 @@
+.container {
+  padding: 0px 160px 40px 160px;
+  background: #ffffffb2;
+}
+
+.btnContainer {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  margin-top: 36px;
+}
+
+.requestbtn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #0e54a3;
+  width: 250px;
+  height: 48px;
+  color: white;
+  border: none;
+  border-radius: 24px;
+  cursor: pointer;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  font-size: 16px;
+}
+
+.location {
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.err {
+  color: #ff7631;
+}
+
+.modalOverlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 50;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  pointer-events: none;
+}
+
+.open {
+  opacity: 1;
+  pointer-events: auto;
+}
+
+.modalContent {
+  width: 580px;
+  height: 430px;
+  border-radius: 24px;
+  background: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 36px 66px 58px 66px;
+  box-shadow: 0px 4px 24px 0px #00000040;
+  position: relative;
+}
+
+.modalContent p {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 32px;
+  letter-spacing: 0%;
+  text-align: center;
+  color: #131313;
+}
+
+.imgContainer {
+  width: 340px;
+  height: 188px;
+  margin-bottom: 56px;
+}
+
+.img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+@media (max-width: 1400px) {
+  .container {
+    padding: 0px 60px 40px 60px;
+    background: #ffffffb2;
+  }
+}
+
+@media (max-width: 600px) {
+  .modalContent {
+    width: 90%;
+    height: auto;
+    border-radius: 16px;
+    background: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 18px 33px 27px 33px;
+    box-shadow: 0px 4px 24px 0px #00000040;
+    position: relative;
+  }
+
+  .modalContent p {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 32px;
+    letter-spacing: 0%;
+    text-align: center;
+    color: #131313;
+  }
+
+  .imgContainer {
+    width: 50%px;
+    height: 188px;
+    margin-bottom: 56px;
+  }
+
+  .img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+  }
+}

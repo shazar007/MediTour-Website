@@ -1,0 +1,12 @@
+.dropdown {
+  background-color: #f8f9fa !important;
+  box-shadow: 2px 2px 4px rgb(152, 153, 153) !important;
+  border-radius: 16px;
+  margin-bottom: 8px;
+}
+.col4 {
+  width: calc(33% - 16px);
+}
+.gap24 {
+  gap: 24px;
+}

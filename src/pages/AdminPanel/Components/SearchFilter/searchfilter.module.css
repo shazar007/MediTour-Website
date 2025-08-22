@@ -1,0 +1,198 @@
+.searchcontainer > input {
+  border-radius: 8px 0 0 8px;
+  height: 38px;
+  /* width: 233px; */
+  padding: 10px 10px 10px 10px;
+  border: none;
+  font-size: 14px;
+  box-sizing: border-box;
+  background-color: #f9f9fb;
+}
+.searchcontainerlg > input {
+  border-radius: 0 8px 8px 0;
+  height: 38px;
+  padding: 10px 10px 10px 10px;
+  border: none;
+  font-size: 14px;
+  box-sizing: border-box;
+  background-color: #f9f9fb;
+}
+
+.searchcontainerlg,
+.searchcontainer > input:focus {
+  border: none;
+  outline: none;
+}
+.searchcontainerlg,
+.searchcontainer > input::placeholder {
+  color: #909198;
+  font-size: 12px;
+}
+.searchcontainerlg {
+  position: relative;
+  width: auto;
+  border-radius: 8px;
+  margin-left: 32px;
+  border: 0.6px solid #d5d5d5;
+  display: flex;
+  align-items: center;
+}
+.searchcontainer {
+  position: relative;
+  width: auto;
+  border-radius: 8px;
+  margin-left: 32px;
+  border: 0.6px solid #d5d5d5;
+  display: flex;
+  align-items: center;
+}
+
+.searchcontainer222 {
+  position: relative;
+  width: auto;
+  margin-left: 0px;
+  border-radius: 8px;
+}
+.searchicon {
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  left: 10px;
+  color: #909198; /* Adjust color as needed */
+  z-index: 1;
+}
+.Filterouter {
+  font-size: 20px;
+  color: #d5d5d5; /* Adjust color as needed */
+  cursor: pointer;
+  border-left: 0.6px solid #d5d5d5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 8px;
+  height: 38px;
+}
+.FilterOpen {
+  color: #393a44;
+}
+.SearchInput {
+  width: calc(100% - 30px); /* Adjust to make space for the icon */
+  padding-left: 30px; /* Adjust to make space for the icon */
+  box-sizing: border-box;
+  z-index: 0;
+}
+.Resetouter {
+  color: #ea0234;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  width: 140px;
+  border-left: 0.6px solid #d5d5d5;
+  height: 38px;
+}
+.Reset {
+  color: #ea0234;
+  width: 12px;
+  height: 15px;
+  padding: 0 10px;
+}
+.Dateouter {
+  width: 130px;
+  border-left: 0.6px solid #d5d5d5;
+  height: 38px;
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  color: #393a44;
+  box-sizing: border-box;
+  cursor: pointer;
+}
+.Vendorouter {
+  width: 130px;
+  border-left: 0.6px solid #d5d5d5;
+  height: 38px;
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  color: #393a44;
+  box-sizing: border-box;
+  cursor: pointer;
+}
+.react-datepicker__month-container {
+  background-color: white !important;
+  border-radius: 24px 24px 24px 24px !important;
+  position: absolute !important;
+  z-index: 10000000 !important;
+  top: 45px !important;
+  left: 200px !important;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px !important;
+  border: none !important;
+}
+.react-datepicker__header {
+  background-color: white !important;
+  border-top-left-radius: 24px !important;
+  padding: 30px 16px 16px 16px !important;
+}
+
+.icons {
+  margin-left: auto;
+  margin-right: 8px;
+  color: #393a44;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.venderInput {
+  width: 100%;
+  padding: 8px;
+  box-sizing: border-box;
+  border: 0.6px solid #979797;
+  border-radius: 8px;
+  margin-top: 21px;
+  outline: none;
+  height: 40px;
+  font-size: 14px;
+  font-weight: 600;
+}
+.venderInput:focus {
+  outline: none;
+}
+.venderCard {
+  background-color: #0d47a1;
+  border-radius: 8px;
+  color: white;
+  padding: 5px 10px;
+  width: max-content;
+  cursor: pointer;
+  margin-top: 16px;
+}
+.border {
+  border-top: 0.6px solid #979797;
+}
+.buttonOuter {
+  display: flex;
+  justify-content: center;
+}
+.buttonApply {
+  background-color: #0d47a1;
+  border-radius: 8px;
+  color: white;
+  padding: 8px 16px;
+  width: max-content;
+  border: 2px solid #0d47a1;
+  margin-top: 16px;
+  cursor: pointer;
+}
+.Checkbox {
+  color: #0d47a1 !important;
+}
+.SearchIcons {
+  color: #7d7d7d;
+  font-size: 25px;
+  margin-right: 8px;
+  cursor: pointer;
+}
+.searchcontainer > input:focus + .SearchIcons {
+  color: #000000;
+}

@@ -1,0 +1,147 @@
+.container {
+  height: 83vh;
+  width: 80%;
+  background-color: white;
+  border-radius: 24px;
+}
+.algin {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.header {
+  height: 188px;
+  background-color: #77c2ec;
+  border-radius: 24px 24px 0 0;
+  box-sizing: border-box;
+}
+.logOuter {
+  height: 130px;
+  width: 130px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  border-radius: 50%;
+  position: absolute;
+  top: -60px;
+  left: 45%;
+}
+.cameraOuter {
+  height: 35px;
+  width: 35px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  border-radius: 50%;
+  margin-top: auto;
+  margin-left: auto;
+  position: relative;
+  z-index: 1;
+  bottom: 55px;
+  right: 20px;
+}
+.camera {
+  height: 25px;
+  width: 25px;
+  color: #00276d;
+}
+.logo {
+  height: 115px;
+  width: 115px;
+  border-radius: 50%;
+}
+.parents {
+  position: relative;
+}
+.Center {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+}
+.mt70 {
+  margin-top: 70px;
+}
+.mt16 {
+  margin-top: 16px;
+}
+.mt24 {
+  margin-top: 24px;
+}
+.mt90 {
+  margin-top: 90px;
+}
+.Location {
+  height: 20px;
+  width: 20px;
+  margin-right: 16px;
+}
+.mt8 {
+  margin-top: 8px;
+}
+.mr48 {
+  margin-right: 48px;
+}
+.ml48 {
+  margin-left: 48px;
+}
+.borderBottom {
+  margin-top: 32px;
+  border-bottom: 2px solid #00276d;
+  width: 400px;
+  display: flex;
+  margin: 32px auto 0px auto;
+}
+.edit {
+  color: #00276d;
+  height: 24px;
+  width: 24px;
+  margin-left: 24px;
+}
+.camerasmall {
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 3px 10x;
+  background-color: #f3f1f1;
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  left: 54%;
+  top: 20px;
+  z-index: 1;
+}
+.samllLogo {
+  height: 20px;
+  width: 20px;
+  color: #00276d;
+}
+.textcenter {
+  text-align: center;
+}
+.btnWidth {
+  width: 200px;
+  display: flex;
+  margin: 24px auto 0px auto;
+}
+.browse {
+  height: 60px;
+  width: 60px;
+  display: flex;
+  margin: 0px auto 24px auto;
+}
+.close {
+  height: 20px;
+  width: 20px;
+  color: #00276d;
+}
+.okCheck {
+  color: green;
+  height: 80px;
+  width: 80px;
+  display: flex;
+  margin: auto;
+}

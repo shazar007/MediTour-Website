@@ -1,0 +1,315 @@
+/* Container for tabs */
+
+.main {
+}
+.tabContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  margin-bottom: 20px;
+}
+
+.tab {
+  padding: 0.5rem 1rem;
+  border-radius: 8px;
+  cursor: pointer;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s, color 0.3s;
+  color: #2b6cb0;
+  font-size: 16px;
+  font-weight: 500;
+  margin: 5px;
+  border: none;
+  background-color: #f0f0f0;
+}
+
+.activeTab {
+  background-color: #2b6cb0 !important;
+  color: white;
+}
+
+.searchBarContainer {
+  display: flex;
+  align-items: center;
+  width: 256px;
+  height: 40px;
+  border-radius: 20px;
+  border: 1px solid rgba(14, 84, 163, 1) !important;
+  background-color: transparent;
+  position: relative;
+}
+.searchInput {
+  border: none;
+  outline: none;
+  background-color: transparent;
+  color: #0e54a3 !important;
+}
+.searchIcon {
+  color: #0e54a3;
+  font-size: 32px;
+}
+.tabContent {
+  /* padding: 20px; */
+  /* background-color: #ffffff; */
+  /* border-radius: 4px; */
+  /* margin-bottom: 10rem; */
+  /* background-color: #fdfdfd; */
+
+  /* box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); */
+}
+.cardContainer {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  width: 100%;
+  background-color: #fdfdfd;
+}
+
+.cardWrapper {
+  flex: 1 1 calc(50% - 16px) !important;
+  box-sizing: border-box;
+  margin-bottom: 16px;
+  border-radius: 8px;
+  background-color: #fff;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  box-shadow: 0px 4px 4px 0px #00000014;
+}
+.cardContainer > .cardWrapper:nth-child(odd):last-child {
+  flex: 1 1 calc(50% - 16px) !important;
+  margin-right: 50%;
+}
+@media (max-width: 1024px) {
+  .cardContainer > .cardWrapper:nth-child(odd):last-child {
+    flex: 1 1 calc(50% - 16px) !important;
+    margin: 2%;
+    justify-content: center;
+  }
+  .cardWrapper {
+    flex: 1 1 calc(50% - 16px) !important;
+    margin: 2%;
+    justify-content: center;
+  }
+}
+
+@media (max-width: 768px) {
+  .cardContainer > .cardWrapper:nth-child(odd):last-child {
+    flex: 1 1 calc(50% - 16px) !important;
+    margin: 2%;
+  }
+  .cardWrapper {
+    display: flex;
+    justify-content: center;
+    margin: 2%;
+  }
+}
+@media (max-width: 425px) {
+  .cardWrapper {
+    flex: 1 1 100% !important;
+  }
+  .cardDRTitle {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+}
+.cardContainer {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  width: 100%;
+  background-color: #fdfdfd;
+}
+
+.cardWrapper {
+  flex: 1 1 calc(50% - 16px) !important;
+  box-sizing: border-box;
+  margin-bottom: 16px;
+  border-radius: 8px;
+  background-color: #fff;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  box-shadow: 0px 4px 4px 0px #00000014;
+}
+
+.cardImageWrapper {
+  width: 110px;
+  height: 110px;
+  display: flex;
+  margin-left: 10px;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  border: none;
+  outline: none;
+  overflow: hidden;
+  border: none;
+  outline: none;
+}
+
+.cardImage {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.cardBody {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 10px;
+}
+
+.cardName {
+  font-size: 18px;
+  font-weight: bold;
+  color: #1e5da3 !important;
+}
+
+.cardTitle,
+.cardtime {
+  font-size: 14px;
+  color: #47ccc8 !important;
+  display: flex;
+  align-items: center;
+
+  margin-top: 4px;
+}
+.cardtime {
+  font-size: 14px;
+  margin-top: 4px;
+  color: #0e54a3 !important;
+}
+.timeIcon {
+  margin: 0 10px;
+  align-items: center;
+  display: flex;
+  text-align: center;
+  font-size: 16px;
+}
+.cardDetail {
+  margin-top: 8px;
+  font-size: 14px;
+  color: #1e5da3 !important;
+}
+
+.cardExperience {
+  font-size: 14px;
+  color: #1e5da3 !important;
+}
+
+.cardFooter {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 8px;
+}
+
+.cardRating {
+  font-size: 1.5rem;
+  color: #fcaf23; /* Golden color for the star */
+  text-shadow: 0px 2px 4px rgba(0, 0, 0, 0.3); /* Subtle shadow for depth */
+  line-height: 1; /* Aligns the star vertically with text */
+}
+.ratingContainer {
+  display: flex;
+  align-items: center;
+  gap: 8px; /* Gap between stars */
+  width: 112px; /* Specified width */
+  height: 16px; /* Specified height */
+  opacity: 1; /* Ensures the stars are visible */
+}
+
+.cardArrow {
+  width: 12px;
+  height: 12px;
+  background-color: #0e54a3;
+  color: white;
+  border-radius: 50%;
+  padding: 10px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: larger;
+}
+
+.cardRatingValue {
+  font-size: 14px;
+  color: #333;
+  margin-left: 4px;
+}
+
+.cardViewMore {
+  font-size: 14px;
+  color: #0e54a3;
+  text-decoration: none;
+  margin-right: 8px;
+}
+/* Cards.module.css */
+
+.showMoreContainer {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.showMoreButton {
+  display: flex; /* Use flexbox to align text and icon */
+  align-items: center; /* Center items vertically */
+  justify-content: center; /* Center items horizontally */
+  padding: 10px 20px;
+  background-color: #0e54a3; /* Button background color */
+  color: white;
+  border: none;
+  border-radius: 24px;
+  cursor: pointer;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Optional shadow for better visibility */
+  font-size: 16px;
+}
+
+.showMoreButton .icon {
+  margin-left: 10px;
+  font-size: 20px;
+  color: #0e54a3;
+  background-color: #fff;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.tab {
+  padding: 10px 20px;
+  cursor: pointer;
+  border: none;
+  background-color: #f0f0f0;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+.searchInput {
+  width: 100%;
+  height: 100%;
+  /* padding-left: 40px; */
+  border: none;
+  border-radius: 48px;
+}
+.cardViewMore {
+  margin-right: 8px;
+}
+.viewMore {
+  display: flex;
+  align-items: center;
+  font-size: 12px;
+}
+.tabContent {
+  padding: 20px;
+  background-color: #ffffff;
+  border-radius: 4px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}

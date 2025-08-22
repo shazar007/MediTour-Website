@@ -1,0 +1,126 @@
+.imgcontainer {
+    width: 220px;
+    height: 128px;
+    box-shadow: 0px 4px 4px 0px #00000014;
+    border-radius: 8px;
+    box-sizing: border-box;
+    overflow: hidden;
+  }
+  .treeimg {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  .dropdownContainer {
+    position: relative;
+    width: 200px;
+  }
+  
+  .dropdownHeader {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+  }
+  
+  .dropdownTitle {
+    flex: 1;
+  }
+  
+  .icon {
+    font-size: 16px;
+    color: #0e54a3;
+  }
+  
+  .dropdownList {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    width: 100%;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .dropdownItem {
+    padding: 8px 12px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .dropdownItem:hover {
+    background-color: #f0f0f0;
+  }
+  .tabsContainer {
+    width: 100%;
+    margin: 16px 0;
+  }
+  
+  .tabHeader {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+  }
+  
+  .tabButton {
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    transition: background-color 0.3s;
+    color: #dcdcdc;
+  }
+  
+  .tabButton:hover {
+    color: #0e54a3;
+  }
+  
+  .activeTab {
+    color: #ee7e37;
+  }
+  
+  .tabContent {
+    border-bottom: 1px dotted #dcdcdc;
+  }
+  
+  .showMoreContainer {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: flex-end;
+    margin-top: 20px;
+  }
+  
+  .showMoreButton {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 20px;
+    background-color: #0e54a3;
+    color: white;
+    border: none;
+    border-radius: 24px;
+    cursor: pointer;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Optional shadow for better visibility */
+    font-size: 16px;
+    margin: 0 10px;
+  }
+  .Download {
+    height: 24px;
+    width: 24px;
+    color: green;
+    cursor: pointer;
+  }
+  .showMoreButton .icon {
+    margin-left: 10px;
+    font-size: 20px;
+    color: #0e54a3;
+    background-color: #fff;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  

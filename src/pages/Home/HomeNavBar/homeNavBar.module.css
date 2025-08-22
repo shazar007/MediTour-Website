@@ -1,0 +1,2086 @@
+.mainouter::-webkit-scrollbar {
+  width: 11px;
+}
+
+.itemTitle {
+  font-weight: 400;
+  color: #131313;
+  font-size: 14px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  text-align: justify;
+}
+
+.mainouter {
+  scrollbar-width: thin;
+  scrollbar-color: var(--thumbBG) var(--scrollbarBG);
+}
+
+.mainouter::-webkit-scrollbar-track {
+  background: var(--scrollbarBG);
+}
+
+.mainouter::-webkit-scrollbar-thumb {
+  background-color: var(--thumbBG);
+  border-radius: 6px;
+  border: 3px solid var(--scrollbarBG);
+}
+
+.colororange {
+  color: #ff7631;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 40px;
+  letter-spacing: 0%;
+}
+
+/* .................... */
+.TourismCard {
+  width: 33%;
+  background-color: #ff7631;
+  border-radius: 8px;
+  height: 444px;
+  box-sizing: border-box;
+  padding: 32px;
+  color: #0e54a3;
+  font-size: 31px;
+}
+
+.Tourismtext {
+  font-size: 14px;
+}
+
+.colorwhite {
+  color: white;
+}
+
+.mb24 {
+  margin-bottom: 8px;
+}
+
+/* ....................Treatment cards............. */
+
+/* 🔹 Section Container */
+.TreatmentContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: transparent;
+  padding: 0 160px 20px 160px;
+  box-sizing: border-box;
+  width: 100%;
+  position: relative;
+  top: 50px;
+  z-index: 10;
+}
+
+/* 🔹 Cards Wrapper - 6 Cards in One Row */
+.medicalCardsOuter {
+  width: 100%;
+  background-color: #f5f5f5;
+  border-radius: 8px;
+  padding: 32px;
+  box-sizing: border-box;
+  display: grid;
+  grid-template-columns: repeat(6, minmax(160px, 1fr));
+  /* 6 cards per row */
+  gap: 20px;
+  /* Consistent spacing */
+  justify-content: center;
+  align-items: center;
+}
+
+/* 🔹 Individual Cards */
+.medicalCard {
+  width: 100%;
+  max-width: 180px;
+  height: 160px;
+  border-radius: 12px;
+  background-color: white;
+  box-sizing: border-box;
+  padding: 16px;
+  color: #0e54a3;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  cursor: pointer;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.medicalCard:hover {
+  background-color: rgba(255, 118, 49, 0.1);
+  border: 2px solid #ff7631;
+  box-shadow: rgba(99, 99, 99, 0.3) 0px 4px 12px;
+  transform: scale(1.05);
+}
+
+/* 🔹 Icons */
+.medicalIcons {
+  height: 72px;
+  width: 72px;
+  fill: currentColor;
+  color: #ff7631;
+}
+
+.allViewtext {
+  text-align: start;
+}
+
+/* ✅ RESPONSIVE FIXES */
+
+/* Large Screens (Default: 6 per row) */
+
+@media (min-width: 1500px) and (max-width: 2560px) {
+  .TreatmentContainer {
+    padding: 0 200px 20px 200px;
+    /* More padding for large screens */
+  }
+
+  .medicalCardsOuter {
+    grid-template-columns: repeat(6, minmax(180px, 1fr));
+    gap: 24px;
+  }
+
+  .medicalCard {
+    max-width: 400px;
+    height: 220px;
+    padding: 20px;
+  }
+
+  .medicalIcons {
+    height: 80px;
+    width: 80px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .TreatmentContainer {
+    padding: 0 120px 20px 120px;
+  }
+
+  .medicalCardsOuter {
+    grid-template-columns: repeat(6, minmax(160px, 1fr));
+    /* 6 cards per row */
+  }
+}
+
+/* Medium Screens (Tablets) */
+@media (max-width: 1024px) {
+  .TreatmentContainer {
+    padding: 0 80px 20px 80px;
+  }
+
+  .medicalCardsOuter {
+    grid-template-columns: repeat(4, minmax(160px, 1fr));
+    /* 3 per row */
+  }
+}
+
+/* Small Screens (Mobile) */
+@media (max-width: 768px) {
+  .TreatmentContainer {
+    padding: 0 40px 20px 40px;
+  }
+
+  .medicalCardsOuter {
+    grid-template-columns: repeat(3, minmax(140px, 1fr));
+    /* 2 per row */
+  }
+
+  .medicalCard {
+    max-width: 196px;
+    height: 176px;
+    padding: 12px;
+    margin-bottom: 6px;
+  }
+
+  .allViewtext {
+    text-align: center;
+  }
+}
+
+/* Extra Small Screens */
+@media (max-width: 480px) {
+  .TreatmentContainer {
+    padding: 0 20px 20px 20px;
+  }
+
+  .medicalCardsOuter {
+    grid-template-columns: repeat(1, minmax(140px, 1fr));
+    /* Stack cards */
+    gap: 10px;
+  }
+
+  .medicalCard {
+    max-width: 100%;
+    margin-bottom: 12px;
+  }
+
+  .medicalCard:last-child {
+    margin-bottom: 0px;
+  }
+
+  .allViewtext {
+    text-align: center;
+  }
+}
+
+/* ....................Treatment cards............. */
+
+.About {
+  background-color: #0e54a3;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid #0e54a3;
+  border-radius: 50px;
+  font-size: 14px;
+  font-weight: 600;
+  width: 204px;
+  height: 52px;
+  margin-top: 56px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  gap: 10px;
+}
+
+.About:hover {
+  background-color: white;
+  color: #0e54a3;
+  border: 2px solid white;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.DocterMian {
+  width: 100%;
+  height: 100%;
+  object-fit: scale-down;
+}
+
+.peopleContainer {
+  /* margin-top: 80px; */
+  background-color: #f5f5f5;
+  padding: 40px 160px 32px 160px;
+  color: #0e54a3;
+  text-align: center;
+}
+
+.peopleContainer22 {
+  padding: 0px 160px 0px 160px;
+  color: #0e54a3;
+  text-align: center;
+}
+
+.iconOuter {
+  background-color: white;
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* margin-left: 8px; */
+}
+
+.Iconnns {
+  font-size: 24px;
+  /* margin-left: 16px; */
+}
+
+.Iconm2 {
+  font-size: 14px;
+  color: #0e54a3;
+}
+
+.PeoplesCardDots {
+  width: 20%;
+  background-color: #f5f5f5;
+  color: #0e54a3;
+  height: 160px;
+  padding: 40px 20px;
+  box-sizing: border-box;
+  text-align: center;
+  /* border-right: 2px dashed #0e54a3; */
+  transition: all 0.3s ease-in-out;
+  position: relative;
+  overflow: hidden;
+}
+
+.borderLeft {
+  border-left: 2px dashed #0e54a3;
+}
+
+.borderRight {
+  border-right: 2px dashed #0e54a3;
+}
+
+/* Hover effect */
+.PeoplesCardDots:hover {
+  background-color: #d8eaf5;
+  box-shadow: inset 0px 0px 10px rgba(14, 84, 163, 0.3);
+}
+
+.PeoplesCard {
+  width: 20%;
+  background-color: #f5f5f5;
+  color: #0e54a3;
+  height: 160px;
+  padding: 40px 20px;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+.PeoplesCard:hover {
+  background-color: #d8eaf5;
+  box-shadow: inset 0px 0px 10px rgba(14, 84, 163, 0.3);
+}
+
+.textCenter {
+  text-align: center !important;
+}
+
+.goalHeading {
+  width: 27%;
+  text-align: start;
+  /* background-color: #00276d; */
+  padding: 30px 0px 0px 20px;
+}
+
+.goalText {
+  width: 30%;
+  text-align: start;
+  color: #0e54a3;
+  padding: 16px 0px;
+}
+
+.colorBlue {
+  color: #0e54a3;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 40px;
+  letter-spacing: 0%;
+}
+
+.textHight {
+  height: 135px;
+}
+
+.iconshover:hover {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+  border: 1px solid #ff7631;
+}
+
+.natureContainer {
+  align-self: flex-end;
+  width: 100%;
+  background-color: white;
+  opacity: 0.9;
+  margin-top: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  box-sizing: border-box;
+  padding: 0 160px 20px 160px;
+}
+
+.colorGray {
+  color: #6f6c90;
+}
+
+.dotss {
+  height: 50px;
+  width: 187px;
+  position: absolute;
+  left: 100px;
+  top: 90.5%;
+}
+
+.MianHome {
+  width: 100%;
+  height: 525px;
+}
+
+.flxCenter {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.flxxcenter {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.bgcolor {
+  background-color: white;
+  /* background-color: #e2e9ec; */
+  padding: 70px 160px 70px 160px;
+  color: #0e54a3;
+}
+
+.cardText {
+  padding: 10px;
+  border-radius: 8px;
+  color: rgba(255, 255, 255, 1);
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.logoOuter {
+  height: 36px;
+  width: 36px;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  margin: 0px auto 8px auto;
+  font-size: 14px;
+}
+
+.card:hover {
+  background-color: #0e54a3;
+  color: white;
+}
+
+.flxBetween {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.iconimg {
+  height: 24px;
+  width: 24px;
+}
+
+.Phriconimg {
+  height: 21px;
+  width: 16px;
+}
+
+.fs48 {
+  font-size: 48px;
+}
+
+/* span {
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 40px;
+  letter-spacing: 0%;
+  color: #0e54a3;
+} */
+.whychoose {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 0%;
+  text-align: center;
+  color: #131313;
+}
+
+.whychoose22 {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 0%;
+
+  color: #131313;
+}
+
+.SevicesText {
+  width: 80%;
+  text-align: center;
+  margin-top: 36px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 0%;
+  text-align: center;
+  color: #131313;
+}
+
+.textcenter {
+  text-align: center;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+}
+
+.borderBottom {
+  width: max-content;
+  margin: auto;
+  border-width: 0px 0px 6px 0px;
+  border-style: solid;
+  border-image: linear-gradient(to right, #ff7631 50%, #d9d9d9 50%) 30;
+  border-radius: 50%;
+  border-radius: 2px 2px 2px 2px;
+}
+
+.borderBottomCenter {
+  width: max-content;
+  border-bottom: 4px solid #ff7631;
+  border-radius: 2px 2px 2px 2px;
+}
+
+.borderBottom2 {
+  width: max-content;
+  border-bottom: 4px solid #ff7631;
+  border-radius: 2px 2px 2px 2px;
+}
+
+.bgImgContainer {
+  /* background-image: url("../../assests/backGroundHome.png");s */
+  background-size: cover;
+  height: 700px;
+  padding-top: 40px;
+  display: flex;
+  flex-direction: column;
+}
+
+.textNature {
+  font-size: 85px !important;
+  font-weight: 800;
+  color: #ff7631;
+  font-family: "Nature" !important;
+}
+
+@font-face {
+  font-family: "Nature";
+  src: url(../../../fonts/nature/Nature.ttf);
+}
+
+.Nature {
+  font-family: "Nature";
+}
+
+.caption {
+  color: #0e54a3;
+  margin-top: 8px;
+}
+
+.mt100 {
+  margin-top: 100px;
+}
+
+.mt50 {
+  margin-top: 50px;
+}
+
+.mt8 {
+  margin-top: 8px;
+}
+
+.mt16 {
+  margin-top: 16px;
+}
+
+.mt24 {
+  margin-top: 24px;
+}
+
+.mt32 {
+  margin-top: 32px;
+}
+
+.ml8 {
+  margin-left: 8px;
+}
+
+.fs24 {
+  font-size: 24px;
+}
+
+.circleImg {
+  height: 76px;
+  width: 82px;
+  display: flex;
+  margin: auto;
+}
+
+.mainGoalContainer {
+  padding: 40px 100px;
+  background-color: white;
+}
+
+.doctorGroup {
+  width: 100%;
+  height: 420px;
+}
+
+.Featured {
+  height: 358px;
+  width: 400px;
+}
+
+.mediBox {
+  height: 58px;
+  width: 45%;
+  border-radius: 8px;
+  background-color: white;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  display: flex;
+  align-items: center;
+  color: #0e54a3;
+  box-sizing: border-box;
+  padding: 0px 25px;
+  gap: 10px;
+}
+
+.medi {
+  height: 40px;
+  width: 40px;
+  /* margin-right: 16px; */
+}
+
+.Laptop {
+  width: 100%;
+  height: auto;
+}
+
+.home > input {
+  padding: 10px;
+  border-radius: 18px;
+  background-color: #e2e9ec;
+  color: #0e54a3;
+  border: 1px solid #0e54a3;
+  width: 100%;
+  font-size: 16px;
+  height: 50px;
+  box-sizing: border-box;
+}
+
+.home > input:focus {
+  outline: none !important;
+}
+
+.send {
+  background-color: #0e54a3;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 50px;
+  width: 90px;
+  border-radius: 18px;
+  margin-left: auto;
+  position: relative;
+  top: 50px;
+  cursor: pointer;
+}
+
+.iconsend {
+  color: white;
+  height: 24px;
+  width: 24px;
+}
+
+.iconsOuters {
+  height: 48px;
+  width: 48px;
+  background-color: #ff7631;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  margin-top: 16px;
+  margin-right: 16px;
+  color: white;
+}
+
+.socialIcons {
+  margin-top: 8px;
+  height: 24px;
+  width: 24px;
+}
+
+.MainGoal {
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  padding: 100px 20px;
+}
+
+.textJustify {
+  text-align: justify;
+}
+
+.Spiner {
+  width: 100%;
+  height: 524px;
+}
+
+.lefticon {
+  margin-left: 24px;
+  height: 18px;
+}
+
+.container {
+  margin: 50px 160px 50px 160px;
+  display: flex;
+  align-items: start;
+  justify-content: space-between;
+}
+
+.container2 {
+  margin: 40px 160px 40px 160px;
+}
+
+.flxBetween {
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+}
+
+.cursor {
+  cursor: pointer;
+}
+
+.FAQIMG {
+  width: 80%;
+  box-sizing: border-box;
+}
+
+.contact {
+  color: #efa33e;
+  border-left: 2px solid #efa33e;
+  margin-right: 8px;
+}
+
+.SocialIconOuter {
+  background-color: #0e54a3;
+  color: #0e54a3;
+  border-radius: 50%;
+  height: 63px;
+  width: 63px;
+  margin-right: 24px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Socialicon {
+  color: white;
+  height: 32px;
+  width: 32px;
+}
+
+.Contactt {
+  width: 48%;
+}
+
+.Contactt > input {
+  width: 100%;
+  font-size: 16px;
+  font-weight: 600;
+  background-color: transparent;
+  color: #0e54a3;
+  padding: 7px 25px;
+  border-radius: 16px;
+  border: 1px solid #0e54a3;
+  height: 55px;
+  box-sizing: border-box;
+}
+
+.Contactt > input:focus {
+  border-color: #0e54a3;
+}
+
+.Contactt > input::placeholder {
+  font-size: 16px;
+  font-weight: 600;
+  color: #0e54a3 !important;
+}
+
+.textAera > textarea {
+  width: 100%;
+  font-size: 16px;
+  font-weight: 600;
+  background-color: transparent;
+  color: #0e54a3;
+  padding: 15px 25px;
+  border-radius: 16px;
+  border: 1px solid #0e54a3;
+  height: 155px;
+  box-sizing: border-box;
+}
+
+.textAera > textarea::placeholder {
+  font-size: 16px;
+  font-weight: 600;
+  color: #0e54a3 !important;
+}
+
+.textAera > textarea:focus {
+  border-color: #00276d;
+}
+
+.sendBttn {
+  height: 60px;
+  width: 206px;
+  color: white;
+  border-radius: 16px;
+  font-size: 16px;
+  font-weight: 500;
+  margin-top: 32px;
+  background-image: linear-gradient(to right, #eca83f, #fb8034);
+  border: none;
+}
+
+.loggo {
+  height: 90px;
+  width: 90px;
+}
+
+.Footer {
+  margin: 100px 160px 50px 160px;
+}
+
+.mt24 > input {
+  height: 58px;
+  width: 100%;
+  border-radius: 32px;
+  background-color: white;
+  box-shadow: rgba(0, 0, 0, 0.05) 1px 1px 9px 2px;
+  border: none;
+  box-sizing: border-box;
+  padding: 15px;
+  font-size: 16px;
+}
+
+.mt24 > input:focus {
+  border-color: #0e54a3;
+}
+
+.SubscribeBtn {
+  background-color: #ff7631;
+  color: white;
+  font-weight: 500;
+  font-size: 16px;
+  border-radius: 25px;
+  width: 125px;
+  height: 54px;
+  border: 2px solid #ff7631;
+}
+
+.FooterICONS {
+  color: #ff7631;
+  margin-right: 24px;
+  height: 16px;
+}
+
+.MediLogo {
+  height: 221px;
+  width: 253px;
+}
+
+.flx {
+  display: flex;
+  align-items: center;
+}
+
+.flxFAQ {
+  display: flex;
+  align-items: start;
+}
+
+.flexBetween {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.barbtn {
+  height: 30px;
+  width: 30px;
+  margin-left: auto;
+  margin-right: 30px;
+}
+
+.FooterFlx {
+  display: flex;
+  justify-content: space-between;
+}
+
+.Frequently {
+  font-size: 32px;
+  font-weight: 700;
+}
+
+.flxIcons {
+  display: flex;
+  align-items: center;
+}
+
+.mobileMenu {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 45px;
+  right: 0;
+  background-color: #f5f5f5;
+  border: 3px solid white;
+  border-radius: 15px;
+  margin-right: 10px;
+  margin-top: 8px;
+  z-index: 1000;
+  font-size: 14px;
+  font-weight: 900;
+  color: #0e54a3;
+  text-align: start;
+  padding: 10px 0;
+}
+
+.menulist {
+  padding: 5px 20px;
+  text-align: start;
+}
+
+.menulist:hover {
+  color: #ff7631;
+}
+
+.fs32 {
+  font-size: 32px;
+  font-weight: 700;
+}
+
+.fs48 {
+  font-size: 48px;
+  font-weight: 700;
+}
+
+.fs16 {
+  font-size: 16px;
+}
+
+.fs18 {
+  font-size: 18px;
+}
+
+.fs20 {
+  font-size: 20px;
+}
+
+.fs21 {
+  font-size: 20px;
+}
+
+.mtt24 {
+  margin-top: 24px;
+}
+
+.w20 {
+  width: 20%;
+}
+
+.customerImage {
+  height: 300px;
+  width: 100%;
+  border-radius: 16px;
+}
+
+.textstart {
+  text-align: start;
+}
+
+.flxstart {
+  display: flex;
+  align-items: start;
+}
+
+.Seealls {
+  background-color: #0e54a3;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid #0e54a3;
+  border-radius: 50px;
+  font-size: 14px;
+  font-weight: 600;
+  width: 204px;
+  height: 52px;
+  margin-top: 40px;
+  cursor: pointer;
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+  .mbsmmd8 {
+    margin-bottom: 12px;
+  }
+
+  .mxsm20 {
+    margin: 0 20px;
+  }
+
+  .mb24 {
+    margin-bottom: 0px;
+  }
+
+  /* .WhyPakistan {
+    width: 60%;
+    display: flex;
+    margin: 56px auto 0 auto;
+  } */
+
+  .About {
+    width: 100%;
+  }
+
+  .DocterMian {
+    height: 300px;
+    width: 100%;
+    margin-top: 24px;
+  }
+
+  .goalHeading {
+    width: 100%;
+    text-align: start;
+  }
+
+  .goalText {
+    width: 100%;
+  }
+
+  .PeoplesCardDots {
+    width: 100%;
+    border: none;
+    margin-top: 16px;
+  }
+
+  .borderLeft,
+  .borderRight {
+    border: none !important;
+  }
+
+  .PeoplesCard {
+    width: 100%;
+
+    margin-top: 16px;
+  }
+
+  .peopleContainer {
+    background-color: #eef5f9;
+    padding: 32px 20px 32px 20px;
+    color: #0e54a3;
+    text-align: center;
+  }
+
+  .peopleContainer22 {
+    padding: 32px 20px 32px 20px;
+    color: #0e54a3;
+    text-align: center;
+  }
+
+  .natureContainer {
+    align-self: flex-end;
+    width: 100%;
+    background-color: white;
+    opacity: 0.9;
+    margin-top: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    box-sizing: border-box;
+    padding: 0 20px 20px 20px;
+  }
+
+  .ddotss {
+    display: none;
+  }
+
+  .borderBottomCenter {
+    width: max-content;
+    border-bottom: 4px solid #ff7631;
+    display: flex;
+    margin: auto;
+    border-radius: 2px 2px 2px 2px;
+  }
+
+  .fs21 {
+    font-size: 14px;
+  }
+
+  .fs18 {
+    font-size: 12px;
+  }
+
+  .textNature {
+    font-size: 32px !important;
+    font-weight: 800;
+    color: #ff7631;
+  }
+
+  .caption {
+    color: #0e54a3;
+    margin-top: 8px;
+    font-size: 16px !important;
+    font-weight: 600;
+    text-align: center;
+  }
+
+  .loggo {
+    height: 60px;
+    width: 60px;
+  }
+
+  .mtt24 {
+    margin-top: 0%;
+  }
+
+  .Contactt {
+    width: 100%;
+    margin-top: 16px;
+  }
+
+  .SocialIconOuter {
+    background-color: #0e54a3;
+    color: #0e54a3;
+    border-radius: 50%;
+    height: 42px;
+    width: 42px;
+    margin-right: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .Socialicon {
+    color: white;
+    height: 24px;
+    width: 24px;
+  }
+
+  .flx {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .mediBox {
+    height: 58px;
+    width: 47%;
+    border-radius: 8px;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    margin-top: 16px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #0e54a3;
+    box-sizing: border-box;
+    padding: 0px 20px;
+  }
+
+  .medi {
+    height: 30px;
+    width: 30px;
+  }
+
+  .fs20 {
+    font-size: 12px;
+  }
+
+  .SevicesText {
+    width: 100%;
+    font-size: 14px;
+    font-weight: 400;
+    text-align: center;
+    margin-top: 36px;
+  }
+
+  .dotss {
+    height: 10px;
+    width: 50px;
+  }
+
+  .fs16 {
+    font-size: 12px;
+  }
+
+  .fs32 {
+    font-size: 24px;
+    font-weight: 700;
+    text-align: center !important;
+  }
+
+  .fs48 {
+    font-size: 24px;
+    font-weight: 700;
+    text-align: center !important;
+  }
+
+  .textsmCenter {
+    text-align: center !important;
+  }
+
+  .MediLogo {
+    height: 50px;
+    width: 50px;
+  }
+
+  .card {
+    border-radius: 16px;
+    background-color: #dee6ec;
+    padding: 20px;
+    box-sizing: border-box;
+    width: 90%;
+    margin-top: 16px;
+    color: #0e54a3;
+    text-align: center;
+    cursor: pointer;
+    font-size: 9px;
+  }
+
+  .colsm6 {
+    width: 47%;
+  }
+
+  .colsm3 {
+    width: 24%;
+  }
+
+  .flxCenter {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  .MianHome {
+    margin-top: 24px;
+    height: 180px;
+    width: 100%;
+  }
+
+  .logo {
+    height: 40px;
+    width: 40px;
+    margin-left: 16px;
+    margin-top: 5px;
+  }
+
+  .textsmCenter {
+    text-align: center;
+  }
+
+  .flxIcons {
+    display: flex;
+    justify-content: center;
+  }
+
+  .mtsm50 {
+    margin-top: 50px;
+  }
+
+  .mtsm20 {
+    margin-top: 20px;
+  }
+
+  .Frequently {
+    font-size: 20px;
+    font-weight: 700;
+  }
+
+  .MediLogo {
+    display: none;
+  }
+
+  .bgcolor {
+    background-color: white;
+    padding: 24px;
+    color: #0e54a3;
+    padding: 24px 20px 24px 20px;
+  }
+
+  .container {
+    margin: 20px;
+    display: flex;
+    flex-wrap: wrap-reverse;
+    align-items: start;
+    justify-content: center;
+  }
+
+  .container2 {
+    margin: 20px;
+  }
+
+  .flxFAQ {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .Footer {
+    margin: 40px 24px 24px 20px;
+  }
+
+  .Laptop {
+    margin-top: 30px;
+    width: 70%;
+    height: auto;
+  }
+
+  .Featured {
+    width: 60%;
+    height: 172px;
+    margin: 50px auto 30px auto;
+    display: flex;
+    justify-content: center;
+  }
+
+  .flxBetween {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  .flexBetween {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 50px;
+  }
+
+  .doctorGroup {
+    width: 100%;
+    height: 200px;
+    display: flex;
+    margin: 30px auto 30px auto;
+  }
+
+  .barbtn {
+    height: 30px;
+    width: 30px;
+    margin-left: auto;
+  }
+
+  .NavBar > li {
+    display: none;
+  }
+
+  .join {
+    display: none;
+  }
+
+  .profile {
+    display: none;
+  }
+
+  .TourismCard {
+    width: 100%;
+    height: auto;
+  }
+}
+
+@media (min-width: 481px) and (max-width: 768px) {
+  .mbsmmd8 {
+    margin-bottom: 6px;
+  }
+
+  .DocterMian {
+    height: 400px;
+    width: 100%;
+    margin-top: 50px;
+  }
+
+  .goalHeading {
+    width: 50%;
+    text-align: start;
+  }
+
+  .goalText {
+    width: 100%;
+  }
+
+  .PeoplesCardDots {
+    width: 49%;
+    border: none;
+    margin-top: 16px;
+  }
+
+  .PeoplesCard {
+    width: 49%;
+    border: none;
+    margin-top: 16px;
+  }
+
+  .natureContainer {
+    align-self: flex-end;
+    width: 100%;
+    background-color: white;
+    opacity: 0.9;
+    margin-top: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    box-sizing: border-box;
+    padding: 0 60px 20px 60px;
+  }
+
+  .peopleContainer {
+    background-color: #eef5f9;
+    padding: 32px 60px 32px 60px;
+    color: #0e54a3;
+    text-align: center;
+  }
+
+  .peopleContainer22 {
+    padding: 32px 60px 32px 60px;
+    color: #0e54a3;
+    text-align: center;
+  }
+
+  .flexBetween {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .card {
+    border-radius: 16px;
+    background-color: #dee6ec;
+    padding: 20px;
+    box-sizing: border-box;
+    width: 90%;
+    margin-top: 16px;
+    color: #0e54a3;
+    text-align: center;
+    cursor: pointer;
+    font-size: 12px;
+  }
+
+  .bgcolor {
+    background-color: white;
+    /* background-color: #e2e9ec; */
+    padding: 50px 60px 50px 60px;
+    color: #0e54a3;
+  }
+
+  .container {
+    margin: 50px 60px;
+    display: flex;
+    flex-wrap: wrap-reverse;
+    align-items: start;
+    justify-content: space-between;
+  }
+
+  .container2 {
+    margin: 50px 60px;
+  }
+
+  .flxFAQ {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .mtmd50 {
+    margin-top: 50px;
+  }
+
+  .Footer {
+    margin: 50px 60px 30px 60px;
+  }
+
+  .Featured {
+    height: 358px;
+    width: 400px;
+    display: flex;
+    margin: auto;
+    margin-top: 70px;
+  }
+
+  .Laptop {
+    margin-top: 70px;
+    width: 100%;
+    height: auto;
+  }
+
+  .barbtn {
+    height: 30px;
+    width: 30px;
+    margin-left: auto;
+    margin-right: 16px;
+  }
+
+  .MianHome {
+    margin-top: 24px;
+    height: 400px;
+    width: 100%;
+  }
+
+  .MediLogo {
+    height: 100px;
+    width: 100px;
+  }
+
+  .dotss {
+    height: 27px;
+    width: 130px;
+    position: absolute;
+    bottom: 115px;
+    left: -6%;
+  }
+
+  .fs16 {
+    font-size: 14px;
+  }
+
+  .fs20 {
+    font-size: 16px;
+  }
+
+  .mt32md {
+    margin-top: 32px;
+  }
+
+  .doctorGroup {
+    width: 100%;
+    height: 300px;
+    display: flex;
+    margin: 50px auto 30px auto;
+  }
+
+  .TourismCard {
+    width: 100%;
+    font-size: 40px;
+    height: auto;
+  }
+
+  .Tourismtext {
+    font-size: 16px;
+  }
+
+  .mbmd24 {
+    margin-bottom: 24px;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 1040px) {
+  .mbsmmd8 {
+    margin-bottom: 8px;
+  }
+
+  .flxFAQ {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  .PeoplesCardDots {
+    width: 20%;
+  }
+
+  .PeoplesCard {
+    width: 20%;
+  }
+
+  .bgcolor {
+    background-color: white;
+    /* background-color: #e2e9ec; */
+    padding: 50px 80px 50px 80px;
+    color: #0e54a3;
+  }
+
+  .peopleContainer {
+    background-color: #eef5f9;
+    padding: 32px 80px 32px 80px;
+    color: #0e54a3;
+    text-align: center;
+  }
+
+  .peopleContainer22 {
+    padding: 32px 80px 32px 80px;
+  }
+
+  .wmdd100 {
+    width: 100%;
+  }
+
+  .mtmdd50 {
+    margin-top: 50px;
+  }
+
+  .goalText {
+    width: 30%;
+  }
+
+  .container {
+    margin: 50px 80px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: start;
+    justify-content: space-between;
+  }
+
+  .container2 {
+    margin: 50px 80px;
+  }
+
+  .TourismCard {
+    width: 100%;
+    text-align: center;
+    font-size: 40px;
+  }
+
+  .Tourismtext {
+    font-size: 16px;
+  }
+
+  .mediBox {
+    height: 58px;
+    width: 48%;
+    border-radius: 8px;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    margin-top: 16px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #0e54a3;
+    box-sizing: border-box;
+    padding: 0px 8px;
+  }
+}
+
+@media (min-width: 1041px) and (max-width: 1440px) {
+  .PeoplesCardDots {
+    width: 20%;
+  }
+
+  .PeoplesCard {
+    width: 20%;
+  }
+
+  .bgcolor {
+    background-color: white;
+    /* background-color: #e2e9ec; */
+    padding: 50px 100px 50px 100px;
+    color: #0e54a3;
+  }
+
+  .peopleContainer {
+    background-color: #eef5f9;
+    padding: 32px 100px 32px 100px;
+    color: #0e54a3;
+    text-align: center;
+  }
+
+  .peopleContainer22 {
+    padding: 32px 100px 32px 100px;
+  }
+
+  .container {
+    margin: 50px 100px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: start;
+    justify-content: space-between;
+  }
+
+  .container2 {
+    margin: 50px 100px;
+  }
+
+  .Tourismtext {
+    font-size: 12px;
+  }
+}
+
+/*#............................................................................................................................... */
+
+/* Main container */
+
+/* Left Column - Image or Slider */
+.sliderMiancontainer {
+  flex: 1;
+  width: 100%;
+  max-width: 67%;
+  margin-top: 0px;
+}
+
+.TourismPakContainer {
+  display: flex;
+
+  gap: 24px;
+  width: 88%;
+  margin: 0 auto;
+  padding: 0px 5px;
+  margin-top: 120px;
+}
+
+.TourismTextContainer {
+  max-width: 500px;
+  overflow: hidden;
+  text-align: left;
+  margin: 0px;
+  padding: 0px;
+}
+
+.tourtext {
+  font-size: clamp(32px, 10vw, 92px);
+  /* Adjusts between 32px and 92px based on screen width */
+  font-weight: 600;
+  line-height: 0.9px;
+  /* Adjusted for better readability */
+  letter-spacing: 0.12em;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: #ff7631;
+  text-align: center;
+}
+
+.pakistantext {
+  font-size: clamp(28px, 5vw, 46px);
+  /* Scales between 20px and 30px */
+  font-weight: 600;
+  letter-spacing: clamp(0.5rem, 3vw, 2.2rem);
+  /* Responsive letter-spacing */
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: #0e54a3;
+  white-space: nowrap;
+  margin-left: 1vw;
+  /* Dynamic margin */
+  text-align: center;
+}
+
+/* Paragraph */
+.tourparagraph {
+  font-weight: 400;
+  font-size: 14px;
+  letter-spacing: 0%;
+  text-align: justify;
+  color: #131313;
+  width: 100%;
+  margin-top: 15px;
+}
+
+/* Button */
+/* .WhyPakistan {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding: 12px 20px;
+  font-size: 1rem;
+  background: none;
+  border: 2px solid #1e3a8a;
+  border-radius: 25px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  width: 100%;
+  margin-top: 36px;
+  color: #1e3a8a;
+}
+
+.WhyPakistan:hover {
+  background: #1e3a8a;
+  color: #fff;
+} */
+
+.WhyPakistan {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding: 12px 20px;
+  font-size: 1rem;
+  background: none;
+  border: 2px solid #1e3a8a;
+  border-radius: 25px;
+  cursor: pointer;
+  position: relative;
+  overflow: hidden;
+  transition: color 0.3s ease;
+  width: 100%;
+  margin-top: 40px;
+  color: #1e3a8a;
+  z-index: 1;
+}
+
+.WhyPakistan::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background: #1e3a8a;
+  transition: left 0.3s ease-in-out;
+  z-index: -1;
+}
+
+.WhyPakistan:hover {
+  color: #fff;
+}
+
+.WhyPakistan:hover::before {
+  left: 0;
+}
+
+/* Icon */
+.iconOuter {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.Iconm2 {
+  font-size: 1.2rem;
+  color: #1e3a8a;
+}
+
+/* Responsive Design */
+
+@media (min-width: 1800px) and (max-width: 2800px) {
+  .tourtext {
+    font-size: clamp(32px, 7vw, 62px);
+    line-height: 0.9;
+    letter-spacing: 0.4em;
+  }
+
+  .pakistantext {
+    font-size: clamp(20px, 4.5vw, 28px);
+    letter-spacing: clamp(2rem, 3.7vw, 3rem);
+    margin-left: 0.25vw;
+  }
+
+  .WhyPakistan {
+    margin-top: 70px;
+  }
+}
+
+@media (min-width: 1441px) and (max-width: 1800px) {
+  .tourtext {
+    font-size: clamp(32px, 7vw, 62px);
+    line-height: 0.9;
+    letter-spacing: 0.4em;
+  }
+
+  .pakistantext {
+    font-size: clamp(20px, 4.5vw, 28px);
+    letter-spacing: clamp(2rem, 3.7vw, 3rem);
+    margin-left: 0.25vw;
+  }
+
+  .tourparagraph {
+    line-height: 1.5;
+    margin-top: 12px;
+  }
+}
+
+@media (max-width: 1440px) {
+  .TourismPakContainer {
+    width: 90%;
+    /* Slightly increase width for better fit */
+  }
+
+  .sliderMiancontainer {
+    max-width: 60%; /* Reduce size for better alignment */
+    margin-top: 0px;
+  }
+
+  .TourismTextContainer {
+    max-width: 480px;
+    /* Reduce width slightly */
+  }
+
+  .tourtext {
+    font-size: clamp(40px, 8vw, 75px);
+    /* Reduced max size */
+    letter-spacing: 0.3em;
+    line-height: 0.9;
+  }
+
+  .pakistantext {
+    font-size: clamp(20px, 4.5vw, 28px);
+    letter-spacing: clamp(2rem, 3.9vw, 3.85rem);
+    /* letter-spacing: 0.3em; */
+  }
+
+  .tourparagraph {
+    margin-top: 12px;
+    line-height: 1.5;
+  }
+
+  .WhyPakistan {
+    font-size: 1rem;
+    padding: 12px 18px;
+    margin-top: 47px;
+  }
+}
+
+@media (max-width: 1200px) and (min-width: 1020px) {
+  .TourismPakContainer {
+    width: 95%;
+    /* Increased width for better layout fit */
+    flex-direction: column;
+    /* Stack items for better responsiveness */
+    align-items: center;
+    gap: 30px;
+    margin-top: 70px;
+  }
+
+  .sliderMiancontainer {
+    max-width: 85%; /* Adjust image container size */
+    margin-top: 0px;
+  }
+
+  .TourismTextContainer {
+    max-width: 80%;
+    text-align: center;
+  }
+
+  .tourtext {
+    font-size: clamp(32px, 7vw, 64px);
+    line-height: 1.1;
+    letter-spacing: clamp(0.2rem, 2vw, 0.8rem);
+  }
+
+  .pakistantext {
+    font-size: clamp(18px, 4vw, 24px);
+    letter-spacing: clamp(0.2rem, 2vw, 0.8rem);
+    margin-left: 0;
+    white-space: normal;
+    /* Allow wrapping */
+  }
+
+  .WhyPakistan {
+    font-size: 1rem;
+    padding: 12px 18px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .TourismPakContainer {
+    flex-direction: column;
+    text-align: center;
+    gap: 30px;
+  }
+
+  .sliderMiancontainer {
+    max-width: 90%;
+    margin: 0 auto;
+    margin-top: 0px;
+  }
+
+  .TourismTextContainer {
+    max-width: 90%;
+  }
+
+  .tourtext {
+    font-size: clamp(32px, 7vw, 64px);
+    line-height: 1.1;
+  }
+
+  .pakistantext {
+    font-size: clamp(18px, 4vw, 24px);
+    letter-spacing: clamp(0.2rem, 2vw, 0.8rem);
+    margin-left: 0;
+    white-space: normal;
+    /* Allow wrapping */
+  }
+}
+
+@media (max-width: 768px) {
+  .TourismPakContainer {
+    margin-top: 150px;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .tourtext {
+    font-size: clamp(32px, 7vw, 64px);
+    line-height: 1.1;
+    letter-spacing: 0.3em;
+  }
+
+  .pakistantext {
+    font-size: clamp(18px, 4vw, 24px);
+    letter-spacing: clamp(0.2rem, 2vw, 0.8rem);
+    margin-left: 0;
+    white-space: normal;
+    /* Allow wrapping */
+  }
+
+  .WhyPakistan {
+    font-size: 0.9rem;
+    padding: 10px 16px;
+  }
+}
+
+@media (max-width: 480px) {
+  .TourismPakContainer {
+    margin-top: 100px;
+  }
+  .sliderMiancontainer {
+    margin-top: 70px;
+  }
+  .tourtext {
+    font-size: clamp(24px, 7vw, 48px);
+    line-height: 1.2;
+    font-weight: 600;
+    letter-spacing: 0.4em;
+  }
+
+  .TourismTextContainer {
+    text-align: center;
+  }
+
+  .pakistantext {
+    font-size: clamp(16px, 4vw, 22px);
+    letter-spacing: clamp(0.2rem, 2vw, 0.4em);
+    text-align: center;
+    white-space: normal;
+  }
+
+  .WhyPakistan {
+    font-size: 0.85rem;
+    padding: 8px 14px;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 400px) {
+  .TourismPakContainer {
+    margin-top: 0px;
+  }
+
+  .tourtext {
+    font-size: 22px;
+    letter-spacing: 1em;
+    display: block;
+    /* Ensure "Tourism" comes on one line */
+  }
+
+  .TourismTextContainer {
+    text-align: center;
+  }
+
+  .pakistantext {
+    font-size: 16px;
+    /* Adjust for better readability */
+    letter-spacing: 1.2rem;
+    display: block;
+    /* Force "Pakistan" to the second line */
+  }
+
+  .tourparagraph {
+    font-size: 0.7rem;
+  }
+}

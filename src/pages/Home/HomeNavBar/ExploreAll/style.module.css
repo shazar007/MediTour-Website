@@ -1,0 +1,143 @@
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 1280px;
+  margin: 0 auto;
+  justify-content: center; /* Center the images horizontally */
+  align-items: center; /* Center the images vertically */
+  margin: 0 auto; /* Center the container */
+}
+
+.rectangleCard {
+  height: 480px;
+  width: 278px;
+
+  margin: 4px; /* Add margin to create space between items */
+  overflow: hidden; /* Hide overflow to keep the zoom inside the container */
+  position: relative;
+}
+
+.image {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  transition: transform 0.3s ease-in-out; /* Smooth transition for both transform and opacity */
+}
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0); /* Transparent by default */
+  transition: background-color 0.3s ease-in-out; /* Smooth transition for background color */
+  z-index: 1; /* Ensure the overlay is on top of the image */
+}
+
+.rectangleCard:hover .image {
+  transform: scale(1.1); /* Zoom effect */
+}
+
+.rectangleCard:hover .overlay {
+  background-color: rgba(0, 0, 0, 0.2); /* Black faded effect */
+  cursor: pointer;
+}
+
+.absoluteContainer {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  z-index: 1000;
+  padding-left: 25px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 10px;
+ 
+  
+}
+
+
+.text {
+  font-size: 32px;
+  font-weight: bolder;
+  color: #fff;
+  line-height: 20px;
+  margin-bottom: 8px;
+}
+.text2 {
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 20px;
+  color: #ff7631;
+}
+
+/* Media queries for responsiveness */
+@media (max-width: 1200px) {
+  .rectangleCard {
+    border: 1px solid black;
+    width: 240px; /* Adjust width for medium screens */
+  }
+  .container {
+    padding-left: 120px;
+    padding-right: 120px;
+  }
+}
+
+@media (max-width: 768px) {
+  .rectangleCard {
+    height: 280px;
+    width: 150px; /* Adjust width for small screens */
+  }
+  .container {
+    padding-left: 80px;
+    padding-right: 80px;
+  }
+}
+
+@media (max-width: 480px) {
+  .container {
+    height: auto; /* Adjust height for very small screens */
+    padding-top: 120px;
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+
+  .rectangleCard {
+    height: 200px; /* Adjust height for very small screens */
+    width: 100%; /* Full width on very small screens */
+    margin: 2px 0; /* Adjust margin for better spacing */
+  }
+}
+
+@media (min-width: 1441px) and (max-width: 2800px) {
+  .container {
+    padding-left: 160px;
+    padding-right: 160px;
+  }
+  .text {
+    font-size: 34px;
+  }
+  .text2 {
+    font-size: 16px;
+    margin: 0px 0px 0px 0px;
+  }
+
+  .absoluteContainer {
+    padding-bottom: 32px;
+  }
+}
+
+@media (max-width: 1440px) {
+  .text {
+    font-size: 28px;
+  }
+  .text2 {
+    font-size: 16px;
+    margin: 0px 0px 0px 0px;
+  }
+  .absoluteContainer {
+    padding-bottom: 32px;
+  }
+}

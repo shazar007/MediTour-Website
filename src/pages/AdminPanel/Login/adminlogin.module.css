@@ -1,0 +1,80 @@
+.OuterLogin {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f8f8f8;
+}
+.LoginBox {
+  width: 35%;
+  min-height: 500px;
+  max-height: auto;
+  background-color: white;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  border-radius: 16px;
+  text-align: center;
+  padding: 56px;
+  box-sizing: border-box;
+  position: relative;
+}
+.colorgray {
+  color: #909198;
+}
+.checkBoxx {
+  margin-right: 16px !important;
+  color: #ee7e37 !important;
+}
+.Outerlogo {
+  position: absolute;
+  top: -47px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.logo {
+  height: 94px;
+  width: 94px;
+}
+.mt8 {
+  margin-top: 8px;
+}
+.mt16 {
+  margin-top: 16px;
+}
+.mt24 {
+  margin-top: 24px;
+}
+@media (min-width: 320px) and (max-width: 480px) {
+  .OuterLogin {
+    padding: 0px 0;
+  }
+  .LoginBox {
+    width: 90%;
+    height: 500px;
+    background-color: white;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    border-radius: 16px;
+    text-align: center;
+    padding: 26px;
+    box-sizing: border-box;
+    position: relative;
+  }
+}
+@media (min-width: 481px) and (max-width: 768px) {
+  .OuterLogin {
+    padding: 0px 0;
+  }
+  .LoginBox {
+    width: 60%;
+    height: 500px;
+    background-color: white;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    border-radius: 16px;
+    text-align: center;
+    padding: 46px;
+    box-sizing: border-box;
+    position: relative;
+  }
+}
+@media (min-width: 769px) and (max-width: 2800px) {
+}

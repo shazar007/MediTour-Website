@@ -1,0 +1,59 @@
+.CardConatiner {
+  width: 100%;
+  height: 225px;
+  border-radius: 24px;
+  background: #ffffff;
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.tumnimgContainer {
+  width: 24px;
+  height: 31px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 06px auto;
+}
+.tumnimg {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+.commentConatiner {
+  /* margin: 25px 0; */
+  overflow: hidden;
+  height: 55px;
+}
+.comment {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 14px;
+  letter-spacing: -0.25px;
+  text-align: center;
+  color: #7d7d7d;
+  display: -webkit-box;
+  -webkit-line-clamp: 4;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.starrow {
+  display: flex;
+  gap: 8px;
+  justify-content: center;
+  margin: 16px 0;
+}
+.namecontainer {
+  border-top: 1px dashed #7d7d7d;
+  padding: 16px 0;
+}
+.name {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 14px;
+  letter-spacing: -0.25px;
+  text-align: center;
+  color: #131313;
+}

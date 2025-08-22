@@ -1,0 +1,174 @@
+.mainOuter {
+  width: 100%;
+  padding: 24px 40px 24px 24px;
+  box-sizing: border-box;
+}
+.Navouter {
+  position: sticky;
+  z-index: 1000;
+  top: 0%;
+}
+.refresh {
+  font-size: 22px;
+  margin-left: 32px;
+  cursor: pointer;
+  color: #393a44;
+}
+.loader {
+  margin-left: 24px;
+}
+
+.headerclass {
+  width: 14.2857% !important;
+  text-align: center;
+
+  padding: 15px;
+  font-size: 14px;
+}
+.headerOuter {
+  display: flex;
+  align-items: center;
+  /* background-color: white; */
+  /* color: black; */
+  background-color: white;
+  color: #393a44;
+  border-radius: 14px 14px 0 0;
+  position: sticky !important;
+  top: 115px;
+}
+.payment {
+  margin-top: 24px;
+}
+
+/* Details */
+.DetailCard {
+  background-color: white;
+  border-radius: 16px;
+  width: 35%;
+  margin-right: 24px;
+  color: #393a44;
+  height: 260px;
+}
+.mt24 {
+  margin-top: 24px;
+}
+.headerCard {
+  padding: 10px 32px;
+  color: #393a44;
+  border-bottom: 1px solid #979797;
+}
+.headerBody {
+  padding: 24px 32px;
+  color: #393a44;
+}
+.mt8 {
+  margin-top: 8px;
+}
+.Btnwidth {
+  width: 204px;
+}
+.MessageCard {
+  background-color: white;
+  border-radius: 16px;
+  width: 65%;
+  margin-top: 24px;
+  color: #393a44;
+}
+.messageBody {
+  padding: 24px 32px;
+  display: flex;
+  justify-content: space-between;
+  color: #393a44;
+}
+.sendOuter {
+  margin-top: 16px;
+  display: flex;
+  justify-content: end;
+  align-items: end;
+}
+.done {
+  height: 84px;
+  width: 84px;
+  color: green;
+  display: flex;
+  margin: 0px auto 24px auto;
+}
+.colorGray {
+  color: #909198;
+}
+
+.flxBetween {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.mt16 {
+  margin-top: 16px;
+}
+.mt40 {
+  margin-top: 40px;
+}
+.flx {
+  display: flex;
+  align-items: center;
+}
+@media (min-width: 320px) and (max-width: 480px) {
+  .DetailCard {
+    background-color: white;
+    border-radius: 16px;
+    width: 100%;
+    margin-right: 24px;
+    color: #393a44;
+  }
+  .MessageCard {
+    background-color: white;
+    border-radius: 16px;
+    width: 100%;
+    margin-top: 24px;
+    color: #393a44;
+  }
+  .flx {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .messageBody {
+    padding: 24px 32px;
+    display: flex;
+    flex-wrap: wrap;
+    color: #393a44;
+  }
+  .mt24sm {
+    margin-top: 24px;
+  }
+  /* .mainOuter {
+    width: 100%;
+    padding: 24px;
+    box-sizing: border-box;
+    padding: 0 0.83%;
+
+  } */
+  .flxBetween {
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
+
+@media (min-width: 481px) and (max-width: 768px) {
+  .DetailCard {
+    background-color: white;
+    border-radius: 16px;
+    width: 100%;
+    margin-right: 24px;
+    color: #393a44;
+  }
+  .MessageCard {
+    background-color: white;
+    border-radius: 16px;
+    width: 100%;
+    margin-top: 24px;
+    color: #393a44;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 2800px) {
+}

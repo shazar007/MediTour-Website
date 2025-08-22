@@ -1,0 +1,97 @@
+.HospitalSearch > input {
+  border: none;
+  background-color: transparent;
+  outline: none;
+  font-size: 16px;
+  font-weight: 500px;
+  color: #00276d;
+  margin-bottom: 16px;
+}
+.HospitalSearch > input :focus {
+  border: none;
+}
+.HospitalSearch > input::placeholder {
+  color: #a2a3a4;
+}
+.HospitalSearch {
+  display: flex;
+  border-bottom: 0.5px solid #7d7d7d;
+}
+.hospitalcard {
+  padding: 8px;
+  border-bottom: 1px solid #e0e9f4;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+}
+.avatar {
+  width: 48px;
+}
+.Checkbox {
+  border-radius: 25%;
+  color: green;
+}
+
+.mt16 {
+  margin-top: 16px;
+}
+.hospitalNameCard {
+  padding: 5px 12px;
+  background-color: #7d7d7d;
+  color: white;
+  border-radius: 8px;
+  display: flex;
+  margin-right: 16px;
+  margin: 16px 24px 0 0;
+}
+.flxWrap {
+  width: 300px;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 24px;
+}
+.closeouter {
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  color: #00276d;
+  position: relative;
+  bottom: 15px;
+  box-shadow: 1px 1px 2px 1px gray;
+  left: 8px;
+}
+.closeouterlag {
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  color: #00276d;
+  position: relative;
+  bottom: 15px;
+  box-shadow: 1px 1px 2px 1px gray;
+  right: 8px;
+}
+.closeIcon {
+  color: #00276d;
+}
+.flxWrap {
+  width: 600px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.error {
+  color: red;
+}
+.close {
+  justify-content: end;
+  margin-left: auto;
+  color: #131313;
+  cursor: pointer;
+}

@@ -1,0 +1,21 @@
+.mt10 {
+  margin-top: 10px;
+}
+.profileBox {
+  height: 256px;
+  width: 256px;
+  border-radius: 50%;
+}
+.editBox {
+  height: 52px;
+  width: 52px;
+  border-radius: 50%;
+  background-color: white;
+  position: relative;
+  z-index: 1;
+  bottom: 30px;
+  left: 150px;
+}
+.mauto {
+  margin: auto;
+}

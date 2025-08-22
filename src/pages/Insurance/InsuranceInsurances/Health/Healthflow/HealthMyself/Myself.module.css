@@ -1,0 +1,172 @@
+.flxWrap {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+}
+.flxBetween {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.myselfIncCard {
+  width: calc(33% - 18px);
+  box-sizing: border-box;
+  padding: 20px;
+  border-radius: 24px;
+  background-color: #f4f4f4;
+  cursor: pointer;
+  text-align: center;
+  cursor: pointer;
+}
+.mr56 {
+  margin-right: 56px;
+}
+.AddBtn {
+  height: 48px;
+  background-color: #0e54a3;
+  border: #0e54a3;
+  width: 140px;
+  border-radius: 24px;
+  cursor: pointer;
+  font-weight: 600;
+  color: white;
+  font-size: 18px;
+  line-height: 12.22px;
+  letter-spacing: -0.22px;
+}
+.back {
+  color: #00276d;
+  margin-right: 24px;
+  height: 24px;
+  width: 24px;
+  cursor: pointer;
+}
+.close {
+  height: 16px;
+  width: 16px;
+  cursor: pointer;
+  color: #131313;
+}
+
+.header {
+  height: 30px;
+  color: #131313;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 24px;
+}
+.modelFeilds {
+  background-color: #f5f5f5 !important;
+  box-shadow: none;
+  padding: 0% !important;
+  margin-bottom: 32px;
+  border-radius: 8px;
+  border: none !important;
+  outline: none !important;
+}
+.checkbox {
+  height: 40px;
+  width: 40px;
+  margin-right: 24px;
+  color: #00276d;
+}
+.profile {
+  height: 100px !important;
+  width: 100px !important;
+  margin: auto;
+  margin-bottom: 16px;
+  display: flex;
+}
+.mt16 {
+  margin-top: 16px;
+}
+.mt8 {
+  margin-top: 8px;
+}
+.mt24 {
+  margin-top: 24px;
+}
+.RefreshIcon {
+  height: 24px;
+  width: 24px;
+  color: #746ca2;
+}
+.outerRefresh {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 32px;
+  width: 32px;
+  border-radius: 50%;
+  margin-left: 16px;
+  background-color: transparent;
+  cursor: pointer;
+}
+.outerRefresh:hover {
+  background-color: #a2a0ac;
+}
+
+/* detail */
+.icons {
+  font-size: 20px;
+  color: #00276d;
+  margin-left: 16px;
+  cursor: pointer;
+}
+.gap40 {
+  gap: 40px;
+}
+.flexWrap {
+  display: flex;
+  gap: 16px;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-top: 16px;
+}
+.cardss {
+  background-color: #006838;
+  color: white !important;
+  padding: 8px;
+  box-sizing: border-box;
+  border-radius: 8px;
+  text-align: center;
+  width: calc(20% - 13px);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 160px;
+}
+.Download {
+  height: 56px;
+  width: 56px;
+  display: flex;
+  margin: auto;
+}
+.textcenter {
+  text-align: center;
+}
+.Delete {
+  background-color: red;
+  color: white;
+  border: red;
+  border-radius: 24px;
+  height: 48px;
+  width: 160px;
+  cursor: pointer;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 12.22px;
+  letter-spacing: -0.22px;
+}
+.col4 {
+  width: calc(33% - 16px);
+}
+.col6 {
+  width: calc(50% - 12px);
+}
+.gap24 {
+  gap: 24px;
+  margin-bottom: 16px;
+}

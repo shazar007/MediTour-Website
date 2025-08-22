@@ -1,0 +1,221 @@
+.rightside {
+  background-color: #ffffff;
+  border-radius: 24px;
+  height: fit-content;
+  display: flex;
+  box-sizing: border-box;
+  padding: 16px;
+  justify-content: center;
+  align-items: start;
+  margin-top: 15px;
+}
+.rightsidetop {
+  background-color: #ffffff;
+  border-radius: 24px;
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  padding: 16px;
+  justify-content: center;
+  align-items: start;
+}
+
+.refresh {
+  font-size: 22px;
+  margin-left: 32px;
+  cursor: pointer;
+  color: #393a44;
+}
+.outerRefresh {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 32px;
+  width: 32px;
+  border-radius: 50%;
+  border-radius: 12px;
+  background-color: #f6fafe33;
+  cursor: pointer;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.highContainer {
+  height: 390px;
+  overflow-y: scroll;
+}
+.highContainer::-webkit-scrollbar {
+  display: none;
+}
+/* ........... */
+.container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  /* align-items: start !important; */
+  background-color: #ffffff;
+  box-sizing: border-box;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  flex-wrap: wrap;
+  margin-bottom: 10px;
+}
+.dropdownWrapper {
+  align-items: center;
+  display: flex;
+  position: relative;
+  /* justify-content: center; */
+}
+.dropdownContainer {
+  position: absolute;
+  top: 100%;
+  z-index: 10;
+  background: white;
+  padding: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+  width: auto; /* Adjust width as per requirement */
+}
+.profilemain {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.profileimg {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+}
+.name {
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 14.8px;
+  letter-spacing: -0.26428571343421936px;
+  text-align: left;
+  text-underline-position: "from-font";
+  text-decoration-skip-ink: none;
+  color: #000000;
+}
+.id {
+  margin-top: 6px;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 14.8px;
+  letter-spacing: -0.26428571343421936px;
+  text-align: left;
+  text-underline-position: "from-font";
+  text-decoration-skip-ink: none;
+  color: #0e54a3;
+}
+.Prescriptionbtn {
+  background-color: #0e54a3;
+  padding: 10px;
+  height: 36px;
+  width: fit-content;
+  border-radius: 24px;
+  color: #ffffff;
+  font-size: 12px;
+  font-weight: 600;
+  border: none !important;
+  cursor: pointer;
+  box-shadow: 4px 4px 12px 0px #00000040;
+}
+.cardsConatiner {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 5px;
+}
+.card {
+  border: 1px solid #0e54a3;
+  border-radius: 16px;
+  /* height: 181px; */
+  width: 49%;
+  box-sizing: border-box;
+  padding: 16px;
+  overflow: hidden;
+  position: relative;
+}
+@media (max-width: 480px) {
+  .cardsConatiner {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .card {
+    width: 100%;
+  }
+}
+.cardtitle {
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 14.8px;
+  letter-spacing: -0.26428571343421936px;
+  text-align: left;
+  text-underline-position: "from-font";
+  text-decoration-skip-ink: none;
+}
+.details {
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 14.8px;
+  letter-spacing: -0.26428571343421936px;
+  text-align: left;
+  text-underline-position: "from-font";
+  text-decoration-skip-ink: none;
+  color: #ff3b30;
+}
+.option {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+.title,
+.label {
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 14.8px;
+  letter-spacing: -0.26428571343421936px;
+  text-underline-position: "from-font";
+  text-decoration-skip-ink: none;
+  color: #7d7d7d !important;
+}
+.label {
+  color: #000000 !important;
+  text-align: right !important;
+}
+.cardbutton {
+  background-color: #0e54a3;
+  width: 53px;
+  height: 32px;
+  padding: 12px;
+  border-radius: 24px;
+  color: #ffff;
+  font-size: 12px;
+  font-weight: 600;
+  border: none !important;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+.card2data {
+  box-sizing: border-box;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  height: 100%;
+  left: 0px;
+  /* max-height: 300px;  */
+  width: 100%;
+  position: absolute;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+.card2data::-webkit-scrollbar {
+  width: 0;
+  height: 0;
+}

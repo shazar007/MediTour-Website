@@ -1,0 +1,395 @@
+.rowBasic {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  justify-content: space-between;
+  margin: 16px 0;
+}
+
+.inputGroupBasic {
+  flex: 1;
+  min-width: 400px;
+  margin-right: 0px;
+}
+
+.inputGroupBasic:last-child {
+  margin-right: 0;
+}
+
+/* Selector */
+.custom_selector {
+  position: relative;
+  max-width: 95%;
+  width: 100%;
+  height: 48px;
+}
+.widthPhonePicker {
+  max-width: 100%;
+  width: 100%;
+}
+
+.custom_selector input {
+  /* height: 3vh; */
+  height: 50px;
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+}
+.input_container {
+  position: relative;
+  display: flex;
+  align-items: center;
+  width: 105%;
+}
+.select_input {
+  color: #1f1f1f;
+}
+.dropdown_icon {
+  position: absolute;
+  right: 10px;
+  font-size: 12px;
+  pointer-events: none;
+  transition: transform 0.3s ease;
+}
+
+.dropdown_icon.open {
+  transform: rotate(180deg);
+}
+
+.options {
+  position: absolute;
+  width: 105%;
+  max-height: 150px;
+  overflow-y: auto;
+  background-color: white;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+  z-index: 10;
+}
+
+.option {
+  padding: 10px;
+  cursor: pointer;
+}
+
+.option:hover {
+  background-color: #f1f1f1;
+}
+
+/* Date Picker styling */
+.datePickerContainer {
+  width: 105%;
+  height: 44px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  transition: border-color 0.3s ease;
+}
+
+.dateInput {
+  height: 2vh;
+  font-size: 1rem;
+  outline: none;
+  border: none;
+  color: #1f1f1f;
+}
+
+.dateInput:focus {
+  border-color: #007bff;
+}
+
+.datePickerIcon {
+  position: absolute;
+  right: 12px;
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+  opacity: 0.6;
+  transition: opacity 0.3s ease;
+}
+
+.datePickerIcon:hover {
+  opacity: 1;
+}
+.widthDatePicker {
+  width: 100%;
+}
+.addressWidthSet {
+  /* max-width: 98%; */
+  width: 100%;
+}
+.error {
+  font-size: 12px;
+  margin-top: 4px;
+  color: #ff4d4f;
+  white-space: normal;
+  word-wrap: break-word;
+}
+
+@media (max-width: 770px) {
+  .rowBasic {
+    flex-direction: column;
+    gap: 12px;
+    margin: 10px 0;
+    padding: 0;
+  }
+
+  .inputGroupBasic {
+    flex: 1;
+    min-width: 100%;
+    margin-right: 0;
+  }
+
+  .input_container,
+  .options {
+    width: 100%;
+  }
+  .custom_selector {
+    width: 109%;
+  }
+
+  .datePickerContainer {
+    width: 102%;
+    height: 44px;
+    padding: 8px;
+  }
+  .widthDatePicker {
+    margin-bottom: 20px;
+  }
+
+  .dateInput {
+    height: 100%;
+    font-size: 1rem;
+  }
+  .widthPhonePicker {
+    width: 100%;
+    /* max-width: 92%; */
+  }
+  .selectContainer {
+    width: 105%;
+  }
+  .addressWidthSet {
+    /* max-width: 90%; */
+    width: 100%;
+  }
+  .dropdown_icon,
+  .datePickerIcon {
+    right: 10px;
+    width: 18px;
+    height: 18px;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 897px) {
+  .rowBasic {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 4px;
+    justify-content: space-between;
+    margin: 12px 0;
+    padding-right: 16px;
+  }
+
+  .inputGroupBasic {
+    flex: 1;
+    min-width: 320px;
+    margin-right: 24px;
+  }
+
+  .inputGroupBasic:last-child {
+    margin-right: 0;
+  }
+
+  .custom_selector,
+  .input_container,
+  .options {
+    width: 100%;
+  }
+  .custom_selector {
+    position: relative;
+    width: 107%;
+  }
+
+  .datePickerContainer {
+    width: 100%;
+    height: 40px;
+    padding: 8px;
+  }
+
+  .dateInput {
+    height: 2.5vh;
+    font-size: 0.9rem;
+  }
+
+  .dropdown_icon,
+  .datePickerIcon {
+    right: 8px;
+    width: 18px;
+    height: 18px;
+  }
+}
+@media (min-width: 379px) and (max-width: 767px) {
+  .agreementContainer {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+  }
+  .agreementText {
+    font-size: 12px;
+    color: #000;
+    max-width: 100%;
+  }
+
+  .linkText {
+    font-size: 12px;
+    color: #0e54a3;
+    text-decoration: underline;
+    cursor: pointer;
+  }
+  .radioContainer {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 12px;
+  }
+}
+
+.agreementContainer {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+  gap: 16px;
+}
+.radioContainer {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.radioInput {
+  display: none;
+}
+
+.radioMark {
+  height: 20px;
+  width: 20px;
+  color: #0056b3 !important;
+}
+
+.radioInput:checked + .radioMark {
+  background-color: #0056b3;
+}
+
+.radioInput:checked + .radioMark::after {
+  content: "";
+  width: 5px;
+  height: 10px;
+  border: solid white;
+  border-width: 0 2px 2px 0;
+  position: absolute;
+  top: 2px;
+  left: 7px;
+  transform: rotate(45deg);
+}
+
+.agreementText {
+  color: #000;
+}
+
+.linkText {
+  color: #0e54a3;
+  text-decoration: underline;
+  cursor: pointer;
+}
+@media (min-width: 1850px) {
+  .agreementText {
+    font-size: 19px;
+    color: #000;
+    max-width: 800px;
+  }
+
+  .agreementContainer {
+    display: flex;
+    margin-left: 120px;
+    align-items: center;
+    margin-top: 10px;
+  }
+}
+@media (min-width: 768px) and (max-width: 1024px) {
+  .agreementContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 15px;
+    width: 100%;
+  }
+
+  .agreementText,
+  .linkText {
+    font-size: 14px;
+  }
+
+  .radioContainer {
+    margin-bottom: 15px;
+    width: 100%;
+  }
+}
+@media (min-width: 1850px) {
+  .agreementText {
+    font-size: 19px;
+    color: #000;
+    max-width: 800px;
+  }
+
+  .agreementContainer {
+    display: flex;
+    margin-left: 120px;
+    align-items: center;
+    margin-top: 10px;
+  }
+}
+.buttonContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin-top: 20px;
+}
+.continueButton {
+  padding: 10px 30px;
+  background-color: #0056b3;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 16px;
+  width: 30%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.continueButton:hover {
+  background-color: #004494;
+}
+@media (max-width: 980px) {
+  .continueButton {
+    padding: 10px 20px;
+    font-size: 14px;
+    width: 30%;
+  }
+}
+
+@media (max-width: 768px) {
+  .continueButton {
+    padding: 8px 10px;
+    font-size: 13px;
+    width: 100%;
+  }
+}

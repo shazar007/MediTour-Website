@@ -1,0 +1,204 @@
+.dropdownIcon {
+  cursor: pointer;
+}
+.dropdownWrapper {
+  align-items: center;
+  display: flex;
+  position: relative;
+  cursor: pointer;
+  /* justify-content: center; */
+}
+.dropdownContainer {
+  position: absolute;
+  top: 100%;
+  z-index: 10;
+  background: white;
+  padding: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+  width: 15vw;
+}
+.dropdownContainerApp {
+  position: absolute;
+  top: 100%;
+  z-index: 10;
+  background: white;
+  padding: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+  width: 110px; /* Adjust width as per requirement */
+}
+.dashboardcontainer {
+  /* margin: 24px; */
+  padding: 24px 24px 24px 0px;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.title {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 14px;
+  color: #7d7d7d;
+}
+.refresh {
+  font-size: 22px;
+  margin-left: 32px;
+  cursor: pointer;
+  color: #393a44;
+}
+.hosptalname {
+  color: #7d7d7d;
+
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 14px;
+  margin: 6px 0;
+}
+.headerright {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+.notification {
+  width: 48px;
+  height: 48px;
+
+  border-radius: 50%;
+  background-color: #ff9500;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.bell {
+  width: 25.6px;
+  height: 25.6px;
+  cursor: pointer;
+}
+.Avatar {
+  height: 48px;
+  width: 48px;
+  display: flex;
+  cursor: pointer;
+}
+.cardcontainer {
+  margin-top: 12px;
+  display: flex;
+  justify-content: flex-start;
+  gap: 16px;
+  flex-wrap: wrap;
+}
+
+.card {
+  flex: 0 1 calc(20% - 16px);
+  /* width: 204px; */
+  height: 160px;
+  background-color: #ffffff;
+  box-shadow: 4px 4px 12px 0px #00000040;
+  border-radius: 16px;
+  padding: 18px;
+  box-sizing: border-box;
+  position: relative;
+
+  transition: 0.3s ease-in-out;
+  cursor: pointer;
+}
+.card:hover {
+  box-shadow: 8px 8px 24px 0px #0000005c, -8px -8px 24px 0px #0000005c;
+  transform: scale(1.05);
+
+  cursor: pointer;
+}
+
+@media (max-width: 1440px) {
+  .card {
+    flex: 1 1 calc(20% - 16px);
+  }
+}
+
+@media (max-width: 1024px) {
+  .card {
+    flex: 1 1 calc(25% - 16px) !important;
+    max-width: 204px !important;
+  }
+  .cardcontainer {
+    justify-content: center;
+  }
+}
+
+@media (max-width: 768px) {
+  .card {
+    flex: 1 1 calc(33.33% - 16px);
+    max-width: 204px !important;
+  }
+  .cardcontainer {
+    justify-content: center;
+  }
+}
+
+@media (max-width: 425px) {
+  .card {
+    flex: 1 1 100%;
+    max-width: 204px !important;
+  }
+  .cardcontainer {
+    justify-content: center;
+  }
+}
+
+/* Ensure proper centering when there are fewer items in a row */
+.cardcontainer:empty {
+  justify-content: center;
+}
+
+.carddata {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.cardImage {
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+}
+
+.cardtextdata {
+  display: flex;
+  flex-direction: column;
+}
+
+.cardtitle {
+  font-size: 12px;
+  font-weight: 400;
+  color: #454545;
+}
+
+.cardCount {
+  font-size: 20px;
+  font-weight: 400;
+  color: #000000;
+}
+.detail {
+  position: absolute;
+  bottom: 18px;
+  right: 18px;
+}
+.outerRefresh {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 32px;
+  width: 32px;
+  border-radius: 50%;
+  border-radius: 12px;
+  background-color: #f6fafe33;
+  cursor: pointer;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.flxWrap {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}

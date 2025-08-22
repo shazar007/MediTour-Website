@@ -1,0 +1,72 @@
+table {
+  width: 800px;
+  height: 200px;
+  border-collapse: collapse;
+  margin: 20px;
+}
+.bordr {
+  border-bottom: 1px solid #c7c7c7;
+}
+th {
+  background-color: #edf4fc;
+  border: none;
+  padding: 10px !important;
+}
+td {
+  text-align: center;
+  padding: 15px;
+}
+.ss:hover {
+  color: black;
+}
+.col12 {
+  width: 100%;
+}
+.start {
+  text-align: start;
+}
+.textred {
+  color: red;
+  font-size: 12px;
+  text-decoration: underline;
+}
+.pendingbtn {
+  padding: 10px 20px;
+  background-color: #edf4fc;
+  border: 1px solid #edf4fc;
+  border-radius: 7px;
+}
+.inbtn {
+  padding: 10px 20px;
+  background-color: #ffb119;
+  border: 1px solid #ffb119;
+  border-radius: 7px;
+}
+
+.compbtn {
+  padding: 10px 20px;
+  background-color: #006838;
+  border: 1px solid #006838;
+  color: white;
+  border-radius: 7px;
+}
+.done {
+  height: 30px;
+  width: 30px;
+}
+.upload {
+  height: 25px;
+  width: 30px;
+}
+.mb50 {
+  margin: 0px 20px 70px 0;
+}
+.nn {
+  display: none;
+}
+.col12 {
+  width: 100%;
+}
+.my50 {
+  margin: 30px 0;
+}

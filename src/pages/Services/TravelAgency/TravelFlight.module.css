@@ -1,0 +1,511 @@
+.maincontainer {
+  display: flex;
+  flex-direction: column;
+}
+
+.inputContainer {
+  width: 80%;
+  margin: 5px;
+}
+
+.heading {
+  font-weight: 600;
+  font-size: 16px;
+  letter-spacing: -0.25px;
+  color: #131313;
+}
+.barheadContainer {
+  margin-top: 16px;
+  display: flex;
+  padding: 20px;
+  border-radius: 8px 8px 0 0;
+  gap: 24px;
+  background-color: #f6fafe;
+}
+.bar {
+  cursor: pointer;
+  font-weight: 400;
+  font-size: 14px;
+  color: #0e54a3;
+  letter-spacing: -0.5%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.activeBar,
+.bar:hover {
+  border-bottom: 1px solid #0e54a3;
+}
+.flxx {
+  display: flex;
+  align-items: center;
+  /* margin-top: 24px; */
+  gap: 12px;
+}
+.addtext {
+  font-weight: 600;
+  font-size: 12px;
+  color: white;
+  letter-spacing: -0.5%;
+}
+.error {
+  color: red;
+  font-size: 12px;
+}
+.AddBtn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 24px;
+  width: 24px;
+  border-radius: 4px;
+  background-color: #ff7631;
+  cursor: pointer;
+}
+.BarWrapper {
+  border-radius: 8px;
+  margin: 40px 0;
+  box-shadow: 0px 2px 16px 0px #0000001f;
+}
+.tabConatiner {
+  background-image: url("../../../assets/images/Rectangle\ 41427.png");
+  background-position: center;
+  background-size: cover;
+
+  padding: 40px;
+  border-radius: 0 0 8px 8px;
+}
+.tab {
+  position: relative;
+  background-color: #f1f1f1;
+  height: 48px;
+  width: 100%;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 23px 16px;
+}
+
+.errorMessage {
+  color: red;
+  font-size: 12px;
+  margin-top: 5px;
+}
+.tabtile {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 16px;
+  letter-spacing: -0.5%;
+  color: #131313;
+  font-family: "poppins";
+}
+.tabvalue {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: -0.5%;
+  color: #7d7d7d;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  font-family: "poppins";
+}
+.tabrow {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  overflow: hidden;
+}
+
+.additionbar {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.circleMinus {
+  width: 24px;
+  height: 24px;
+  border-radius: 24px;
+  border: 1px solid #cccccc;
+  padding: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  background: white;
+  font-size: 14px;
+  font-family: "poppins";
+}
+
+.circlePlus {
+  width: 24px;
+  height: 24px;
+  border-radius: 24px;
+  border: 1px solid #7d7d7d;
+  padding: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  background: white;
+  font-size: 14px;
+  font-family: "poppins";
+}
+
+.value {
+  /*      */
+  font-weight: 400;
+  font-size: 14px;
+  font-family: "poppins";
+  letter-spacing: -0.75px;
+  text-align: center;
+  color: #000000;
+  min-width: 20px;
+}
+.cardheading {
+  font-weight: 400;
+  font-size: 14px;
+  letter-spacing: 0%;
+  vertical-align: middle;
+  color: #7d7d7d;
+}
+.cardrow {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 0.5px #7d7d7d solid;
+  align-items: center !important;
+  padding: 6px 0;
+}
+.rowtitle {
+  font-weight: 400;
+  font-size: 14px;
+  vertical-align: baseline;
+  letter-spacing: -0.75px;
+  color: #131313;
+}
+.rowsubtitle {
+  font-weight: 400;
+  font-size: 10px;
+  letter-spacing: -0.75px;
+  color: #7d7d7d;
+}
+.clearbtn {
+  color: #65558f;
+  font-family: "poppins";
+  font: 14px;
+  font-weight: 600;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+.guestContainer {
+  border: none;
+  border-radius: 24px;
+  position: absolute;
+  width: 444px;
+  bottom: 20px;
+  left: 0px;
+  padding: 16px;
+  background-color: #fff;
+  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1);
+  z-index: 3;
+}
+.flxWrapper {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 40px;
+}
+.w50 {
+  width: calc(50% - 20px) !important;
+}
+.mt24 {
+  margin-top: 24px;
+}
+.RequestBtn {
+  background-color: #0e54a3;
+  border-radius: 8px;
+  border: 1px solid #0e54a3;
+  font-weight: 600;
+  font-size: 14px;
+  width: 100%;
+  height: 48px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  letter-spacing: -0.22px;
+  cursor: pointer;
+}
+.guestHeader {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.footerButtons {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 10px;
+}
+@media (max-width: 768px) {
+  .inputContainer {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+}
+.errorMessage {
+  color: red; /* Change to the desired color */
+  font-size: 12px; /* Adjust the size as needed */
+  margin-top: 5px; /* Space between input and error message */
+}
+.flx {
+  display: flex; /* Ensure the container is a flex container */
+  gap: 10px; /* Adjust the gap size as needed */
+}
+.showMoreContainer {
+  display: flex;
+  justify-content: center;
+  margin: 10px 0;
+}
+
+.showMoreButton {
+  display: flex;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #0e54a3;
+  color: #fff;
+
+  border: none;
+  border-radius: 24px;
+  cursor: pointer;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  font-size: 16px;
+}
+
+.showMoreButton .icon {
+  margin-left: 10px;
+  font-size: 20px;
+  color: #0e54a3;
+  background-color: #fff;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.select_Container {
+  border: 0.5px solid #ccc;
+  border-radius: 4px;
+  height: 48px;
+}
+.select_custom {
+  color: #7d7d7d;
+  width: 100%;
+  border: none;
+  outline: none;
+  padding: 10px;
+  overflow: hidden !important;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
+}
+@media (max-width: 600px) {
+  .selectContainer {
+    width: 100%;
+  }
+
+  .select {
+    width: 100%;
+    font-size: 14px;
+  }
+}
+
+.select:focus,
+.select:not(:empty) {
+  color: #0e54a3;
+  background-color: #fff;
+}
+
+.select option[disabled] {
+  display: none;
+}
+.card {
+  margin-top: 20px;
+  margin-bottom: 16px;
+  border-radius: 8px;
+  background-color: #fff;
+  z-index: 1000;
+  position: absolute;
+  box-shadow: 0px 4px 4px 0px #00000014;
+  padding: 16px;
+  /* width: 500px; */
+}
+.line {
+  position: absolute;
+  top: 30%;
+  left: 25px;
+  right: 25px;
+  height: 3px;
+  background-color: #b2bed3;
+  z-index: -1;
+}
+.decrementButton,
+.incrementButton {
+  width: 40px;
+  border-radius: 8px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 16px;
+  font-family: "poppins";
+  color: #1a73e8;
+  border: none;
+  outline: none;
+
+  background-color: transparent;
+}
+.quantity {
+  width: 76px;
+  height: 18px;
+  font-size: 16px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #1e5da3;
+  font-weight: 600;
+}
+.viewQuantitybox {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 8px;
+  border: 1px solid #1e5da3;
+  padding: 4px 2px;
+}
+.totalAmount {
+  color: #1e5da3;
+  font-size: 16px;
+}
+
+.dropdownContainer {
+  display: flex;
+  height: 48px;
+  border-radius: 4px;
+  border: 0.5px solid #ccc;
+  padding: 12px;
+  justify-content: space-between;
+}
+@media (max-width: 600px) {
+  .dropdownContainer {
+    width: 100%;
+    justify-content: space-between;
+  }
+}
+.dropdownOptions {
+  /* position: absolute; */
+  background: white;
+  border: 1px solid #ccc;
+  z-index: 10;
+}
+
+.dropdownOption {
+  padding: 10px;
+  cursor: pointer;
+}
+
+.dropdownOption:hover {
+  background-color: #f0f0f0;
+}
+@media (max-width: 768px) {
+  .maincontainer {
+    padding: 8px;
+    /* Adjust padding */
+  }
+  .w50 {
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: calc(100% - 20px);
+  }
+  .inputContainer {
+    width: 100%;
+    /* margin: 5px auto; */
+  }
+
+  .showMoreButton {
+    padding: 8px 16px;
+    font-size: 14px;
+  }
+
+  .card {
+    padding: 12px;
+    margin-bottom: 12px;
+  }
+
+  .quantity {
+    font-size: 14px;
+  }
+
+  .totalAmount {
+    font-size: 14px;
+  }
+
+  .select {
+    padding: 8px;
+    font-size: 14px;
+  }
+
+  .decrementButton,
+  .incrementButton {
+    font-size: 14px;
+  }
+
+  .line {
+    top: 25%;
+  }
+}
+
+.flightOuter {
+  display: flex;
+  align-items: start;
+  gap: 48px;
+  margin-top: 36px;
+  margin-bottom: 48px;
+}
+
+.flightHeading {
+  color: #131313;
+  font-weight: 600;
+  font-size: 16px;
+  letter-spacing: -0.25px;
+}
+.cabinSelector {
+  display: flex;
+  margin: 16px 0;
+  gap: 24px;
+}
+
+.cabinButton {
+  padding: 6px 12px;
+  border-radius: 20px;
+  border: 1px solid #0e54a3;
+  background-color: white;
+  color: #0e54a3;
+  cursor: pointer;
+  font-weight: 400;
+  font-family: "poppins";
+  height: 36px;
+  font-size: 12px;
+  letter-spacing: -0.5%;
+}
+
+.activeCabin {
+  background-color: #0e54a31a;
+  color: #0e54a3;
+  border-color: #0e54a3;
+}

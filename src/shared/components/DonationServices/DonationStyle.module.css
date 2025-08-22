@@ -1,0 +1,82 @@
+.cardGrid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  padding: 0 8px;
+}
+
+.card {
+  cursor: pointer;
+  flex: 1 1 calc(33.333% - 10.66px);
+  max-width: calc(33.333% - 10.66px);
+  height: 80px;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  background: #f9f9f9;
+  box-sizing: border-box;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  transition: all 0.3s ease;
+}
+.card:hover {
+  transform: translateY(-5px);
+
+  /* box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); */
+}
+
+.image {
+  width: 80px;
+  height: 80px;
+  border-radius: 8px 0 0 8px;
+  object-fit: cover;
+}
+.imageur {
+  width: 80px;
+  height: 80px;
+  border-radius: 0 8px 8px 0;
+  object-fit: cover;
+}
+.textContainer {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding: 16px;
+}
+
+.name {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.textRow {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 4px; /* Adds space between the name and the text row */
+}
+
+.subtitle {
+  font-size: 14px;
+  color: #7d7d7d;
+}
+
+.amount {
+  font-size: 14px;
+  font-weight: bold;
+  color: green;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+  .card {
+    flex: 1 1 calc(50% - 16px); /* 2 cards per row on smaller screens */
+    max-width: calc(50% - 16px);
+  }
+}
+
+@media (max-width: 480px) {
+  .card {
+    flex: 1 1 calc(100% - 16px); /* 1 card per row on very small screens */
+    max-width: calc(100% - 16px);
+  }
+}

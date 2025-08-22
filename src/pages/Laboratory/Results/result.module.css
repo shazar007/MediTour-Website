@@ -1,0 +1,61 @@
+.col12 {
+  width: 95%;
+}
+.my50 {
+  margin: 30px 0;
+}
+.mt32 {
+  margin-top: 32px;
+}
+.TableOuter {
+  background-color: white;
+  border-radius: 16px;
+  padding: 24px;
+  box-shadow: 4px 4px 12px 0px #00000040;
+}
+.heading {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 14px;
+  letter-spacing: -0.25px;
+  color: #131313;
+}
+.tabless {
+  height: 400px;
+  overflow: hidden;
+  margin-bottom: 40px;
+}
+.outerContainer {
+  height: 100vh;
+}
+.RefreshIcon {
+  height: 24px;
+  width: 24px;
+  color: #0e54a3;
+}
+.outerRefresh {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 32px;
+  width: 32px;
+  border-radius: 50%;
+  border-radius: 12px;
+  background-color: #f6fafe33;
+  cursor: pointer;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.Icon {
+  height: 16px;
+  width: 16px;
+  cursor: pointer;
+  color: #ff7631;
+}
+.Download {
+  cursor: pointer;
+  color: #ff7631;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+  letter-spacing: -0.25px;
+}

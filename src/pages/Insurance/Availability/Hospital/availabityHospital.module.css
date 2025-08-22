@@ -1,0 +1,45 @@
+.DropdOWn {
+  background-color: #dbdbdb !important;
+  border-radius: 8px !important;
+  width: 612px !important;
+  color: #00276d !important;
+  font-size: 16px !important;
+  font-weight: 600 !important;
+}
+.borderbttom {
+  border-top: 2px solid white;
+}
+.editbox {
+  background-color: #f0f2f6;
+  color: #13a89e;
+  border-radius: 8px;
+  padding: 5px 10px;
+  width: 70px;
+  margin-left: auto;
+}
+.Faedit {
+  margin-right: 8px;
+}
+.borderTOP {
+  border-top: 2px solid white;
+}
+.Outermargin {
+  margin-top: 60px;
+  margin-left: 110px;
+}
+.close {
+  height: 25px;
+  width: 25px;
+  margin-left: auto;
+  cursor: pointer;
+  color: #00276d;
+}
+.mt16 {
+  margin-top: 16px;
+}
+.Back {
+  height: 25px;
+  width: 25px;
+  cursor: pointer;
+  color: #00276d;
+}

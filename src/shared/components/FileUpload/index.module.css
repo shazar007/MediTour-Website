@@ -1,0 +1,157 @@
+.fileUploadContainer {
+  text-align: center;
+  padding: 10px;
+  margin: auto;
+  border-radius: 10px;
+  background-color: #f9f9f9;
+  /* max-width: 400px; */
+}
+
+.uploadArea {
+  border: 2px dashed #0e54a3;
+  padding: 20px;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  background-color: #fff;
+  transition: background-color 0.3s;
+  color: #0e54a3;
+}
+
+.uploadArea:hover {
+  background-color: #fce4e8; /* Light shade of red for hover */
+}
+
+.selecttbtn {
+  color: #0e54a3;
+  border: 1px solid #0e54a3;
+  padding: 10px 50px;
+  background-color: #fff;
+  border-radius: 40px;
+  margin-top: 20px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.selecttbtn:hover {
+  background-color: #0e54a3;
+  color: #fff;
+}
+
+.fileDetails {
+  background-color: #f0f0f0;
+  border-radius: 5px;
+  padding: 10px 20px;
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.removeFileButton {
+  background: none;
+  border: none;
+  color: #a60720;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.submitButton {
+  background-color: #0e54a3;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 40px;
+  cursor: pointer;
+  margin-top: 20px;
+  font-size: 16px;
+}
+
+.submitButton:hover {
+  background-color: #a60720;
+}
+
+.errorMessage {
+  color: red;
+  font-size: 14px;
+  margin-top: 10px;
+}
+
+.uploadIcon {
+  font-size: 18px;
+
+  color: #0e54a3;
+  margin-bottom: 10px;
+}
+.modalBackdrop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.modalContainer {
+  display: flex;
+  width: 342px;
+  height: fit-content;
+  flex-direction: column;
+  align-items: center;
+  padding: 15px;
+  border: 1px solid #dcdcdc;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+  box-shadow: 0px 8px 48px rgba(0, 0, 0, 0.1);
+}
+
+.modalHeader {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.modalButtons {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin-top: 20px;
+}
+
+.modalButtons button {
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.modalButtons button:first-child {
+  background-color: #ccc; /* Cancel button */
+  color: #000;
+}
+
+.modalButtons button:last-child {
+  background-color: #0e54a3; /* Delete button */
+  color: #fff;
+}
+.sure {
+  color: #00276d;
+  font-size: 22px;
+  font-weight: 600;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.tick{
+  color: #006838;
+  font-size: 60px;
+}

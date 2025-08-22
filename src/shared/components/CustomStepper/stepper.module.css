@@ -1,0 +1,12 @@
+.container {
+  width: 100%;
+}
+.mr10 {
+  margin-right: 10px;
+}
+.activeStepLabel {
+  color: green !important;
+}
+.activeStep {
+  color: green !important;
+}

@@ -1,0 +1,56 @@
+.maincontainer {
+  margin-top: 0px;
+}
+.heading {
+  font-size: 24px;
+  font-weight: 700;
+  /* line-height: 14px; */
+  letter-spacing: -0.25px;
+  text-align: left;
+  text-underline-position: "from-font";
+  text-decoration-skip-ink: none;
+  color: #131313;
+}
+.addbtn {
+  font-size: 18px;
+  width: auto;
+  height: auto;
+  border-radius: 24px;
+  background-color: #0e54a3 !important;
+  border: none !important;
+  cursor: pointer;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  padding: 17.5px 24px 17.5px 24px;
+  color: #ffff;
+  line-height: 12.22px;
+  font-weight: 600;
+  box-shadow: 4px 4px 12px 0px #00000040;
+}
+.settingbar {
+  display: flex;
+  align-items: center !important;
+  justify-content: space-between;
+  gap: 70px;
+  margin: 10px 0;
+}
+.settingtitle {
+  font-size: 14px !important;
+  font-weight: 400 !important;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  align-self: center;
+  color: #131313 !important;
+  white-space: nowrap;
+}
+.dropdownContent {
+  position: absolute !important;
+  background-color: white;
+  z-index: 100;
+  top: 100%;
+  right: 15px;
+  padding: 10px;
+  box-shadow: 0px 4px 12px 4px #00000040;
+  border-radius: 12px;
+}

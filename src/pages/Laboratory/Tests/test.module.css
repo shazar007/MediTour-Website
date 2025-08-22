@@ -1,0 +1,499 @@
+.boxm {
+  height: 300px;
+  width: 390px;
+}
+.w95 {
+  width: 90%;
+}
+.outerContainer {
+  height: 100vh;
+}
+.reset {
+  height: 25px;
+  width: 25px;
+  padding: 10px;
+}
+.errorText {
+  color: red;
+  font-size: 12px;
+  text-align: start;
+  font-weight: 400;
+}
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.cancelbutton {
+  background-color: #0e54a3;
+  color: white;
+  border: none;
+  display: flex;
+  height: 48px;
+  padding: 17.5px 31px;
+  align-items: center;
+  margin-top: 36px;
+  align-self: center;
+  justify-content: center;
+  cursor: pointer;
+  font-weight: 600;
+  font-size: 18px;
+  border-radius: 24px;
+}
+.mb24 {
+  margin-bottom: 24px;
+}
+.imgs {
+  display: flex;
+  justify-content: center;
+  margin: auto;
+}
+.textest {
+  text-align: center;
+  padding: 30px 10px;
+}
+.btnx {
+  background-color: #00276d;
+  color: white;
+  border: 1px solid #00276d;
+  border-radius: 8px;
+  width: 210px;
+  height: 44px;
+  margin-top: 32px;
+  /* margin-left: 95px; */
+}
+.RefreshBtn {
+  height: 24px;
+  width: 24px;
+  color: #ff7631;
+  margin-left: 16px;
+}
+.col1 {
+  width: 8.3333%;
+}
+.col2 {
+  width: 16.6667%;
+}
+.col3 {
+  width: 25%;
+}
+.col4 {
+  width: 33.3333%;
+}
+.col5 {
+  width: 41.6667%;
+}
+.col6 {
+  width: 50%;
+}
+.col7 {
+  width: 58.3333%;
+}
+.col8 {
+  width: 66.6667%;
+}
+.col9 {
+  width: 75%;
+}
+.col10 {
+  width: 83.3333%;
+}
+.col11 {
+  width: 91.6667%;
+}
+.col12 {
+  width: 100%;
+}
+.coloorb {
+  background-color: #edf4fc;
+  border-radius: 10px 10px 0 0;
+  padding: 0 !important;
+}
+.edit {
+  height: 40px;
+  width: 117px;
+  border: 1px solid #f0f2f6;
+  border-radius: 5px;
+  background-color: #f0f2f6;
+}
+.flx {
+  display: flex;
+  flex-direction: row;
+}
+.modelwidth {
+  width: 300px;
+}
+
+.editbtn {
+  padding: 2px 10px 0 0;
+}
+.mt67 {
+  margin-top: 67px;
+}
+tr:hover {
+  background-color: #020e35;
+  color: white;
+}
+.start {
+  text-align: start;
+}
+.my50 {
+  margin: 30px 0;
+}
+.end {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.textTest {
+  color: #131313;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 14px;
+  letter-spacing: -0.25px;
+}
+.img8 {
+  height: 16px;
+  width: 16px;
+}
+.boxxedit {
+  width: 117px;
+  background-color: #f0f2f6;
+  padding: 10px;
+  border-radius: 5px;
+  height: 22px;
+  margin-top: 60px;
+}
+.boxxedit:hover {
+  background-color: #00276d;
+  color: white;
+}
+.empty3 {
+  width: 256px;
+  height: 189px;
+}
+.circle {
+  height: 24px;
+  width: 24px;
+  background-color: #00276d;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.borderb {
+  border-bottom: 1px solid #00276d;
+  width: 183px;
+  margin: 10px 2px;
+}
+.circle2 {
+  height: 24px;
+  width: 24px;
+  background-color: #b2bed3;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.description > textarea {
+  margin-top: 32px;
+  width: 490px;
+  padding: 10px;
+  border: 1px solid #6f6f72;
+  outline: none;
+  height: 93px;
+  width: 100%;
+  box-sizing: border-box;
+}
+.start {
+  display: flex;
+  justify-content: start;
+}
+
+.close {
+  outline: none;
+  font-size: 22px;
+  background-color: transparent;
+  color: gray;
+  border: none;
+  cursor: pointer;
+}
+
+.outer {
+  height: 300px;
+  overflow: scroll;
+}
+.tabless {
+  background-color: white;
+  border-radius: 16px;
+  padding: 24px;
+  box-shadow: 4px 4px 12px 0px #00000040;
+}
+.flxBetween {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.mt32 {
+  margin-top: 32px;
+}
+.my32 {
+  margin: 32px 0;
+}
+.back {
+  height: 24px;
+  width: 24px;
+  color: #00276d;
+  margin-right: 16px;
+}
+.mt32 {
+  margin-top: 32px;
+}
+.mt16 {
+  margin-top: 16px;
+}
+.mt8 {
+  margin-top: 8px;
+}
+.btnWidth {
+  width: 210px;
+  margin-top: 56px;
+}
+.buttoons {
+  width: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+.buttoons:hover {
+  background-color: #f9a035;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.cancel {
+  cursor: pointer;
+  background-color: #00276d;
+  border-radius: 8px;
+  width: 110px;
+  padding: 5px 0;
+  color: white;
+  font-size: 14px;
+  font-weight: 600;
+  border: 1px solid #00276d;
+}
+.btnDelete {
+  cursor: pointer;
+  background-color: red;
+  border-radius: 8px;
+  width: 110px;
+  padding: 5px 0;
+  color: white;
+  font-size: 14px;
+  font-weight: 600;
+  border: 1px solid red;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.addIcon {
+  height: 24px;
+  width: 24px;
+  color: #ee7e37;
+}
+.RefreshIcon {
+  height: 24px;
+  width: 24px;
+  color: #0e54a3;
+}
+.outerRefresh {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 32px;
+  width: 32px;
+  border-radius: 50%;
+  border-radius: 12px;
+  background-color: #f6fafe33;
+  cursor: pointer;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+/* ............................... */
+.modalBackdrop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.modalContainer {
+  display: flex;
+  width: 400px;
+  height: fit-content;
+  flex-direction: column;
+  align-items: center;
+  padding: 15px;
+  outline: none !important;
+  border: 3px solid white !important;
+  border-radius: 16px;
+  background-color: #f9f9f9;
+  box-shadow: 0px 8px 48px rgba(0, 0, 0, 0.1);
+}
+.dltbtn {
+  background-color: red;
+  margin: 5px;
+  border-radius: 8px;
+  border: none;
+  outline: none;
+  width: 120px;
+  cursor: pointer;
+  height: 48px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  box-shadow: 4px 4px 12px 0px #00000040;
+  border-radius: 24px;
+  font-weight: 500;
+}
+.mt24 {
+  margin-top: 24px;
+}
+.cancelbtn {
+  font-weight: 500;
+  color: white;
+  margin: 5px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  height: 48px;
+  box-shadow: 4px 4px 12px 0px #00000040;
+  color: white;
+  border-radius: 24px;
+  border: 1px solid #7d7d7d;
+  width: 120px;
+  background-color: #7d7d7d;
+  cursor: pointer;
+}
+.closeicon {
+  height: 18px;
+  width: 18px;
+  cursor: pointer;
+  color: #131313;
+}
+
+.heading {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 14px;
+  letter-spacing: -0.25px;
+  color: #131313;
+}
+.addBtn {
+  box-shadow: 4px 4px 12px 0px #00000040;
+  cursor: pointer;
+  color: white;
+  background-color: #0e54a3;
+  border: 2px solid #0e54a3;
+  height: 48px;
+  width: 150px;
+  border-radius: 24px;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 12.22px;
+  letter-spacing: -0.22px;
+}
+.loaderouter {
+  margin-left: 16px;
+  background: GRAY;
+  padding-left: 10px;
+  border-radius: 8px;
+  height: 48px;
+  width: 48px;
+}
+.Detail_Card {
+  padding: 24px;
+  border-radius: 16px;
+  width: calc(100% - 36px);
+  background-color: white;
+  margin-top: 24px;
+}
+.outerflx {
+  display: flex;
+  align-items: start;
+}
+.w15 {
+  width: 16%;
+}
+.w20 {
+  width: 20%;
+}
+.outerheading {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+  letter-spacing: -0.25px;
+  color: #7d7d7d;
+}
+.text {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 22px;
+  letter-spacing: -0.25px;
+  columns: #454545;
+}
+.textWraaper {
+  border: 0.5px solid #d9d9d9;
+  border-radius: 16px;
+  padding: 16px;
+  margin-top: 16px;
+}
+
+.Delete {
+  cursor: pointer;
+  height: 48px;
+  color: white;
+  border-radius: 24px;
+  border: 1px solid #7d7d7d;
+  background-color: #7d7d7d;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 12.22px;
+  letter-spacing: -0.22px;
+  box-shadow: 4px 4px 12px 0px #00000040;
+
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 12.22px;
+  letter-spacing: -0.22px;
+  width: 120px;
+}
+.Edit {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 12.22px;
+  letter-spacing: -0.22px;
+  cursor: pointer;
+  height: 48px;
+  padding: 17.5px 43px;
+  color: white;
+  border-radius: 24px;
+  border: 1px solid #0e54a3;
+  background-color: #0e54a3;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 12.22px;
+  letter-spacing: -0.22px;
+  box-shadow: 4px 4px 12px 0px #00000040;
+}
+.pr36 {
+  margin-right: 36px;
+}

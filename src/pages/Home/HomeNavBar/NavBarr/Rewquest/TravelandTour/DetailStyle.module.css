@@ -1,0 +1,234 @@
+.mainConatiner {
+  padding: 60px 160px 40px 160px;
+  background: #ffffffb2;
+}
+
+.priceValue,
+.heading,
+.detail,
+.value {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 14px;
+  letter-spacing: -0.25px;
+  color: #131313;
+}
+.value {
+  font-size: 14px;
+}
+.heading {
+  font-size: 16px !important;
+}
+.detail {
+  font-size: 14px !important;
+  color: #7d7d7d !important;
+}
+.flightcontainer {
+  box-shadow: 0px 4px 16px 0px #0000000a;
+  background-color: #ffffff;
+  /* border: 1px solid #dcdcdc; */
+  border-radius: 16px;
+  height: fit-content;
+  padding: 10px 15px;
+  margin-bottom: 10px;
+  border: 2px solid black;
+}
+
+.imgconatiner {
+  height: 45px;
+  width: 55px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+.flyimg {
+  height: 100%;
+  width: 100%;
+  object-fit: fill;
+}
+.btncontainer {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  /* margin: 10px 0; */
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-top: 48px;
+  width: 100%;
+}
+.firstbtn {
+  background: transparent !important;
+  border: none;
+  color: #cccccc !important;
+  box-shadow: none !important;
+}
+.firstbtn:hover {
+  background: #b3261e14 !important;
+  color: #b3261e !important;
+}
+.secoundbtn,
+.firstbtn {
+  color: #fff;
+  width: 180px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  /* padding: 10px 50px; */
+  /* margin: 0 10px; */
+  background-color: #0e54a3;
+  border-radius: 40px;
+  cursor: pointer;
+  box-shadow: 4px 4px 12px 0px #00000040;
+  font-weight: 600;
+  font-size: 14px;
+}
+.ticketCard {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 90%;
+  box-shadow: 0px 4px 16px 0px #0000000a;
+  background-color: #ffffff;
+  border: 1px solid #dcdcdc;
+  border-radius: 16px;
+  height: fit-content;
+  padding: 10px 15px;
+}
+
+.mainCard {
+  box-shadow: 4px 2px 12px 0px #00000040;
+  background: #ffffff;
+  border-radius: 16px;
+  height: auto;
+  width: auto;
+  display: flex;
+  align-items: start;
+  flex-direction: column;
+  margin-bottom: 24px;
+  padding: 16px 24px;
+}
+.TravelCard {
+  box-shadow: 4px 2px 12px 0px #00000040;
+  background: #ffffff;
+  border-radius: 16px;
+  height: auto;
+  width: 100%;
+  display: flex;
+  align-items: start;
+  flex-direction: column;
+  margin-bottom: 24px;
+  padding: 16px 24px;
+  margin-top: 12px;
+}
+.headerRow{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  width: 100%;
+}
+.summaryContent{
+  background: #ffffff;
+  border-radius: 16px;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 4px 2px 12px 0px #00000040;
+
+
+}
+.radiobarcontainer {
+  display: flex;
+  justify-content: space-between;
+  width: 30%;
+  align-items: center;
+  margin: 24px 0;
+}
+.inputfield1 {
+  flex: 1 1;
+}
+.inputfieldz {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 16px;
+  width: 100%;
+  margin-bottom: 16px;
+}
+.dateInput {
+  height: 48px;
+  font-size: 1rem;
+  outline: none;
+  border: none;
+  color: #1f1f1f;
+}
+
+.dateInput:focus {
+  border-color: #007bff;
+}
+.imagepickerconatiner{
+      display: flex;
+      flex-direction: column;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    border: 0.5px solid #ccc;
+    border-radius: 16px;
+    outline: none;
+    transition: border-color 0.3s ease;
+    background-color: #fff !important;
+}
+@media (max-width: 1400px) {
+  .mainConatiner {
+    padding: 60px 100px 40px 100px;
+    background: #ffffffb2;
+  }
+}
+
+.Edittext {
+  color: #cccccc;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 12.22px;
+  letter-spacing: -0.22px;
+  cursor: pointer;
+}
+@media (max-width: 1200px) {
+  .mainConatiner {
+    padding: 60px 60px 40px 60px;
+    background: #ffffffb2;
+  }
+}
+
+@media (max-width: 800px) {
+  .inputfield1 {
+    flex: 1;
+  }
+
+  .inputfieldz {
+    gap: 24px;
+    margin-bottom: 24px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .radiobarcontainer {
+    width: 50%;
+  }
+}
+
+@media (max-width: 600px) {
+  .inputfield1,
+  .inputfield2 {
+    width: 100%;
+    max-width: 100%;
+  }
+
+  .inputfieldz {
+    gap: 24px;
+    margin-bottom: 24px;
+  }
+
+  .radiobarcontainer {
+    width: 80% !important;
+  }
+}

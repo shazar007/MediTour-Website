@@ -1,0 +1,127 @@
+.container {
+  margin-top: 88px;
+  margin-left: 112px;
+}
+
+.mr203 {
+  margin-right: 203px;
+}
+.container2 {
+  margin-left: 112px;
+  padding-top: 64px;
+}
+
+.ml112 {
+  margin-left: 112px;
+}
+.LabImg {
+  height: 553px;
+  width: 452px;
+  margin-top: 50px;
+  margin-left: 100px;
+}
+.cursor {
+  cursor: pointer;
+}
+.buttonWidth {
+  width: 210px;
+  margin-top: 56px;
+}
+.flx {
+  display: flex;
+  flex-direction: row;
+}
+.border {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.5);
+}
+.flxStart {
+  display: flex;
+  align-items: start;
+}
+.BackIcon {
+  height: 24px;
+  width: 24px;
+  color: #00276d;
+  margin-top: 3px;
+  cursor: pointer;
+}
+.btnNext {
+  width: 210px;
+  margin-top: 56px;
+}
+.flxSign {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.flxBetween {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+@media (min-width: 320px) and (max-width: 480px) {
+  .flxBetween {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+  .flxSign {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .ml112 {
+    margin-left: 19px;
+  }
+  .container {
+    margin-top: 40px;
+    margin-left: 19px;
+  }
+  .container2 {
+    margin-left: 19px;
+  }
+  .flx {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .buttonWidth {
+    width: 100%;
+  }
+  .mr203 {
+    margin-right: 100px;
+  }
+}
+
+@media (min-width: 481px) and (max-width: 768px) {
+  .flxBetween {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .flxSign {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .ml112 {
+    margin-left: 100px;
+  }
+  .container {
+    margin-top: 40px;
+    margin-left: 100px;
+  }
+  .container2 {
+    margin-left: 100px;
+  }
+
+  .buttonWidth {
+    width: 300px;
+  }
+  .flx {
+    display: flex;
+    align-items: center;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 2800px) {
+}

@@ -1,0 +1,268 @@
+.firstContainer {
+  width: 93.33%;
+  height: fit-content;
+  padding: 10px;
+  margin: 30px 0;
+  border-radius: 16px;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.9);
+}
+/* Hotel.module.css */
+
+.firstContainer {
+  margin: 20px auto;
+}
+
+/* Styles for the dropdown/modal */
+.dropdown {
+  position: absolute;
+  background-color: white;
+  border: 1px solid #ddd;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  border-radius: 4px;
+  padding: 10px;
+  width: 200px;
+  z-index: 1000;
+}
+
+.dropdown p {
+  margin: 10px 0;
+  padding: 5px 0;
+  /* color: #333; */
+  /* font-size: 14px; */
+}
+.viewQuantitybox {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 125px;
+  border-radius: 8px;
+  padding: 2px;
+  border: 1px solid #1a73e8;
+}
+
+.decrementButton,
+.incrementButton {
+  width: 40px;
+  border-radius: 8px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 16px;
+  color: #1a73e8;
+  border: none;
+  outline: none;
+
+  background-color: transparent;
+}
+.applybtn {
+  width: 240px;
+  border-radius: 8px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 16px;
+  color: #1a73e8;
+  border-radius: 8px;
+  padding: 2px;
+  border: 1px solid #1a73e8;
+
+  background-color: transparent;
+}
+.quantity {
+  width: 76px; /* Adjusted width */
+  height: 18px; /* Height of quantity display */
+  font-size: 16px; /* Font size */
+  text-align: center; /* Center align text */
+}
+.inputwrapper {
+  position: relative;
+  display: flex;
+  flex-direction: column; /* Ensures input and text are vertically aligned */
+}
+
+.appliedValuestext {
+  margin-top: 5px; /* Add space between input and text */
+  font-size: 14px;
+  color: #666; /* Adjust color and font style as needed */
+}
+.showMoreContainer {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+
+  margin: 20px 0;
+}
+.cardshowMoreContainer {
+  width: 100%;
+  display: flex;
+  margin: 20px 0 5px 0;
+
+  justify-content: start;
+}
+.showMoreButton {
+  display: flex;
+
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #0e54a3;
+  color: white;
+  border: none;
+  border-radius: 24px;
+  cursor: pointer;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  font-size: 16px;
+}
+
+.showMoreButton .icon {
+  margin-left: 10px;
+  font-size: 20px;
+  color: #0e54a3;
+  background-color: #fff;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.detailConatiner {
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.14);
+  width: 100%;
+  height: fit-content;
+  padding: 8px 16px;
+  gap: 16px;
+  border-radius: 8px;
+  background-color: #f5f9ff;
+  margin: 20px 0;
+}
+.carousel {
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.14);
+  border-radius: 8px;
+  position: relative;
+  width: 100%;
+  height: 400px;
+  overflow: hidden;
+  margin: 20px 0;
+}
+
+.image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Ensure the image covers the area */
+  transition: opacity 0.5s ease-in-out; /* Smooth transition */
+  position: absolute; /* Position images absolutely for overlapping */
+  top: 0;
+  left: 0;
+}
+
+.active {
+  opacity: 1; /* Fully visible */
+}
+
+.image:not(.active) {
+  opacity: 0; /* Hidden */
+}
+
+.cardWrapper {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+.cardContainer {
+  display: flex;
+  border: 1px solid #ccc;
+  background-color: #fff;
+  border-radius: 8px;
+  width: 100%;
+  margin: 10px 0;
+  height: fit-content;
+}
+
+.cardImageWrapper {
+  flex: 1;
+  width: 187px;
+  height: 210px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
+
+.cardImage {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.cardDetails {
+  flex: 2;
+  padding: 0 16px;
+}
+
+.cardDetails p {
+  /* margin: 4px 0; */
+  /* font-size: 14px; */
+}
+.cardContainer {
+  display: flex;
+  border: 1px solid #ccc;
+  padding: 0; /* Remove padding to avoid space around the card */
+  background-color: #fff;
+  border-radius: 8px;
+  overflow: hidden; /* Ensure content fits within the card */
+  width: 100%;
+  max-width: 100%;
+}
+
+.cardImageWrapper {
+  flex: 1;
+  max-width: 40%;
+}
+
+.cardImage {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.cardDetails {
+  flex: 2;
+  display: flex;
+  flex-direction: column;
+}
+.cardWrapper {
+  margin-bottom: 20px; /* Adds space between cards */
+  width: 100%;
+}
+.fiterbox {
+  background-color: #f7f7f7;
+  box-shadow: 0px 4px 4px 0px #00000014;
+  border-radius: 8px;
+  height: fit-content;
+  padding: 5px;
+  margin: 10px 0;
+}
+
+.barcircle {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: #0e54a3;
+  margin: 0;
+}
+
+.barline {
+  width: 95%;
+  height: 2px;
+  background-color: #0e54a3;
+  margin: 0;
+}
+.barcontainer {
+  background-color: #f5f9ff;
+  box-shadow: 0px 4px 4px 0px #00000014;
+  border-radius: 8px;
+  margin: 15px;
+}
+.trustimg {
+  width: 32px;
+  height: 32px;
+  overflow: hidden;
+}

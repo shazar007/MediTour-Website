@@ -1,0 +1,232 @@
+.maincontainer {
+  margin-top: 0px;
+}
+.headerContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+.cardHight {
+  height: 390px;
+  overflow-y: scroll;
+}
+.cardHight::-webkit-scrollbar {
+  display: none;
+}
+.heading,
+.Treatment,
+.subheading {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 14px;
+  letter-spacing: -0.25px;
+  text-align: start;
+  text-underline-position: "from-font";
+  text-decoration-skip-ink: none;
+  color: #131313;
+}
+.refresh {
+  font-size: 22px;
+  margin-left: 32px;
+  cursor: pointer;
+  color: #393a44;
+}
+.addbtn,
+.editbtn {
+  font-size: 18px;
+  width: auto;
+  height: auto;
+  border-radius: 24px;
+  background-color: #0e54a3 !important;
+  border: none !important;
+  cursor: pointer;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  padding: 17.5px 24px 17.5px 24px;
+  color: #ffff;
+  line-height: 12.22px;
+  font-weight: 600;
+  box-shadow: 4px 4px 12px 0px #00000040;
+}
+.editbtn {
+  padding: 12px 20px !important;
+  width: 90px !important;
+}
+.Treatment,
+.subheading {
+  color: #7d7d7d !important;
+}
+
+.subheading {
+  font-size: 14px !important;
+}
+
+.cardcontainer {
+  width: 100%;
+  max-height: 100vh;
+  overflow-y: auto;
+  overflow-x: hidden;
+  display: flex;
+  justify-content: start;
+  background-color: transparent !important;
+  flex-direction: column;
+  background-color: transparent !important;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+  margin-top: 24px;
+}
+.cardcontainer::-webkit-scrollbar {
+  display: none;
+}
+.card {
+  width: 100%;
+  padding: 5px 0;
+  height: fit-content;
+  max-height: fit-content;
+  border-radius: 16px;
+  /* box-shadow: 4px 2px 12px 0px #00000040; */
+  background-color: #ffff;
+  box-sizing: border-box;
+  display: flex;
+}
+.drimgcontainer {
+  width: 176px;
+  height: 176px;
+  border-radius: 21.33px !important;
+  overflow: hidden;
+}
+.drimg {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  /* overflow: hidden; */
+}
+.textdata {
+  width: 200px;
+  overflow: hidden;
+  margin: 0px 16px;
+}
+
+.drname,
+.pmdc {
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 14px;
+  letter-spacing: -0.25px;
+  text-underline-position: "from-font";
+  text-decoration-skip-ink: none;
+  color: #131313;
+}
+.pmdc {
+  color: #13a89e;
+  font-size: 12px;
+}
+.featureconatiner {
+  /* width: 71px; */
+  height: 14px;
+  padding: 8px;
+  border-radius: 24px;
+  opacity: 0px;
+  background-color: #eaf4ff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.feature {
+  color: #0e54a3;
+  font-size: 8px;
+  text-align: center;
+  font-weight: 600;
+}
+.qualification {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 14px;
+  letter-spacing: -0.25px;
+  text-decoration-skip-ink: none;
+  color: #7d7d7d;
+  white-space: wrap;
+}
+.bottom {
+  display: flex;
+  align-items: center;
+  margin-top: 40%;
+  gap: 10px;
+}
+
+.bottomtitle,
+.bottomlabel,
+.basic {
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 14px;
+  letter-spacing: -0.25px;
+  color: #131313;
+}
+
+.bottomlabel {
+  font-weight: 400;
+  font-size: 10px;
+  color: #7d7d7d !important;
+}
+
+.bottomseprator {
+  align-self: stretch;
+  border: 1px solid #7d7d7d;
+}
+
+.leftside {
+  display: flex;
+  align-items: center;
+  width: 45%;
+}
+.rightside {
+  width: 50%;
+  margin-left: 5px;
+  align-items: center;
+}
+@media (max-width: 480px) {
+  .rightside,
+  .leftside {
+    width: 100%;
+  }
+}
+.innercard {
+  display: flex;
+  flex-direction: column;
+}
+.daycardcontainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  flex-wrap: wrap;
+  margin-bottom: 5px;
+  height: 55px;
+}
+.daycard {
+  border-radius: 24px;
+  background-color: #ffff;
+  border: 1px solid #0e54a3;
+  color: #0e54a3;
+  font-weight: 600;
+  font-size: 14px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2px 15px;
+}
+.outerRefresh {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 32px;
+  width: 32px;
+  border-radius: 50%;
+  border-radius: 12px;
+  background-color: #f6fafe33;
+  cursor: pointer;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}

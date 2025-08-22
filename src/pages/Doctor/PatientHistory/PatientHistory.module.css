@@ -1,0 +1,501 @@
+.box {
+  width: 98%;
+  border-radius: 16px;
+  background-color: #f6f7fa;
+  padding: 30px;
+  color: #00276d;
+  box-sizing: border-box;
+  height: 200px;
+}
+.RefreshIcon {
+  height: 24px;
+  width: 24px;
+  color: #0e54a3;
+}
+.outerRefresh {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 32px;
+  width: 32px;
+  border-radius: 50%;
+  border-radius: 12px;
+  background-color: #f6fafe33;
+  cursor: pointer;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.mt40 {
+  margin-top: 40px;
+}
+.mt24 {
+  margin-top: 24px;
+}
+.mt16 {
+  margin-top: 16px;
+}
+.flx {
+  display: flex;
+  flex-direction: row;
+}
+.flxp {
+  display: flex;
+  flex-direction: row;
+}
+
+.card {
+  width: 100%;
+  border-radius: 16px;
+  background-color: #f5fcff;
+  padding: 20px;
+  margin-left: 16px;
+}
+.card2 {
+  width: 100%;
+  border-radius: 16px;
+  background-color: #f5fcff;
+  padding: 20px;
+  box-sizing: border-box;
+  height: 200px;
+  color: #00276d;
+}
+
+.check {
+  background-color: #0b7328;
+  height: 32px;
+  width: 32px;
+  border-radius: 8px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.edit {
+  background-color: #ff7631;
+  height: 32px;
+  width: 32px;
+  border-radius: 8px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 8px;
+}
+.file {
+  height: 24px;
+  width: 24px;
+  margin-right: 24px;
+  color: #00276d;
+}
+.download {
+  height: 24px;
+  width: 24px;
+  margin-left: auto;
+}
+.user {
+  width: 50%;
+  border-right: 2px dashed #00276d;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.textcenter {
+  text-align: center;
+}
+.middel {
+  text-align: center;
+  border-right: 2px dashed #00276d;
+  width: 50%;
+}
+.sendbtn {
+  background-color: transparent;
+  border-radius: 8px;
+  border: 2px solid #00276d;
+  color: #00276d;
+  padding: 10px 15px;
+  font-size: 16px;
+  font-weight: 600;
+  margin: 24px auto 0 auto;
+}
+.center {
+  display: flex;
+  justify-content: center;
+}
+.user2 {
+  padding: 20px;
+  width: 50%;
+}
+
+.alltests {
+  overflow: auto;
+  height: 135px;
+}
+.alltests::-webkit-scrollbar {
+  display: none;
+}
+.alltests::-webkit-scrollbar-track {
+  display: none;
+}
+
+.alltests::-webkit-scrollbar-thumb {
+  display: none;
+}
+
+.alltests::-webkit-scrollbar-thumb:hover {
+  display: none;
+}
+.seedetail:hover {
+  text-decoration: underline;
+  color: #00276d;
+  cursor: pointer;
+}
+.selecttions {
+  font-size: 16px !important;
+  font-weight: 600 !important;
+  color: #00276d !important;
+  border: none !important;
+  outline: none !important;
+}
+.Prescription {
+  margin-left: auto;
+  width: 210px;
+}
+.maincard {
+  background-color: #f5fcff;
+  border-radius: 24px;
+  padding: 20px 30px;
+  margin-top: 42px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  color: #00276d;
+}
+.end {
+  margin-left: auto;
+}
+.mt8 {
+  margin-top: 8px;
+}
+.mr8 {
+  margin-right: 8px;
+}
+.mr24 {
+  margin-right: 24px;
+}
+.mt16 {
+  margin-top: 16px;
+}
+
+.mt24 {
+  margin-top: 24px;
+}
+
+.mt32 {
+  margin-top: 32px;
+}
+.outer {
+  height: 91vh;
+}
+.tabless {
+  height: 450px;
+  overflow: hidden;
+  margin-bottom: 40px;
+}
+.flxbtween {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.my32 {
+  margin: 32px 0;
+}
+.seeAll {
+  cursor: pointer;
+}
+.seeAll:hover {
+  border-bottom: 1px solid #00276d;
+}
+.outerContainer {
+  padding: 24px;
+  border-radius: 16px;
+  background-color: white;
+  margin-top: 24px;
+  box-shadow: 4px 4px 12px 0px #00000040;
+}
+.mt8 {
+  margin-top: 8px;
+}
+.mt16 {
+  margin-top: 16px;
+}
+.mt24 {
+  margin-top: 24px;
+}
+.mb8 {
+  margin-bottom: 8px;
+}
+
+.Details {
+  color: #ff7631;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+  letter-spacing: -0.25px;
+}
+.IconDetail {
+  height: 20px;
+  width: 20px;
+}
+
+.FlexEnd {
+  display: flex;
+  justify-content: end;
+}
+.heading {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 14px;
+  letter-spacing: -0.25px;
+  color: #131313;
+}
+.col12 {
+  width: 100%;
+}
+.my50 {
+  margin: 30px 0;
+}
+.TableOuter {
+  background-color: white;
+  border-radius: 16px;
+  box-shadow: 4px 4px 12px 0px #00000040;
+  padding: 24px;
+}
+.heading {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 14px;
+  letter-spacing: -0.25px;
+  color: #131313;
+}
+.tabless {
+  height: 450px !important;
+  overflow: hidden !important;
+  margin-bottom: 50px !important;
+}
+.pendingSelect {
+  padding: 10px;
+  border-radius: 8px;
+  color: #7b7878 !important;
+  border: 2px solid #dbdbdb !important;
+  background-color: white !important;
+}
+.flxBetween {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.completeSelect {
+  padding: 10px;
+  border-radius: 8px;
+  color: #006833 !important;
+  border: 2px solid #006833 !important;
+  background-color: white !important;
+  color: white;
+}
+
+.inProcessSelect {
+  padding: 10px;
+  border-radius: 8px;
+  color: #ffb119 !important;
+  border: 2px solid #ffb119 !important;
+  background-color: white !important;
+}
+.sticky {
+  position: sticky !important;
+  top: 10px;
+}
+.mt8 {
+  margin-top: 8px;
+}
+.mt16 {
+  margin-top: 16px;
+}
+.my32 {
+  margin: 32px 0;
+}
+.flx {
+  display: flex;
+  flex-direction: row;
+  align-items: start;
+}
+.ArrowBack {
+  height: 24px;
+  width: 24px;
+  color: #00276d;
+  margin-right: 24px;
+}
+.Abc {
+  display: flex;
+}
+.borderTop {
+  border-top: 2px dotted #00276d;
+}
+.w20 {
+  width: 20%;
+  text-align: center;
+}
+
+.CustomSelectOrder {
+  cursor: pointer;
+}
+.colorGreen {
+  color: #00b69b;
+}
+
+.line {
+  border: 1px dashed gray;
+}
+.name {
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 14.8px;
+  letter-spacing: -0.26px;
+  text-transform: capitalize;
+  color: black;
+}
+.ID {
+  color: #0e54a3;
+  font-weight: 400;
+  font-size: 12px;
+  margin-top: 8px;
+  line-height: 14.8px;
+  letter-spacing: -0.26px;
+}
+.InfoCard {
+  margin-top: 12px;
+  border: 1px solid #0e54a3;
+  padding: 16px;
+  border-radius: 16px;
+  margin-bottom: 32px;
+}
+.Subheading {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 14.8px;
+  letter-spacing: -0.26px;
+  color: black;
+}
+.Details {
+  color: #b01212;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14.8px;
+  letter-spacing: -0.26px;
+}
+.infoWrapper {
+  display: flex;
+  align-items: start;
+  margin-top: 16px;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+.w15 {
+  width: calc(14% - 0px);
+}
+.w40 {
+  width: calc(40% - 24px);
+}
+.Icon {
+  width: 20px;
+  height: 20px;
+}
+.tag {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14.8px;
+  letter-spacing: -0.26px;
+
+  color: #7d7d7d;
+}
+.value {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14.8px;
+  letter-spacing: -0.26px;
+  text-transform: capitalize;
+  color: black;
+  margin-top: 8px;
+}
+.AllTests {
+  font-weight: 400;
+  font-size: 14px;
+  letter-spacing: -0.25px;
+}
+.Download {
+  height: 48px;
+  cursor: pointer;
+  width: 160px;
+  border-radius: 24px;
+  color: white;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 14px;
+  letter-spacing: -0.25px;
+  background-color: #0e54a3;
+  border: 2px solid #0e54a3;
+}
+.amountstext {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 14.8px;
+  letter-spacing: -0.26px;
+  margin-bottom: 8px;
+}
+.TotalAnountText {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 14.8px;
+  margin-bottom: 8px;
+  letter-spacing: -0.26px;
+  margin-top: 8px;
+}
+.TypeIcon {
+  height: 16px;
+  width: 16px;
+}
+.TypeIcon2 {
+  height: 18px;
+  width: 24px;
+}
+.modalOverlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.4);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 9999;
+}
+
+.modalBox {
+  background-color: #fff;
+  padding: 20px 30px;
+  border-radius: 24px;
+  width: 520px;
+  text-align: center;
+  box-shadow: -4px -4px 24px 0px #00000040;
+  box-shadow: 4px 4px 24px 0px #00000040;
+}
+.close {
+  color: #7d7d7d;
+  font-size: 16px;
+  cursor: pointer;
+  margin-left: auto;
+}
+.mediTourLogo {
+  height: 100px;
+  width: 100px;
+}

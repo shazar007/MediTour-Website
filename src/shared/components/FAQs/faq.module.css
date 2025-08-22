@@ -1,0 +1,42 @@
+.dropdown {
+  background-color: transparent !important;
+  color: #0e54a3 !important;
+  box-shadow: none !important;
+  border-radius: 0px !important;
+  border-bottom: 0.5px solid #7b7b7b;
+}
+.mt32 {
+  margin-bottom: 8px;
+}
+.mt8 {
+  margin-top: 8px;
+}
+.refund > ul {
+  list-style-type: decimal;
+  padding: 20px 20px;
+}
+.refund > ul > li {
+  margin-bottom: 15px;
+}
+.accordionicon {
+  transition: transform 10s ease;
+}
+
+.icon {
+  transition: transform 1s;
+  color: #0e54a3;
+}
+.colorChanged {
+  color: #ff7631;
+}
+.rotate {
+  transform: rotate(45deg);
+}
+.text {
+  font-weight: 400;
+
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 0%;
+  color: #131313;
+}

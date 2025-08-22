@@ -1,0 +1,887 @@
+/* Container for tabs */
+
+.main {
+}
+.Number {
+  font-size: 14px;
+  font-weight: 600;
+  color: #0e54a3;
+}
+.cardContainer {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+}
+
+.loadMoreButton {
+  background-color: #fdfdfd;
+  border: 1px solid #ff7631;
+  color: #ff7631;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.loadMoreButton:disabled {
+  border: 1px solid #ccc;
+  color: #ccc;
+  cursor: not-allowed;
+}
+
+.flxendfilter {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  gap: 18px;
+  width: 100%;
+}
+.tabContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  margin-bottom: 20px;
+}
+.tabContainer_2 {
+  display: flex;
+  justify-content: flex-start;
+  margin-bottom: 20px;
+  overflow-x: auto;
+  white-space: nowrap;
+  scrollbar-width: thin;
+  scrollbar-color: #2b6cb0 transparent;
+}
+.timeText {
+  font-size: 1rem;
+  font-weight: bold;
+  color: #333;
+}
+.tabContainer_2::-webkit-scrollbar {
+  height: 4px;
+}
+
+.tabContainer_2::-webkit-scrollbar-track {
+  margin: 4px 0;
+  background-color: transparent;
+}
+
+.tabContainer_2::-webkit-scrollbar-thumb {
+  background-color: #2b6cb0;
+  border-radius: 10px;
+  width: 10px;
+  min-width: 10px;
+}
+
+.tab {
+  padding: 0.5rem 1rem;
+  border-radius: 8px;
+  cursor: pointer;
+  color: #2b6cb0;
+  font-size: 16px;
+  font-weight: 500;
+  margin: 5px;
+  border: none;
+  background-color: #f0f0f0;
+  transition: all 0.1s ease;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.tab:hover {
+  background-color: #f1f1f1; /* Change on hover */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15); /* Slightly larger shadow on hover */
+}
+
+.activeTab {
+  background-color: #2b6cb0 !important;
+  color: white;
+}
+.filterWrapper {
+  box-shadow: 4px 4px 12px 0px #00000040;
+  border: 1px solid #f1f1f1;
+  display: flex;
+  align-items: center;
+  height: 40px;
+  display: flex;
+  gap: 20px;
+  justify-content: space-between;
+  padding: 0 20px;
+  border-radius: 20px;
+}
+.searchBarContainer {
+  display: flex;
+  align-items: center;
+  width: 256px;
+  height: 40px;
+  padding: 0 20px;
+  border-radius: 20px;
+  background-color: transparent;
+  position: relative;
+  box-shadow: 4px 4px 12px 0px #00000040;
+  border: 1px solid #f1f1f1;
+}
+.searchInput {
+  border: none;
+  outline: none;
+  background-color: transparent;
+}
+.filterContainer {
+  box-shadow: 4px 4px 12px 0px #00000040;
+  border: 1px solid #f1f1f1;
+  border-radius: 24px;
+  height: 40px;
+  padding: 0px 20px;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  color: #7d7d7d;
+}
+.filterContainer > p {
+  font-size: 14px;
+}
+.flexend {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  gap: 50px;
+}
+.searchIcon {
+  font-size: 32px;
+  color: #7d7d7d;
+}
+
+.cardName1 {
+  font-size: 14px;
+  font-weight: 500;
+  margin-left: 10px;
+  color: rgba(117, 125, 138, 1);
+}
+
+.cardWrapper {
+  background-color: #fff;
+  border-radius: 16px;
+  box-shadow: 4px 2px 12px 0px #00000040;
+
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+  width: 100%;
+  height: 250px;
+  margin-bottom: 16px;
+}
+
+.cardImageWrapper {
+  width: 25%;
+  height: 250px;
+  border-radius: 8px;
+}
+
+.cardImage {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 16px 0 0 16px !important;
+}
+.cardBody {
+  display: flex;
+  padding: 20px;
+  justify-content: space-between;
+  gap: 40px;
+  height: 100%;
+  width: 75% !important;
+}
+.FeaturedOuter {
+     display: grid;
+    width: 75%;
+    margin-top: 5px;
+    /* grid-template-columns: repeat(3, 1fr); */
+    grid-template-rows: repeat(2, auto);
+    /* justify-items: center; */
+    /* align-items: flex-start; */
+}
+.Loaction {
+  font-weight: 400;
+  font-size: 14px;
+  color: #7d7d7d;
+  width: 300px;
+  line-height: 18px;
+  letter-spacing: -0.25px;
+}
+.call {
+  background: #0e54a3;
+  color: white;
+  border: 2px solid #0e54a3;
+  font-weight: 600;
+  font-size: 14px;
+  width: 140px;
+  cursor: pointer;
+  height: 40px;
+  border-radius: 25px;
+  line-height: 12.22px;
+  letter-spacing: -0.22px;
+}
+.Detail {
+  background: white;
+  color: #0e54a3;
+  border: 0.87px solid #0e54a3;
+  font-weight: 600;
+  font-size: 14px;
+  cursor: pointer;
+  width: 140px;
+  height: 40px;
+  border-radius: 25px;
+  line-height: 12.22px;
+  letter-spacing: -0.22px;
+}
+.FeaturedCard > p {
+  font-weight: 600;
+  font-size: 14px;
+  color: #7d7d7d;
+  line-height: 12.22px;
+  letter-spacing: -0.22px;
+  text-align: center;
+  text-wrap: wrap;
+}
+.flxxx {
+  display: flex;
+  align-items: end;
+  width: 100%;
+  justify-content: space-between;
+}
+.FeaturedCard {
+  border: 1px solid #7d7d7d;
+  border-radius: 24px;
+  width: 120px;
+  height: 34px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.fflxxend {
+  display: flex;
+  justify-content: end;
+  align-items: end;
+  flex-direction: column;
+}
+.hospitalInfo {
+  display: flex;
+  width: 25%;
+  flex-direction: column;
+  height: 100%;
+}
+
+.hospitalBottom2 {
+  margin-top: auto;
+  display: flex;
+  justify-content: space-between !important;
+  align-items: end;
+  gap: 40px;
+}
+.hospitalBottom {
+  margin-top: auto;
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
+.hospitalDetail {
+  display: flex;
+  width: 66%;
+  flex-direction: column;
+  height: 100%; /* Ensures full height */
+  justify-content: space-between; /* Pushes the last div down */
+}
+
+.hospitalBottom {
+  margin-top: auto; /* Moves this div to the bottom */
+  display: flex;
+  align-items: end;
+  gap: 40px;
+}
+.hospitalName {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 20px;
+  text-transform: capitalize;
+  letter-spacing: -0.25px;
+}
+.hospitalDesp {
+  font-weight: 600;
+  font-size: 12px;
+  color: #13a89e;
+  line-height: 14px;
+  letter-spacing: -0.25px;
+}
+.Iconss {
+  height: 20px !important;
+  width: 20px !important;
+  color: #7d7d7d;
+}
+* {
+  box-sizing: border-box;
+}
+.textIcons {
+  font-weight: 400;
+  font-size: 14px;
+  color: #7d7d7d;
+  line-height: 18px;
+  letter-spacing: -0.25px;
+}
+.bed {
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 14px;
+  letter-spacing: -0.25px;
+}
+.bedValue {
+  font-weight: 400;
+  font-size: 10px;
+  color: #7d7d7d;
+  line-height: 14px;
+  letter-spacing: -0.25px;
+}
+.specialityPlaceholder {
+  font-size: 14px;
+  color: #ccc;
+}
+
+.cardDetails {
+  display: flex;
+  gap: 16px;
+  min-height: 40px; /* To maintain height consistency */
+}
+.FeaturedOuter > ul > li {
+  font-weight: 600;
+  font-size: 14px;
+  color: #7d7d7d !important;
+  text-align: start;
+  line-height: 12.22px;
+  margin-bottom: 8px;
+  letter-spacing: -0.22px;
+}
+.cardName {
+  font-size: 18px;
+  font-weight: 600;
+  color: #0e54a3;
+}
+.treatmentList {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* 2 columns */
+  gap: 8px; /* Spacing between items */
+  padding: 0;
+  padding-left: 20px;
+}
+
+.treatmentList li {
+  color: #0e54a3 !important; /* Force text color */
+  width: 200px;
+}
+
+.treatmentList li::marker {
+  font-size: 20px;
+  color: #0e54a3 !important; /* Force bullet point color */
+}
+
+.cardSpecialities {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4px;
+}
+.flxx {
+  display: flex;
+  flex-direction: column;
+}
+.specialityTag {
+  font-size: 14px;
+  color: #555;
+  background-color: #f0f0f0;
+  padding: 4px 8px;
+  border-radius: 4px;
+}
+.fllxx {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  flex-direction: column;
+}
+.cardExperience {
+  font-size: 14px;
+  color: #888;
+}
+
+.vectorIcon {
+  width: 24px;
+  height: 24px;
+}
+
+.viewMore {
+  font-size: 14px;
+  color: #0e54a3;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.cardViewMore {
+  text-decoration: none;
+  color: #0e54a3;
+  font-weight: 500;
+}
+
+.cardArrowIcon {
+  font-size: 16px;
+  color: #0e54a3;
+}
+.locationouter {
+  width: 300px;
+}
+@media (max-width: 1440px) {
+  .cardWrapper {
+    width: 100%; /* 2 cards in a row */
+  }
+  .cardWrapper1 {
+    width: 100%; /* Smooth scaling on hover */
+  }
+  .fllxx {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 1024px) {
+  .Loaction {
+    width: 200px;
+  }
+  .FeaturedOuter {
+    width: 100% !important;
+  }
+  .cardWrapper {
+    width: 100%; /* 2 cards in a row */
+    height: auto;
+  }
+
+  .cardImageWrapper {
+    height: auto;
+  }
+  .cardWrapper1 {
+    width: 100%; /* Smooth scaling on hover */
+  }
+  .cardBody {
+    gap: 30px;
+  }
+  .FeaturedOuter {
+    display: grid;
+    width: 100%;
+    margin-top: 5px;
+    gap: 12px;
+    grid-template-columns: repeat(2, 1fr); /* 3 columns */
+    grid-template-rows: repeat(3, auto); /* 2 rows */
+    justify-items: center;
+    align-items: flex-start;
+  }
+  .treatmentList {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr) !important; /* 3 columns */
+  }
+}
+
+@media (max-width: 768px) {
+  .cardWrapper {
+    width: 100%; /* 2 cards in a row */
+  }
+  .cardWrapper1 {
+    width: 100%; /* Smooth scaling on hover */
+  }
+  .cardWrapper {
+    width: 100%;
+    height: auto;
+    flex-direction: column;
+  }
+  .cardImageWrapper {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    height: 200px;
+    border-radius: 0 0 !important;
+  }
+  .cardBody {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    justify-content: space-between;
+    gap: 60px;
+    height: 100%;
+    width: 100% !important;
+  }
+  .flexend {
+    justify-content: center;
+  }
+  .hospitalInfo {
+    display: flex;
+    width: 100%;
+    flex-direction: column; /* Stack content vertically */
+    height: 100%; /* Ensures full height */
+  }
+  .FeaturedCard {
+    border: 1px solid #7d7d7d;
+    border-radius: 24px;
+    width: 100px;
+    height: 34px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .FeaturedCard > p {
+    font-size: 12px;
+  }
+  .flxxx {
+    display: flex;
+    flex-direction: row;
+    align-items: end;
+    width: 600px !important;
+    margin-top: 16px;
+    justify-content: space-between !important;
+  }
+  .fflxxend {
+    flex-direction: row;
+  }
+  .cardBody {
+    gap: 12px;
+  }
+  .Detail {
+    margin-bottom: 0px;
+    margin-right: 12px;
+    width: 155px;
+  }
+  .locationouter {
+    width: 100% !important;
+    padding: 0 30px 0 15px;
+  }
+  .fflxxend {
+    justify-content: center;
+    margin: auto;
+  }
+  .call {
+    width: 150px;
+  }
+  .hospitalDetail {
+    display: flex;
+    width: 100%;
+  }
+  .cardImage {
+    border-radius: 0 0 !important;
+    width: 50%;
+  }
+}
+
+@media (max-width: 480px) {
+  .cardWrapper {
+    width: 100%;
+    height: auto;
+    flex-direction: column;
+  }
+  .cardImageWrapper {
+    width: 100%;
+    height: 200px;
+  }
+  .cardImage {
+    border-radius: 16px 16px 0 0 !important;
+  }
+  .treatmentList {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr) !important;
+  }
+  .hospitalDetail {
+    display: flex;
+    width: 100%;
+  }
+  .cardBody {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    justify-content: space-between;
+    gap: 60px;
+    height: 100%;
+    width: 100% !important;
+  }
+  .hospitalBottom2 {
+    flex-direction: column;
+    justify-content: start;
+  }
+  .hospitalInfo {
+    display: flex;
+    width: 100%;
+    flex-direction: column; /* Stack content vertically */
+    height: 100%; /* Ensures full height */
+  }
+  .FeaturedCard {
+    border: 1px solid #7d7d7d;
+    border-radius: 24px;
+    width: 100px;
+    height: 34px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .FeaturedCard > p {
+    font-size: 12px;
+  }
+  .flxxx {
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    width: 100%;
+    justify-content: space-between;
+  }
+  .fflxxend {
+    flex-direction: row;
+  }
+  .cardBody {
+    gap: 12px;
+  }
+  .Detail {
+    margin-bottom: 0px;
+    margin-right: 12px;
+    width: 155px;
+  }
+  .locationouter {
+    width: 100%;
+    margin-top: 16px;
+  }
+  .location {
+    width: auto;
+  }
+  .cardImage {
+    border-radius: 16px 16px 0 0 !important;
+  }
+  .hospitalBottom {
+    justify-content: start;
+    margin-top: 10px;
+  }
+  .filterContainer {
+    padding: 0 30px 0 15px;
+  }
+  .fflxxend {
+    justify-content: center;
+    margin: auto;
+  }
+  .call {
+    width: 150px;
+  }
+}
+
+.cardTitle,
+.cardtime {
+  font-size: 14px;
+  color: black !important;
+  display: flex;
+  align-items: center;
+
+  margin-top: 4px;
+}
+
+.timeIcon {
+  margin: 0 10px 0px 0px;
+  align-items: center;
+  display: flex;
+  text-align: center;
+  font-size: 16px;
+}
+
+.cardFooter {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 8px;
+}
+
+.cardRating {
+  font-size: 1.5rem;
+  color: #fcaf23; /* Golden color for the star */
+  text-shadow: 0px 2px 4px rgba(0, 0, 0, 0.3); /* Subtle shadow for depth */
+  line-height: 1; /* Aligns the star vertically with text */
+}
+.ratingContainer {
+  display: flex;
+  align-items: center;
+  gap: 8px; /* Gap between stars */
+  width: 112px; /* Specified width */
+  height: 16px; /* Specified height */
+  opacity: 1; /* Ensures the stars are visible */
+}
+
+.cardArrow {
+  width: 12px;
+  height: 12px;
+  background-color: #0e54a3;
+  color: white;
+  border-radius: 50%;
+  padding: 10px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: larger;
+}
+
+.cardRatingValue {
+  font-size: 14px;
+  color: #333;
+  margin-left: 4px;
+}
+
+.cardViewMore {
+  font-size: 14px;
+  color: #0e54a3;
+  text-decoration: none;
+  margin-right: 8px;
+}
+/* Cards.module.css */
+
+.showMoreContainer {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.showMoreButton {
+  display: flex; /* Use flexbox to align text and icon */
+  align-items: center; /* Center items vertically */
+  justify-content: center; /* Center items horizontally */
+  padding: 10px 20px;
+  background-color: #0e54a3; /* Button background color */
+  color: white;
+  border: none;
+  border-radius: 24px;
+  cursor: pointer;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Optional shadow for better visibility */
+  font-size: 16px;
+}
+
+.showMoreButton .icon {
+  margin-left: 10px;
+  font-size: 20px;
+  color: #0e54a3;
+  background-color: #fff;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.tab {
+  padding: 10px 20px;
+  cursor: pointer;
+  border: none;
+  background-color: #f0f0f0;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+.searchInput {
+  width: 100%;
+  height: 100%;
+  /* padding-left: 40px; */
+  border: none;
+  border-radius: 48px;
+}
+.cardViewMore {
+  margin-right: 8px;
+}
+.viewMore {
+  display: flex;
+  align-items: center;
+  font-size: 12px;
+}
+.tabContent {
+  padding: 20px;
+  background-color: #ffffff;
+  border-radius: 4px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+.filterImage {
+  cursor: pointer;
+  height: 16px;
+  width: 16px;
+}
+.filterText {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 14px;
+  letter-spacing: -0.25px;
+  color: #7d7d7d;
+}
+.ModalContent {
+  width: 800px;
+  background-color: white;
+  padding: 24px;
+  position: absolute;
+  top: 50%;
+  border-radius: 24px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: white;
+  border: none !important;
+}
+.mdlwrp {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 0.5px solid #7d7d7d;
+  padding-bottom: 16px;
+}
+.headingModel {
+  color: #131313;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 42px;
+  letter-spacing: -0.75px;
+}
+.w50 {
+  width: calc(50% - 9px);
+}
+.Apply {
+  height: 48px;
+  background-color: #0e54a3;
+  border: 1px solid #0e54a3;
+  width: 160px;
+  cursor: pointer;
+  color: white;
+  border-radius: 24px;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 12.22px;
+  letter-spacing: -0.22px;
+  text-align: center;
+}
+.Reset {
+  border-radius: 24px;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 12.22px;
+  letter-spacing: -0.22px;
+  text-align: center;
+  width: 160px;
+  height: 48px;
+  background-color: white;
+  border: 1px solid #0e54a3;
+  color: #0e54a3;
+  cursor: pointer;
+}
+.flxbtwen {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 24px;
+}
+.modelHeading {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 42px;
+  letter-spacing: -0.75px;
+  color: black;
+}

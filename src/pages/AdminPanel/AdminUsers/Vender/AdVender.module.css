@@ -1,0 +1,206 @@
+.flx {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+  align-items: center;
+  margin-top: 24px;
+}
+.LabCard {
+  width: 23.7%;
+  border-radius: 16px;
+  box-sizing: border-box;
+
+  background-image: url("../../../../assets/images/LaboratoriesVender.png");
+  background-position: center;
+  background-size: cover;
+  color: white;
+  height: 190px;
+  text-align: center;
+  cursor: pointer;
+  display: grid;
+  place-content: end center;
+  padding: 24px;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+.PharmacyCard {
+  width: 23.7%;
+  border-radius: 16px;
+  box-sizing: border-box;
+  background-image: url("../../../../assets/images/PharmaciesVender.png");
+  background-size: cover;
+  color: white;
+  height: 190px;
+  text-align: center;
+  cursor: pointer;
+  padding: 24px;
+  display: grid;
+  place-content: end center;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+.DoctorCard {
+  width: 23.7%;
+  border-radius: 16px;
+  box-sizing: border-box;
+  background-image: url("../../../../assets/images/DoctorsVender.png");
+  background-size: cover;
+  color: white;
+  height: 190px;
+  padding: 24px;
+  text-align: center;
+  cursor: pointer;
+  display: grid;
+  place-content: end center;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+.HospitalCard {
+  width: 23.7%;
+  border-radius: 16px;
+  box-sizing: border-box;
+  background-image: url("../../../../assets/images/HospitalsVender.png");
+  background-position: center;
+  background-size: cover;
+  color: white;
+  height: 190px;
+  text-align: center;
+  cursor: pointer;
+  padding: 24px;
+  display: grid;
+  place-content: end center;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+.TravelCard {
+  width: 23.7%;
+  border-radius: 16px;
+  box-sizing: border-box;
+  background-position: center;
+  background-size: cover;
+  color: white;
+  height: 190px;
+  text-align: center;
+  padding: 24px;
+  cursor: pointer;
+  display: grid;
+  place-content: end center;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+.RentCard {
+  width: 23.7%;
+  border-radius: 16px;
+  box-sizing: border-box;
+  background-position: center;
+  background-size: cover;
+  color: white;
+  height: 190px;
+  text-align: center;
+  cursor: pointer;
+  display: grid;
+  place-content: end center;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  padding: 24px;
+}
+.PropertiesCard {
+  width: 23.7%;
+  border-radius: 16px;
+  box-sizing: border-box;
+  background-image: url("../../../../assets/images/PropertiesVender.png");
+  background-size: cover;
+  color: white;
+  background-position: center;
+  padding: 24px;
+  height: 190px;
+  text-align: center;
+  cursor: pointer;
+  display: grid;
+  place-content: end center;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+.DonationCard {
+  width: 23.7%;
+  border-radius: 16px;
+  box-sizing: border-box;
+  background-image: url("../../../../assets/images/DonationVender.png");
+  background-position: center;
+  background-size: cover;
+  color: white;
+  height: 190px;
+  padding: 24px;
+  text-align: center;
+  cursor: pointer;
+  display: grid;
+  place-content: end center;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+.InsuranceCard {
+  width: 23.7%;
+  border-radius: 16px;
+  box-sizing: border-box;
+  background-image: url("../../../../assets/images/InsuranceVender.png");
+  background-position: center;
+  background-size: cover;
+  color: white;
+  height: 190px;
+  padding: 24px;
+  text-align: center;
+  cursor: pointer;
+  display: grid;
+  place-content: end center;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+.AmbulanceCard {
+  width: 23.7%;
+  border-radius: 16px;
+  box-sizing: border-box;
+  background-image: url("../../../../assets/images/AmbulanceVender.png");
+  background-position: center;
+  background-size: cover;
+  color: white;
+  height: 190px;
+  padding: 24px;
+  text-align: center;
+  cursor: pointer;
+  display: grid;
+  place-content: end center;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+.PharmaceuticalCard {
+  width: 23.7%;
+  border-radius: 16px;
+  box-sizing: border-box;
+  background-image: url("../../../../assets/images/PharmaceuticalVendor.png");
+  background-position: center;
+  background-size: cover;
+  color: white;
+  height: 190px;
+  padding: 24px;
+  text-align: center;
+  cursor: pointer;
+  display: grid;
+  place-content: end center;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+.ParamedicCard {
+  width: 23.7%;
+  border-radius: 16px;
+  box-sizing: border-box;
+  background-image: url("../../../../assets/images/Paramedic\ staffSevices.png");
+  background-position: center;
+  background-size: cover;
+  color: white;
+  height: 190px;
+  padding: 24px;
+  text-align: center;
+  cursor: pointer;
+  display: grid;
+  place-content: end center;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.mtauto {
+  margin-top: auto;
+}
+.bottomText {
+  position: absolute;
+  bottom: 24px; /* Adjust as needed */
+  left: 50%;
+  transform: translateX(-50%);
+}

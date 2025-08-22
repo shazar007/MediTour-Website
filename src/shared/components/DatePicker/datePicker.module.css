@@ -1,0 +1,15 @@
+.DateImg {
+  height: 24px;
+  width: 24px;
+  margin-right: 5px;
+  filter: grayscale(100%);
+  padding: 0px !important;
+}
+
+.container:focus-within {
+  border: none;
+  background: linear-gradient(to right, #ff7631, #2575fc);
+  padding: 2px;
+  height: 53px;
+  border-radius: 4px;
+}

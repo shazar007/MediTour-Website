@@ -1,0 +1,852 @@
+.container2 {
+  background-image: url("../../../../assets/images/footerBg.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  padding-top: 30px;
+}
+.loggo {
+  height: 90px;
+  width: 90px;
+}
+.fs16 {
+  font-size: 16px;
+}
+.Footer {
+  padding: 0px 160px 0px 160px;
+}
+.mb24 {
+  margin-bottom: 24px;
+}
+.mianFooterOuter {
+  color: white;
+  margin: 0px auto;
+  max-width: 1200px;
+  padding: 20px 0;
+  width: 100%;
+}
+.fs32 {
+  font-size: 32px;
+  font-weight: 700;
+}
+.fs48 {
+  font-size: 48px;
+  font-weight: 700;
+}
+.fs12 {
+  font-size: 12px;
+}
+.fs14 {
+  font-size: 14px;
+}
+.fs16 {
+  font-size: 16px;
+}
+.fs18 {
+  font-size: 18px;
+}
+.fs20 {
+  font-size: 20px;
+}
+.fs21 {
+  font-size: 20px;
+}
+
+.ml8 {
+  margin-left: 8px;
+}
+.textstart {
+  text-align: start;
+}
+.colorGray {
+  color: #6f6c90;
+}
+.colorBlue {
+  color: #0e54a3;
+}
+.SubscribeBtn {
+  background-color: #0e54a3;
+  color: white;
+  font-size: 14px;
+  font-weight: 600;
+  border-radius: 30px;
+  width: 165px;
+  height: 45px;
+  border: 2px solid #0e54a3;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 24px;
+  right: 7px;
+  gap: 10px;
+}
+.SubscribeBtn:hover {
+  color: #0e54a3 !important;
+  background-color: white;
+  border: 2px solid white;
+  font-weight: 600;
+  color: white;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+.SubscribeBtn:hover > p {
+  color: #0e54a3;
+}
+.aRROW {
+  font-size: 24px;
+  /* margin-left: 16px; */
+}
+.flxIcons {
+  display: flex;
+  align-items: center;
+}
+.FooterICONS {
+  color: #ff7631;
+  font-size: 14px;
+}
+.cursor {
+  cursor: pointer;
+}
+.FooterFlx {
+  display: flex;
+  justify-content: space-between;
+}
+.footerHeadings {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 22px;
+  margin-bottom: 16px;
+  letter-spacing: 0%;
+}
+.footertext {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 0px;
+  margin-bottom: 8px;
+  cursor: pointer;
+}
+.inputContainer > input {
+  height: 58px;
+  width: 100%;
+  border-radius: 32px;
+  background-color: white;
+  box-shadow: rgba(0, 0, 0, 0.05) 1px 1px 9px 2px;
+  border: none;
+  box-sizing: border-box;
+  padding: 15px;
+  font-size: 16px;
+  position: relative;
+  margin-top: 18px;
+}
+.mt24 > input:focus {
+  outline: none !important;
+}
+.flxBetween {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.iconOuter {
+  background-color: white;
+  height: 24px;
+  width: 24px;
+  border-radius: 6px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+.iconOuter:hover {
+  background-color: #fad6c5;
+}
+.FooterLogo {
+  height: 40px;
+  width: 40px;
+  /* margin-right: 66px; */
+}
+.upernavigation {
+  background-color: #0e54a3;
+  border-radius: 20px 0 0 20px;
+  height: 40px;
+  width: 50px;
+  position: absolute;
+  right: 0px;
+  bottom: 27px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-right: 7px;
+}
+.upernavigationinner {
+  background-color: white;
+  height: 20px;
+  width: 20px;
+  border-radius: 10px;
+  font-size: 12px;
+  display: flex;
+  cursor: pointer;
+  justify-content: center;
+  align-items: center;
+  color: #0e54a3;
+}
+.addressContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.circle {
+  height: 48px;
+  width: 48px;
+  border-radius: 100%;
+  background-color: #ffff;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-shrink: 0;
+  flex-grow: 0;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  flex: 1 1 24%;
+  box-sizing: border-box;
+  /* max-width: 350px; */
+  gap: 10px;
+}
+
+.address {
+  /* margin-left: 16px; */
+  /* flex-grow: 1; */
+  /* border: 1px solid black; */
+}
+.Copyright {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 20px;
+  letter-spacing: 0px;
+}
+
+.addressHeading {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 135%;
+  letter-spacing: 0%;
+}
+.addresstext {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 135%;
+  letter-spacing: 0%;
+}
+.footerMflx {
+  display: flex;
+  align-items: start;
+  justify-content: space-between;
+}
+.newsletter {
+  font-weight: 400;
+  font-size: 36px;
+  text-transform: uppercase;
+  line-height: 22px;
+  letter-spacing: 0%;
+  text-align: center;
+  text-transform: uppercase;
+}
+.inputContainer {
+  display: flex;
+  align-items: center;
+  position: relative;
+  width: 100%;
+}
+.NewsletterText {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 18px;
+  letter-spacing: 0%;
+  margin-top: 8px;
+  text-align: center;
+  text-align: center;
+}
+.col5 {
+  width: 45%;
+}
+@media (min-width: 768px) {
+  .gap24 {
+    gap: 24px;
+  }
+  .addressContainer {
+    justify-content: space-between;
+  }
+
+  .row {
+    /* border: 1px solid black; */
+    width: 300px;
+  }
+
+  .circle {
+    height: 48px;
+    width: 48px;
+  }
+}
+@media (width: 1024px) {
+  .addressContainer {
+    justify-content: space-between;
+  }
+  .SubscribeBtn {
+    top: 24px;
+    right: 7px;
+  }
+  .row {
+    width: 250px;
+  }
+
+  .addressText {
+    width: 62%;
+    border: 1px solid;
+  }
+
+  .circle {
+    height: 48px;
+    width: 48px;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+  .gap24 {
+    gap: 24px;
+  }
+  .SubscribeBtn {
+    width: 130px;
+  }
+
+  .footertext {
+    font-size: 12px;
+  }
+  .col5 {
+    width: 100%;
+  }
+  .row {
+    flex: 1 1 100%;
+  }
+  .ddotss {
+    display: none;
+  }
+  .BottomLines {
+    display: none;
+  }
+
+  .borderBottomCenter {
+    width: max-content;
+    border-bottom: 4px solid #ff7631;
+    display: flex;
+    margin: auto;
+    border-radius: 2px 2px 2px 2px;
+  }
+  .fs21 {
+    font-size: 12px;
+  }
+  .fs18 {
+    font-size: 12px;
+  }
+  .textNature {
+    font-size: 32px !important;
+    font-weight: 800;
+    color: #ff7631;
+  }
+  .caption {
+    color: #0e54a3;
+    margin-top: 8px;
+    font-size: 16px !important;
+    font-weight: 600;
+    text-align: center;
+  }
+  .loggo {
+    height: 60px;
+    width: 60px;
+  }
+  .mtt24 {
+    margin-top: 0%;
+  }
+  .Contactt {
+    width: 100%;
+    margin-top: 16px;
+  }
+  .SocialIconOuter {
+    background-color: #0e54a3;
+    color: #0e54a3;
+    border-radius: 50%;
+    height: 42px;
+    width: 42px;
+    margin-right: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .Socialicon {
+    color: white;
+    height: 24px;
+    width: 24px;
+  }
+
+  .flx {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .mediBox {
+    height: 58px;
+    width: 155px;
+    border-radius: 8px;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    margin-top: 16px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #0e54a3;
+    box-sizing: border-box;
+    padding: 0px 10px;
+  }
+  .medi {
+    height: 30px;
+    width: 30px;
+  }
+  .fs20 {
+    font-size: 12px;
+  }
+  .mianFooterOuter {
+    padding: 20px;
+  }
+  .SevicesText {
+    width: 100%;
+    font-size: 14px;
+    font-weight: 400;
+    text-align: center;
+    margin-top: 36px;
+  }
+  .dotss {
+    height: 10px;
+    width: 50px;
+  }
+
+  .fs16 {
+    font-size: 10px;
+  }
+  .fs32 {
+    font-size: 18px;
+    font-weight: 700;
+    text-align: center !important;
+  }
+  .fs48 {
+    font-size: 20px;
+    font-weight: 700;
+    text-align: center !important;
+  }
+  .textsmCenter {
+    text-align: center !important;
+  }
+
+  .card {
+    border-radius: 16px;
+    background-color: #dee6ec;
+    padding: 20px;
+    box-sizing: border-box;
+    width: 90%;
+    margin-top: 16px;
+    color: #0e54a3;
+    text-align: center;
+    cursor: pointer;
+    font-size: 9px;
+  }
+
+  .colsm6 {
+    width: 47%;
+  }
+  .colsm3 {
+    width: 24%;
+  }
+  .flxCenter {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  .MianHome {
+    margin-top: 24px;
+    height: 180px;
+    width: 100%;
+  }
+  .logo {
+    height: 40px;
+    width: 40px;
+    margin-left: 16px;
+    margin-top: 5px;
+  }
+  .textsmCenter {
+    text-align: center;
+  }
+  .flxIcons {
+    display: flex;
+    justify-content: center;
+    margin-right: 0px;
+  }
+  .mtsm50 {
+    margin-top: 50px;
+  }
+  .mtsm20 {
+    margin-top: 20px;
+  }
+  .Frequently {
+    font-size: 28px;
+    font-weight: 700;
+  }
+  .MediLogo {
+    display: none;
+  }
+  .FooterFlx {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .Footer {
+    padding: 24px 20px;
+  }
+  .navContainer {
+    background-color: #ededed;
+    border-radius: 47px;
+    padding: 8px;
+    display: flex;
+    align-items: center;
+    color: #0e54a3;
+    margin: 0px 20px;
+    position: sticky;
+    top: 24px;
+    z-index: 1;
+  }
+  .natureContainer {
+    align-self: flex-end;
+    width: 100%;
+    background: linear-gradient(to top, #e2e9ec, transparent);
+    opacity: 0.9;
+    margin-top: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    box-sizing: border-box;
+    padding: 0 20px 20px 20px;
+  }
+  .bgcolor {
+    background-image: linear-gradient(white, #e2e9ec, white);
+    /* background-color: #e2e9ec; */
+    padding: 24px;
+    color: #0e54a3;
+  }
+  .container {
+    margin: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: start;
+    justify-content: space-between;
+  }
+
+  .flxFAQ {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .Footer {
+    margin: 24px;
+  }
+  .Laptop {
+    margin-top: 30px;
+    width: 70%;
+    height: 136px;
+  }
+  .FAQIMG {
+    width: 100%;
+    height: 217px;
+    margin-left: 0px;
+    margin-top: 50px;
+    box-sizing: border-box;
+  }
+  .Featured {
+    width: 60%;
+    height: 172px;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: center;
+  }
+
+  .flxBetween {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  .flexBetween {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 50px;
+  }
+  .doctorGroup {
+    width: 70%;
+    height: 200px;
+    display: flex;
+    margin: 30px auto 30px auto;
+  }
+  .barbtn {
+    height: 30px;
+    width: 30px;
+    margin-left: auto;
+  }
+  .NavBar > li {
+    display: none;
+  }
+  .join {
+    display: none;
+  }
+  .profile {
+    display: none;
+  }
+
+  .backLine {
+    background-image: none;
+    width: 102%;
+    background-size: cover;
+    height: 543px;
+  }
+}
+@media (min-width: 481px) and (max-width: 768px) {
+  .flxIcons {
+    margin-right: 0px;
+  }
+  .mianFooterOuter {
+    padding: 20px 40px;
+  }
+  .FooterFlx {
+    justify-content: space-between !important;
+  }
+  .col5 {
+    width: 100%;
+  }
+  .row {
+    flex: 1 1 48%;
+  }
+  .FooterFlx {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .Footer {
+    padding: 24px 60px;
+  }
+  .flexBetween {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .card {
+    border-radius: 16px;
+    background-color: #dee6ec;
+    padding: 20px;
+    box-sizing: border-box;
+    width: 90%;
+    margin-top: 16px;
+    color: #0e54a3;
+    text-align: center;
+    cursor: pointer;
+    font-size: 12px;
+  }
+  .navContainer {
+    background-color: #ededed;
+    border-radius: 47px;
+    padding: 8px;
+    display: flex;
+    align-items: center;
+    color: #0e54a3;
+    margin: 0px 60px;
+    position: sticky;
+    top: 24px;
+    z-index: 1;
+  }
+  .natureContainer {
+    align-self: flex-end;
+    width: 100%;
+    background: linear-gradient(to top, #e2e9ec, transparent);
+    opacity: 0.9;
+    margin-top: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    box-sizing: border-box;
+    padding: 0 60px 20px 60px;
+  }
+  .bgcolor {
+    background-image: linear-gradient(white, #e2e9ec, white);
+    /* background-color: #e2e9ec; */
+    padding: 50px 60px 50px 60px;
+    color: #0e54a3;
+  }
+
+  .container {
+    margin: 50px 60px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: start;
+    justify-content: space-between;
+  }
+
+  .flxFAQ {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .FAQIMG {
+    width: 100%;
+    height: 300px;
+    margin-left: 0px;
+    margin-top: 50px;
+    box-sizing: border-box;
+  }
+  .mtmd50 {
+    margin-top: 50px;
+  }
+  /* .Footer {
+  } */
+  .Featured {
+    height: 358px;
+    width: 400px;
+    display: flex;
+    margin: auto;
+  }
+  .Laptop {
+    margin-top: 50px;
+    width: 100%;
+    height: 300px;
+  }
+  .barbtn {
+    height: 30px;
+    width: 30px;
+    margin-left: auto;
+    margin-right: 16px;
+  }
+  .NavBar > li {
+    display: none;
+  }
+  .NavBar > li {
+    display: none;
+  }
+  .join {
+    display: none;
+  }
+  .profile {
+    display: none;
+  }
+  .MianHome {
+    margin-top: 24px;
+    height: 400px;
+    width: 100%;
+  }
+  .MediLogo {
+    height: 100px;
+    width: 100px;
+  }
+  .dotss {
+    height: 27px;
+    width: 130px;
+    position: absolute;
+    bottom: 115px;
+    left: -6%;
+  }
+  .BottomLines {
+    width: 188px;
+    height: 15px;
+    margin-top: 0px;
+  }
+  .Circle {
+    width: 62px;
+    height: 62px;
+    position: absolute;
+    top: 250px;
+    right: 0px;
+  }
+  .Bages {
+    width: 62px;
+    height: 62px;
+    position: absolute;
+    top: 250px;
+    left: 0%;
+  }
+  .logIn {
+    width: 188px;
+    position: absolute;
+    top: 65px;
+    left: 2%;
+  }
+  .logIn2 {
+    width: 188px;
+    position: absolute;
+    top: 35px;
+    left: 35%;
+  }
+  .logIn3 {
+    width: 188px;
+    position: absolute;
+    bottom: -20px;
+    right: -14px;
+  }
+  .logIn4 {
+    width: 188px;
+    position: absolute;
+    bottom: -188px;
+    right: -10%;
+  }
+
+  .logIn5 {
+    width: 188px;
+    position: absolute;
+    top: 230px;
+    right: 46%;
+  }
+  .logIn6 {
+    width: 188px;
+    position: absolute;
+    top: 123px;
+    right: 20%;
+  }
+  .fs16 {
+    font-size: 14px;
+  }
+  .fs20 {
+    font-size: 16px;
+  }
+}
+@media (min-width: 769px) and (max-width: 1040px) {
+  .row {
+    flex: 1 1 48%;
+  }
+  .mianFooterOuter {
+    padding: 20px 80px;
+  }
+}
+@media (min-width: 1041px) and (max-width: 1440px) {
+  .Footer {
+    padding: 24px 100px;
+  }
+}
+
+@media (min-width: 1441px) and (max-width: 2800px) {
+  .barbtn {
+    display: none;
+  }
+  .mobileMenu {
+    display: none;
+  }
+
+  .row {
+    width: 320px;
+  }
+}

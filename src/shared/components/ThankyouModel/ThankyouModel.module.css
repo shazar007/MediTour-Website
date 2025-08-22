@@ -1,0 +1,66 @@
+/* Modal backdrop covering the whole screen */
+.modalBackdrop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.modalContainer {
+  display: flex;
+  width: 342px;
+  justify-content: center;
+  align-items: center;
+  height: fit-content;
+  flex-direction: column;
+  align-items: center;
+  padding: 15px;
+  border: 1px solid #dcdcdc;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+  box-shadow: 0px 8px 48px rgba(0, 0, 0, 0.1);
+}
+
+.icon {
+  color: #007b1b;
+  font-size: 50px;
+  margin-right: 10px;
+  text-align: center;
+  margin: 10px 0;
+}
+.thankyou {
+  color: #007b1b;
+  font-size: 16px;
+  font-weight: 600;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: 10px 0;
+}
+.messageContent {
+  display: flex;
+  flex-direction: column;
+}
+
+.successText {
+  color: #00276d;
+  font-size: 16px;
+  font-weight: 400;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.infoText {
+  color: #00276d;
+  font-size: 14px;
+  margin-top: 4px;
+}

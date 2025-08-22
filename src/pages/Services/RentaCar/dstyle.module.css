@@ -1,0 +1,70 @@
+.intro {
+  color: #909198;
+  font-size: 16px;
+}
+
+.title {
+  color: #0e54a3;
+  font-size: 24px;
+  /*      */
+}
+
+.cardContainer {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: flex-start;
+}
+
+.cardWrapper {
+  flex: 1 1 calc(25% - 16px);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 16px;
+  box-sizing: border-box;
+}
+
+.card {
+  cursor: pointer;
+  background-color: "#fff";
+  width: 256px;
+  height: 120px;
+  border-radius: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  box-shadow: 0 0 0.3px 0.5px rgba(0, 0, 0, 0.5);
+  position: relative;
+  overflow: hidden;
+  margin: 10px 10px;
+}
+
+.carImage {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.textContainer {
+  margin-top: 8px;
+  text-align: center;
+}
+
+.textContainer p {
+  margin: 0;
+  font-size: 14px;
+}
+
+@media (max-width: 768px) {
+  .cardWrapper {
+    flex: 1 1 calc(50% - 16px);
+  }
+}
+
+@media (max-width: 480px) {
+  .cardWrapper {
+    flex: 1 1 100%;
+  }
+}

@@ -1,0 +1,427 @@
+.container {
+  padding: 60px 160px 40px 160px;
+  background: #f5f5f5;
+}
+.main {
+  max-width: 1280px;
+  margin: 0 auto;
+  width: 100%;
+  margin-top: 60px;
+}
+.textContainer {
+  width: 100%;
+  margin-bottom: 60px;
+}
+.bluetext,
+.orangetext {
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  vertical-align: middle;
+  color: #0e54a3;
+  text-align: center;
+}
+.orangetext {
+  color: #ff7631;
+}
+.graytext {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 0%;
+  vertical-align: middle;
+  color: #7d7d7d;
+  text-align: center !important;
+}
+.headingtext {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 14px;
+  letter-spacing: -0.25px;
+  color: #131313;
+}
+
+.slidermainConatiner {
+  width: 920px;
+  height: 400px;
+  overflow: hidden;
+  border-radius: 24px;
+  margin: 0 auto;
+  position: relative;
+  border: 0.5px #7d7d7d;
+  /* box-shadow: 4px 4px 12px 0px #00000040; */
+  display: flex !important;
+  flex-wrap: wrap;
+}
+.contentConatiner {
+  position: absolute;
+  top: 0;
+  /* left: 564px; */
+  right: 0;
+  height: 100%;
+  width: 460px;
+  /* width: 460px; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: black;
+  z-index: 2;
+  background: #ffffff;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
+
+.sliderimageConatiner {
+  display: flex;
+  width: 750px;
+  height: 100%;
+}
+
+.sliderimg {
+  min-width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 24px;
+  transition: all 0.5s ease-in-out;
+}
+.buttonContainer {
+  width: 100%; /* Take full width of parent */
+  display: flex;
+  justify-content: space-between; /* or center/around as per your design */
+  gap: 10px; /* optional spacing */
+  padding: 10px; /* optional */
+  box-sizing: border-box; /* ensures padding doesn’t affect width */
+}
+
+.checkinbtn {
+  padding: 16px;
+  border: 0.5px solid #7d7d7d;
+  height: 112px;
+  border-radius: 24px;
+  background-color: transparent;
+  width: 206px;
+  height: 112px;
+  cursor: pointer;
+  color: #7d7d7d;
+  font-size: 14px;
+  font-weight: 400;
+}
+.wherebtn {
+  width: 95%;
+  margin-top: 14px;
+  border-radius: 24px;
+  border: 0.5px solid #7d7d7d;
+  cursor: pointer;
+  background-color: transparent;
+  height: 48px;
+  padding: 16px;
+  margin-bottom: 16px;
+  text-align: start;
+  color: #7d7d7d;
+  font-size: 14px;
+  font-weight: 400;
+}
+.searchbtn {
+  width: 95%;
+  border-radius: 24px;
+  border: none;
+  cursor: pointer;
+  background-color: #0e54a3;
+  color: #ffff;
+  height: 48px;
+  padding: 16px;
+  margin-bottom: 16px;
+  text-align: center;
+  font-size: 14px;
+  font-weight: 400;
+}
+.guestbtn {
+  display: flex;
+  justify-content: space-between;
+  width: 95%;
+  border-radius: 24px;
+  border: 0.5px solid #7d7d7d;
+  cursor: pointer;
+  background-color: transparent;
+  height: 48px;
+  padding: 16px;
+  margin-bottom: 16px;
+  text-align: start;
+  color: #7d7d7d;
+  font-size: 14px;
+  font-weight: 400;
+  overflow: hidden;
+}
+.overlay,
+.Rtloverlay {
+  position: absolute;
+  width: 44%;
+  bottom: 20px;
+  left: 31px;
+  /* right: 40px; */
+  height: 90%;
+  background-color: rgba(255, 255, 255, 0.85);
+  /* background: transparent; */
+  padding: 16px;
+  border-radius: 12px;
+  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1);
+  z-index: 3;
+  font-size: 14px;
+  color: #333;
+}
+.Rtloverlay {
+  /* right: 0px !important; */
+}
+.guestContainer {
+  border: none;
+  border-radius: 24px;
+  height: 384px;
+  padding: 16px;
+  position: absolute;
+  width: 44%;
+  bottom: 20px;
+  left: 31px;
+  /* right: 40px; */
+  height: 90%;
+  padding: 16px;
+  background-color: #fff;
+  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1);
+  z-index: 3;
+}
+.cardheading {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 0%;
+  vertical-align: middle;
+  color: #7d7d7d;
+}
+.cardrow {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 0.5px #7d7d7d solid;
+  align-items: center !important;
+  padding: 6px 0;
+}
+.rowtitle {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 12px;
+  line-height: 12px;
+  vertical-align: baseline;
+  letter-spacing: -0.75px;
+  color: #131313;
+}
+.rowsubtitle {
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 15px;
+  letter-spacing: -0.75px;
+  color: #7d7d7d;
+}
+.clearbtn {
+  color: #65558f;
+
+  font: 14px;
+  font-weight: 600;
+  background-color: transparent;
+  border: none;
+}
+.HouseContainer {
+  overflow-y: auto !important;
+  height: 80%;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+
+.HouseContainer::-webkit-scrollbar {
+  display: none;
+}
+
+.typerow {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  margin-top: 10px;
+  overflow-x: auto;
+  padding-bottom: 8px;
+}
+
+/* ............. */
+
+.additionbar {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.circleMinus {
+  width: 24px;
+  height: 24px;
+  border-radius: 24px;
+  border: 1px solid #cccccc;
+  padding: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  background: white;
+  font-size: 14px;
+}
+
+.circlePlus {
+  width: 24px;
+  height: 24px;
+  border-radius: 24px;
+  border: 1px solid #7d7d7d;
+  padding: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  background: white;
+  font-size: 14px;
+}
+
+.value {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 42px;
+  letter-spacing: -0.75px;
+  text-align: center;
+  color: #000000;
+  min-width: 20px;
+}
+
+/* ............. */
+.browseContainer {
+  margin-top: 60px;
+  margin-bottom: 56px;
+}
+.browseCardContainer {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 36px;
+  gap: 16px;
+  margin: 36px auto;
+  width: 70%;
+  justify-content: center;
+}
+.browseCard {
+  background-color: #ffffff;
+  box-shadow: 1px 1px 12px 2px #0000001f;
+  border-radius: 8px;
+  align-items: center;
+  width: 120px;
+  height: 120px;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  transition: all 0.3s ease;
+}
+
+.browseCard:hover {
+  border: 1.04px solid #ff7631;
+  background: linear-gradient(
+      0deg,
+      rgba(255, 118, 49, 0.12),
+      rgba(255, 118, 49, 0.12)
+    ),
+    linear-gradient(0deg, #ffffff, #ffffff) !important;
+  cursor: pointer;
+}
+
+.browseCard:hover .cardText {
+  color: #ff7631 !important;
+}
+
+.cardText {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  text-align: justify;
+  color: #131313;
+  transition: color 0.3s ease;
+}
+
+.browseimg {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  transition: transform 0.3s ease;
+}
+
+.browseCard:hover .browseimg {
+  filter: brightness(0) saturate(100%) invert(41%) sepia(77%) saturate(743%)
+    hue-rotate(346deg) brightness(97%) contrast(94%);
+}
+
+.browsecardimConatiner {
+  width: 24px;
+  height: 24px;
+  margin-bottom: 16px;
+}
+.roomContainer {
+  margin-top: 36px;
+  justify-content: space-around;
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 18px;
+  width: 100%;
+  max-width: 1280px;
+}
+/* ....................... */
+@media (max-width: 1400px) {
+  .container {
+    padding: 60px 60px 40px 60px;
+    background: #ffffffb2;
+  }
+}
+@media (max-width: 800px) {
+  .slidermainConatiner {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .contentConatiner {
+    /* Reset positioning for mobile */
+    position: static;
+    order: 2;
+    width: 100%;
+    height: 400px; /* Adjust as needed */
+  }
+
+  .sliderimageConatiner {
+    position: static;
+    order: 1;
+    width: 100%;
+    height: 400px; /* Adjust as needed */
+  }
+
+  .guestContainer,
+  .overlay {
+    height: 384px;
+    width: 83%;
+    top: 17px;
+    left: 45px;
+    /* right: 40px; */
+    height: 46%;
+    padding: 16px;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1);
+    z-index: 3;
+  }
+}
+@media (max-width: 480px) {
+  .container {
+    padding: 60px 24px 40px 24px;
+    background: #ffffffb2;
+  }
+}

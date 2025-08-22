@@ -1,0 +1,171 @@
+.container {
+  overflow-y: auto;
+  max-height: 70vh;
+  max-width: fit-content;
+}
+.container::-webkit-scrollbar {
+  display: none;
+}
+.row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.semibold {
+  font-weight: 600;
+}
+
+.regular {
+  font-weight: 400;
+}
+.padding16 {
+  padding-bottom: 16px;
+}
+
+.mt16 {
+  margin-top: 16px;
+}
+.alignItemsCenter {
+  align-items: center;
+}
+
+.textCenterPadding {
+  text-align: center;
+  padding: 0 10px;
+}
+
+.fontSize22 {
+  font-size: 22px;
+}
+
+.borderBottom {
+  border-bottom: 1px solid #000;
+}
+
+.borderTop {
+  border-top: 1px solid #000;
+}
+
+.logo {
+  width: 15%;
+  height: auto;
+}
+
+.textCenter {
+  text-align: center;
+}
+
+.textLeft {
+  text-align: left;
+}
+
+.noMargin {
+  margin: 0;
+}
+
+.noPadding {
+  padding: 0;
+}
+
+/* .footer {
+  position: sticky;
+  display: flex;
+  flex-direction: row-reverse;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  text-align: center;
+  color: #000;
+  font-size: 18px;
+} */
+
+.largeText {
+  font-size: 26px;
+  color: #000;
+}
+.button {
+  padding: 14px 20px;
+  margin: 10px 5px;
+  color: #fff;
+  margin-top: 24px;
+  background-color: #0e54a3;
+  border: none;
+  cursor: pointer;
+  border-radius: 24px;
+  height: 48px;
+}
+
+.mediumText {
+  font-size: 20px;
+  color: #000;
+}
+
+.smallText {
+  font-size: 18px;
+  color: #000;
+  text-align: center;
+  width: 30%;
+}
+
+.primaryColor {
+  color: #0e54a3;
+}
+
+/* Add styles for margin and padding */
+.marginTop16 {
+  margin-top: 16px;
+}
+
+.padding16 {
+  padding-bottom: 16px;
+}
+
+.width45 {
+  width: 45%;
+}
+
+.width33 {
+  width: 33%;
+}
+
+.textCenterPadding {
+  text-align: center;
+  padding: 0 10px;
+}
+
+.fontSize22 {
+  font-size: 22px;
+}
+
+.marginRight34 {
+  margin-right: 34px;
+}
+
+.marginTop10 {
+  margin-top: 10px;
+}
+.value {
+  color: #454545;
+  font-size: 14px;
+  font-weight: 400;
+}
+.heading {
+  color: #131313;
+  font-size: 14px;
+  font-weight: 600;
+}
+.mainHeading {
+  color: #131313;
+  font-size: 16px;
+  font-weight: 600;
+}
+.mainValue {
+  color: #454545;
+  font-size: 16px;
+  font-weight: 400;
+}

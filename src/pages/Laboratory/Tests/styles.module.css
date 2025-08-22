@@ -1,0 +1,107 @@
+.outerRefresh {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 32px;
+  width: 32px;
+  border-radius: 50%;
+  border-radius: 12px;
+  margin-left: 16px;
+  background-color: #f6fafe33;
+  cursor: pointer;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.addIcon {
+  height: 24px;
+  width: 24px;
+  color: tomato;
+}
+
+.RefreshIcon {
+  height: 24px;
+  width: 24px;
+}
+.backOuter {
+  margin-right: 16px;
+}
+
+.searchResults {
+  position: absolute;
+  width: 42.7%;
+}
+.searchResults::-webkit-scrollbar {
+  display: none;
+}
+.suggestionItem {
+  height: 36px;
+  display: flex;
+  align-items: center;
+  color: #131313;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+  letter-spacing: -0.25px;
+}
+
+.suggestionItem:hover {
+  background-color: #f5f5f5;
+  cursor: pointer;
+}
+.heading {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 14px;
+  letter-spacing: -0.25px;
+  color: #131313;
+}
+.pr36 {
+  padding-right: 36px;
+}
+.subHeading {
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 14px;
+  color: #131313;
+  letter-spacing: -0.25px;
+}
+.outer {
+  width: calc(100% - 36px);
+  background-color: white;
+  border-radius: 24px;
+  padding: 32px;
+  height: 445px;
+  overflow: scroll;
+}
+.outer::-webkit-scrollbar {
+  /* WebKit */
+  display: none;
+}
+.SaveBtn {
+  cursor: pointer;
+  background-color: #0e54a3;
+  border: 1px solid #0e54a3;
+  width: 150px;
+  height: 48px;
+  color: white;
+  cursor: pointer;
+  font-weight: 600;
+  font-size: 18px;
+  box-shadow: 4px 4px 12px 0px #00000040;
+
+  line-height: 12.22px;
+  letter-spacing: -0.22px;
+  border-radius: 24px;
+}
+.col6 {
+  width: calc(50% - 3px) !important;
+}
+.MainFlx {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  width: 100%;
+}
+.col12 {
+  width: 100%;
+}

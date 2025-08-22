@@ -1,0 +1,86 @@
+.bkground {
+  box-sizing: border-box;
+}
+.requestCard {
+  background-color: #fff;
+  border-radius: 16px;
+  width: 206px;
+  height: 160px;
+  padding: 20px;
+  display: flex;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.requestCardiCon {
+  height: 36px;
+  width: 36px;
+  border-radius: 50%;
+  background-color: #8e94c7;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.CustomerGraph {
+  background-color: white;
+  border-radius: 16px;
+  padding: 24px;
+  margin-top: 24px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.VisitorGraph {
+  height: 218px;
+  background-color: white;
+  border-radius: 16px;
+  margin-top: 32px;
+  box-sizing: border-box;
+  padding: 20px;
+}
+.iconss {
+  height: 36px;
+  width: 36px;
+}
+.mt8 {
+  margin-top: 8px;
+}
+.mt16 {
+  margin-top: 16px;
+}
+.primaryCOlor {
+  color: #4079ed;
+}
+.mt5 {
+  margin-top: 5px;
+}
+.fleEnd {
+  display: flex;
+  justify-content: end;
+  cursor: pointer;
+  align-items: center;
+  gap: 8px;
+}
+.Card_Detail {
+  color: #734a00;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 100%;
+  letter-spacing: -0.25px;
+}
+.Arrow {
+  color: #734a00;
+  font-size: 14px;
+}
+.Card_Label {
+  color: #454545;
+  font-weight: 400;
+  font-size: 12px;
+  letter-spacing: -0.25%;
+}
+.Card_Values {
+  color: #131313;
+  font-weight: 600;
+  line-height: 22px;
+  font-size: 20px;
+  letter-spacing: 0px;
+}

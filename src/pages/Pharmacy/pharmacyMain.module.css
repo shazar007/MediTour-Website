@@ -1,0 +1,119 @@
+.container {
+  padding: 100px 112px 0px 112px;
+  box-sizing: border-box;
+}
+
+.mr203 {
+  margin-right: 203px;
+}
+.container2 {
+  margin-left: 112px;
+  padding-top: 64px;
+}
+
+.ml112 {
+  margin-left: 112px;
+}
+.LabImg {
+  height: 553px;
+  width: 452px;
+  margin-top: 50px;
+  margin-left: 100px;
+}
+
+.buttonWidth {
+  width: 210px;
+  margin-top: 56px;
+}
+.flx {
+  display: flex;
+  flex-direction: row;
+}
+.flxBetween {
+  display: flex;
+  justify-content: space-between;
+}
+.border {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.5);
+}
+.flxStart {
+  display: flex;
+  align-items: start;
+}
+.BackIcon {
+  height: 24px;
+  width: 24px;
+  color: #00276d;
+  cursor: pointer;
+  margin-top: 3px;
+}
+@media (min-width: 320px) and (max-width: 480px) {
+  .LabImg {
+    height: 400px;
+    width: 100%;
+    margin-top: 0px;
+    margin-left: 0px;
+    box-sizing: border-box;
+  }
+
+  .flxBetween {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .ml112 {
+    margin-left: 19px;
+  }
+  .container {
+    margin-top: 40px;
+    margin-left: 19px;
+  }
+  .container2 {
+    margin-left: 19px;
+  }
+  .flx {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .buttonWidth {
+    width: 100%;
+  }
+  .mr203 {
+    margin-right: 100px;
+  }
+  .flxStart {
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
+
+@media (min-width: 481px) and (max-width: 768px) {
+  .flxBetween {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .flx {
+    display: flex;
+    align-items: center;
+  }
+  .ml112 {
+    margin-left: 100px;
+  }
+  .container {
+    margin-top: 40px;
+    margin-left: 100px;
+  }
+  .container2 {
+    margin-left: 100px;
+  }
+
+  .buttonWidth {
+    width: 300px;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 2800px) {
+}

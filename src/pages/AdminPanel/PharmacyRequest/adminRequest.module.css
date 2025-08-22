@@ -1,0 +1,381 @@
+.mainOuter {
+  width: 100%;
+  padding: 24px 40px 24px 24px;
+  box-sizing: border-box;
+  /* padding: 0 0.83%; */
+}
+
+.Navouter {
+  position: sticky;
+  z-index: 1000;
+  top: 0%;
+}
+
+.refresh {
+  font-size: 22px;
+  margin-left: 32px;
+  cursor: pointer;
+  color: #393a44;
+}
+
+.loader {
+  margin-left: 24px;
+}
+
+.tableData {
+  overflow: auto;
+  height: 66vh;
+}
+
+.tableData::-webkit-scrollbar {
+  display: none;
+}
+
+.tableData::-webkit-scrollbar-track {
+  display: none;
+}
+
+.tableData::-webkit-scrollbar-thumb {
+  display: none;
+}
+
+.tableData::-webkit-scrollbar-thumb:hover {
+  display: none;
+}
+
+.tableRow {
+  width: 100%;
+}
+
+.tableRow:hover {
+  box-shadow: rgba(0, 0, 0, 0.16) 2px 2px 4px, rgba(0, 0, 0, 0.23) 2px 2px 4px;
+  color: #000000 !important;
+  background-color: white !important;
+  /*      */
+}
+
+.wapper > tr {
+  color: #393a44 !important;
+  border: 1px solid #d8e1ec;
+  font-size: 14px;
+  font-weight: 500;
+  background-color: white !important;
+  cursor: pointer;
+  /*      */
+}
+
+.wapper > tr:hover {
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 0px 0px,
+    rgba(136, 134, 134, 0.23) 4px 3px 10px;
+  transform: scale(1);
+  color: #0d47a1 !important;
+  background-color: white !important;
+}
+
+.w20 {
+  width: 14.2857% !important;
+}
+
+.headerclass {
+  width: 14.2857% !important;
+  text-align: center;
+
+  padding: 15%;
+  font-size: 14px;
+}
+
+.headerOuter {
+  display: flex;
+  align-items: center;
+  background-color: white;
+  color: #393a44;
+  border-radius: 14px 14px 0 0;
+  position: sticky !important;
+  top: 115px;
+}
+
+.payment {
+  margin-top: 24px;
+}
+
+/* Details */
+.DetailCard {
+  background-color: white;
+  border-radius: 16px;
+  width: 35%;
+  margin-right: 24px;
+  color: #393a44;
+  height: 260px;
+}
+
+.Btnwidth {
+  position: absolute;
+  right: 16px;
+  bottom: 6px;
+}
+
+.mt24 {
+  margin-top: 24px;
+}
+
+.mb24 {
+  margin-bottom: 24px;
+}
+
+.headerCard {
+  padding: 10px 32px;
+  color: #393a44;
+  border-bottom: 1px solid #979797;
+}
+
+.headerBody {
+  padding: 24px 32px;
+  color: #393a44;
+}
+
+.mt8 {
+  margin-top: 8px;
+}
+
+.Btnwidth {
+  width: 204px;
+}
+
+.MessageCard {
+  background-color: white;
+  border-radius: 16px;
+  width: 65%;
+  margin-top: 24px;
+  color: #393a44;
+}
+
+.messageBody {
+  padding: 24px 32px;
+  display: flex;
+  justify-content: space-between;
+  color: #393a44;
+}
+
+.sendOuter {
+  margin-top: 16px;
+  display: flex;
+  justify-content: end;
+  align-items: end;
+}
+
+.done {
+  height: 84px;
+  width: 84px;
+  color: green;
+  display: flex;
+  margin: 0px auto 24px auto;
+}
+
+.colorGray {
+  color: #909198;
+}
+
+.searchcontainer > input {
+  border-radius: 40px;
+  height: 38px;
+  width: 255px;
+  padding: 10px 35px 10px 35px;
+  border: none;
+  font-size: 14px;
+  box-sizing: border-box;
+  border: 1px solid #909198;
+  margin-right: 32px;
+}
+
+.searchcontainer > input:focus {
+  border: none;
+  outline: none;
+}
+
+.searchcontainer > input::placeholder {
+  color: #909198;
+}
+
+.searchcontainer {
+  position: relative;
+  width: 300px;
+}
+
+.searchicon {
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  left: 10px;
+  color: #909198;
+  z-index: 1;
+}
+
+.Filter {
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  color: #777;
+  z-index: 1;
+  transform: translateY(-50%);
+  right: 60px;
+  cursor: pointer;
+}
+
+.SearchInput {
+  width: calc(100% - 30px);
+  padding-left: 30px;
+  box-sizing: border-box;
+  z-index: 0;
+}
+
+.flxBetween {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.mt16 {
+  margin-top: 16px;
+}
+
+.mt40 {
+  margin-top: 40px;
+}
+
+.flx {
+  display: flex;
+  align-items: center;
+}
+
+.DetailCard {
+  flex: 1;
+  margin: 0 8px;
+}
+
+.pharmacyBillContainer {
+  display: flex;
+  flex-direction: wrap;
+  justify-content: space-between;
+  width: 100%;
+  margin-top: 8px;
+  position: relative;
+}
+
+.pharmacyCard {
+  margin-right: 16px;
+  padding: 16px;
+}
+
+.billRequestCard {
+  margin-left: 56px;
+  padding: 16px;
+}
+.accordiaHeading {
+  white-space: nowrap;
+  margin-left: 10px;
+}
+
+.infoCard {
+  border-radius: 16px;
+  background-color: #ffffff;
+  width: 100%;
+  box-sizing: border-box;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  color: #00276d;
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+  .DetailCard {
+    background-color: white;
+    border-radius: 16px;
+    width: 100%;
+    margin-right: 24px;
+    color: #393a44;
+  }
+  .view {
+    color: #ffa50f;
+    cursor: pointer;
+    margin-right: 2px;
+  }
+  .MessageCard {
+    background-color: white;
+    border-radius: 16px;
+    width: 100%;
+    margin-top: 24px;
+    color: #393a44;
+  }
+
+  .flx {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .messageBody {
+    padding: 24px 32px;
+    display: flex;
+    flex-wrap: wrap;
+    color: #393a44;
+  }
+
+  .mt24sm {
+    margin-top: 24px;
+  }
+
+  .mainOuter {
+    width: 100%;
+    padding: 24px;
+    box-sizing: border-box;
+  }
+
+  .flxBetween {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .searchcontainer > input {
+    border-radius: 40px;
+    height: 38px;
+    width: 220px;
+    padding: 10px 35px 10px 35px;
+    border: none;
+    font-size: 14px;
+    box-sizing: border-box;
+    border: 1px solid #909198;
+    margin-right: 32px;
+  }
+}
+
+@media (min-width: 481px) and (max-width: 768px) {
+  .DetailCard {
+    background-color: white;
+    border-radius: 16px;
+    width: 100%;
+    margin-right: 24px;
+    color: #393a44;
+  }
+
+  .MessageCard {
+    background-color: white;
+    border-radius: 16px;
+    width: 100%;
+    margin-top: 24px;
+    color: #393a44;
+  }
+}
+
+@media (max-width: 480px) {
+  .pharmacyBillContainer {
+    flex-direction: column;
+  }
+
+  .pharmacyCard,
+  .billRequestCard {
+    width: 100%;
+    margin-right: 0;
+    margin-left: 0;
+    margin-bottom: 24px;
+  }
+}

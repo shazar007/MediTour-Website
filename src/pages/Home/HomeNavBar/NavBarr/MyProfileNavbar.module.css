@@ -1,0 +1,589 @@
+/* Profile Page */
+
+.profilePage {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow: hidden;
+  padding: 20px;
+}
+
+.profilePage__imageWrapper {
+  position: relative;
+  margin-bottom: -120px;
+  z-index: 1;
+}
+
+.profilePage__image {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  object-fit: cover;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.profilePage__smallImageWrapper {
+  position: absolute;
+  right: -5px;
+  top: 30%;
+  transform: translateY(-50%);
+}
+
+.profilePage__editIcon {
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+  z-index: 10;
+}
+
+.profilePage__editButton {
+  background-color: #f0effa;
+  color: #1f1f1fcc;
+  border: none;
+  padding: 10px;
+  width: 80px;
+  margin-bottom: 20px;
+  height: 30px;
+  font-size: 14px;
+  font-weight: 500;
+  border-radius: 50px;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.cardContainer {
+  width: 100%;
+  max-width: 400px;
+  margin: auto;
+  padding: 24px;
+  background: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.title {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 16px;
+  color: #0e54a3;
+}
+
+.inputContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin-bottom: 20px;
+}
+
+.submitting {
+  width: 140px;
+  height: 40px;
+  background-color: #0e54a3;
+  color: white;
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-self: center;
+  border: none;
+  border-radius: 22px;
+  cursor: pointer;
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+.submitting:hover {
+  background-color: #0056b3;
+}
+
+@media (max-width: 600px) {
+  .profilePage__infoRow {
+    flex-direction: column;
+  }
+
+  .profilePage__infoItem {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+}
+
+/* Social Media Section Styling */
+.profilePage__socialMediaContainer {
+  width: 90%;
+  max-width: 700px;
+  background-color: white;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  border-radius: 10px;
+  margin-top: 20px;
+}
+
+.profilePage__socialMediaHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.profilePage__socialMediaHeading {
+  font-size: 1.5rem;
+  color: #1f1f1fb2;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+.profilePage__socialMediaInfoSection {
+  margin-top: 20px;
+}
+
+.profilePage__socialMediaInfoRow {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.profilePage__socialMediaInfoItem {
+  width: 48%;
+}
+
+.profilePage__socialMediaItemHeading {
+  font-size: 14px;
+  font-weight: 500;
+  color: #1f1f1fb2;
+  margin-bottom: 3px;
+}
+
+.profilePage__socialMediaItemText {
+  font-size: 18px;
+  max-width: 149px;
+  max-height: 23px;
+  font-weight: 500;
+  color: #222222e5;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+@media (max-width: 600px) {
+  .profilePage__socialMediaInfoRow {
+    flex-direction: column;
+  }
+
+  .profilePage__socialMediaInfoItem {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+}
+
+/* Modal.module.css */
+
+.modalOverlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.7);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+}
+
+.modalContent {
+  margin-top: 80px;
+  background: #fff;
+  padding: 30px;
+  border-radius: 10px;
+  max-width: 800px;
+  width: 100%;
+  max-height: 90vh;
+  height: 75vh;
+  overflow-y: auto;
+  position: relative;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease;
+  scrollbar-width: none;
+  border: 2px solid black;
+}
+
+.modalContent::-webkit-scrollbar {
+  display: none;
+}
+
+.closeButton {
+  position: absolute;
+  top: 15px;
+  right: 20px;
+  border: none;
+  background: transparent;
+  font-size: 1.5rem;
+  cursor: pointer;
+  color: #888;
+  transition: color 0.2s;
+}
+
+.closeButton:hover {
+  color: #f00;
+}
+
+.profilePage {
+  padding: 20px;
+}
+
+.basicInfoContainer {
+  display: flex;
+  margin-top: 20px;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.rowBasic {
+  display: flex;
+  justify-content: space-between;
+  gap: 24px;
+}
+
+.inputGroupBasic {
+  flex: 1;
+  position: relative;
+  width: 100%;
+}
+/* Profile.module.css */
+.wideSelect {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  outline: none;
+  transition: border-color 0.2s;
+}
+
+.profilePage__smallImageWrapper > input,
+select,
+textarea {
+  width: 350px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  outline: none;
+  transition: border-color 0.2s;
+}
+.sectionTitle {
+  text-align: center;
+  color: #1f1f1fb2;
+  margin-bottom: 16px;
+}
+
+input:focus,
+select:focus,
+textarea:focus {
+  border-color: #0056b3;
+}
+
+textarea {
+  min-height: 100px;
+  resize: vertical;
+}
+
+.error {
+  color: red;
+  font-size: 12px;
+  margin-top: 5px;
+}
+
+.submitButton {
+  background-color: #0e54a3;
+  color: white;
+  padding: 12px;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  width: 200px;
+  height: 48px;
+  border-radius: 10px;
+  cursor: pointer;
+  margin-top: 56px;
+  font-size: 16px;
+  transition: background-color 0.2s;
+  display: flex;
+  margin: 0 auto;
+}
+
+.submitButton:hover {
+  background-color: #0056b3;
+}
+.phoneNumberInput {
+  width: 270px;
+}
+
+.datePickerContainer {
+  position: relative;
+  margin-right: 10px;
+}
+.dateInput {
+  width: 100%;
+  margin-left: 20px;
+}
+
+.calendarIcon {
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  cursor: pointer;
+  width: 20px;
+  height: auto;
+}
+.AddressInput {
+  width: 776px;
+}
+.w50 {
+  width: calc(50% - 12px);
+}
+.addressInputWidthManage {
+  width: 100%;
+}
+.phoneInputBasic {
+  width: 100%;
+}
+.dateInput {
+  width: 100%;
+  margin-left: 0;
+}
+@media (max-width: 768px) {
+  .addressInputWidthManage {
+    /* width: 97%; */
+    max-width: 100%;
+  }
+  .w50 {
+    width: 100% !important;
+  }
+  .phoneInputBasic {
+    /* width: 97%; */
+    /* max-width: 100%; */
+  }
+  .dateInput {
+    margin-bottom: 25px;
+  }
+}
+/* Media Queries for Mobile Responsiveness */
+@media (max-width: 867px) {
+  .profilePage {
+    padding: 10px;
+  }
+
+  .basicInfoContainer {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .rowBasic {
+    flex-direction: column;
+    gap: 20px;
+    justify-content: flex-start;
+  }
+
+  .inputGroupBasic {
+    width: 100%;
+    box-sizing: border-box;
+  }
+
+  .wideSelect {
+    width: 100%;
+    padding: 10px;
+    overflow: hidden;
+  }
+
+  input,
+  select,
+  textarea {
+    /* width: 96%; */
+    padding: 10px;
+  }
+
+  .sectionTitle {
+    font-size: 1.5rem;
+    margin-bottom: 12px;
+  }
+
+  .submitButton {
+    width: 50%;
+    padding: 12px;
+    font-size: 10px;
+    margin-top: 20px;
+  }
+
+  .phoneNumberInput {
+    width: 50%;
+  }
+
+  .calendarIcon {
+    width: 18px;
+    right: 15%;
+    display: none;
+  }
+
+  .AddressInput {
+    width: 90%;
+    padding: 10px;
+  }
+}
+
+.passwordToggleIcon {
+  position: absolute;
+  right: 10px; /* Adjust this to position the icon properly */
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.eyeIcon {
+  color: #000;
+  font-size: 20px;
+}
+
+.error {
+  color: red;
+  font-size: 12px;
+  margin-top: 5px;
+}
+
+@media (max-width: 766px) {
+  .dateInput {
+    width: 100px;
+    margin-left: 0;
+    margin-bottom: 25px;
+  }
+  .phoneInputBasic {
+    /* width: 274px; */
+    width: 100%;
+  }
+}
+@media (min-width: 767px) and (max-width: 866px) {
+  .phoneInputBasic {
+    /* width: 97%; */
+    /* border: 2px solid black; */
+    height: 44px;
+  }
+}
+
+/* .myProfileNavbarContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 32px;
+}
+
+.profileCard {
+  background-color: #ffffff;
+  border-radius: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+  width: 600px;
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+}
+
+.profileImageContainer {
+  margin-bottom: 30px;
+}
+
+.profileImage {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.profileDetails {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.profileName,
+.profileInfo {
+  width: 352px;
+  padding: 10px;
+  margin-bottom: 15px;
+  background-color: transparent;
+  border: none;
+  border-bottom: 0.5px solid #0d47a1;
+  font-size: 18px;
+  text-align: left;
+  color: #0d47a1;
+}
+
+.profileName:active,
+.profileInfo:active,
+.profileName:focus,
+.profileInfo:focus {
+  outline: none !important;
+  border-bottom: 0.5px solid #0d47a1 !important;
+}
+
+.profileName {
+  font-weight: 400;
+  color: #0d47a1;
+  margin-bottom: 20px;
+}
+.editContainer {
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+}
+.editIcon {
+  font-size: 24px;
+  color: #0d47a1;
+  position: absolute;
+  cursor: pointer;
+}
+.showMoreContainer {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.showMoreButton {
+  display: flex; 
+  align-items: center;
+  justify-content: center; 
+  padding: 10px 20px;
+  background-color: #0e54a3; 
+  color: white;
+  border: none;
+  border-radius: 24px;
+  cursor: pointer;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+  font-size: 16px;
+}
+
+.showMoreButton .icon {
+  margin-left: 10px;
+  font-size: 20px;
+  color: #0e54a3;
+  background-color: #fff;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.deletbtn {
+  color: #fff;
+  background-color: red;
+  border-radius: 8px;
+  padding: 10px 15px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  margin: "15px 0";
+} */

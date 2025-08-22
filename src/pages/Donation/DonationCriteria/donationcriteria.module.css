@@ -1,0 +1,310 @@
+.empty3 {
+  width: 256px;
+  height: 188.73px;
+}
+.addBtn {
+  width: 210px;
+  margin-top: 32px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 400px;
+  flex-direction: column;
+}
+.flxWrap {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.OrphansCard {
+  width: 29%;
+  box-sizing: border-box;
+  border-radius: 16px;
+  height: 140px;
+  margin-right: 16px;
+  margin-top: 32px;
+  background-image: url("../../../assets/images/Orphans.png");
+  background-size: cover;
+  padding: 5px;
+}
+.HealthCard {
+  width: 29%;
+  box-sizing: border-box;
+  border-radius: 16px;
+  height: 140px;
+  margin-right: 16px;
+  margin-top: 32px;
+  background-image: url("../../../assets/images/HealthDonation.png");
+  background-size: cover;
+  padding: 5px;
+}
+.NeendCard {
+  width: 29%;
+  box-sizing: border-box;
+  border-radius: 16px;
+  height: 140px;
+  margin-right: 16px;
+  margin-top: 32px;
+  background-image: url("../../../assets/images/Needed.png");
+  background-size: cover;
+  padding: 5px;
+}
+.alignend {
+  color: white;
+  font-size: 14px;
+  font-weight: 700;
+  margin-left: 16px;
+}
+.checkBox {
+  display: flex;
+  justify-content: end;
+  color: white;
+}
+.AddCard {
+  border: 2px dashed #00276d;
+  width: 29%;
+  box-sizing: border-box;
+  border-radius: 16px;
+  height: 140px;
+  margin-right: 16px;
+  margin-top: 32px;
+  padding: 10px;
+  color: #00276d;
+  text-align: center;
+}
+.AddIcon {
+  height: 40px;
+  width: 40px;
+  display: flex;
+  margin: 16px auto 16px auto;
+}
+.imgouter {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 500px;
+}
+.modelHeader {
+  font-size: 20px;
+  font-weight: 600;
+  display: flex;
+  width: 100%;
+  border-radius: 8px;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  box-sizing: border-box;
+}
+.close {
+  cursor: pointer;
+}
+.ImgPicker {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border: 0.5px dashed #0e54a3;
+  background-color: #f9fafc;
+  border-radius: 4px;
+  padding: 20px;
+  box-sizing: border-box;
+  margin-bottom: 16px;
+}
+textarea {
+  font-family: inherit !important;
+}
+.description > textarea {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 10px;
+  height: 80px;
+  font-size: 16px;
+  border: 0.5px solid #ccc;
+  border-radius: 4px;
+}
+.headings {
+  color: black;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 9.75px;
+  letter-spacing: -0.17px;
+}
+.cancelbtns {
+  border-radius: 24px;
+  height: 48px;
+  width: 120px;
+  border: none;
+  background-color: #808080;
+  color: white;
+  cursor: pointer;
+}
+.dltbtns {
+  border-radius: 24px;
+  height: 48px;
+  width: 120px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  background-color: red;
+  color: white;
+  cursor: pointer;
+}
+.mb16 {
+  margin-bottom: 16px;
+}
+.mt8 {
+  margin-top: 8px;
+}
+.mt16 {
+  margin-top: 16px;
+}
+.mt32 {
+  margin-top: 32px;
+}
+.end {
+  margin-left: auto;
+}
+.mb32 {
+  margin-bottom: 32px;
+}
+.criteriaCard {
+  width: calc(20% - 19.2px);
+  height: 160px;
+  border-radius: 16px;
+  box-sizing: border-box;
+  background-size: cover;
+  cursor: pointer;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  color: white;
+}
+.flxEnd {
+  display: flex;
+  justify-content: end;
+}
+.ADDcriteriaCard {
+  cursor: pointer;
+  width: 20%;
+  height: 160px;
+  /* padding: 20px; */
+  border-radius: 16px;
+  box-sizing: border-box;
+  /* margin-top: 32px; */
+  border: 2px dashed #00276d;
+  color: #00276d;
+}
+@media (max-width: 430px) {
+  .ADDcriteriaCard,
+  .criteriaCard {
+    width: 100%;
+    margin-right: 0;
+    margin-bottom: 16px;
+  }
+}
+.addIconCriteria {
+  height: 60px;
+  width: 60px;
+  display: flex;
+  margin: 16px auto 16px auto;
+}
+.textcenter {
+  text-align: center;
+}
+.cardtext {
+  height: 160px;
+  display: flex;
+  align-items: end;
+  text-align: center;
+  justify-content: center;
+
+  color: white;
+  text-shadow: 2px 2px 0 #ff7631, -2px -2px 0 #ff7631, 2px -2px 0 #ff7631,
+    -2px 2px 0 #ff7631, 0 0 5px rgba(0, 0, 0, 0.3);
+}
+.ArrowBack {
+  cursor: pointer;
+  height: 24px;
+  width: 24px;
+  color: #00276d;
+  margin-right: 24px;
+}
+.end {
+  margin-left: auto;
+}
+.edit {
+  cursor: pointer;
+  height: 24px;
+  width: 24px;
+  color: #00276d;
+  margin-right: 16px;
+  padding: 10px;
+}
+.Delete {
+  cursor: pointer;
+  height: 26px;
+  width: 26px;
+  color: #00276d;
+  padding: 10px;
+}
+.Delete:hover {
+  background-color: #f9a035;
+  border-radius: 8px;
+}
+.edit:hover {
+  background-color: #f9a035;
+  border-radius: 8px;
+}
+.RefreshIcon {
+  height: 24px;
+  width: 24px;
+  color: #13a89e;
+}
+
+.outerRefresh {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 32px;
+  width: 32px;
+  border-radius: 50%;
+  border-radius: 12px;
+  background-color: #f6fafe33 !important;
+  cursor: pointer;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+/* ................................ */
+.DeleteBtn {
+  box-shadow: 4px 4px 12px 0px #00000040;
+  background-color: #7d7d7d;
+  color: white;
+  border: #7d7d7d;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 12.22px;
+  letter-spacing: -0.22px;
+  height: 48px;
+  border-radius: 24px;
+  width: 120px;
+  cursor: pointer;
+}
+.EditBtn {
+  box-shadow: 4px 4px 12px 0px #00000040;
+  background-color: #0e54a3;
+  border: #0e54a3;
+  color: white;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 12.22px;
+  letter-spacing: -0.22px;
+  height: 48px;
+  border-radius: 24px;
+  padding: 0 24px;
+  cursor: pointer;
+}
